@@ -51,7 +51,7 @@ Opções:
   --no-color       Desativa cores ANSI
   --verbose        Exibe detalhes extras de diagnóstico
 
-Slash Commands:
+Comandos slash:
   /help [command]       Mostra a ajuda dos slash commands
   /login                Escolhe login no navegador Z.AI ou BigModel
   /logout               Remove as credenciais compartilhadas de login Z.AI

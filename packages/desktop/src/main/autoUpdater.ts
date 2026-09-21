@@ -777,10 +777,12 @@ function applyManifestUpdateProvider(options: InitAutoUpdaterOptions): void {
 function pickFallbackReleaseNotesMarkdown(
   localized: PostUpdateReleaseNotesPayload["releaseNotesByLocale"] | undefined,
 ): string | null {
+  // 更新源只提供中英两份文案；zh 以外的界面语言（含 pt-BR）先退 en-US 条目，
+  // 最后才退 zh，避免 pt-BR 用户在缺少 en 条目时看到中文更新日志。
   return (
     localized?.[menuLocale]?.markdown ??
-    localized?.["zh-CN"]?.markdown ??
     localized?.["en-US"]?.markdown ??
+    localized?.["zh-CN"]?.markdown ??
     null
   );
 }

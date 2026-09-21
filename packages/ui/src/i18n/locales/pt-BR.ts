@@ -6326,7 +6326,7 @@ const ptBR: Record<string, string> = {
   "automations.form.schedule.label": "Agendamento",
   "automations.form.schedule.preview": "Executa {summary}",
   "automations.form.schedule.at": "às",
-  "automations.form.schedule.monthDayValue": "{month}/{day}",
+  "automations.form.schedule.monthDayValue": "{day}/{month}",
   "automations.form.schedule.yearDateLabel": "Selecione o mês e o dia",
   "automations.form.schedule.minutePrefix": "no minuto",
   "automations.form.schedule.minuteSuffix": "",

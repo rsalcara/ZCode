@@ -6,6 +6,7 @@ import {
   ZCodeIntlProvider,
   generateMobileDeviceFingerprint,
   playTaskNotificationSound,
+  readStoredLocalePreference,
   setStreamClientId,
   type Theme,
 } from "@zcode/ui";
@@ -245,7 +246,7 @@ function createWebPlatform(): IPlatformService {
       // 会被改写（主应用保持 index.html 的 lang="en"），不能作为界面语言来源。
       // 点击时读 IntlProvider 持久化的偏好（system 时退 navigator.language），
       // 中文选中文站，其余界面语言（含 pt-BR）选英文站。
-      const storedPreference = localStorage.getItem("zcode-locale-preference");
+      const storedPreference = readStoredLocalePreference();
       const effectiveLanguage = (
         storedPreference && storedPreference !== "system" ? storedPreference : navigator.language
       ).toLowerCase();

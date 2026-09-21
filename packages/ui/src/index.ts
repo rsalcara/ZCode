@@ -70,6 +70,8 @@ export {
   useZCodeIntl,
   LocaleSwitcher,
   resolveNavigatorLocale,
+  readStoredLocalePreference,
+  LOCALE_PREFERENCE_STORAGE_KEY,
 } from "./i18n/index.js";
 export { ResourceManagerApp } from "./resource-manager/ResourceManagerApp.js";
 export type {

@@ -1,13 +1,17 @@
 // Splits the UI en-US locale file into JSON chunks for parallel translation.
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const sourcePath = join(repoRoot, "packages/ui/src/i18n/locales/en-US.ts");
 const outDir = join(repoRoot, ".i18n-chunks/source");
 
 const CHUNK_COUNT = Number(process.env.CHUNK_COUNT ?? 10);
+if (!Number.isInteger(CHUNK_COUNT) || CHUNK_COUNT < 1 || CHUNK_COUNT > 200) {
+  console.error(`Invalid CHUNK_COUNT: ${process.env.CHUNK_COUNT ?? ""} — expected 1..200`);
+  process.exit(1);
+}
 
 const raw = await readFile(sourcePath, "utf8");
 // Materialize the catalog as an importable ESM module: the source already ends with
@@ -27,9 +31,7 @@ await Promise.all(
 );
 
 await writeFile(modulePath, moduleCode);
-const entries = Object.entries(
-  (await import(`file://${modulePath.replaceAll("\\", "/")}`)).default,
-);
+const entries = Object.entries((await import(pathToFileURL(modulePath).href)).default);
 await rm(modulePath);
 
 const size = Math.ceil(entries.length / CHUNK_COUNT);

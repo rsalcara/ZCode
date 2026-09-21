@@ -1,7 +1,6 @@
 // Assembles translated chunks into packages/ui/src/i18n/locales/pt-BR.ts and
 // validates key parity + placeholder parity against the en-US source.
-import { readdir, readFile, writeFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { access, readdir, readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -19,9 +18,12 @@ for (const f of sourceFiles) {
 }
 
 const translated = new Map();
+const duplicateKeys = new Set();
 for (const f of sourceFiles) {
   const p = join(outDir, f);
-  if (!existsSync(p)) {
+  try {
+    await access(p);
+  } catch {
     console.error(`MISSING translated chunk: ${f}`);
     process.exit(1);
   }
@@ -30,8 +32,17 @@ for (const f of sourceFiles) {
       console.error(`NON-STRING value for ${k} in ${f}`);
       process.exit(1);
     }
+    if (translated.has(k)) {
+      duplicateKeys.add(k);
+    }
     translated.set(k, v);
   }
+}
+if (duplicateKeys.size > 0) {
+  console.error(
+    `DUPLICATE keys across chunks (${duplicateKeys.size}): ${[...duplicateKeys].slice(0, 10).join(", ")}`,
+  );
+  process.exit(1);
 }
 
 const problems = [];
@@ -73,18 +84,26 @@ export default ptBR;
 `;
 await writeFile(targetPath, content);
 // Keep the generated catalog formatted so `pnpm fmt:check` stays green after a
-// regeneration; if oxfmt is unavailable the raw output is still valid TS.
+// regeneration. A missing oxfmt is tolerable (raw output is still valid TS —
+// run `pnpm fmt` before committing); any other failure must propagate, a
+// half-formatted catalog must not be committed as "OK".
+const { execFile } = await import("node:child_process");
+const command = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
+// Windows .cmd launchers only resolve through a shell; on other platforms keep
+// the argv-array form so paths with spaces stay intact.
+const useShell = process.platform === "win32";
 try {
-  const { execFile } = await import("node:child_process");
-  const command = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
   await new Promise((resolve, reject) => {
-    // .cmd launchers on Windows only resolve through a shell.
-    execFile(command, ["exec", "oxfmt", targetPath], { cwd: repoRoot, shell: true }, (error) =>
+    execFile(command, ["exec", "oxfmt", targetPath], { cwd: repoRoot, shell: useShell }, (error) =>
       error ? reject(error) : resolve(undefined),
     );
   });
-} catch {
-  console.warn("oxfmt unavailable — run `pnpm fmt` before committing the regenerated catalog.");
+} catch (error) {
+  if (error && typeof error === "object" && error.code === "ENOENT") {
+    console.warn("oxfmt unavailable — run `pnpm fmt` before committing the regenerated catalog.");
+  } else {
+    throw error;
+  }
 }
 console.log(
   `OK: wrote ${targetPath} with ${translated.size} entries (${sourceEntries.length} source entries)`,
