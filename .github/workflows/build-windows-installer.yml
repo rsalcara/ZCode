@@ -1,0 +1,36 @@
+name: Build Windows installer
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Bundle Windows x64 installer
+        run: pnpm bundle:desktop -- --os win --arch x64
+
+      - name: Upload installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zcode-windows-x64-installer
+          path: packages/desktop/dist/*.exe
+          if-no-files-found: error
