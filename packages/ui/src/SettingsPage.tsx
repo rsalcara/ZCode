@@ -1275,7 +1275,9 @@ export function SettingsPage({
         });
         return;
       }
-      if (value === "zh-CN" || value === "en-US") {
+      // Whitelist precisa cobrir todos os Locale suportados; idioma novo fora da
+      // lista era silenciosamente ignorado aqui (pt-BR não trocava ao clicar).
+      if (value === "zh-CN" || value === "en-US" || value === "pt-BR") {
         runUserAction({
           input: { featureId: "settings.locale", action: "change_locale", trigger: "select" },
           operation: () => setLocalePreference(value as Locale),

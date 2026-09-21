@@ -742,7 +742,9 @@ export const WorkspaceSidebar = memo(function WorkspaceSidebarComponent({
         setLocalePreference("system");
         return;
       }
-      if (value === "zh-CN" || value === "en-US") {
+      // Whitelist precisa cobrir todos os Locale suportados; pt-BR fora da
+      // lista era silenciosamente ignorado no menu de idioma da sidebar.
+      if (value === "zh-CN" || value === "en-US" || value === "pt-BR") {
         setLocalePreference(value as Locale);
       }
     },

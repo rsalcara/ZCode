@@ -5,7 +5,7 @@ export const enUS: ZCodeCopy = {
   cli: {
     errors: {
       localeUnsupported: (value) =>
-        `Unsupported --locale value: ${value}. Supported locales: en-US, zh-CN, auto.`,
+        `Unsupported --locale value: ${value}. Supported locales: en-US, zh-CN, pt-BR, auto.`,
     },
     help: (version) => `zcode ${version}
 

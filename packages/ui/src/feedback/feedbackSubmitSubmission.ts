@@ -53,7 +53,7 @@ export async function startSimplifiedFeedbackSubmission({
   ticketSeverity: FeedbackTicketSeverity;
   ticketModule: FeedbackTicketModule;
   modelContext: FeedbackAgentModelContext;
-  locale: "zh-CN" | "en-US";
+  locale: "zh-CN" | "en-US" | "pt-BR";
   copy: FeedbackSubmissionCopy;
   formatMessage: (descriptor: { id: string }, values?: Record<string, string>) => string;
   onTicketCreated?: (ticketId: string) => void;
