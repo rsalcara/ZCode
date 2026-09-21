@@ -107,7 +107,7 @@ export function ProviderTemplatePicker({
                 />
               ) : null}
               {group.templates.map((template) => {
-                // Nomes de template só existem em zh/en; demais idiomas caem no nome em inglês.
+                // 模板名只有中英两份；zh 以外的界面语言回退英文名。
                 const label = resolveProviderTemplateName(
                   template.templateId,
                   template,

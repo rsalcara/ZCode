@@ -989,7 +989,7 @@ export function ModelProviderSection({
     async (input: { templateId?: string; providerName?: string }) => {
       setCreatingProvider(true);
       try {
-        // locale do template só suporta zh/en; outros idiomas usam o fallback en-US do serviço.
+        // 模板名只有中英两份；zh 以外的界面语言交给服务层回退英文默认名。
         const created = await createPersonalProvider({
           ...input,
           locale: locale === "zh-CN" ? "zh-CN" : "en-US",

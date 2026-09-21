@@ -1,9 +1,12 @@
 /** Portuguese (Brazil) translations */
 const ptBR: Record<string, string> = {
-  "startPlan.recommendation.subagentDescription": "Seu Start Plan tem cota disponível para {model}. Alternar o modelo deste subagente para o Start Plan?",
-  "startPlan.recommendation.preferenceSaveFailed": "Não foi possível salvar “Não perguntar novamente”. Continuando com a sua escolha para esta operação.",
+  "startPlan.recommendation.subagentDescription":
+    "Seu Start Plan tem cota disponível para {model}. Alternar o modelo deste subagente para o Start Plan?",
+  "startPlan.recommendation.preferenceSaveFailed":
+    "Não foi possível salvar “Não perguntar novamente”. Continuando com a sua escolha para esta operação.",
   "startPlan.recommendation.title": "Cota disponível no Start Plan",
-  "startPlan.recommendation.description": "Seu Start Plan ainda tem cota para {model}. Deseja usá-la?",
+  "startPlan.recommendation.description":
+    "Seu Start Plan ainda tem cota para {model}. Deseja usá-la?",
   "startPlan.recommendation.switch": "Alternar plano",
   "startPlan.recommendation.decline": "Agora não",
   "startPlan.recommendation.dismiss": "Não mostrar novamente",
@@ -11,14 +14,18 @@ const ptBR: Record<string, string> = {
   "occupationOnboarding.modeTitle": "Escolha seu modo de interface",
   "occupationOnboarding.modeDescription": "Como você quer que o ZCode mostre o trabalho dele?",
   "occupationOnboarding.coding": "Modo de programação",
-  "occupationOnboarding.codingDescription": "Quero ver código, saída de comandos e detalhes das alterações durante todo o processo de desenvolvimento.",
+  "occupationOnboarding.codingDescription":
+    "Quero ver código, saída de comandos e detalhes das alterações durante todo o processo de desenvolvimento.",
   "occupationOnboarding.officeMode": "Modo Escritório",
-  "occupationOnboarding.officeModeDescription": "Foco no progresso das tarefas e nos resultados, sem precisar de código, saída de comandos ou outros detalhes técnicos.",
+  "occupationOnboarding.officeModeDescription":
+    "Foco no progresso das tarefas e nos resultados, sem precisar de código, saída de comandos ou outros detalhes técnicos.",
   "chat.officeSuggestions.setting": "Sugestões proativas de tarefas",
   "chat.officeSuggestions.settingDescription": "Disponível apenas no modo Escritório.",
   "chat.plugins.browseMarketplace": "Explorar marketplace de plugins",
-  "chat.plugins.loadError": "Não foi possível carregar os plugins. Reabra o menu para tentar novamente.",
-  "chat.officeSuggestions.saveError": "Não foi possível salvar as configurações de sugestões. Tente novamente.",
+  "chat.plugins.loadError":
+    "Não foi possível carregar os plugins. Reabra o menu para tentar novamente.",
+  "chat.officeSuggestions.saveError":
+    "Não foi possível salvar as configurações de sugestões. Tente novamente.",
   "chat.officeSuggestions.refresh": "Mostrar mais",
   "chat.officeSuggestions.closeTitle": "Desativar sugestões de tarefas?",
   "chat.officeSuggestions.closeDescription": "Você pode ativá-las novamente nas Configurações.",
@@ -43,7 +50,8 @@ const ptBR: Record<string, string> = {
   "occupationOnboarding.stepRole": "Seu trabalho",
   "occupationOnboarding.stepPreferences": "Preferências",
   "occupationOnboarding.heroTitle": "Simples, Rápido, Vibe‑Ready!",
-  "occupationOnboarding.heroDescription": "Enfrente objetivos complexos com múltiplos agentes.\nMantenha o controle, onde quer que esteja.",
+  "occupationOnboarding.heroDescription":
+    "Enfrente objetivos complexos com múltiplos agentes.\nMantenha o controle, onde quer que esteja.",
   "occupationOnboarding.title": "O que você faz?",
   "occupationOnboarding.description": "Escolha a opção mais próxima do seu trabalho do dia a dia.",
   "occupationOnboarding.office": "Profissional de escritório",
@@ -55,9 +63,11 @@ const ptBR: Record<string, string> = {
   "occupationOnboarding.migration": "Migrar conversas",
   "occupationOnboarding.migrationDescription": "Migre o histórico de conversas do Claude Code",
   "occupationOnboarding.memory": "Ativar memória do workspace",
-  "occupationOnboarding.memoryDescription": "Permita que o ZCode lembre das suas preferências e do seu contexto de trabalho.",
+  "occupationOnboarding.memoryDescription":
+    "Permita que o ZCode lembre das suas preferências e do seu contexto de trabalho.",
   "occupationOnboarding.suggestions": "Ativar sugestões proativas de tarefas",
-  "occupationOnboarding.suggestionsDescription": "Mostra sugestões em novas conversas. Clique para preencher o campo de mensagem.",
+  "occupationOnboarding.suggestionsDescription":
+    "Mostra sugestões em novas conversas. Clique para preencher o campo de mensagem.",
   "occupationOnboarding.close": "Sair do onboarding",
   "startup.global.silent": "Iniciando o ZCode",
   "startup.global.upgrading": "Atualizando dados locais",
@@ -65,41 +75,58 @@ const ptBR: Record<string, string> = {
   "startup.global.waiting": "Aguardando a preparação do banco de dados",
   "startup.global.saving": "Salvando atualizações",
   "startup.global.finishing": "Finalizando a inicialização",
-  "startup.global.servicesFailed": "Os dados locais estão prontos, mas os serviços do aplicativo não puderam ser iniciados. Copie o diagnóstico, feche e reabra o ZCode.",
+  "startup.global.servicesFailed":
+    "Os dados locais estão prontos, mas os serviços do aplicativo não puderam ser iniciados. Copie o diagnóstico, feche e reabra o ZCode.",
   "startup.global.starting": "Preparando dados locais",
   "startup.global.preparing_host_storage": "Preparando índice de tarefas",
   "startup.global.preparing_session_storage": "Preparando histórico de conversas",
   "startup.global.starting_services": "Iniciando o ZCode",
   "startup.global.ready": "Os dados locais estão prontos",
   "startup.global.failed": "Falha na preparação da inicialização",
-  "startup.global.help": "O ZCode será aberto quando a preparação terminar. Históricos grandes podem demorar mais. Mantenha o aplicativo aberto.",
+  "startup.global.help":
+    "O ZCode será aberto quando a preparação terminar. Históricos grandes podem demorar mais. Mantenha o aplicativo aberto.",
   "startup.global.diagnostic": "ID de diagnóstico",
   "startup.global.copy": "Copiar diagnóstico",
   "startup.global.exit": "Sair",
   "startup.global.copied": "Copiado",
   "startup.global.copyFailed": "Falha ao copiar. Anote o ID de diagnóstico.",
-  "startup.global.error.storage_full": "O armazenamento está cheio ou um limite de capacidade foi atingido. Verifique as unidades que contêm seus dados e os diretórios temporários do sistema. Libere espaço ou ajuste a cota e tente novamente.",
-  "startup.global.error.permission_denied": "O banco de dados não permite gravação. Verifique as permissões dos diretórios de dados e temporários e tente novamente.",
-  "startup.global.error.io_error": "Falha de I/O no banco de dados. Verifique o disco ou a conexão de armazenamento e tente novamente.",
-  "startup.global.error.out_of_memory": "Falha ao alocar memória durante a preparação dos dados. Feche outros aplicativos para liberar memória e tente novamente.",
-  "startup.global.error.corrupt": "O banco de dados parece estar danificado. Preserve seus dados e o diagnóstico e entre em contato com o suporte. Não exclua o banco de dados.",
-  "startup.global.error.checksum_mismatch": "Os registros de migração não correspondem a esta versão do aplicativo. Preserve seus dados e o diagnóstico e entre em contato com o suporte.",
-  "startup.global.error.open_failed": "Não foi possível abrir o banco de dados. Verifique se o diretório de dados existe e está acessível e tente novamente.",
-  "startup.global.error.lock_timeout": "O tempo de espera pelo bloqueio de gravação do banco de dados se esgotou. Outro processo do ZCode ou da CLI pode estar atualizando os dados. Tente novamente depois que ele terminar.",
-  "startup.global.error.sql_failed": "A preparação não foi concluída. Copie o diagnóstico e verifique os logs. Resolva o problema e tente novamente manualmente. O aplicativo não tentará novamente automaticamente.",
-  "startup.global.error.startup_status_timeout": "Nenhum status de inicialização foi recebido. Feche e reabra o ZCode. Se falhar novamente, envie o diagnóstico ao suporte.",
-  "startup.global.error.transport_closed": "O processo de preparação foi encerrado ou desconectou. Feche e reabra o ZCode para verificar novamente os registros de migração.",
-  "startup.global.error.unsupported_runtime": "O Agent configurado não oferece suporte à preparação do armazenamento. Restaure o Agent incluído no aplicativo e reabra o ZCode.",
+  "startup.global.error.storage_full":
+    "O armazenamento está cheio ou um limite de capacidade foi atingido. Verifique as unidades que contêm seus dados e os diretórios temporários do sistema. Libere espaço ou ajuste a cota e tente novamente.",
+  "startup.global.error.permission_denied":
+    "O banco de dados não permite gravação. Verifique as permissões dos diretórios de dados e temporários e tente novamente.",
+  "startup.global.error.io_error":
+    "Falha de I/O no banco de dados. Verifique o disco ou a conexão de armazenamento e tente novamente.",
+  "startup.global.error.out_of_memory":
+    "Falha ao alocar memória durante a preparação dos dados. Feche outros aplicativos para liberar memória e tente novamente.",
+  "startup.global.error.corrupt":
+    "O banco de dados parece estar danificado. Preserve seus dados e o diagnóstico e entre em contato com o suporte. Não exclua o banco de dados.",
+  "startup.global.error.checksum_mismatch":
+    "Os registros de migração não correspondem a esta versão do aplicativo. Preserve seus dados e o diagnóstico e entre em contato com o suporte.",
+  "startup.global.error.open_failed":
+    "Não foi possível abrir o banco de dados. Verifique se o diretório de dados existe e está acessível e tente novamente.",
+  "startup.global.error.lock_timeout":
+    "O tempo de espera pelo bloqueio de gravação do banco de dados se esgotou. Outro processo do ZCode ou da CLI pode estar atualizando os dados. Tente novamente depois que ele terminar.",
+  "startup.global.error.sql_failed":
+    "A preparação não foi concluída. Copie o diagnóstico e verifique os logs. Resolva o problema e tente novamente manualmente. O aplicativo não tentará novamente automaticamente.",
+  "startup.global.error.startup_status_timeout":
+    "Nenhum status de inicialização foi recebido. Feche e reabra o ZCode. Se falhar novamente, envie o diagnóstico ao suporte.",
+  "startup.global.error.transport_closed":
+    "O processo de preparação foi encerrado ou desconectou. Feche e reabra o ZCode para verificar novamente os registros de migração.",
+  "startup.global.error.unsupported_runtime":
+    "O Agent configurado não oferece suporte à preparação do armazenamento. Restaure o Agent incluído no aplicativo e reabra o ZCode.",
   "startup.database.checking": "Verificando histórico",
   "startup.database.waiting_for_lock": "Aguardando outra janela preparar os dados",
   "startup.database.migrating": "Atualizando histórico",
   "startup.database.committing": "Salvando a atualização",
   "startup.database.ready": "O histórico está pronto",
   "startup.database.failed": "Não foi possível preparar o histórico",
-  "startup.database.help": "O workspace será aberto quando estiver pronto. Mantenha o aplicativo aberto.",
-  "startup.database.failedHelp": "O banco de dados original foi preservado. Verifique os logs de diagnóstico, resolva o problema e tente novamente.",
+  "startup.database.help":
+    "O workspace será aberto quando estiver pronto. Mantenha o aplicativo aberto.",
+  "startup.database.failedHelp":
+    "O banco de dados original foi preservado. Verifique os logs de diagnóstico, resolva o problema e tente novamente.",
   "startup.database.elapsed": "Decorrido: {minutes} min {seconds} s",
-  "startup.database.longRunning": "Históricos grandes podem demorar mais. O aplicativo ainda está aguardando a conclusão do banco de dados.",
+  "startup.database.longRunning":
+    "Históricos grandes podem demorar mais. O aplicativo ainda está aguardando a conclusão do banco de dados.",
   "bashOutput.open": "Ver saída de {title}",
   "bashOutput.fullFile": "Arquivo de saída completo",
   "bashOutput.retry": "Tentar novamente",
@@ -111,8 +138,10 @@ const ptBR: Record<string, string> = {
   "bashOutput.error.query_failed": "Não foi possível conectar ao runtime da tarefa",
   "purchase.entry.loading": "Carregando planos…",
   "purchase.entry.retry": "Não foi possível carregar os planos. Tentar novamente",
-  "chat.selections.previewSideBlocked": "Resolva primeiro as solicitações pendentes na tarefa principal ou na conversa paralela.",
-  "chat.selections.previewSideUnavailable": "Use uma tarefa principal editável que ofereça suporte a conversas paralelas.",
+  "chat.selections.previewSideBlocked":
+    "Resolva primeiro as solicitações pendentes na tarefa principal ou na conversa paralela.",
+  "chat.selections.previewSideUnavailable":
+    "Use uma tarefa principal editável que ofereça suporte a conversas paralelas.",
   "chat.selections.file": "{name} · Seleção",
   "chat.selections.mixedCount": "{count} seleções",
   "chat.previewCards.openExternalFailed": "Não foi possível abrir este arquivo no navegador",
@@ -130,13 +159,18 @@ const ptBR: Record<string, string> = {
   "offPeak.chatCreated.queued": "Na fila para computação em horário ocioso",
   "offPeak.chatCreated.queuedAt": "#{position} na fila",
   "offPeak.chatCreated.open": "Ir para tarefas em horário ocioso",
-  "settings.computerUse.disabledToast": "O Computer Use está desativado. As conversas existentes exigem a reinicialização do ZCode para que a configuração tenha efeito.",
+  "settings.computerUse.disabledToast":
+    "O Computer Use está desativado. As conversas existentes exigem a reinicialização do ZCode para que a configuração tenha efeito.",
   "settings.modelProvider.connectionUnavailableNotice": "O plano atual está indisponível.",
   "settings.modelProvider.switchConnection": "Alternar para “{connection}”",
-  "settings.modelProvider.connectionSuggestionStale": "A disponibilidade de planos mudou. Selecione uma conexão nas configurações de modelo.",
-  "settings.modelProvider.connectionSwitchFailed": "Não foi possível alternar os planos. A conexão original permanece inalterada. Tente novamente.",
-  "settings.modelProvider.connectionUnavailable": "A conexão selecionada está indisponível. Escolha outra conexão.",
-  "settings.modelProvider.navigationUnavailable": "O provedor solicitado está indisponível. Escolha outro provedor.",
+  "settings.modelProvider.connectionSuggestionStale":
+    "A disponibilidade de planos mudou. Selecione uma conexão nas configurações de modelo.",
+  "settings.modelProvider.connectionSwitchFailed":
+    "Não foi possível alternar os planos. A conexão original permanece inalterada. Tente novamente.",
+  "settings.modelProvider.connectionUnavailable":
+    "A conexão selecionada está indisponível. Escolha outra conexão.",
+  "settings.modelProvider.navigationUnavailable":
+    "O provedor solicitado está indisponível. Escolha outro provedor.",
   "workspace.context.lastActivity": "Última atividade {time}",
   "common.loading": "Carregando...",
   "common.listSeparator": ", ",
@@ -167,74 +201,135 @@ const ptBR: Record<string, string> = {
   "conversationShare.permission.privateSummary": "Somente eu",
   "conversationShare.openLink": "Abrir página de compartilhamento",
   "conversationShare.result.title": "Compartilhamento criado",
-  "conversationShare.result.description": "Seu link está pronto para copiar ou visualizar em um navegador.",
+  "conversationShare.result.description":
+    "Seu link está pronto para copiar ou visualizar em um navegador.",
   "conversationShare.result.openInBrowser": "Visualizar no navegador",
   "conversationShare.result.dismiss": "Fechar resultado do compartilhamento",
   "conversationShare.generatingLink": "Gerando link de compartilhamento",
   "conversationShare.copyLink": "Copiar link",
   "conversationShare.copySucceeded": "Link de compartilhamento copiado",
   "conversationShare.publishSucceeded": "Link de compartilhamento criado",
-  "conversationShare.publishSucceededWithSkips": "Link de compartilhamento criado; {count} arquivo(s) foram ignorados",
+  "conversationShare.publishSucceededWithSkips":
+    "Link de compartilhamento criado; {count} arquivo(s) foram ignorados",
   "conversationShare.copyFailed": "Não foi possível copiar o link de compartilhamento",
-  "conversationShare.publishFailed": "Não foi possível gerar o link de compartilhamento. Tente novamente.",
-  "conversationShare.error.authenticationRequired": "O compartilhamento está disponível apenas quando você está conectado. Sua sessão expirou; entre novamente e tente de novo.",
-  "conversationShare.error.featureDisabled": "O compartilhamento não está disponível para este workspace ou tipo de conexão.",
-  "conversationShare.error.artifactNotAllowed": "Um tipo de arquivo visualizado não tem suporte para compartilhamento. Desmarque essa conversa e tente novamente.",
-  "conversationShare.error.limitExceeded": "A conversa selecionada ou seus arquivos excedem o limite de compartilhamento. Selecione menos conversas.",
-  "conversationShare.error.rateLimited": "Muitas tentativas de compartilhamento. Aguarde um momento e tente novamente.",
-  "conversationShare.error.network": "Não foi possível acessar o serviço de compartilhamento. Verifique sua conexão e tente novamente.",
-  "conversationShare.error.safetyCheckTimeout": "A verificação de segurança do compartilhamento demorou demais. Tente novamente mais tarde.",
-  "conversationShare.error.invalidSelection": "A conversa selecionada mudou. Reabra o painel de compartilhamento e selecione-a novamente.",
-  "conversationShare.error.invalidConversation": "A seleção contém uma estrutura que ainda não pode ser compartilhada. Desmarque turnos ativos ou imagens embutidas, confirme que os arquivos de pré-visualização estão completos e tente novamente.",
-  "conversationShare.error.runningTurn": "Um turno selecionado ainda está em execução. Desmarque-o e aguarde a conclusão antes de compartilhar.",
-  "conversationShare.error.streamingRow": "Uma resposta selecionada ainda está sendo gerada. Aguarde o término do turno antes de compartilhar.",
-  "conversationShare.error.activeToolCall": "Uma chamada de ferramenta selecionada ainda está ativa. Aguarde a conclusão antes de compartilhar.",
-  "conversationShare.error.activeSubagent": "Uma subtarefa selecionada ainda está em execução. Aguarde a conclusão antes de compartilhar.",
-  "conversationShare.error.inputAttachment": "Um anexo de entrada do usuário não pôde ser compartilhado. Verifique se ele ainda existe e tente novamente.",
-  "conversationShare.error.inlineToolImage": "Um turno selecionado contém uma imagem de ferramenta embutida sem suporte. Desmarque esse turno e tente novamente.",
-  "conversationShare.error.unsupportedTimeline": "Um turno selecionado contém um registro de branch ou de restauração sem suporte. Desmarque esse turno e tente novamente.",
-  "conversationShare.error.unsafeUrl": "O conteúdo selecionado contém uma URL de arquivo local ou embutida. Remova-a antes de compartilhar.",
-  "conversationShare.error.missingProductTurn": "A conversa selecionada está incompleta. Reabra o painel de compartilhamento e selecione o turno novamente.",
-  "conversationShare.error.artifactTypeNotAllowed": "Um tipo de arquivo visualizado não é permitido para compartilhamento. Desmarque o turno correspondente e tente novamente.",
-  "conversationShare.error.artifactExtensionMissing": "Um arquivo visualizado não tem extensão válida. Verifique o arquivo e tente novamente.",
-  "conversationShare.error.artifactOutsideWorkspace": "Um arquivo visualizado está fora do workspace atual. Gere-o novamente ou mova-o e tente novamente.",
-  "conversationShare.error.artifactChanged": "Um arquivo visualizado mudou antes do compartilhamento. Gere o arquivo de pré-visualização novamente e tente de novo.",
-  "conversationShare.error.artifactReadFailed": "Não foi possível ler um arquivo visualizado. Verifique se ele ainda existe e está acessível e tente novamente.",
-  "conversationShare.error.artifactSizeLimit": "Um arquivo excede o limite de tamanho por arquivo. Desmarque esse turno ou use um arquivo menor e tente novamente.",
-  "conversationShare.error.artifactManifest": "O manifesto de arquivos de pré-visualização está incompleto. Gere o arquivo novamente e atualize o painel de compartilhamento.",
-  "conversationShare.error.payloadLimit": "A conversa ou os arquivos selecionados excedem o limite de compartilhamento. Selecione menos itens e tente novamente.",
-  "conversationShare.error.disclosureRequired": "Revise e confirme o conteúdo compartilhado antes de criar o link.",
-  "conversationShare.error.uploadFailed": "Um arquivo não pôde ser enviado por completo. Verifique se ele ainda existe e tente novamente.",
-  "conversationShare.error.connectionUnavailable": "A conexão desktop não está pronta. Reabra o painel de compartilhamento e tente novamente.",
-  "conversationShare.error.noShareableContent": "A seleção atual não tem conteúdo compartilhável. Selecione outros turnos.",
-  "conversationShare.error.summary": "Falha ao compartilhar: {count} problema(s) encontrado(s). Consulte o painel de compartilhamento para ver os detalhes.",
-  "conversationShare.issue.artifactTypeNotAllowed": "Turno {turnOrdinal}: {artifactDisplayName} ({artifactType}) não pode ser compartilhado e será ignorado. Tipos com suporte: {allowedFormats}.",
-  "conversationShare.issue.artifactExtensionMissing": "Turno {turnOrdinal}: o arquivo de pré-visualização não tem extensão válida. Verifique o nome do arquivo e tente novamente.",
-  "conversationShare.issue.artifactOutsideWorkspace": "Turno {turnOrdinal}: o arquivo de pré-visualização está fora do workspace atual. Mova-o ou gere-o novamente e tente de novo.",
-  "conversationShare.issue.artifactChanged": "Turno {turnOrdinal}: {artifactDisplayName} mudou durante a leitura. Gere o arquivo novamente e tente de novo.",
-  "conversationShare.issue.artifactReadFailed": "Turno {turnOrdinal}: não foi possível ler {artifactDisplayName}. Verifique se ele ainda existe e está acessível.",
-  "conversationShare.issue.inputAttachment": "O turno {turnOrdinal} contém um anexo de entrada do usuário, sem suporte nesta versão. Desmarque este turno.",
-  "conversationShare.issue.inputAttachmentUnavailable": "O turno {turnOrdinal} contém um anexo de entrada do usuário que não existe mais ou não pode ser lido.",
-  "conversationShare.issue.inlineToolImage": "O turno {turnOrdinal} contém uma imagem de ferramenta embutida que não pode ser incluída em um compartilhamento público.",
-  "conversationShare.issue.runningTurn": "O turno {turnOrdinal} ainda está em execução. Aguarde a conclusão ou desmarque-o.",
-  "conversationShare.issue.streamingRow": "O turno {turnOrdinal} ainda está sendo gerado. Aguarde a conclusão ou desmarque-o.",
-  "conversationShare.issue.activeToolCall": "O turno {turnOrdinal} tem uma chamada de ferramenta não concluída. Desmarque este turno.",
-  "conversationShare.issue.activeSubagent": "O turno {turnOrdinal} tem uma subtarefa em execução. Aguarde a conclusão ou desmarque-o.",
-  "conversationShare.issue.unsupportedTimeline": "O turno {turnOrdinal} contém um registro de linha do tempo que não pode ser incluído em um compartilhamento público.",
-  "conversationShare.issue.noShareableContent": "A seleção atual não tem conteúdo compartilhável. Selecione outros turnos.",
-  "conversationShare.issue.unsafeUrl": "O turno {turnOrdinal} contém um endereço de arquivo local ou embutido, o que não tem suporte. Remova-o e tente novamente.",
-  "conversationShare.issue.missingProductTurn": "A seleção não tem uma identidade de turno completa. Selecione a conversa novamente.",
-  "conversationShare.issue.invalidSelection": "Os turnos selecionados mudaram. Volte à seleção e escolha-os novamente.",
-  "conversationShare.issue.invalidConversation": "A conversa selecionada está incompleta. Desmarque o(s) turno(s) afetado(s) e tente novamente.",
-  "conversationShare.issue.staleConversation": "A conversa mudou enquanto o compartilhamento era preparado. Volte à seleção e tente novamente.",
-  "conversationShare.issue.rowsLimit": "A conversa tem {actual} linhas, acima do limite de {limit}. Reduza os turnos selecionados.",
-  "conversationShare.issue.artifactCountLimit": "A conversa tem {actual} artefatos, acima do limite de {limit}. Reduza os turnos selecionados.",
-  "conversationShare.issue.artifactSizeLimit": "{artifactDisplayName} está com {actual}, acima do limite de {limit} por arquivo. Desmarque o turno ou gere um arquivo menor.",
-  "conversationShare.issue.artifactTotalSizeLimit": "Os artefatos somam {actual}, acima do limite de {limit}. Reduza os artefatos ou desmarque o(s) turno(s) afetado(s).",
-  "conversationShare.issue.payloadSizeLimit": "A solicitação de compartilhamento está com {actual}, acima do limite de {limit}. Reduza os turnos ou artefatos selecionados.",
-  "conversationShare.issue.artifactManifest": "O manifesto de artefatos de pré-visualização está duplicado ou incompleto. Gere os arquivos novamente e atualize o painel de compartilhamento.",
-  "conversationShare.issue.uploadIncomplete": "A confirmação de upload de {artifactDisplayName} não corresponde ao arquivo. Verifique se ele não mudou e tente novamente.",
-  "conversationShare.issue.unknown": "Falha ao compartilhar durante {phase}; o servidor não retornou detalhes úteis. Tente novamente mais tarde.",
+  "conversationShare.publishFailed":
+    "Não foi possível gerar o link de compartilhamento. Tente novamente.",
+  "conversationShare.error.authenticationRequired":
+    "O compartilhamento está disponível apenas quando você está conectado. Sua sessão expirou; entre novamente e tente de novo.",
+  "conversationShare.error.featureDisabled":
+    "O compartilhamento não está disponível para este workspace ou tipo de conexão.",
+  "conversationShare.error.artifactNotAllowed":
+    "Um tipo de arquivo visualizado não tem suporte para compartilhamento. Desmarque essa conversa e tente novamente.",
+  "conversationShare.error.limitExceeded":
+    "A conversa selecionada ou seus arquivos excedem o limite de compartilhamento. Selecione menos conversas.",
+  "conversationShare.error.rateLimited":
+    "Muitas tentativas de compartilhamento. Aguarde um momento e tente novamente.",
+  "conversationShare.error.network":
+    "Não foi possível acessar o serviço de compartilhamento. Verifique sua conexão e tente novamente.",
+  "conversationShare.error.safetyCheckTimeout":
+    "A verificação de segurança do compartilhamento demorou demais. Tente novamente mais tarde.",
+  "conversationShare.error.invalidSelection":
+    "A conversa selecionada mudou. Reabra o painel de compartilhamento e selecione-a novamente.",
+  "conversationShare.error.invalidConversation":
+    "A seleção contém uma estrutura que ainda não pode ser compartilhada. Desmarque turnos ativos ou imagens embutidas, confirme que os arquivos de pré-visualização estão completos e tente novamente.",
+  "conversationShare.error.runningTurn":
+    "Um turno selecionado ainda está em execução. Desmarque-o e aguarde a conclusão antes de compartilhar.",
+  "conversationShare.error.streamingRow":
+    "Uma resposta selecionada ainda está sendo gerada. Aguarde o término do turno antes de compartilhar.",
+  "conversationShare.error.activeToolCall":
+    "Uma chamada de ferramenta selecionada ainda está ativa. Aguarde a conclusão antes de compartilhar.",
+  "conversationShare.error.activeSubagent":
+    "Uma subtarefa selecionada ainda está em execução. Aguarde a conclusão antes de compartilhar.",
+  "conversationShare.error.inputAttachment":
+    "Um anexo de entrada do usuário não pôde ser compartilhado. Verifique se ele ainda existe e tente novamente.",
+  "conversationShare.error.inlineToolImage":
+    "Um turno selecionado contém uma imagem de ferramenta embutida sem suporte. Desmarque esse turno e tente novamente.",
+  "conversationShare.error.unsupportedTimeline":
+    "Um turno selecionado contém um registro de branch ou de restauração sem suporte. Desmarque esse turno e tente novamente.",
+  "conversationShare.error.unsafeUrl":
+    "O conteúdo selecionado contém uma URL de arquivo local ou embutida. Remova-a antes de compartilhar.",
+  "conversationShare.error.missingProductTurn":
+    "A conversa selecionada está incompleta. Reabra o painel de compartilhamento e selecione o turno novamente.",
+  "conversationShare.error.artifactTypeNotAllowed":
+    "Um tipo de arquivo visualizado não é permitido para compartilhamento. Desmarque o turno correspondente e tente novamente.",
+  "conversationShare.error.artifactExtensionMissing":
+    "Um arquivo visualizado não tem extensão válida. Verifique o arquivo e tente novamente.",
+  "conversationShare.error.artifactOutsideWorkspace":
+    "Um arquivo visualizado está fora do workspace atual. Gere-o novamente ou mova-o e tente novamente.",
+  "conversationShare.error.artifactChanged":
+    "Um arquivo visualizado mudou antes do compartilhamento. Gere o arquivo de pré-visualização novamente e tente de novo.",
+  "conversationShare.error.artifactReadFailed":
+    "Não foi possível ler um arquivo visualizado. Verifique se ele ainda existe e está acessível e tente novamente.",
+  "conversationShare.error.artifactSizeLimit":
+    "Um arquivo excede o limite de tamanho por arquivo. Desmarque esse turno ou use um arquivo menor e tente novamente.",
+  "conversationShare.error.artifactManifest":
+    "O manifesto de arquivos de pré-visualização está incompleto. Gere o arquivo novamente e atualize o painel de compartilhamento.",
+  "conversationShare.error.payloadLimit":
+    "A conversa ou os arquivos selecionados excedem o limite de compartilhamento. Selecione menos itens e tente novamente.",
+  "conversationShare.error.disclosureRequired":
+    "Revise e confirme o conteúdo compartilhado antes de criar o link.",
+  "conversationShare.error.uploadFailed":
+    "Um arquivo não pôde ser enviado por completo. Verifique se ele ainda existe e tente novamente.",
+  "conversationShare.error.connectionUnavailable":
+    "A conexão desktop não está pronta. Reabra o painel de compartilhamento e tente novamente.",
+  "conversationShare.error.noShareableContent":
+    "A seleção atual não tem conteúdo compartilhável. Selecione outros turnos.",
+  "conversationShare.error.summary":
+    "Falha ao compartilhar: {count} problema(s) encontrado(s). Consulte o painel de compartilhamento para ver os detalhes.",
+  "conversationShare.issue.artifactTypeNotAllowed":
+    "Turno {turnOrdinal}: {artifactDisplayName} ({artifactType}) não pode ser compartilhado e será ignorado. Tipos com suporte: {allowedFormats}.",
+  "conversationShare.issue.artifactExtensionMissing":
+    "Turno {turnOrdinal}: o arquivo de pré-visualização não tem extensão válida. Verifique o nome do arquivo e tente novamente.",
+  "conversationShare.issue.artifactOutsideWorkspace":
+    "Turno {turnOrdinal}: o arquivo de pré-visualização está fora do workspace atual. Mova-o ou gere-o novamente e tente de novo.",
+  "conversationShare.issue.artifactChanged":
+    "Turno {turnOrdinal}: {artifactDisplayName} mudou durante a leitura. Gere o arquivo novamente e tente de novo.",
+  "conversationShare.issue.artifactReadFailed":
+    "Turno {turnOrdinal}: não foi possível ler {artifactDisplayName}. Verifique se ele ainda existe e está acessível.",
+  "conversationShare.issue.inputAttachment":
+    "O turno {turnOrdinal} contém um anexo de entrada do usuário, sem suporte nesta versão. Desmarque este turno.",
+  "conversationShare.issue.inputAttachmentUnavailable":
+    "O turno {turnOrdinal} contém um anexo de entrada do usuário que não existe mais ou não pode ser lido.",
+  "conversationShare.issue.inlineToolImage":
+    "O turno {turnOrdinal} contém uma imagem de ferramenta embutida que não pode ser incluída em um compartilhamento público.",
+  "conversationShare.issue.runningTurn":
+    "O turno {turnOrdinal} ainda está em execução. Aguarde a conclusão ou desmarque-o.",
+  "conversationShare.issue.streamingRow":
+    "O turno {turnOrdinal} ainda está sendo gerado. Aguarde a conclusão ou desmarque-o.",
+  "conversationShare.issue.activeToolCall":
+    "O turno {turnOrdinal} tem uma chamada de ferramenta não concluída. Desmarque este turno.",
+  "conversationShare.issue.activeSubagent":
+    "O turno {turnOrdinal} tem uma subtarefa em execução. Aguarde a conclusão ou desmarque-o.",
+  "conversationShare.issue.unsupportedTimeline":
+    "O turno {turnOrdinal} contém um registro de linha do tempo que não pode ser incluído em um compartilhamento público.",
+  "conversationShare.issue.noShareableContent":
+    "A seleção atual não tem conteúdo compartilhável. Selecione outros turnos.",
+  "conversationShare.issue.unsafeUrl":
+    "O turno {turnOrdinal} contém um endereço de arquivo local ou embutido, o que não tem suporte. Remova-o e tente novamente.",
+  "conversationShare.issue.missingProductTurn":
+    "A seleção não tem uma identidade de turno completa. Selecione a conversa novamente.",
+  "conversationShare.issue.invalidSelection":
+    "Os turnos selecionados mudaram. Volte à seleção e escolha-os novamente.",
+  "conversationShare.issue.invalidConversation":
+    "A conversa selecionada está incompleta. Desmarque o(s) turno(s) afetado(s) e tente novamente.",
+  "conversationShare.issue.staleConversation":
+    "A conversa mudou enquanto o compartilhamento era preparado. Volte à seleção e tente novamente.",
+  "conversationShare.issue.rowsLimit":
+    "A conversa tem {actual} linhas, acima do limite de {limit}. Reduza os turnos selecionados.",
+  "conversationShare.issue.artifactCountLimit":
+    "A conversa tem {actual} artefatos, acima do limite de {limit}. Reduza os turnos selecionados.",
+  "conversationShare.issue.artifactSizeLimit":
+    "{artifactDisplayName} está com {actual}, acima do limite de {limit} por arquivo. Desmarque o turno ou gere um arquivo menor.",
+  "conversationShare.issue.artifactTotalSizeLimit":
+    "Os artefatos somam {actual}, acima do limite de {limit}. Reduza os artefatos ou desmarque o(s) turno(s) afetado(s).",
+  "conversationShare.issue.payloadSizeLimit":
+    "A solicitação de compartilhamento está com {actual}, acima do limite de {limit}. Reduza os turnos ou artefatos selecionados.",
+  "conversationShare.issue.artifactManifest":
+    "O manifesto de artefatos de pré-visualização está duplicado ou incompleto. Gere os arquivos novamente e atualize o painel de compartilhamento.",
+  "conversationShare.issue.uploadIncomplete":
+    "A confirmação de upload de {artifactDisplayName} não corresponde ao arquivo. Verifique se ele não mudou e tente novamente.",
+  "conversationShare.issue.unknown":
+    "Falha ao compartilhar durante {phase}; o servidor não retornou detalhes úteis. Tente novamente mais tarde.",
   "conversationShare.issue.details": "Detalhes do erro",
   "conversationShare.issue.requestIdLabel": "ID de solicitação do servidor",
   "conversationShare.issue.requestId": "ID de solicitação do servidor: {requestId}",
@@ -243,22 +338,33 @@ const ptBR: Record<string, string> = {
   "conversationShare.issue.deselectTurn": "Desmarcar este turno",
   "conversationShare.issue.retryPreflight": "Verificar novamente",
   "conversationShare.issue.more": "Mais {count} problema(s) não exibido(s).",
-  "conversationShare.warning.summary": "Compartilhado com sucesso. {count} arquivo(s) foram ignorados e não estão incluídos no link.",
-  "conversationShare.warning.artifactSkipped": "Turno {turnOrdinal}: não foi possível ler {artifactDisplayName}, então ele foi ignorado. Se ele deveria ter sido compartilhado, gere o arquivo novamente e compartilhe de novo.",
-  "conversationShare.warning.inputAttachmentSkipped": "Turno {turnOrdinal}: o anexo de entrada não está incluído no compartilhamento; o texto do turno continua sendo compartilhado.",
-  "conversationShare.warning.inputAttachmentUnavailable": "Turno {turnOrdinal}: {artifactDisplayName} não existe mais ou não pode ser lido e foi ignorado.",
-  "conversationShare.warning.artifactTypeSkipped": "Turno {turnOrdinal}: {artifactDisplayName} ({artifactType}) não tem suporte e foi ignorado. Tipos com suporte: {allowedFormats}.",
-  "conversationShare.warning.artifactChangedSkipped": "Turno {turnOrdinal}: {artifactDisplayName} mudou antes do compartilhamento e foi ignorado.",
+  "conversationShare.warning.summary":
+    "Compartilhado com sucesso. {count} arquivo(s) foram ignorados e não estão incluídos no link.",
+  "conversationShare.warning.artifactSkipped":
+    "Turno {turnOrdinal}: não foi possível ler {artifactDisplayName}, então ele foi ignorado. Se ele deveria ter sido compartilhado, gere o arquivo novamente e compartilhe de novo.",
+  "conversationShare.warning.inputAttachmentSkipped":
+    "Turno {turnOrdinal}: o anexo de entrada não está incluído no compartilhamento; o texto do turno continua sendo compartilhado.",
+  "conversationShare.warning.inputAttachmentUnavailable":
+    "Turno {turnOrdinal}: {artifactDisplayName} não existe mais ou não pode ser lido e foi ignorado.",
+  "conversationShare.warning.artifactTypeSkipped":
+    "Turno {turnOrdinal}: {artifactDisplayName} ({artifactType}) não tem suporte e foi ignorado. Tipos com suporte: {allowedFormats}.",
+  "conversationShare.warning.artifactChangedSkipped":
+    "Turno {turnOrdinal}: {artifactDisplayName} mudou antes do compartilhamento e foi ignorado.",
   "conversationShare.partial.panelLabel": "Selecione as conversas para compartilhar",
   "conversationShare.selection.reopen": "Reabrir painel de seleção",
   "conversationShare.partial.empty": "Não há conversas concluídas para compartilhar",
-  "conversationShare.partial.selectionStageHint": "Selecione conversas concluídas para compartilhar e continue para a próxima etapa.",
+  "conversationShare.partial.selectionStageHint":
+    "Selecione conversas concluídas para compartilhar e continue para a próxima etapa.",
   "conversationShare.partial.preflightChecking": "Verificando o conteúdo do compartilhamento…",
-  "conversationShare.partial.preflightBlocked": "Alguns conteúdos não podem ser compartilhados. Corrija os problemas abaixo primeiro.",
-  "conversationShare.partial.preflightSkipped": "{count} arquivo(s) não serão incluídos no compartilhamento. Eles serão ignorados se você continuar.",
-  "conversationShare.partial.preflightDeferred": "Alguns arquivos ainda não podem ser verificados. Eles serão verificados novamente ao publicar.",
+  "conversationShare.partial.preflightBlocked":
+    "Alguns conteúdos não podem ser compartilhados. Corrija os problemas abaixo primeiro.",
+  "conversationShare.partial.preflightSkipped":
+    "{count} arquivo(s) não serão incluídos no compartilhamento. Eles serão ignorados se você continuar.",
+  "conversationShare.partial.preflightDeferred":
+    "Alguns arquivos ainda não podem ser verificados. Eles serão verificados novamente ao publicar.",
   "conversationShare.partial.continueWithSkips": "Continuar (ignorar {count} arquivo(s))",
-  "conversationShare.partial.selectionHint": "Revise o título, o acesso e a confirmação de conteúdo sensível e crie o link.",
+  "conversationShare.partial.selectionHint":
+    "Revise o título, o acesso e a confirmação de conteúdo sensível e crie o link.",
   "conversationShare.partial.confirmationTitle": "Confirmar conteúdo compartilhado",
   "conversationShare.publish.failedTitle": "Falha na publicação do compartilhamento",
   "conversationShare.publish.failedDescription": "Corrija o problema abaixo e tente novamente.",
@@ -290,40 +396,57 @@ const ptBR: Record<string, string> = {
   "conversationShare.phase.uploadingPending": "Aguardando preparação",
   "conversationShare.phase.checkingPending": "Aguardando envio",
   "conversationShare.phase.failed": "Falhou",
-  "conversationShare.publicWarning": "Verifique se há informações sensíveis em conversas, entradas e saídas de ferramentas e artefatos.",
-  "conversationShare.disclosure.description": "O sistema não detecta automaticamente informações sensíveis.",
-  "conversationShare.disclosure.checkbox": "Revisei o conteúdo compartilhado e confirmo que ele não contém informações sensíveis.",
+  "conversationShare.publicWarning":
+    "Verifique se há informações sensíveis em conversas, entradas e saídas de ferramentas e artefatos.",
+  "conversationShare.disclosure.description":
+    "O sistema não detecta automaticamente informações sensíveis.",
+  "conversationShare.disclosure.checkbox":
+    "Revisei o conteúdo compartilhado e confirmo que ele não contém informações sensíveis.",
   "conversationShare.disclosure.scope.trigger": "Ver escopo da revisão",
   "conversationShare.disclosure.scope.title": "Escopo da revisão",
   "conversationShare.disclosure.scope.reviewLabel": "Revise estas áreas",
-  "conversationShare.disclosure.scope.conversation": "Conteúdo da conversa: mensagens do usuário, respostas do assistente e títulos de tarefas",
-  "conversationShare.disclosure.scope.tools": "Entradas e saídas de ferramentas: comandos, parâmetros e resultados",
-  "conversationShare.disclosure.scope.generated": "Conteúdo gerado: código, arquivos e conteúdo de pré-visualização",
+  "conversationShare.disclosure.scope.conversation":
+    "Conteúdo da conversa: mensagens do usuário, respostas do assistente e títulos de tarefas",
+  "conversationShare.disclosure.scope.tools":
+    "Entradas e saídas de ferramentas: comandos, parâmetros e resultados",
+  "conversationShare.disclosure.scope.generated":
+    "Conteúdo gerado: código, arquivos e conteúdo de pré-visualização",
   "conversationShare.disclosure.scope.sensitiveLabel": "Verifique com atenção",
-  "conversationShare.disclosure.scope.sensitive": "Credenciais, tokens, senhas, chaves privadas, endereços internos e informações pessoais",
-  "conversationShare.disclosure.scope.note": "O sistema não examina nem oculta esse conteúdo automaticamente. Revise cada item antes de compartilhar.",
+  "conversationShare.disclosure.scope.sensitive":
+    "Credenciais, tokens, senhas, chaves privadas, endereços internos e informações pessoais",
+  "conversationShare.disclosure.scope.note":
+    "O sistema não examina nem oculta esse conteúdo automaticamente. Revise cada item antes de compartilhar.",
   "conversationShare.import.source": "Importado de compartilhamento: {title}",
   "conversationShare.import.dividerLabel": "Importado de compartilhamento",
-  "conversationShare.import.fallbackRemoteWorkspace": "Importado de compartilhamento: {title}. O workspace atual é remoto, o que a importação ainda não suporta, então a sessão foi criada no workspace local {workspacePath}.",
-  "conversationShare.import.fallbackDefaultWorkspace": "Importado de compartilhamento: {title}. Nenhum workspace de destino estava disponível, então a sessão foi criada no workspace padrão {workspacePath}.",
+  "conversationShare.import.fallbackRemoteWorkspace":
+    "Importado de compartilhamento: {title}. O workspace atual é remoto, o que a importação ainda não suporta, então a sessão foi criada no workspace local {workspacePath}.",
+  "conversationShare.import.fallbackDefaultWorkspace":
+    "Importado de compartilhamento: {title}. Nenhum workspace de destino estava disponível, então a sessão foi criada no workspace padrão {workspacePath}.",
   "conversationShare.import.downloading": "Baixando arquivos compartilhados: {completed}/{total}",
   "conversationShare.import.installing": "Instalando arquivos compartilhados",
   "conversationShare.import.committing": "Criando a conversa compartilhada",
   "conversationShare.import.complete": "Importação do compartilhamento concluída",
-  "conversationShare.import.loginRequired": "Este compartilhamento não pode ser importado anonimamente. Entre no ZCode e tente novamente",
+  "conversationShare.import.loginRequired":
+    "Este compartilhamento não pode ser importado anonimamente. Entre no ZCode e tente novamente",
   "conversationShare.import.notFound": "O compartilhamento não está disponível para esta conta",
-  "conversationShare.import.expired": "O compartilhamento expirou. Peça ao autor para criar um novo",
-  "conversationShare.import.integrityFailed": "Falha na verificação dos arquivos do compartilhamento; importação interrompida",
-  "conversationShare.import.failed": "Falha na importação do compartilhamento. Verifique sua rede e tente novamente",
-  "conversationShare.import.integrityFailedWithArtifact": "Falha na verificação do arquivo compartilhado {artifactDisplayName}; importação interrompida. Peça ao autor para criar um novo link.",
-  "conversationShare.import.failedWithArtifact": "Falha ao baixar o arquivo compartilhado {artifactDisplayName}. Verifique sua rede e tente novamente.",
+  "conversationShare.import.expired":
+    "O compartilhamento expirou. Peça ao autor para criar um novo",
+  "conversationShare.import.integrityFailed":
+    "Falha na verificação dos arquivos do compartilhamento; importação interrompida",
+  "conversationShare.import.failed":
+    "Falha na importação do compartilhamento. Verifique sua rede e tente novamente",
+  "conversationShare.import.integrityFailedWithArtifact":
+    "Falha na verificação do arquivo compartilhado {artifactDisplayName}; importação interrompida. Peça ao autor para criar um novo link.",
+  "conversationShare.import.failedWithArtifact":
+    "Falha ao baixar o arquivo compartilhado {artifactDisplayName}. Verifique sua rede e tente novamente.",
   "conversationShare.import.retry": "Tentar novamente",
   "settings.resourceGroup.item.one": "{count} item",
   "settings.resourceGroup.item.other": "{count} itens",
   "pluginCreator.add": "Adicionar",
   "pluginCreator.create": "Criar plugin",
   "pluginCreator.addMarketplace": "Adicionar marketplace de plugins",
-  "pluginCreator.unavailable": "O Plugin Creator está indisponível. Verifique a conexão, habilite ou restaure o Plugin Creator no marketplace e tente novamente.",
+  "pluginCreator.unavailable":
+    "O Plugin Creator está indisponível. Verifique a conexão, habilite ou restaure o Plugin Creator no marketplace e tente novamente.",
   "settings.create.action": "Novo",
   "settings.resourceActions.import": "Importar",
   "settings.resourceActions.export": "Exportar",
@@ -408,22 +531,29 @@ const ptBR: Record<string, string> = {
   "commandCenter.empty.recentTasks": "Nenhuma tarefa recente",
   "commandCenter.moreResults": "Mostrar mais resultados",
   "confirmDialog.taskDeleteTitle": "Excluir esta tarefa?",
-  "confirmDialog.taskDeleteDescription": "A tarefa “{taskTitle}” será removida deste workspace e o registro atual não poderá ser restaurado.",
+  "confirmDialog.taskDeleteDescription":
+    "A tarefa “{taskTitle}” será removida deste workspace e o registro atual não poderá ser restaurado.",
   "confirmDialog.archivedTaskDeleteTitle": "Excluir esta tarefa arquivada?",
-  "confirmDialog.archivedTaskDeleteDescription": "As tarefas serão removidas da lista de tarefas e do Arquivo.",
+  "confirmDialog.archivedTaskDeleteDescription":
+    "As tarefas serão removidas da lista de tarefas e do Arquivo.",
   "taskList.deleteAllArchived": "Excluir todas as tarefas arquivadas",
   "taskList.archivedActions": "Ações de arquivo",
   "taskList.archivedTaskCount": "{count} tarefas arquivadas",
   "taskList.deleteAllArchivedMenu": "Excluir todas as tarefas arquivadas…",
   "taskList.deleteAllArchivedTitle": "Excluir {count} tarefas arquivadas?",
   "taskList.deleteAllArchivedBusy": "Processando…",
-  "taskList.deleteAllArchivedUnavailable": "Não é possível processar estes projetos agora: {projects}. Tente novamente após reconectar.",
-  "taskList.deleteAllArchivedResult": "Excluídas: {deleted}, ignoradas: {skipped}, com falha: {failed}.",
-  "taskList.deleteAllArchivedError": "A operação ou a atualização da lista falhou. Atualize para verificar as tarefas restantes.",
+  "taskList.deleteAllArchivedUnavailable":
+    "Não é possível processar estes projetos agora: {projects}. Tente novamente após reconectar.",
+  "taskList.deleteAllArchivedResult":
+    "Excluídas: {deleted}, ignoradas: {skipped}, com falha: {failed}.",
+  "taskList.deleteAllArchivedError":
+    "A operação ou a atualização da lista falhou. Atualize para verificar as tarefas restantes.",
   "confirmDialog.taskArchiveTitle": "Arquivar esta tarefa?",
-  "confirmDialog.taskArchiveDescription": "A tarefa “{taskTitle}” será movida para a lista de arquivados e ainda poderá ser restaurada depois.",
+  "confirmDialog.taskArchiveDescription":
+    "A tarefa “{taskTitle}” será movida para a lista de arquivados e ainda poderá ser restaurada depois.",
   "confirmDialog.projectRemoveTitle": "Remover este projeto?",
-  "confirmDialog.projectRemoveDescription": "O projeto “{projectName}” será removido da barra lateral, mas os arquivos em disco permanecerão intactos.",
+  "confirmDialog.projectRemoveDescription":
+    "O projeto “{projectName}” será removido da barra lateral, mas os arquivos em disco permanecerão intactos.",
   "welcome.title": "Boas-vindas ao ZCode",
   "welcome.username": "Nome de usuário",
   "welcome.password": "Senha",
@@ -432,9 +562,11 @@ const ptBR: Record<string, string> = {
   "welcome.loginFailed": "Falha no login",
   "login.title": "Boas-vindas ao ZCode",
   "login.description": "Conecte sua conta para começar a usar o ZCode",
-  "login.oauth.activeProviderHint": "Provedor ativo no momento: {provider}. Entrar novamente substitui a identidade atual.",
+  "login.oauth.activeProviderHint":
+    "Provedor ativo no momento: {provider}. Entrar novamente substitui a identidade atual.",
   "login.oauth.loadingProviders": "Carregando provedores de conta...",
-  "login.oauth.noProviders": "Nenhum provedor de conta disponível no momento. Tente novamente mais tarde.",
+  "login.oauth.noProviders":
+    "Nenhum provedor de conta disponível no momento. Tente novamente mais tarde.",
   "login.oauth.button": "Continuar com {provider}",
   "login.oauth.button.zai": "Conectar ao Z.ai",
   "login.oauth.button.bigmodel": "Conectar ao BigModel",
@@ -458,19 +590,23 @@ const ptBR: Record<string, string> = {
   "login.apiKey.cancel": "Cancelar",
   "login.apiKey.continue": "Continuar",
   "login.apiKey.emptyError": "Insira uma chave de API.",
-  "login.apiKey.providerMissingError": "A configuração de provedor integrada para {provider} não foi encontrada. Tente novamente mais tarde.",
+  "login.apiKey.providerMissingError":
+    "A configuração de provedor integrada para {provider} não foi encontrada. Tente novamente mais tarde.",
   "login.apiKey.saveError": "Falha ao salvar a chave de API: {error}",
   "login.apiKey.skipError": "Falha ao pular a configuração da chave de API: {error}",
   "login.skip": "Pular por enquanto",
   "settings.onboarding": "Onboarding",
-  "settings.onboardingDescription": "Escolha novamente sua função, o modo de interface e as preferências. Use as configurações de Migração para importar dados.",
+  "settings.onboardingDescription":
+    "Escolha novamente sua função, o modo de interface e as preferências. Use as configurações de Migração para importar dados.",
   "settings.onboardingOpen": "Abrir onboarding",
   "app.currentTheme": "Atual: {theme}",
   "app.login": "Conectar",
   "app.logout": "Desconectar",
   "logout.confirm.title": "Desconectar e reiniciar o ZCode?",
-  "logout.confirm.descriptionWithRunningSessions": "{count} sessão(ões) em execução no momento. Desconectar vai interrompê-las e reiniciar o aplicativo.",
-  "logout.confirm.descriptionDefault": "O aplicativo será reiniciado após a desconexão. Você precisará conectar sua conta novamente.",
+  "logout.confirm.descriptionWithRunningSessions":
+    "{count} sessão(ões) em execução no momento. Desconectar vai interrompê-las e reiniciar o aplicativo.",
+  "logout.confirm.descriptionDefault":
+    "O aplicativo será reiniciado após a desconexão. Você precisará conectar sua conta novamente.",
   "logout.confirm.ok": "Desconectar e reiniciar",
   "logout.confirm.cancel": "Cancelar",
   "sidebar.profile.notLoggedIn": "Conectar",
@@ -507,16 +643,19 @@ const ptBR: Record<string, string> = {
   "browser.desktopOnly": "O painel do navegador está disponível apenas no desktop",
   "browser.empty": "Cole ou digite uma URL para abrir uma página.",
   "browser.guestFailed.title": "Falha ao iniciar o navegador integrado",
-  "browser.guestFailed.description": "O processo do navegador foi encerrado antes de exibir a página. Você pode tentar novamente após verificar o ambiente do sistema.",
+  "browser.guestFailed.description":
+    "O processo do navegador foi encerrado antes de exibir a página. Você pode tentar novamente após verificar o ambiente do sistema.",
   "browser.guestFailed.detail": "Renderer: {reason} (código de saída {exitCode})",
   "browser.guestFailed.retry": "Tentar novamente",
   "browser.invalidUrl": "Apenas URLs http, https, file, about e data têm suporte",
   "browser.loadFailed": "Falha ao carregar a página: {message}",
   "browser.loadError.title": "Não foi possível abrir esta página",
   "browser.loadError.certTitle": "O certificado HTTPS deste site não é confiável",
-  "browser.loadError.certHint": "Se você confia neste endereço, ative \"Ignorar erros de certificado\" em Configurações → Navegador → Segurança e reinicie o aplicativo para acessá-lo.",
+  "browser.loadError.certHint":
+    'Se você confia neste endereço, ative "Ignorar erros de certificado" em Configurações → Navegador → Segurança e reinicie o aplicativo para acessá-lo.',
   "browser.loadError.retry": "Recarregar",
-  "browser.resizeDuringOperationWarning": "O tamanho do navegador mudou e pode afetar a ação automatizada em andamento",
+  "browser.resizeDuringOperationWarning":
+    "O tamanho do navegador mudou e pode afetar a ação automatizada em andamento",
   "diff.title": "Diff",
   "diff.toggle": "Alternar painel de diff",
   "diff.close": "Fechar painel de diff",
@@ -560,7 +699,8 @@ const ptBR: Record<string, string> = {
   "workflowDirectory.unavailable": "Não é possível listar as execuções de workflow desta conversa",
   "chat.selections.addToTask": "Adicionar ao chat",
   "chat.selections.askInSideChat": "Adicionar no chat paralelo",
-  "chat.selections.sideBlocked": "Resolva a solicitação da conversa paralela antes de adicionar outra seleção.",
+  "chat.selections.sideBlocked":
+    "Resolva a solicitação da conversa paralela antes de adicionar outra seleção.",
   "chat.selections.count": "{count} seleções de conversa",
   "chat.selections.remove": "Remover seleção de conversa",
   "chat.selections.type.user": "Mensagem do usuário",
@@ -569,7 +709,8 @@ const ptBR: Record<string, string> = {
   "chat.selections.type.tool": "Resultado da ferramenta",
   "chat.selections.limit.single": "Uma seleção pode conter no máximo 8.000 caracteres.",
   "chat.selections.limit.count": "Você pode anexar no máximo 8 seleções de conversa.",
-  "chat.selections.limit.total": "As seleções de conversa podem conter no máximo 16.000 caracteres no total.",
+  "chat.selections.limit.total":
+    "As seleções de conversa podem conter no máximo 16.000 caracteres no total.",
   "sidePane.openTabDescription": "Escolha uma aba para abrir no painel lateral.",
   "sidePane.openFile": "Abrir arquivo",
   "sidePane.openFileDescription": "Abra um arquivo do workspace atual no painel lateral.",
@@ -607,7 +748,8 @@ const ptBR: Record<string, string> = {
   "modelTrajectory.refresh": "Atualizar",
   "modelTrajectory.close": "Fechar",
   "modelTrajectory.loading": "Carregando trajetória…",
-  "modelTrajectory.empty": "Nenhuma chamada de modelo registrada (apenas o ZCode Agent grava model-io)",
+  "modelTrajectory.empty":
+    "Nenhuma chamada de modelo registrada (apenas o ZCode Agent grava model-io)",
   "modelTrajectory.error": "Falha ao carregar a trajetória",
   "modelTrajectory.truncatedNotice": "Há registros demais, exibindo as chamadas mais recentes",
   "modelTrajectory.summaryCalls": "{count} chamadas",
@@ -659,18 +801,22 @@ const ptBR: Record<string, string> = {
   "treemapping.summary.diff": "Diff",
   "treemapping.summary.views": "Visualizações",
   "treemapping.empty.title": "Ainda não há atividade de arquivos",
-  "treemapping.empty.description": "O Treemapping aparece depois que este turno lê, pesquisa, edita, cria ou exclui arquivos.",
-  "treemapping.empty.running": "{count} chamada(s) de ferramenta em execução ainda sem caminho de arquivo.",
+  "treemapping.empty.description":
+    "O Treemapping aparece depois que este turno lê, pesquisa, edita, cria ou exclui arquivos.",
+  "treemapping.empty.running":
+    "{count} chamada(s) de ferramenta em execução ainda sem caminho de arquivo.",
   "treemapping.change.written": "Gravado",
   "treemapping.change.modified": "Modificado",
   "treemapping.change.deleted": "Excluído",
   "treemapping.change.viewed": "Apenas visualizado",
   "treemapping.detail.directoryFiles": "{count} arquivos",
   "diff.placeholder.badge": "Espaço reservado de UI",
-  "diff.placeholder.description": "Esta fase concentra-se primeiro na estrutura do painel de Diff do lado direito. Os serviços reais do Git e a execução de comandos serão conectados mais tarde.",
-  "diff.placeholder.toast": "O painel de Diff ainda está no modo de espaço reservado de UI por enquanto, porque o serviço do Git ainda não está totalmente integrado.",
+  "diff.placeholder.description":
+    "Esta fase concentra-se primeiro na estrutura do painel de Diff do lado direito. Os serviços reais do Git e a execução de comandos serão conectados mais tarde.",
+  "diff.placeholder.toast":
+    "O painel de Diff ainda está no modo de espaço reservado de UI por enquanto, porque o serviço do Git ainda não está totalmente integrado.",
   "git.readonly": "Somente leitura",
-  "git.head.detached": "Detached HEAD",
+  "git.head.detached": "HEAD desanexado",
   "git.summary.aheadBehind": "{ahead} à frente / {behind} atrás",
   "git.summary.scopeWorkspace": "Subárvore do workspace atual",
   "git.source.unstaged": "Não preparadas",
@@ -692,15 +838,19 @@ const ptBR: Record<string, string> = {
   "git.kind.conflicted": "Em conflito",
   "git.diff.title": "Pré-visualização do diff",
   "git.diff.selectFile": "Selecione um arquivo para pré-visualizar o diff",
-  "git.diff.selectFileDescription": "Alterne as origens, expanda os diretórios e escolha um arquivo à esquerda para pré-visualizar o diff aqui.",
+  "git.diff.selectFileDescription":
+    "Alterne as origens, expanda os diretórios e escolha um arquivo à esquerda para pré-visualizar o diff aqui.",
   "git.diff.binaryTitle": "A pré-visualização de diff binário não está disponível",
   "git.diff.truncatedTitle": "O diff foi truncado",
   "git.diff.unavailableTitle": "Este diff não está disponível no momento",
-  "git.diff.unavailableDescription": "Os dados de espaço reservado atualmente mantêm apenas informações resumidas. Os resultados completos aparecerão quando o serviço real for conectado.",
-  "diff.loading.description": "Carregando os dados reais de diff do ambiente que é dono deste workspace.",
+  "git.diff.unavailableDescription":
+    "Os dados de espaço reservado atualmente mantêm apenas informações resumidas. Os resultados completos aparecerão quando o serviço real for conectado.",
+  "diff.loading.description":
+    "Carregando os dados reais de diff do ambiente que é dono deste workspace.",
   "diff.error.title": "Falha ao carregar os dados de diff",
   "diff.error.description": "Tente novamente mais tarde. Erro atual: {message}",
-  "diff.preview.truncatedLines": "Pré-visualização do diff truncada: {count} linhas omitidas para manter a UI responsiva.",
+  "diff.preview.truncatedLines":
+    "Pré-visualização do diff truncada: {count} linhas omitidas para manter a UI responsiva.",
   "sidePane.tabOverview": "Pesquisar abas",
   "sidePane.searchTabs": "Pesquisar abas...",
   "sidePane.openTabs": "Abas abertas",
@@ -730,63 +880,84 @@ const ptBR: Record<string, string> = {
   "git.tree.searchPlaceholder": "Filtrar arquivos...",
   "git.tree.clearSearch": "Limpar filtro de arquivos",
   "git.tree.emptyTitle": "Não há diretórios disponíveis aqui",
-  "git.tree.emptyDescription": "Esta origem não expõe nenhuma estrutura de diretórios para navegação no momento.",
+  "git.tree.emptyDescription":
+    "Esta origem não expõe nenhuma estrutura de diretórios para navegação no momento.",
   "git.tree.emptySearchTitle": "Nenhum arquivo corresponde a este filtro",
-  "git.tree.emptySearchDescription": "Ajuste o texto da pesquisa ou limpe o filtro para ver todos os arquivos da árvore atual.",
+  "git.tree.emptySearchDescription":
+    "Ajuste o texto da pesquisa ou limpe o filtro para ver todos os arquivos da árvore atual.",
   "git.tree.emptyDirectoryTitle": "Não há arquivos alterados neste diretório",
-  "git.tree.emptyDirectoryDescription": "Troque para outro diretório ou clique novamente no diretório atual para voltar à lista completa.",
+  "git.tree.emptyDirectoryDescription":
+    "Troque para outro diretório ou clique novamente no diretório atual para voltar à lista completa.",
   "git.selection.count": "{count} selecionado(s)",
   "git.selection.toggle": "Alternar seleção de {file}",
   "git.empty.title": "Não há alterações disponíveis nesta origem",
-  "git.empty.description": "Troque para outra origem ou aguarde até que este workspace tenha novas alterações do Git para inspecionar.",
+  "git.empty.description":
+    "Troque para outra origem ou aguarde até que este workspace tenha novas alterações do Git para inspecionar.",
   "git.loading.description": "Lendo o status do Git e os arquivos alterados do workspace atual.",
   "git.error.title": "Não foi possível carregar as alterações do Git",
   "git.error.description": "O Git retornou um erro: {message}",
   "git.empty.gitUnavailableTitle": "O Git não está disponível neste ambiente",
-  "git.empty.gitUnavailableDescription": "Instale o Git primeiro ou verifique se o ambiente de execução atual consegue executar o comando git.",
+  "git.empty.gitUnavailableDescription":
+    "Instale o Git primeiro ou verifique se o ambiente de execução atual consegue executar o comando git.",
   "git.empty.notRepositoryTitle": "Este workspace não está dentro de um repositório Git",
-  "git.empty.notRepositoryDescription": "Abra um diretório de repositório Git e este painel mostrará as alterações com escopo no workspace atual.",
+  "git.empty.notRepositoryDescription":
+    "Abra um diretório de repositório Git e este painel mostrará as alterações com escopo no workspace atual.",
   "git.empty.lastTurnTitle": "A tarefa atual ainda não tem alterações de arquivos do último turno",
-  "git.empty.lastTurnDescription": "Quando o agente gravar arquivos, esta visualização reutilizará o instantâneo existente da tarefa como uma superfície de revisão somente leitura.",
+  "git.empty.lastTurnDescription":
+    "Quando o agente gravar arquivos, esta visualização reutilizará o instantâneo existente da tarefa como uma superfície de revisão somente leitura.",
   "git.commit.identityTitle": "Identidade do commit",
-  "git.commit.identityMissing": "O carregamento real de user.name / user.email ainda não está conectado, então o botão de commit permanece desativado por enquanto.",
-  "git.commit.noStagedChanges": "Ainda não há alterações preparadas. Selecione os arquivos à esquerda e prepare-os primeiro.",
+  "git.commit.identityMissing":
+    "O carregamento real de user.name / user.email ainda não está conectado, então o botão de commit permanece desativado por enquanto.",
+  "git.commit.noStagedChanges":
+    "Ainda não há alterações preparadas. Selecione os arquivos à esquerda e prepare-os primeiro.",
   "git.commit.enterMessage": "Digite uma mensagem de commit.",
-  "git.commit.ready": "A validação do frontend foi atendida. O commit real funcionará quando a camada de serviço for conectada.",
-  "git.commit.placeholder": "Digite uma mensagem de commit (apenas espaço reservado de UI; nenhum commit real do git será executado ainda)",
+  "git.commit.ready":
+    "A validação do frontend foi atendida. O commit real funcionará quando a camada de serviço for conectada.",
+  "git.commit.placeholder":
+    "Digite uma mensagem de commit (apenas espaço reservado de UI; nenhum commit real do git será executado ainda)",
   "git.actionMenu.trigger": "Commit ou push",
   "git.actionMenu.trigger.ariaLabel": "Commit ou push",
   "git.actionMenu.push": "Push",
   "git.actionMenu.commitDialog.title": "Fazer commit das alterações",
-  "git.actionMenu.commitDialog.description": "Salve as alterações do workspace atual ainda não commitadas como um commit.",
+  "git.actionMenu.commitDialog.description":
+    "Salve as alterações do workspace atual ainda não commitadas como um commit.",
   "git.actionMenu.commitDialog.currentBranchLabel": "Branch atual",
   "git.actionMenu.commitDialog.changesLabel": "Alterações",
   "git.actionMenu.commitDialog.changesValue": "{count} arquivos",
   "git.actionMenu.commitDialog.messageLabel": "Mensagem de commit",
   "git.actionMenu.commitDialog.messagePlaceholder": "Mensagem de commit (deixe vazio para gerar)",
-  "git.actionMenu.commitDialog.messageHelper": "O botão Gerar preenche a mensagem antes de você fazer o commit.",
+  "git.actionMenu.commitDialog.messageHelper":
+    "O botão Gerar preenche a mensagem antes de você fazer o commit.",
   "git.actionMenu.commitDialog.generate": "Gerar mensagem",
   "git.actionMenu.commitDialog.regenerate": "Gerar novamente",
   "git.actionMenu.commitDialog.includeUnstaged": "Incluir alterações não preparadas",
   "git.actionMenu.commitDialog.action.commit": "Fazer commit",
   "git.actionMenu.commitDialog.action.commitAndPush": "Fazer commit e push",
   "git.actionMenu.commitDialog.confirm": "Fazer commit",
-  "git.actionMenu.commitDialog.identityMissing": "Ainda não há identidade de commit do Git disponível. Configure user.name e user.email primeiro.",
+  "git.actionMenu.commitDialog.identityMissing":
+    "Ainda não há identidade de commit do Git disponível. Configure user.name e user.email primeiro.",
   "git.actionMenu.commitDialog.error.noChanges": "Não há alterações disponíveis para commit.",
-  "git.actionMenu.commitDialog.error.messageRequired": "Digite ou gere uma mensagem de commit antes de fazer o commit.",
-  "git.actionMenu.commitDialog.error.generateFailed": "Falha ao gerar a mensagem de commit. Tente novamente ou digite uma manualmente.",
+  "git.actionMenu.commitDialog.error.messageRequired":
+    "Digite ou gere uma mensagem de commit antes de fazer o commit.",
+  "git.actionMenu.commitDialog.error.generateFailed":
+    "Falha ao gerar a mensagem de commit. Tente novamente ou digite uma manualmente.",
   "git.actionMenu.commitDialog.error.requestFailed": "Falha no commit: {error}",
-  "git.actionMenu.commitDialog.error.pushAfterCommitFailed": "Commit realizado, mas o push falhou: {error}",
+  "git.actionMenu.commitDialog.error.pushAfterCommitFailed":
+    "Commit realizado, mas o push falhou: {error}",
   "git.actionMenu.commitDialog.toast.success": "Commit das alterações atuais realizado",
-  "git.actionMenu.commitDialog.toast.commitAndPushSuccess": "Commit e push das alterações atuais realizados",
+  "git.actionMenu.commitDialog.toast.commitAndPushSuccess":
+    "Commit e push das alterações atuais realizados",
   "git.actionMenu.pushDialog.title": "Fazer push das alterações",
-  "git.actionMenu.pushDialog.description.tracked": "Faça push dos commits mais recentes do branch atual para o branch remoto.",
-  "git.actionMenu.pushDialog.description.untracked": "O primeiro push publicará o branch atual no remoto e definirá o upstream dele.",
+  "git.actionMenu.pushDialog.description.tracked":
+    "Faça push dos commits mais recentes do branch atual para o branch remoto.",
+  "git.actionMenu.pushDialog.description.untracked":
+    "O primeiro push publicará o branch atual no remoto e definirá o upstream dele.",
   "git.actionMenu.pushDialog.currentBranchLabel": "Branch",
   "git.actionMenu.pushDialog.upstreamLabel": "Branch remoto",
   "git.actionMenu.pushDialog.aheadBehindLabel": "Status de sincronização",
   "git.actionMenu.pushDialog.aheadBehindValue": "{ahead} à frente / {behind} atrás",
-  "git.actionMenu.pushDialog.upstreamPending": "O primeiro push criará automaticamente o branch upstream para o branch atual.",
+  "git.actionMenu.pushDialog.upstreamPending":
+    "O primeiro push criará automaticamente o branch upstream para o branch atual.",
   "git.actionMenu.pushDialog.pushLabel": "Próxima etapa",
   "git.actionMenu.pushDialog.pushValue": "Push",
   "git.actionMenu.pushDialog.upToDate": "Não há commits para fazer push no branch atual.",
@@ -806,40 +977,55 @@ const ptBR: Record<string, string> = {
   "git.branchSwitcher.currentDirty": "Alterações não commitadas: {count} arquivos",
   "git.branchSwitcher.createAction": "Criar e trocar para um novo branch...",
   "git.branchSwitcher.createDialog.title": "Criar e trocar para um novo branch",
-  "git.branchSwitcher.createDialog.description": "Crie um novo branch local a partir do HEAD atual e troque para ele assim que a criação for concluída.",
+  "git.branchSwitcher.createDialog.description":
+    "Crie um novo branch local a partir do HEAD atual e troque para ele assim que a criação for concluída.",
   "git.branchSwitcher.createDialog.nameLabel": "Nome do branch",
   "git.branchSwitcher.createDialog.placeholder": "Por exemplo, feature/git-branch-switcher",
   "git.branchSwitcher.createDialog.helper": "Suporta apenas criar e trocar a partir do HEAD atual.",
   "git.branchSwitcher.createDialog.confirm": "Criar e trocar",
   "git.branchSwitcher.blockedDialog.title": "Faça commit das alterações para trocar de branch",
-  "git.branchSwitcher.blockedDialog.description.tracked": "Suas alterações nos seguintes arquivos seriam sobrescritas pelo checkout:",
-  "git.branchSwitcher.blockedDialog.description.untracked": "Os seguintes arquivos não rastreados seriam sobrescritos pelo checkout:",
+  "git.branchSwitcher.blockedDialog.description.tracked":
+    "Suas alterações nos seguintes arquivos seriam sobrescritas pelo checkout:",
+  "git.branchSwitcher.blockedDialog.description.untracked":
+    "Os seguintes arquivos não rastreados seriam sobrescritos pelo checkout:",
   "git.branchSwitcher.blockedDialog.filesLabel": "Arquivos afetados",
-  "git.branchSwitcher.blockedDialog.helper": "Faça o commit das alterações atuais primeiro e depois continue a troca de branch.",
+  "git.branchSwitcher.blockedDialog.helper":
+    "Faça o commit das alterações atuais primeiro e depois continue a troca de branch.",
   "git.branchSwitcher.blockedDialog.submitAction": "Fazer commit e trocar de branch...",
   "git.branchSwitcher.commitDialog.title": "Fazer commit das alterações",
-  "git.branchSwitcher.commitDialog.description": "Depois que o commit for concluído, a troca para {branchName} continuará automaticamente.",
+  "git.branchSwitcher.commitDialog.description":
+    "Depois que o commit for concluído, a troca para {branchName} continuará automaticamente.",
   "git.branchSwitcher.commitDialog.currentBranchLabel": "Branch atual",
   "git.branchSwitcher.commitDialog.targetBranchLabel": "Branch de destino",
   "git.branchSwitcher.commitDialog.changesLabel": "Alterações",
   "git.branchSwitcher.commitDialog.changesValue": "{count} arquivos",
   "git.branchSwitcher.commitDialog.messageLabel": "Mensagem de commit",
-  "git.branchSwitcher.commitDialog.messagePlaceholder": "Deixe vazio para gerar uma mensagem de commit automaticamente",
-  "git.branchSwitcher.commitDialog.messageHelper": "Por padrão, isso fará o commit de todas as alterações não commitadas dentro do workspace atual.",
+  "git.branchSwitcher.commitDialog.messagePlaceholder":
+    "Deixe vazio para gerar uma mensagem de commit automaticamente",
+  "git.branchSwitcher.commitDialog.messageHelper":
+    "Por padrão, isso fará o commit de todas as alterações não commitadas dentro do workspace atual.",
   "git.branchSwitcher.commitDialog.confirm": "Fazer commit e trocar de branch",
-  "git.branchSwitcher.commitDialog.identityMissing": "Ainda não há identidade de commit do Git disponível. Configure user.name e user.email primeiro.",
+  "git.branchSwitcher.commitDialog.identityMissing":
+    "Ainda não há identidade de commit do Git disponível. Configure user.name e user.email primeiro.",
   "git.branchSwitcher.commitDialog.error.requestFailed": "Falha no commit: {error}",
   "git.branchSwitcher.toast.switchSuccess": "Trocado para o branch {branchName}",
   "git.branchSwitcher.toast.createSuccess": "Criado e trocado para o branch {branchName}",
-  "git.branchSwitcher.error.invalidBranchName": "O nome do branch é inválido. Digite um nome diferente.",
+  "git.branchSwitcher.error.invalidBranchName":
+    "O nome do branch é inválido. Digite um nome diferente.",
   "git.branchSwitcher.error.branchAlreadyExists": "Esse branch já existe. Escolha outro nome.",
-  "git.branchSwitcher.error.targetBranchNotFound": "O branch de destino ainda não existe localmente.",
-  "git.branchSwitcher.error.trackedOverwrite": "Troca bloqueada porque arquivos rastreados seriam sobrescritos: {paths}{extraPaths}.",
-  "git.branchSwitcher.error.untrackedOverwrite": "Troca bloqueada porque arquivos não rastreados seriam sobrescritos: {paths}{extraPaths}.",
+  "git.branchSwitcher.error.targetBranchNotFound":
+    "O branch de destino ainda não existe localmente.",
+  "git.branchSwitcher.error.trackedOverwrite":
+    "Troca bloqueada porque arquivos rastreados seriam sobrescritos: {paths}{extraPaths}.",
+  "git.branchSwitcher.error.untrackedOverwrite":
+    "Troca bloqueada porque arquivos não rastreados seriam sobrescritos: {paths}{extraPaths}.",
   "git.branchSwitcher.error.moreFiles": " e mais {count} arquivos",
-  "git.branchSwitcher.error.conflictsPresent": "O repositório ainda tem conflitos não resolvidos. Resolva-os antes de trocar de branch.",
-  "git.branchSwitcher.error.operationInProgress": "Outra operação do Git ainda está em andamento. Conclua-a antes de trocar de branch.",
-  "git.branchSwitcher.error.branchInOtherWorktree": "Esse branch já está em checkout em outro worktree.",
+  "git.branchSwitcher.error.conflictsPresent":
+    "O repositório ainda tem conflitos não resolvidos. Resolva-os antes de trocar de branch.",
+  "git.branchSwitcher.error.operationInProgress":
+    "Outra operação do Git ainda está em andamento. Conclua-a antes de trocar de branch.",
+  "git.branchSwitcher.error.branchInOtherWorktree":
+    "Esse branch já está em checkout em outro worktree.",
   "git.branchSwitcher.error.unknown": "Falha ao trocar de branch. Tente novamente.",
   "git.branchSwitcher.error.requestFailed": "Falha na operação de branch: {error}",
   "gitGraph.title": "Git Graph",
@@ -873,13 +1059,16 @@ const ptBR: Record<string, string> = {
   "codeViewer.close": "Fechar visualizador de código",
   "codeViewer.loadingFile": "Carregando arquivo...",
   "codeViewer.loadingImage": "Carregando pré-visualização da imagem...",
-  "codeViewer.fileMissing": "O arquivo não existe ou este ambiente não consegue acessar esse caminho.",
-  "codeViewer.binary": "Este arquivo parece conter dados binários e ainda não pode ser pré-visualizado como código.",
+  "codeViewer.fileMissing":
+    "O arquivo não existe ou este ambiente não consegue acessar esse caminho.",
+  "codeViewer.binary":
+    "Este arquivo parece conter dados binários e ainda não pode ser pré-visualizado como código.",
   "codeViewer.imageUnavailable": "Esta pré-visualização de imagem não está disponível no momento.",
   "codeViewer.loadingMedia": "Carregando pré-visualização de mídia...",
   "codeViewer.mediaUnavailable": "Esta pré-visualização de mídia não está disponível no momento.",
   "codeViewer.mediaUnsupported": "Este ambiente não consegue reproduzir este formato de mídia.",
-  "codeViewer.mediaLoadFailed": "Falha ao carregar a mídia. Tente novamente mais tarde ou abra-a em um aplicativo externo.",
+  "codeViewer.mediaLoadFailed":
+    "Falha ao carregar a mídia. Tente novamente mais tarde ou abra-a em um aplicativo externo.",
   "codeViewer.loadingPdf": "Carregando pré-visualização de PDF...",
   "codeViewer.pdfUnavailable": "Esta pré-visualização de PDF não está disponível no momento.",
   "codeViewer.pdf.loading": "Carregando PDF...",
@@ -891,16 +1080,20 @@ const ptBR: Record<string, string> = {
   "codeViewer.pdf.zoomIn": "Ampliar",
   "codeViewer.pdf.zoomOut": "Reduzir",
   "codeViewer.officeUnavailable": "Este arquivo do Office não pode ser pré-visualizado.",
-  "codeViewer.officeTooLarge": "Este arquivo do Office é grande demais para pré-visualizar (máximo de 25 MB).",
+  "codeViewer.officeTooLarge":
+    "Este arquivo do Office é grande demais para pré-visualizar (máximo de 25 MB).",
   "codeViewer.excel.sheetTabs": "Planilhas da pasta de trabalho",
   "codeViewer.loadingPptx": "Carregando pré-visualização da apresentação...",
-  "codeViewer.pptxUnavailable": "Esta pré-visualização de apresentação não está disponível no momento.",
+  "codeViewer.pptxUnavailable":
+    "Esta pré-visualização de apresentação não está disponível no momento.",
   "codeViewer.pptx.loading": "Carregando apresentação...",
   "codeViewer.pptx.loadError": "Falha ao carregar a apresentação",
   "codeViewer.pptx.noSlides": "Esta apresentação não tem slides",
   "codeViewer.pptx.fileTooLarge": "Esta apresentação excede o limite de pré-visualização de 64 MB.",
-  "codeViewer.pptx.legacyFileTooLarge": "Este ambiente remoto pode pré-visualizar apresentações de até 8 MB.",
-  "codeViewer.pptx.incomplete": "Esta apresentação foi alterada ou truncada durante a leitura, portanto não pode ser pré-visualizada. Tente novamente.",
+  "codeViewer.pptx.legacyFileTooLarge":
+    "Este ambiente remoto pode pré-visualizar apresentações de até 8 MB.",
+  "codeViewer.pptx.incomplete":
+    "Esta apresentação foi alterada ou truncada durante a leitura, portanto não pode ser pré-visualizada. Tente novamente.",
   "codeViewer.pptx.previousPage": "Slide anterior",
   "codeViewer.pptx.nextPage": "Próximo slide",
   "codeViewer.pptx.pageInput": "Número do slide",
@@ -919,7 +1112,8 @@ const ptBR: Record<string, string> = {
   "codeViewer.pptx.exportPdfSuccess": "PDF salvo em {path}",
   "codeViewer.pptx.exportPdfFailed": "Falha ao exportar o PDF",
   "codeViewer.empty": "O arquivo está vazio",
-  "codeViewer.fileTooLarge": "Este arquivo excede o limite de pré-visualização de 256 KB. Abra-o em outro editor para ver o conteúdo completo.",
+  "codeViewer.fileTooLarge":
+    "Este arquivo excede o limite de pré-visualização de 256 KB. Abra-o em outro editor para ver o conteúdo completo.",
   "codeViewer.viewCode": "Ver código",
   "codeViewer.viewDiff": "Ver diff",
   "codeViewer.openSourcePreview": "Pré-visualização do código-fonte",
@@ -936,7 +1130,8 @@ const ptBR: Record<string, string> = {
   "codeBlock.mermaid.empty": "O código-fonte Mermaid está vazio.",
   "codeBlock.mermaid.error": "Falha ao renderizar o diagrama Mermaid",
   "codeBlock.mermaid.openPreview": "Abrir pré-visualização",
-  "codeBlock.mermaid.previewDescription": "Pré-visualização do diagrama Mermaid com zoom e panorâmica.",
+  "codeBlock.mermaid.previewDescription":
+    "Pré-visualização do diagrama Mermaid com zoom e panorâmica.",
   "codeBlock.mermaid.zoomIn": "Ampliar",
   "codeBlock.mermaid.zoomOut": "Reduzir",
   "codeBlock.mermaid.zoomLevel": "Nível de zoom",
@@ -967,7 +1162,8 @@ const ptBR: Record<string, string> = {
   "codeViewer.comment.range": "Comentar nas linhas {startLine} a {endLine}",
   "codeViewer.comment.contextLabel": "Contexto do código",
   "codeViewer.comment.commentLabel": "Comentário",
-  "codeViewer.review.targetLineMissing": "A linha de destino não existe. O comentário é exibido no topo do arquivo.",
+  "codeViewer.review.targetLineMissing":
+    "A linha de destino não existe. O comentário é exibido no topo do arquivo.",
   "chat.codeComments.one": "1 comentário",
   "chat.codeComments.many": "{count} comentários",
   "chat.codeComments.remove": "Remover comentários do código",
@@ -979,15 +1175,19 @@ const ptBR: Record<string, string> = {
   "chat.pptxElements.many": "{count} elementos de slide",
   "chat.pptxElements.remove": "Remover elemento de slide",
   "chat.pptxElements.previewFileMissing": "A apresentação referenciada não existe mais.",
-  "chat.pptxElements.previewPageMissing": "O slide {pageNumber} não existe mais. A apresentação foi aberta em vez disso.",
-  "chat.pptxElements.previewSourceChanged": "A apresentação foi alterada. O slide {pageNumber} foi aberto, mas o conteúdo dele pode ser diferente.",
-  "chat.pptxElements.previewScopeUnavailable": "Esta referência de apresentação não está disponível no workspace atual.",
+  "chat.pptxElements.previewPageMissing":
+    "O slide {pageNumber} não existe mais. A apresentação foi aberta em vez disso.",
+  "chat.pptxElements.previewSourceChanged":
+    "A apresentação foi alterada. O slide {pageNumber} foi aberto, mas o conteúdo dele pode ser diferente.",
+  "chat.pptxElements.previewScopeUnavailable":
+    "Esta referência de apresentação não está disponível no workspace atual.",
   "chat.webElements.many": "{count} elementos web",
   "chat.webElements.remove": "Remover contexto do elemento web",
   "appHeader.openInFinder": "Abrir no Finder",
   "appHeader.openInFileExplorer": "Abrir no Explorador de Arquivos",
   "appHeader.openInFileManager": "Abrir no gerenciador de arquivos",
-  "appHeader.openInFileManagerFailed": "Não foi possível abrir no gerenciador de arquivos do sistema",
+  "appHeader.openInFileManagerFailed":
+    "Não foi possível abrir no gerenciador de arquivos do sistema",
   "appHeader.openInEditor": "Abrir no {editor}",
   "appHeader.selectOpenApp": "Escolher aplicativo",
   "appHeader.copyPath": "Copiar caminho",
@@ -1043,7 +1243,8 @@ const ptBR: Record<string, string> = {
   "updateReady.tooltip": "v{version} pronta, clique para reiniciar e atualizar",
   "updateAvailable.tooltip": "Nova versão v{version} disponível. Clique para conferir.",
   "updateReady.confirm.title": "Atualizar para a v{version}?",
-  "updateReady.confirm.description": "O aplicativo será fechado e reiniciado para atualizar. As tarefas em andamento serão interrompidas.",
+  "updateReady.confirm.description":
+    "O aplicativo será fechado e reiniciado para atualizar. As tarefas em andamento serão interrompidas.",
   "updateReady.confirm.ok": "Reiniciar e atualizar agora",
   "updateReady.confirm.cancel": "Mais tarde",
   "updateDialog.availableTitle": "Nova versão v{version}",
@@ -1054,7 +1255,8 @@ const ptBR: Record<string, string> = {
   "updateDialog.releaseNotesCollapse": "Ocultar",
   "updateDialog.downloadAndUpdate": "Baixar atualização",
   "updateDialog.cancelDownload": "Cancelar download",
-  "updateDialog.autoDownloadAndInstall": "Baixar e instalar atualizações automaticamente da próxima vez",
+  "updateDialog.autoDownloadAndInstall":
+    "Baixar e instalar atualizações automaticamente da próxima vez",
   "updateDialog.downloadingAction": "Baixando",
   "updateDialog.downloadProgress": "Progresso do download",
   "updateDialog.restartToUpdate": "Reiniciar para atualizar",
@@ -1068,7 +1270,8 @@ const ptBR: Record<string, string> = {
   "update.toast.devSkipped": "As atualizações estão desativadas em builds de desenvolvimento",
   "update.toast.error": "Falha ao verificar atualizações: {error}",
   "forceUpdate.title": "Atualize o ZCode para continuar",
-  "forceUpdate.description": "Sua versão atual v{currentVersion} está abaixo da versão mínima suportada v{minimalVersion}. Atualize antes de continuar usando este cliente.",
+  "forceUpdate.description":
+    "Sua versão atual v{currentVersion} está abaixo da versão mínima suportada v{minimalVersion}. Atualize antes de continuar usando este cliente.",
   "forceUpdate.currentVersion": "Versão atual",
   "forceUpdate.minimalVersion": "Versão mínima",
   "forceUpdate.action.check": "Verificar e baixar atualização",
@@ -1083,18 +1286,22 @@ const ptBR: Record<string, string> = {
   "postUpdateReleaseNotes.title": "Notas da versão",
   "postUpdateReleaseNotes.acknowledge": "Entendi",
   "projectSelector.heroTitle": "Abra rápido. Mantenha o foco.",
-  "projectSelector.heroDescription": "Escolha um workspace, retome de onde parou e mantenha a interface limpa.",
+  "projectSelector.heroDescription":
+    "Escolha um workspace, retome de onde parou e mantenha a interface limpa.",
   "appError.title": "O aplicativo encontrou um problema",
-  "appError.description": "O erro da página foi capturado, então o aplicativo não precisa recorrer a uma tela em branco. Tente novamente primeiro e recarregue o aplicativo se o problema continuar acontecendo.",
+  "appError.description":
+    "O erro da página foi capturado, então o aplicativo não precisa recorrer a uma tela em branco. Tente novamente primeiro e recarregue o aplicativo se o problema continuar acontecendo.",
   "appError.retry": "Tentar novamente",
   "appError.reload": "Recarregar aplicativo",
   "appError.hint": "Os detalhes de diagnóstico foram registrados para ajudar na investigação.",
   "appError.details": "Ver pilha de componentes",
   "appError.unknown": "Erro desconhecido",
   "appError.sectionTitle": "Esta seção encontrou um problema",
-  "appError.sectionDescription": "O erro está isolado nesta seção, então o restante do aplicativo pode continuar em execução. Tente esta seção novamente primeiro e recarregue o aplicativo se o problema continuar acontecendo.",
+  "appError.sectionDescription":
+    "O erro está isolado nesta seção, então o restante do aplicativo pode continuar em execução. Tente esta seção novamente primeiro e recarregue o aplicativo se o problema continuar acontecendo.",
   "appError.sectionRetry": "Tentar esta seção novamente",
-  "appError.sectionHint": "Os detalhes de diagnóstico foram registrados para ajudar na investigação.",
+  "appError.sectionHint":
+    "Os detalhes de diagnóstico foram registrados para ajudar na investigação.",
   "workspace.openWorkspace": "Abrir workspace",
   "workspace.addNewWorkspace": "Adicionar novo workspace",
   "workspace.startFromScratch": "Começar do zero",
@@ -1103,7 +1310,8 @@ const ptBR: Record<string, string> = {
   "workspace.backToWorkspace": "Voltar ao workspace",
   "workspace.noActiveForNewTask": "Ainda não há workspace disponível. Abra um workspace primeiro.",
   "workspace.wslUncPrompt.title": "Abrir pela conexão remota WSL?",
-  "workspace.wslUncPrompt.description": "Você selecionou um caminho WSL:\n{path}\n\nRecomendamos abri-lo por meio da conexão WSL, mas você ainda pode continuar com o caminho.",
+  "workspace.wslUncPrompt.description":
+    "Você selecionou um caminho WSL:\n{path}\n\nRecomendamos abri-lo por meio da conexão WSL, mas você ainda pode continuar com o caminho.",
   "workspace.wslUncPrompt.openWsl": "Abrir conexão WSL",
   "workspace.wslUncPrompt.continuePath": "Continuar com o caminho",
   "workspaceSidebar.workspaces": "Tarefas",
@@ -1132,14 +1340,17 @@ const ptBR: Record<string, string> = {
   "workspaceSidebar.closeTaskSearch": "Fechar pesquisa de tarefas",
   "workspaceSidebar.remove": "Remover",
   "workspaceSidebar.removeRunningWorkspace.title": "Remover um projeto em execução?",
-  "workspaceSidebar.removeRunningWorkspace.description": "Este projeto ainda tem um chat ou Agente em execução. Ao removê-lo, o estado de execução relacionado será interrompido e liberado, mas o histórico de tarefas não será excluído.",
+  "workspaceSidebar.removeRunningWorkspace.description":
+    "Este projeto ainda tem um chat ou Agente em execução. Ao removê-lo, o estado de execução relacionado será interrompido e liberado, mas o histórico de tarefas não será excluído.",
   "workspaceSidebar.removeRunningWorkspace.confirm": "Remover e interromper",
-  "workspaceSidebar.windowsReservedNameRisk": "Projeto removido, mas {count} arquivo(s) com nome reservado do Windows foram detectados e podem afetar a exclusão ou renomeação futura da pasta: {path}",
+  "workspaceSidebar.windowsReservedNameRisk":
+    "Projeto removido, mas {count} arquivo(s) com nome reservado do Windows foram detectados e podem afetar a exclusão ou renomeação futura da pasta: {path}",
   "workspaceSidebar.reconnect": "Reconectar",
   "workspaceSidebar.connecting": "Conectando",
   "workspaceSidebar.notConnected": "Não conectado",
   "workspaceSidebar.empty": "Nenhum workspace ainda. Abra um workspace para começar.",
-  "workspaceSidebar.unavailableLocalDirectory": "O diretório do workspace não existe ou não pode ser acessado. Por enquanto, você pode apenas visualizar o histórico. Restaure o diretório e reinicie o ZCode para continuar.",
+  "workspaceSidebar.unavailableLocalDirectory":
+    "O diretório do workspace não existe ou não pode ser acessado. Por enquanto, você pode apenas visualizar o histórico. Restaure o diretório e reinicie o ZCode para continuar.",
   "workspaceSidebar.showSidebar": "Alternar barra lateral",
   "workspaceSidebar.hideSidebar": "Alternar barra lateral",
   "workspaceSidebar.toggleSidebar": "Alternar barra lateral",
@@ -1179,7 +1390,8 @@ const ptBR: Record<string, string> = {
   "ssh.assetInstallMode": "Método de download de recursos",
   "ssh.assetInstallMode.local-download-upload": "Baixar localmente e depois enviar",
   "ssh.assetInstallMode.remote-download": "Baixar no servidor remoto",
-  "ssh.assetInstallModeDescription": "O download no servidor remoto reduz a espera do upload, mas o servidor precisa acessar o CDN do ZCode e ter ferramentas de download, extração e checksum.",
+  "ssh.assetInstallModeDescription":
+    "O download no servidor remoto reduz a espera do upload, mas o servidor precisa acessar o CDN do ZCode e ter ferramentas de download, extração e checksum.",
   "ssh.password": "Senha",
   "ssh.passwordPlaceholder": "Digite sua senha SSH",
   "ssh.privateKey": "Chave privada",
@@ -1191,8 +1403,10 @@ const ptBR: Record<string, string> = {
   "ssh.configAliasPlaceholder": "Nenhum alias selecionado",
   "ssh.configAliasSearchPlaceholder": "Pesquisar alias do config SSH",
   "ssh.configAliasEmpty": "Nenhum alias de config SSH disponível nesta máquina.",
-  "ssh.configAliasLoadFailed": "Falha ao carregar os alias do config SSH. Você ainda pode inserir as informações de conexão manualmente.",
-  "ssh.configAliasDescription": "Selecione um alias para preencher automaticamente host, porta, nome de usuário e chave privada.",
+  "ssh.configAliasLoadFailed":
+    "Falha ao carregar os alias do config SSH. Você ainda pode inserir as informações de conexão manualmente.",
+  "ssh.configAliasDescription":
+    "Selecione um alias para preencher automaticamente host, porta, nome de usuário e chave privada.",
   "ssh.connect": "Conectar",
   "ssh.cancel": "Cancelar",
   "ssh.connecting": "Conectando...",
@@ -1210,18 +1424,23 @@ const ptBR: Record<string, string> = {
   "remote.step.connecting": "Conectando",
   "remote.step.directory": "Escolher diretório",
   "remote.kindStepTitle": "Escolher método",
-  "remote.kindStepDescription": "Escolha como você quer acessar este workspace e continue com as configurações de conexão correspondentes.",
+  "remote.kindStepDescription":
+    "Escolha como você quer acessar este workspace e continue com as configurações de conexão correspondentes.",
   "remote.settingsStepTitle": "Configurações de conexão",
-  "remote.settingsStepDescription": "Insira os detalhes necessários para a sua conexão {method} para que possamos preparar a sessão remota.",
+  "remote.settingsStepDescription":
+    "Insira os detalhes necessários para a sua conexão {method} para que possamos preparar a sessão remota.",
   "remote.history.empty": "Nenhuma conexão salva correspondente",
   "remote.connectingStepTitle": "Conectando",
-  "remote.connectingStepDescription": "Estamos estabelecendo a conexão {method}. Você pode acompanhar o progresso da configuração em tempo real aqui.",
+  "remote.connectingStepDescription":
+    "Estamos estabelecendo a conexão {method}. Você pode acompanhar o progresso da configuração em tempo real aqui.",
   "remote.title": "Conectar ambiente remoto",
-  "remote.description": "Conecte-se a um workspace remoto via SSH, Server, WSL ou Docker e escolha um diretório na janela atual.",
+  "remote.description":
+    "Conecte-se a um workspace remoto via SSH, Server, WSL ou Docker e escolha um diretório na janela atual.",
   "remote.step.connect": "Conectar",
   "remote.step.selectDirectory": "Escolher diretório",
   "remote.selectDirectoryTitle": "Escolher diretório remoto",
-  "remote.selectDirectoryDescription": "Escolha qual diretório abrir nesta janela quando a conexão remota estiver pronta.",
+  "remote.selectDirectoryDescription":
+    "Escolha qual diretório abrir nesta janela quando a conexão remota estiver pronta.",
   "remote.backToConnection": "Voltar para as configurações de conexão",
   "remote.selectedMethod": "Método selecionado",
   "remote.methods": "Método de conexão",
@@ -1240,33 +1459,43 @@ const ptBR: Record<string, string> = {
   "remote.connectionLog": "Log de conexão",
   "remote.connectionLogEmpty": "aguardando a saída da conexão...",
   "remote.connectingConfirmTitle": "Interromper a conexão atual?",
-  "remote.connectingConfirmDescription": "A conexão remota ainda está em andamento. Se você voltar ou fechar esta janela agora, a tentativa de conexão atual será cancelada.",
+  "remote.connectingConfirmDescription":
+    "A conexão remota ainda está em andamento. Se você voltar ou fechar esta janela agora, a tentativa de conexão atual será cancelada.",
   "remote.stopConnecting": "Parar conexão",
   "remote.connectedConfirmTitle": "Sair desta sessão conectada?",
-  "remote.connectedConfirmDescription": "A conexão remota está pronta, mas nenhum diretório foi aberto ainda. Se você voltar ou fechar esta janela agora, a sessão remota atual será descartada.",
+  "remote.connectedConfirmDescription":
+    "A conexão remota está pronta, mas nenhum diretório foi aberto ainda. Se você voltar ou fechar esta janela agora, a sessão remota atual será descartada.",
   "remote.leaveConnectedSession": "Sair da sessão",
   "remote.success": "Conectado. Escolha um diretório para continuar.",
-  "remote.optionsLoadFailed": "Falha ao carregar as opções de runtime locais. Você ainda pode inserir os valores manualmente.",
+  "remote.optionsLoadFailed":
+    "Falha ao carregar as opções de runtime locais. Você ainda pode inserir os valores manualmente.",
   "remote.log.prepare": "Parâmetros do assistente validados. Preparando a solicitação de conexão.",
   "remote.log.sshTarget": "Alvo SSH: {username}@{host}:{port}",
   "remote.log.dockerTarget": "Alvo do contêiner Docker: {container}",
   "remote.log.requestingSession": "Solicitando ao processo host a criação de uma sessão remota...",
-  "remote.log.sessionReady": "Sessão remota criada com sucesso. A seguir, você pode escolher um diretório.",
-  "wsl.description": "Conecte-se à distro padrão ou escolha uma distro específica instalada neste dispositivo.",
+  "remote.log.sessionReady":
+    "Sessão remota criada com sucesso. A seguir, você pode escolher um diretório.",
+  "wsl.description":
+    "Conecte-se à distro padrão ou escolha uma distro específica instalada neste dispositivo.",
   "wsl.distro": "Distribuição",
   "wsl.defaultDistro": "Distro padrão",
   "wsl.user": "Usuário Linux",
   "wsl.defaultUser": "Usuário padrão",
-  "wsl.userDescription": "Deixe vazio para usar o usuário padrão da distro. Digite root ou outro usuário Linux existente para executar comandos WSL como esse usuário.",
-  "wsl.rootWarning": "O modo root executa o host remoto, o agente e o terminal como root. Arquivos criados durante a sessão podem pertencer ao root.",
-  "wsl.validation.invalidUser": "Nomes de usuário Linux não podem conter caracteres de controle, dois-pontos, barras ou barras invertidas, e devem ter no máximo 64 caracteres.",
+  "wsl.userDescription":
+    "Deixe vazio para usar o usuário padrão da distro. Digite root ou outro usuário Linux existente para executar comandos WSL como esse usuário.",
+  "wsl.rootWarning":
+    "O modo root executa o host remoto, o agente e o terminal como root. Arquivos criados durante a sessão podem pertencer ao root.",
+  "wsl.validation.invalidUser":
+    "Nomes de usuário Linux não podem conter caracteres de controle, dois-pontos, barras ou barras invertidas, e devem ter no máximo 64 caracteres.",
   "wsl.loading": "Detectando distros WSL...",
   "wsl.detectedCount": "{count} distros detectadas neste dispositivo.",
-  "wsl.noDistros": "Nenhuma distro WSL foi detectada. Você ainda pode se conectar à distro padrão se o WSL estiver instalado.",
+  "wsl.noDistros":
+    "Nenhuma distro WSL foi detectada. Você ainda pode se conectar à distro padrão se o WSL estiver instalado.",
   "docker.description": "Conecte-se a um contêiner local usando docker exec e docker cp.",
   "docker.container": "Contêiner",
   "docker.containerPlaceholder": "Digite o nome ou ID do contêiner, ex.: my-container",
-  "docker.manualContainerHint": "Se a lista de contêineres em execução estiver incompleta, insira manualmente um nome ou ID de contêiner para conectar.",
+  "docker.manualContainerHint":
+    "Se a lista de contêineres em execução estiver incompleta, insira manualmente um nome ou ID de contêiner para conectar.",
   "docker.selectContainer": "Escolha um contêiner em execução",
   "docker.loading": "Detectando contêineres em execução...",
   "docker.unavailable": "Nenhum contêiner em execução detectado.",
@@ -1287,10 +1516,12 @@ const ptBR: Record<string, string> = {
   "terminal.contextMenu.paste": "Colar",
   "chat.history.loadingOlderMessages": "Carregando mensagens anteriores...",
   "chat.history.loadOlderMessages": "Carregar mensagens anteriores",
-  "chat.pendingCommand.discarded": "Uma entrada enviada antes da reinicialização da CLI não chegou à conversa. Confirme se deseja enviá-la novamente.",
+  "chat.pendingCommand.discarded":
+    "Uma entrada enviada antes da reinicialização da CLI não chegou à conversa. Confirme se deseja enviá-la novamente.",
   "chat.pendingCommand.resend": "Enviar novamente",
   "chat.pendingCommand.dismiss": "Mais tarde",
-  "chat.workspaceHookPending.message": "{count} hook(s) de workspace pendente(s) de revisão; desativado(s) para esta sessão",
+  "chat.workspaceHookPending.message":
+    "{count} hook(s) de workspace pendente(s) de revisão; desativado(s) para esta sessão",
   "chat.workspaceHookPending.review": "Revisar",
   "chat.workspaceHookPending.dismiss": "Dispensar",
   "taskList.newTask": "Nova tarefa",
@@ -1403,7 +1634,8 @@ const ptBR: Record<string, string> = {
   "chat.changeSummary.reapply": "Reaplicar",
   "chat.changeSummary.reverted": "Desfeito",
   "chat.changeSummary.rewindDialog.title": "Desfazer alterações de arquivos",
-  "chat.changeSummary.rewindDialog.description": "O ZCode verifica novamente o conteúdo atual dos arquivos antes de gravar. Se outro processo alterou um arquivo, nenhum arquivo será gravado.",
+  "chat.changeSummary.rewindDialog.description":
+    "O ZCode verifica novamente o conteúdo atual dos arquivos antes de gravar. Se outro processo alterou um arquivo, nenhum arquivo será gravado.",
   "chat.changeSummary.rewindDialog.loading": "Verificando arquivos reversíveis…",
   "chat.changeSummary.rewindDialog.safeTitle": "Seguros para desfazer: {count}",
   "chat.changeSummary.rewindDialog.unsafeTitle": "Não seguros para desfazer: {count}",
@@ -1412,24 +1644,32 @@ const ptBR: Record<string, string> = {
   "chat.changeSummary.rewindDialog.noUnsafeFiles": "Nenhum arquivo não seguro encontrado.",
   "chat.changeSummary.rewindDialog.noPreview": "Nenhuma pré-visualização disponível ainda.",
   "chat.changeSummary.rewindDialog.confirm": "Desfazer arquivos",
-  "chat.changeSummary.rewindDialog.cannotApply": "Pelo menos um arquivo não é seguro, portanto nenhum arquivo foi gravado.",
-  "chat.changeSummary.rewindDialog.error": "Falha na solicitação de desfazer arquivos. Tente novamente.",
+  "chat.changeSummary.rewindDialog.cannotApply":
+    "Pelo menos um arquivo não é seguro, portanto nenhum arquivo foi gravado.",
+  "chat.changeSummary.rewindDialog.error":
+    "Falha na solicitação de desfazer arquivos. Tente novamente.",
   "chat.changeSummary.rewindDialog.operationCount": "{count} alteração(ões)",
   "chat.changeSummary.rewindDialog.reason.bashIgnored": "alteração bash/shell ignorada",
   "chat.changeSummary.rewindDialog.reason.checkpointMissing": "checkpoint ausente",
   "chat.changeSummary.rewindDialog.reason.checkpointUnreadable": "checkpoint ilegível",
   "chat.changeSummary.rewindDialog.reason.externalModified": "arquivo alterado externamente",
   "chat.changeSummary.rewindDialog.reason.fileReadFailed": "arquivo atual ilegível",
-  "chat.changeSummary.rewindDialog.reason.unsupportedCheckpoint": "checkpoint antigo não pode ser restaurado com segurança",
+  "chat.changeSummary.rewindDialog.reason.unsupportedCheckpoint":
+    "checkpoint antigo não pode ser restaurado com segurança",
   "chat.edit.resetConversationAndFiles": "Redefinir chat + arquivos",
   "chat.edit.resetConversationAndFiles.tooltip": "Redefinir com arquivos",
-  "chat.edit.resetConversationAndFiles.available": "Restaura os arquivos desta interação, redefine a conversa e envia",
-  "chat.edit.resetConversationAndFiles.noFiles": "Esta interação não tem alterações de arquivos reversíveis",
-  "chat.edit.resetConversationAndFiles.reverted": "As alterações de arquivos desta interação já foram desfeitas",
+  "chat.edit.resetConversationAndFiles.available":
+    "Restaura os arquivos desta interação, redefine a conversa e envia",
+  "chat.edit.resetConversationAndFiles.noFiles":
+    "Esta interação não tem alterações de arquivos reversíveis",
+  "chat.edit.resetConversationAndFiles.reverted":
+    "As alterações de arquivos desta interação já foram desfeitas",
   "chat.edit.resetConversationAndFiles.running": "Aguarde o trabalho atual parar",
-  "chat.edit.resetConversationAndFiles.unavailable": "A redefinição de arquivos não está disponível durante a compactação ou com uma interação pendente",
+  "chat.edit.resetConversationAndFiles.unavailable":
+    "A redefinição de arquivos não está disponível durante a compactação ou com uma interação pendente",
   "chat.edit.workspaceConflict.title": "Não foi possível redefinir os arquivos com segurança",
-  "chat.edit.workspaceConflict.description": "Nenhum histórico de conversa foi alterado. Revise os arquivos em conflito ou ignorados e, em seguida, redefina apenas a conversa ou cancele.",
+  "chat.edit.workspaceConflict.description":
+    "Nenhum histórico de conversa foi alterado. Revise os arquivos em conflito ou ignorados e, em seguida, redefina apenas a conversa ou cancele.",
   "chat.edit.workspaceConflict.conversationOnly": "Redefinir apenas o chat e enviar",
   "chat.previewCards.website": "Site",
   "chat.previewCards.htmlWebsite": "Site · HTML",
@@ -1448,32 +1688,37 @@ const ptBR: Record<string, string> = {
   "chat.turnNavigator.emptyAssistant": "Ainda não há texto do assistente",
   "chat.turnNavigator.runningAssistant": "O assistente ainda está trabalhando",
   "chat.turnNavigator.userFallback": "Consulta do usuário",
-  "chat.rewind.conflictConfirm": "Estes arquivos foram alterados fora desta interação. Forçar a reversão pode criar conflitos:\n\n{paths}",
+  "chat.rewind.conflictConfirm":
+    "Estes arquivos foram alterados fora desta interação. Forçar a reversão pode criar conflitos:\n\n{paths}",
   "taskNav.back": "Voltar",
   "taskNav.forward": "Avançar",
   "taskNav.noMoreBack": "Não há tarefas anteriores",
   "taskNav.noMoreForward": "Não há tarefas seguintes",
-  "taskList.switchBlockedByModelRestart": "Troca de provedor de modelo em andamento. A alternância de tarefas está temporariamente desativada.",
+  "taskList.switchBlockedByModelRestart":
+    "Troca de provedor de modelo em andamento. A alternância de tarefas está temporariamente desativada.",
   "sidebar.exportLogs": "Exportar logs",
   "sidebar.exportLogs.pending": "Exportando logs...",
   "sidebar.exportLogs.error": "Falha ao exportar logs: {error}",
   "sidebar.newTask": "Nova tarefa",
   "settings.title": "Configurações",
   "settings.breadcrumbLabel": "Caminho das configurações",
-  "settings.subtitle": "Alterne as configurações principais à esquerda e edite os detalhes no painel à direita.",
+  "settings.subtitle":
+    "Alterne as configurações principais à esquerda e edite os detalhes no painel à direita.",
   "settings.navLabel": "Seções",
   "settings.sidebar.group.basics": "Básico",
   "settings.sidebar.group.agentCapabilities": "Capacidades do agente",
   "settings.sidebar.group.dataAndStats": "Dados e estatísticas",
   "settings.nav.generalDescription": "Idioma e experiência da janela atual",
-  "settings.nav.appearanceDescription": "Tema, tamanho da fonte da interface e apresentação do código",
+  "settings.nav.appearanceDescription":
+    "Tema, tamanho da fonte da interface e apresentação do código",
   "settings.themeCardTitle": "Tema",
   "settings.themeCardDescription": "Use claro, escuro ou siga a configuração do sistema",
   "chat.empty.greeting.office": "O que temos para hoje? Deixa comigo.",
   "settings.interfaceMode": "Modo de interface",
   "settings.interfaceMode.office": "Modo Escritório",
   "settings.interfaceMode.coding": "Modo de programação",
-  "settings.interfaceMode.description": "O modo Escritório foca em resumos e resultados. O modo de programação mostra comandos, saídas e alterações de código.",
+  "settings.interfaceMode.description":
+    "O modo Escritório foca em resumos e resultados. O modo de programação mostra comandos, saídas e alterações de código.",
   "chat.toolCall.execute.conciseCompleted": "Executou um comando",
   "chat.contextOptimization.started": "Otimizando a conversa",
   "chat.contextOptimization.skipped": "Nenhuma otimização de conversa necessária",
@@ -1497,7 +1742,8 @@ const ptBR: Record<string, string> = {
   "settings.shortcuts.searchEmpty": "Nenhum comando correspondente",
   "settings.shortcuts.resetAll": "Restaurar tudo para o padrão",
   "settings.shortcuts.resetAllConfirmTitle": "Restaurar todos os atalhos para o padrão?",
-  "settings.shortcuts.resetAllConfirmDescription": "Isso limpa todas as substituições personalizadas de atalhos e restaura cada comando para sua vinculação padrão.",
+  "settings.shortcuts.resetAllConfirmDescription":
+    "Isso limpa todas as substituições personalizadas de atalhos e restaura cada comando para sua vinculação padrão.",
   "settings.shortcuts.columnHeaderCommand": "Comando",
   "settings.shortcuts.columnHeaderBinding": "Atalho",
   "settings.shortcuts.columnHeaderActions": "Ações",
@@ -1507,18 +1753,21 @@ const ptBR: Record<string, string> = {
   "settings.shortcuts.scopeComposer": "Composer",
   "settings.shortcuts.scopeGlobal": "Global",
   "settings.shortcuts.recording": "Pressione a nova combinação…",
-  "settings.shortcuts.recordingHint": "Esc para cancelar · Backspace para redefinir · pressione uma nova combinação após um conflito",
+  "settings.shortcuts.recordingHint":
+    "Esc para cancelar · Backspace para redefinir · pressione uma nova combinação após um conflito",
   "settings.shortcuts.conflictReserved": "Esta combinação é reservada pelo sistema",
-  "settings.shortcuts.conflictOccupied": "Já usado por \"{command}\"",
-  "settings.shortcuts.clearConflict": "A tecla padrão já é usada por \"{command}\"; restaurá-la criaria um conflito. Ajuste esse comando primeiro",
+  "settings.shortcuts.conflictOccupied": 'Já usado por "{command}"',
+  "settings.shortcuts.clearConflict":
+    'A tecla padrão já é usada por "{command}"; restaurá-la criaria um conflito. Ajuste esse comando primeiro',
   "settings.shortcuts.stealConfirm": "Redefinir mesmo assim (o comando atual perde o atalho)",
-  "settings.shortcuts.invalidNoModifier": "É necessária pelo menos uma tecla modificadora (Ctrl / Cmd / Alt)",
+  "settings.shortcuts.invalidNoModifier":
+    "É necessária pelo menos uma tecla modificadora (Ctrl / Cmd / Alt)",
   "settings.shortcuts.invalidKey": "Tecla não suportada",
-  "settings.shortcuts.rebindAria": "Redefinir atalho de \"{command}\"",
-  "settings.shortcuts.addAria": "Adicionar uma vinculação para \"{command}\"",
-  "settings.shortcuts.removeBindingAria": "Remover esta vinculação de \"{command}\"",
+  "settings.shortcuts.rebindAria": 'Redefinir atalho de "{command}"',
+  "settings.shortcuts.addAria": 'Adicionar uma vinculação para "{command}"',
+  "settings.shortcuts.removeBindingAria": 'Remover esta vinculação de "{command}"',
   "settings.shortcuts.duplicateBinding": "Já vinculado a este comando",
-  "settings.shortcuts.clearAria": "Limpar atalho de \"{command}\"",
+  "settings.shortcuts.clearAria": 'Limpar atalho de "{command}"',
   "settings.shortcuts.command.newTask": "Nova Tarefa",
   "settings.shortcuts.command.composerSend": "Enviar Mensagem",
   "settings.shortcuts.command.composerInsertNewline": "Inserir Nova Linha no Composer",
@@ -1544,33 +1793,45 @@ const ptBR: Record<string, string> = {
   "settings.shortcuts.command.zoomOut": "Reduzir",
   "settings.shortcuts.command.resetZoom": "Redefinir Zoom",
   "settings.appearance.interfaceTitle": "Configuração de interface",
-  "settings.appearance.interfaceDescription": "Escolha o tema do aplicativo e o tamanho do texto da interface.",
+  "settings.appearance.interfaceDescription":
+    "Escolha o tema do aplicativo e o tamanho do texto da interface.",
   "settings.appearance.codeTitle": "Configurações de código",
-  "settings.appearance.codeDescription": "Escolha temas de código, tamanho da fonte e opções de exibição de forma independente do tamanho da fonte da interface.",
+  "settings.appearance.codeDescription":
+    "Escolha temas de código, tamanho da fonte e opções de exibição de forma independente do tamanho da fonte da interface.",
   "settings.uiFontSize": "Tamanho da fonte da interface",
-  "settings.uiFontSizeDescription": "Ajusta o texto da interface sem alterar ícones ou dimensões do layout.",
+  "settings.uiFontSizeDescription":
+    "Ajusta o texto da interface sem alterar ícones ou dimensões do layout.",
   "settings.systemTitle": "Geral",
   "settings.systemDescription": "Estas preferências afetam a experiência da janela atual.",
   "settings.locale": "Idioma",
   "settings.localeDescription": "Escolha o idioma de exibição usado pela interface do aplicativo.",
   "settings.terminalProfile": "Herdar perfil do terminal do sistema",
-  "settings.terminalProfileDescription": "Ao iniciar o terminal integrado, herda o ambiente do shell de login, o proxy, as variáveis do Kubernetes e a fonte do terminal local quando possível.",
+  "settings.terminalProfileDescription":
+    "Ao iniciar o terminal integrado, herda o ambiente do shell de login, o proxy, as variáveis do Kubernetes e a fonte do terminal local quando possível.",
   "settings.terminalFontFamily": "Fonte do terminal",
-  "settings.terminalFontFamilyDescription": "Deixe em branco para detectar automaticamente as configurações do terminal do sistema; defina um valor para substituir a fonte do terminal do ZCode.",
-  "settings.terminalFontFamilyPlaceholder": "Deixe em branco para herdar, ex.: MesloLGS NF, monospace",
+  "settings.terminalFontFamilyDescription":
+    "Deixe em branco para detectar automaticamente as configurações do terminal do sistema; defina um valor para substituir a fonte do terminal do ZCode.",
+  "settings.terminalFontFamilyPlaceholder":
+    "Deixe em branco para herdar, ex.: MesloLGS NF, monospace",
   "settings.integratedTerminalShell": "Shell do terminal integrado",
-  "settings.integratedTerminalShellDescription": "Aplica-se apenas a novas sessões. No Windows, o Bash usa este shell; o Automático tenta o Git Bash e, em seguida, o cmd.exe.",
+  "settings.integratedTerminalShellDescription":
+    "Aplica-se apenas a novas sessões. No Windows, o Bash usa este shell; o Automático tenta o Git Bash e, em seguida, o cmd.exe.",
   "settings.integratedTerminalShell.auto": "Automático",
   "settings.nativeSearchEnhancements": "Find e Grep aprimorados",
-  "settings.nativeSearchEnhancementsDescription": "Usa Find e Grep aprimorados em novas sessões e em sessões restauradas após a reinicialização do aplicativo. Sessões ativas mantêm sua configuração atual; o Find permanece inalterado no Windows.",
+  "settings.nativeSearchEnhancementsDescription":
+    "Usa Find e Grep aprimorados em novas sessões e em sessões restauradas após a reinicialização do aplicativo. Sessões ativas mantêm sua configuração atual; o Find permanece inalterado no Windows.",
   "settings.memory": "Memória",
   "settings.memory.workspaceMemory": "Memória do Workspace",
-  "settings.memoryDescription": "Salva e reutiliza contexto de longo prazo em workspaces. Aplica-se a novas sessões e pode aumentar as solicitações do modelo e os custos de token.",
+  "settings.memoryDescription":
+    "Salva e reutiliza contexto de longo prazo em workspaces. Aplica-se a novas sessões e pode aumentar as solicitações do modelo e os custos de token.",
   "settings.memory.viewer.disabled": "Ative a Memória do Workspace para ver as memórias salvas.",
-  "settings.memory.viewer.localOnly": "Os detalhes da memória estão disponíveis apenas no aplicativo desktop local. Abra as configurações de Memória nele para visualizá-los.",
+  "settings.memory.viewer.localOnly":
+    "Os detalhes da memória estão disponíveis apenas no aplicativo desktop local. Abra as configurações de Memória nele para visualizá-los.",
   "settings.memory.viewer.title": "Memórias de workspace salvas",
-  "settings.memory.viewer.description": "Navegue pelas memórias salvas por workspace neste dispositivo.",
-  "settings.memory.viewer.projectsDescription": "Selecione um projeto para ver todas as memórias salvas dele.",
+  "settings.memory.viewer.description":
+    "Navegue pelas memórias salvas por workspace neste dispositivo.",
+  "settings.memory.viewer.projectsDescription":
+    "Selecione um projeto para ver todas as memórias salvas dele.",
   "settings.memory.viewer.refresh": "Atualizar",
   "settings.memory.viewer.loading": "Carregando memórias…",
   "settings.memory.viewer.empty": "Nenhuma memória de workspace salva",
@@ -1598,31 +1859,45 @@ const ptBR: Record<string, string> = {
   "settings.memory.viewer.collapse": "Recolher itens de memória",
   "settings.memory.viewer.expand": "Expandir itens de memória",
   "settings.memory.viewer.fileLoading": "Carregando arquivo…",
-  "settings.memory.viewer.fileDeleted": "Este arquivo de memória foi excluído. Atualize a lista de arquivos para atualizá-lo.",
-  "settings.memory.viewer.fileTooLarge": "Este arquivo de memória excede o limite de pré-visualização de 5 MiB.",
-  "settings.memory.viewer.fileChanged": "Este arquivo de memória foi atualizado durante a leitura. Reabra-o ou atualize a lista de arquivos.",
+  "settings.memory.viewer.fileDeleted":
+    "Este arquivo de memória foi excluído. Atualize a lista de arquivos para atualizá-lo.",
+  "settings.memory.viewer.fileTooLarge":
+    "Este arquivo de memória excede o limite de pré-visualização de 5 MiB.",
+  "settings.memory.viewer.fileChanged":
+    "Este arquivo de memória foi atualizado durante a leitura. Reabra-o ou atualize a lista de arquivos.",
   "settings.memory.viewer.noSelection": "Selecione um arquivo de memória para pré-visualizá-lo.",
   "settings.httpProxy": "Proxy HTTP",
-  "settings.httpProxyDescription": "Roteia por este proxy o tráfego de saída do modelo, MCP, ferramentas de comando e do renderizador do aplicativo; variáveis de ambiente do sistema não são lidas. Deixe em branco e esse tráfego conecta diretamente, enquanto o navegador integrado segue as configurações de proxy do sistema. Reinicie o aplicativo para que tenha efeito.",
-  "settings.httpProxyPlaceholder": "Em branco significa que o navegador integrado segue o proxy do sistema, ex.: http://127.0.0.1:7890",
+  "settings.httpProxyDescription":
+    "Roteia por este proxy o tráfego de saída do modelo, MCP, ferramentas de comando e do renderizador do aplicativo; variáveis de ambiente do sistema não são lidas. Deixe em branco e esse tráfego conecta diretamente, enquanto o navegador integrado segue as configurações de proxy do sistema. Reinicie o aplicativo para que tenha efeito.",
+  "settings.httpProxyPlaceholder":
+    "Em branco significa que o navegador integrado segue o proxy do sistema, ex.: http://127.0.0.1:7890",
   "settings.httpProxyNoProxy": "Sem proxy",
-  "settings.httpProxyNoProxyDescription": "Solicitações que correspondem a esses hosts conectam diretamente em vez de usar o proxy HTTP. Separe as regras com vírgulas. Reinicie o aplicativo para que tenha efeito.",
+  "settings.httpProxyNoProxyDescription":
+    "Solicitações que correspondem a esses hosts conectam diretamente em vez de usar o proxy HTTP. Separe as regras com vírgulas. Reinicie o aplicativo para que tenha efeito.",
   "settings.httpProxyNoProxyPlaceholder": "ex.: localhost,127.0.0.1,::1,.example.com,*.corp.com",
   "settings.httpProxyCaCertPath": "Certificado personalizado",
-  "settings.httpProxyCaCertPathDescription": "Opcional. Defina o caminho de um certificado raiz PEM para injetá-lo como NODE_EXTRA_CA_CERTS para modelos, MCP e ferramentas de comando, e para confiar nele na verificação de certificados do renderizador. Reinicie o aplicativo para que tenha efeito.",
+  "settings.httpProxyCaCertPathDescription":
+    "Opcional. Defina o caminho de um certificado raiz PEM para injetá-lo como NODE_EXTRA_CA_CERTS para modelos, MCP e ferramentas de comando, e para confiar nele na verificação de certificados do renderizador. Reinicie o aplicativo para que tenha efeito.",
   "settings.httpProxyCaCertPathPlaceholder": "ex.: /Users/name/certs/root-ca.pem",
-  "settings.httpProxySavedHint": "Configurações de proxy de rede salvas. Reinicie o aplicativo para que tenha efeito.",
+  "settings.httpProxySavedHint":
+    "Configurações de proxy de rede salvas. Reinicie o aplicativo para que tenha efeito.",
   "settings.desktopChromiumHardwareAcceleration": "Aceleração de hardware do Chrome",
-  "settings.desktopChromiumHardwareAccelerationDescription": "Desative para contornar janelas em branco, travamentos ou problemas de renderização causados por algumas GPUs ou drivers. Reinicie o aplicativo para que tenha efeito.",
-  "settings.desktopChromiumHardwareAccelerationSavedHint": "Configuração de aceleração de hardware do Chrome salva. Reinicie o aplicativo para que tenha efeito.",
+  "settings.desktopChromiumHardwareAccelerationDescription":
+    "Desative para contornar janelas em branco, travamentos ou problemas de renderização causados por algumas GPUs ou drivers. Reinicie o aplicativo para que tenha efeito.",
+  "settings.desktopChromiumHardwareAccelerationSavedHint":
+    "Configuração de aceleração de hardware do Chrome salva. Reinicie o aplicativo para que tenha efeito.",
   "settings.receivePreviewUpdates": "Receber atualizações de prévia antecipadamente",
-  "settings.receivePreviewUpdatesDescription": "Quando ativado, você terá acesso antecipado a novos recursos e melhorias. Quando desativado, você receberá as atualizações conforme o cronograma regular de lançamentos.",
+  "settings.receivePreviewUpdatesDescription":
+    "Quando ativado, você terá acesso antecipado a novos recursos e melhorias. Quando desativado, você receberá as atualizações conforme o cronograma regular de lançamentos.",
   "settings.autoDownloadAndInstallUpdates": "Baixar e instalar atualizações automaticamente",
-  "settings.autoDownloadAndInstallUpdatesDescription": "Quando ativado, as atualizações começam a ser baixadas assim que encontradas. A reinicialização ainda exige confirmação quando há tarefas em execução.",
+  "settings.autoDownloadAndInstallUpdatesDescription":
+    "Quando ativado, as atualizações começam a ser baixadas assim que encontradas. A reinicialização ainda exige confirmação quando há tarefas em execução.",
   "settings.notification": "Notificações de tarefas",
-  "settings.notificationDescription": "Envia notificações de desktop quando uma tarefa é concluída, falha ou precisa de aprovação.",
+  "settings.notificationDescription":
+    "Envia notificações de desktop quando uma tarefa é concluída, falha ou precisa de aprovação.",
   "settings.notificationSound": "Som de notificação",
-  "settings.notificationSoundDescription": "Com as notificações ativadas, você pode silenciar separadamente o som de notificação de tarefas.",
+  "settings.notificationSoundDescription":
+    "Com as notificações ativadas, você pode silenciar separadamente o som de notificação de tarefas.",
   "notification.taskWithTitle": "Tarefa: {title}",
   "notification.taskWaiting": "Tarefa aguardando sua confirmação",
   "notification.completed": "Tarefa concluída",
@@ -1635,46 +1910,62 @@ const ptBR: Record<string, string> = {
   "notification.command": "Comando: {command}",
   "notification.file": "Arquivo: {paths}",
   "settings.closeToTrayOnWindows": "Ocultar para a bandeja ao fechar a janela",
-  "settings.closeToTrayOnWindowsDescription": "Somente no Windows. O botão de fechar e o atalho de fechar janela ocultam a janela, enquanto a opção Sair na bandeja ainda encerra o aplicativo.",
+  "settings.closeToTrayOnWindowsDescription":
+    "Somente no Windows. O botão de fechar e o atalho de fechar janela ocultam a janela, enquanto a opção Sair na bandeja ainda encerra o aplicativo.",
   "settings.keepAwakeWhileRunning": "Manter o computador ativo",
-  "settings.keepAwakeWhileRunningDescription": "Impede que o sistema entre em suspensão por inatividade. Você ainda pode suspender manualmente ou fechando a tampa. Somente em desktop.",
+  "settings.keepAwakeWhileRunningDescription":
+    "Impede que o sistema entre em suspensão por inatividade. Você ainda pode suspender manualmente ou fechando a tampa. Somente em desktop.",
   "settings.messageStreamShowReasoning": "Mostrar raciocínio",
-  "settings.messageStreamShowReasoningDescription": "Mostra o raciocínio completo no fluxo de mensagens. Quando desativado, o primeiro item de raciocínio de cada interação permanece visível.",
+  "settings.messageStreamShowReasoningDescription":
+    "Mostra o raciocínio completo no fluxo de mensagens. Quando desativado, o primeiro item de raciocínio de cada interação permanece visível.",
   "settings.messageStreamShowTodos": "Mostrar itens de Todo",
-  "settings.messageStreamShowTodosDescription": "Mostra os cartões da ferramenta Todo no fluxo de mensagens. ",
+  "settings.messageStreamShowTodosDescription":
+    "Mostra os cartões da ferramenta Todo no fluxo de mensagens. ",
   "settings.toolGroupingExplore": "Agrupar ferramentas de exploração",
-  "settings.toolGroupingExploreDescription": "Agrupa leituras e pesquisas consecutivas em uma seção Explorar.",
+  "settings.toolGroupingExploreDescription":
+    "Agrupa leituras e pesquisas consecutivas em uma seção Explorar.",
   "settings.toolGroupingTerminal": "Agrupar comandos de terminal",
-  "settings.toolGroupingTerminalDescription": "Agrupa comandos de shell consecutivos não somente leitura em uma seção Terminal.",
+  "settings.toolGroupingTerminalDescription":
+    "Agrupa comandos de shell consecutivos não somente leitura em uma seção Terminal.",
   "settings.toolGroupingChanges": "Agrupar alterações de arquivos",
-  "settings.toolGroupingChangesDescription": "Agrupa chamadas consecutivas de Write, Edit e ApplyPatch em uma seção Alterações.",
+  "settings.toolGroupingChangesDescription":
+    "Agrupa chamadas consecutivas de Write, Edit e ApplyPatch em uma seção Alterações.",
   "settings.zcodeInteractionBehavior": "Comportamento de interação",
-  "settings.zcodeInteractionBehaviorDescription": "Enquanto o ZCode está em execução, adicione ações de acompanhamento à fila ou guie-as para execução após a próxima chamada de ferramenta.",
+  "settings.zcodeInteractionBehaviorDescription":
+    "Enquanto o ZCode está em execução, adicione ações de acompanhamento à fila ou guie-as para execução após a próxima chamada de ferramenta.",
   "settings.zcodeInteractionBehavior.option.queue": "Fila",
   "settings.zcodeInteractionBehavior.option.guide": "Guiar",
   "settings.askUserQuestionAutoResolution": "Continuar perguntas automaticamente",
-  "settings.askUserQuestionAutoResolutionDescription": "Quando ativado, as perguntas do Agente continuam automaticamente após 5 minutos sem resposta. Quando desativado, as perguntas atuais e futuras aguardam sua resposta.",
+  "settings.askUserQuestionAutoResolutionDescription":
+    "Quando ativado, as perguntas do Agente continuam automaticamente após 5 minutos sem resposta. Quando desativado, as perguntas atuais e futuras aguardam sua resposta.",
   "settings.modelIoFullRetention": "Manter E/S completa do modelo",
-  "settings.modelIoFullRetentionDescription": "Mantém as solicitações e respostas completas do modelo sem compressão, limites de tamanho ou exclusão automática.",
+  "settings.modelIoFullRetentionDescription":
+    "Mantém as solicitações e respostas completas do modelo sem compressão, limites de tamanho ou exclusão automática.",
   "settings.performanceMode": "Modo de desempenho",
-  "settings.performanceModeDescription": "Simplifica a saída renderizada para melhorar o desempenho.",
+  "settings.performanceModeDescription":
+    "Simplifica a saída renderizada para melhorar o desempenho.",
   "settings.taskAutoArchive": "Arquivar tarefas antigas automaticamente",
-  "settings.taskAutoArchiveDescription": "Examina periodicamente os workspaces abertos recentemente e arquiva automaticamente, após o período de retenção, as tarefas concluídas, sem itens não lidos e não fixadas.",
+  "settings.taskAutoArchiveDescription":
+    "Examina periodicamente os workspaces abertos recentemente e arquiva automaticamente, após o período de retenção, as tarefas concluídas, sem itens não lidos e não fixadas.",
   "settings.taskAutoArchiveDays": "Retenção de arquivamento",
-  "settings.taskAutoArchiveDaysDescription": "Uma tarefa só se torna elegível para arquivamento automático depois que a última atualização for mais antiga do que este período.",
+  "settings.taskAutoArchiveDaysDescription":
+    "Uma tarefa só se torna elegível para arquivamento automático depois que a última atualização for mais antiga do que este período.",
   "settings.taskAutoArchiveDays.option.3": "Arquivar após 3 dias",
   "settings.taskAutoArchiveDays.option.7": "Arquivar após 7 dias",
   "settings.taskAutoArchiveDays.option.14": "Arquivar após 14 dias",
   "settings.taskAutoArchiveDays.option.30": "Arquivar após 30 dias",
   "settings.dataBaseDir": "Caminho de armazenamento de dados",
-  "settings.dataBaseDirDescription": "Diretório raiz dos dados do aplicativo (o padrão é o diretório inicial do usuário). Os dados existentes serão copiados para o novo local. O sufixo .zcode/v2 não pode ser alterado.",
+  "settings.dataBaseDirDescription":
+    "Diretório raiz dos dados do aplicativo (o padrão é o diretório inicial do usuário). Os dados existentes serão copiados para o novo local. O sufixo .zcode/v2 não pode ser alterado.",
   "settings.dataBaseDirPlaceholder": "Padrão: diretório inicial do usuário",
   "settings.dataBaseDirBrowse": "Escolher pasta",
   "settings.dataBaseDirSave": "Salvar",
   "settings.dataBaseDirCopying": "Copiando dados, não feche o aplicativo...",
   "settings.dataBaseDirCopyFailed": "Falha na cópia dos dados. O caminho não foi alterado.",
-  "settings.dataBaseDirForbiddenInstallDir": "O diretório de dados não pode ser a pasta de instalação do ZCode no Windows. Escolha uma pasta fora do local de instalação do aplicativo.",
-  "settings.dataBaseDirRestartRequired": "Dados salvos. Reinicie o aplicativo para que tenha efeito.",
+  "settings.dataBaseDirForbiddenInstallDir":
+    "O diretório de dados não pode ser a pasta de instalação do ZCode no Windows. Escolha uma pasta fora do local de instalação do aplicativo.",
+  "settings.dataBaseDirRestartRequired":
+    "Dados salvos. Reinicie o aplicativo para que tenha efeito.",
   "settings.locale.system": "Padrão do sistema",
   "settings.locale.zh-CN": "中文简体",
   "settings.locale.en-US": "English",
@@ -1690,19 +1981,25 @@ const ptBR: Record<string, string> = {
   "sidebar.settings.theme.dark": "Tema escuro",
   "settings.migration.title": "Migração",
   "settings.migration.sectionTitle": "Migração do histórico do Claude",
-  "settings.migration.sectionDescription": "Examina o histórico nativo do Claude Code nesta máquina, com filtros opcionais por workspace e período de atividade, e depois importa as sessões selecionadas para as respectivas listas de tarefas do ZCode.",
+  "settings.migration.sectionDescription":
+    "Examina o histórico nativo do Claude Code nesta máquina, com filtros opcionais por workspace e período de atividade, e depois importa as sessões selecionadas para as respectivas listas de tarefas do ZCode.",
   "settings.migration.badge.localOnly": "Registros locais do Claude",
   "settings.migration.badge.manualOnly": "Somente manual",
   "settings.migration.currentWorkspace": "Workspace atual",
-  "settings.migration.currentWorkspaceDescription": "Este é apenas um filtro opcional. Se você não escolher o workspace atual, a verificação cobre todos os registros do Claude.",
-  "settings.migration.workspaceEmpty": "Nenhum workspace ativo nesta página. Você ainda pode verificar todos os registros.",
+  "settings.migration.currentWorkspaceDescription":
+    "Este é apenas um filtro opcional. Se você não escolher o workspace atual, a verificação cobre todos os registros do Claude.",
+  "settings.migration.workspaceEmpty":
+    "Nenhum workspace ativo nesta página. Você ainda pode verificar todos os registros.",
   "settings.migration.sourceDirectory": "Diretório de origem",
   "settings.migration.noticeTitle": "Como funciona a migração",
-  "settings.migration.noticeDescription": "A migração copia os arquivos jsonl nativos e gera snapshots mínimos das tarefas. Sem um filtro de workspace, a verificação cobre todos os registros do Claude e importa cada sessão de volta ao seu workspace de origem.",
+  "settings.migration.noticeDescription":
+    "A migração copia os arquivos jsonl nativos e gera snapshots mínimos das tarefas. Sem um filtro de workspace, a verificação cobre todos os registros do Claude e importa cada sessão de volta ao seu workspace de origem.",
   "settings.migration.unsupported.title": "A migração não está disponível aqui",
-  "settings.migration.unsupported.desktopOnly": "A migração está disponível atualmente somente na versão desktop.",
+  "settings.migration.unsupported.desktopOnly":
+    "A migração está disponível atualmente somente na versão desktop.",
   "settings.migration.filtersTitle": "Filtros",
-  "settings.migration.filtersDescription": "Filtre por workspace, atividade recente e tamanho do resultado, e depois busque manualmente as sessões candidatas.",
+  "settings.migration.filtersDescription":
+    "Filtre por workspace, atividade recente e tamanho do resultado, e depois busque manualmente as sessões candidatas.",
   "settings.migration.workspaceFilterLabel": "Filtro de workspace",
   "settings.migration.workspaceFilter.all": "Todos os workspaces",
   "settings.migration.workspaceFilter.current": "Somente o workspace atual",
@@ -1717,7 +2014,8 @@ const ptBR: Record<string, string> = {
   "settings.migration.scanFailedTitle": "Falha na verificação",
   "settings.migration.scanFailedDescription": "Falha ao ler o histórico nativo do Claude: {error}",
   "settings.migration.candidatesTitle": "Candidatas",
-  "settings.migration.candidatesDescription": "Selecione uma ou mais sessões para importar. Cada sessão importada é gravada de volta na lista de tarefas do respectivo workspace.",
+  "settings.migration.candidatesDescription":
+    "Selecione uma ou mais sessões para importar. Cada sessão importada é gravada de volta na lista de tarefas do respectivo workspace.",
   "settings.migration.candidatesCount": "{count} candidatas",
   "settings.migration.selectedCount": "{count} selecionadas",
   "settings.migration.selectAll": "Selecionar tudo",
@@ -1726,16 +2024,20 @@ const ptBR: Record<string, string> = {
   "settings.migration.importFailedTitle": "Falha na importação",
   "settings.migration.importFailedDescription": "A migração falhou: {error}",
   "settings.migration.resultTitle": "Resultado da última migração",
-  "settings.migration.resultSummary": "Importadas: {imported}, ignoradas: {skipped}, com falha: {failed}.",
+  "settings.migration.resultSummary":
+    "Importadas: {imported}, ignoradas: {skipped}, com falha: {failed}.",
   "settings.migration.emptyTitle": "Nenhuma sessão candidata ainda",
-  "settings.migration.emptyDescription": "Ajuste os filtros e clique em 'Verificar sessões' para carregar os resultados correspondentes.",
+  "settings.migration.emptyDescription":
+    "Ajuste os filtros e clique em 'Verificar sessões' para carregar os resultados correspondentes.",
   "settings.migration.workspacePathLabel": "Workspace",
   "settings.migration.updatedAt": "Última atividade: {time}",
   "settings.migration.skippedTitle": "Ignoradas",
   "settings.migration.failedTitle": "Falhas",
-  "settings.migration.reason.session_not_found_or_workspace_mismatch": "A sessão de origem não foi encontrada ou não corresponde mais ao filtro de workspace atual.",
+  "settings.migration.reason.session_not_found_or_workspace_mismatch":
+    "A sessão de origem não foi encontrada ou não corresponde mais ao filtro de workspace atual.",
   "settings.usageTitle": "Estatísticas de uso",
-  "settings.usageDescription": "Revise a atividade aproximada e o uso de modelos agregados das sessões locais.",
+  "settings.usageDescription":
+    "Revise a atividade aproximada e o uso de modelos agregados das sessões locais.",
   "resourceManager.storage.summaryTotal": "Total usado pelo ZCode",
   "resourceManager.storage.scanning": "Calculando…",
   "resourceManager.storage.lastScanned": "Último cálculo: {time}",
@@ -1748,8 +2050,10 @@ const ptBR: Record<string, string> = {
   "resourceManager.storage.diskUnknown": "Capacidade do disco indisponível",
   "resourceManager.storage.roots": "Diretórios de dados",
   "resourceManager.storage.legendMore": "{count} outras categorias",
-  "resourceManager.storage.estimate": "Os tamanhos são estimativas; hard links e arquivos clonados podem ser contados duas vezes.",
-  "resourceManager.storage.errors": "{count} diretórios não puderam ser lidos; os totais podem estar abaixo do real.",
+  "resourceManager.storage.estimate":
+    "Os tamanhos são estimativas; hard links e arquivos clonados podem ser contados duas vezes.",
+  "resourceManager.storage.errors":
+    "{count} diretórios não puderam ser lidos; os totais podem estar abaixo do real.",
   "resourceManager.storage.filesCount": "{count} arquivos",
   "resourceManager.storage.moreEntries": "Mais {count} itens",
   "resourceManager.storage.reveal": "Mostrar no gerenciador de arquivos",
@@ -1757,10 +2061,11 @@ const ptBR: Record<string, string> = {
   "resourceManager.storage.clean": "Limpar",
   "resourceManager.storage.cleaning": "Limpando…",
   "resourceManager.storage.cleanSuccess": "{size} liberados",
-  "resourceManager.storage.cleanPartial": "{size} liberados; {count} itens não puderam ser excluídos",
+  "resourceManager.storage.cleanPartial":
+    "{size} liberados; {count} itens não puderam ser excluídos",
   "resourceManager.storage.cleanNothing": "Nada a limpar",
   "resourceManager.storage.cleanFailed": "Falha na limpeza",
-  "resourceManager.storage.confirmTitle": "Limpar \"{category}\"?",
+  "resourceManager.storage.confirmTitle": 'Limpar "{category}"?',
   "resourceManager.storage.confirmSize": "Cerca de {size} serão excluídos.",
   "resourceManager.storage.category.sessionStore": "Sessões e bancos de dados",
   "resourceManager.storage.category.subagentTranscripts": "Transcrições de subagentes",
@@ -1773,105 +2078,154 @@ const ptBR: Record<string, string> = {
   "resourceManager.storage.category.runtimes": "Runtimes de agente e plugins",
   "resourceManager.storage.category.config": "Configurações, credenciais e workspace",
   "resourceManager.storage.category.other": "Outros",
-  "resourceManager.storage.categoryDescription.sessionStore": "Índice de tarefas, snapshots de sessão e checkpoints; limpo ao excluir ou arquivar tarefas.",
-  "resourceManager.storage.categoryDescription.subagentTranscripts": "Registros completos de conversa das execuções de subagentes (transcript.jsonl), com até dezenas de MB cada; sessões ativas nas últimas 24 horas são mantidas.",
-  "resourceManager.storage.categoryDescription.toolOutputs": "Resultados de ferramentas arquivados, saídas completas de comandos, caches de imagens e arquivos temporários; ainda não podem ser limpos.",
-  "resourceManager.storage.categoryDescription.modelTrajectory": "Registros completos de requisições/respostas do modelo usados pelo visualizador de trajetórias.",
-  "resourceManager.storage.categoryDescription.devTraces": "Capturas do protocolo de desenvolvimento e diretórios de diagnóstico desativados.",
-  "resourceManager.storage.categoryDescription.logs": "Logs do aplicativo e do agente, além de relatórios de falhas; os arquivos de hoje são mantidos.",
-  "resourceManager.storage.categoryDescription.backups": "Cópias do banco de dados e das configurações feitas antes de atualizações ou migrações.",
-  "resourceManager.storage.categoryDescription.exports": "Pacotes de logs exportados e anexos de feedback.",
-  "resourceManager.storage.categoryDescription.runtimes": "Runtimes de agente incluídos, componentes de Computer Use e plugins.",
-  "resourceManager.storage.categoryDescription.config": "Configurações, credenciais, memórias e arquivos padrão do workspace.",
-  "resourceManager.storage.categoryDescription.other": "Arquivos não classificados e cópias obsoletas deixadas após a mudança do diretório de dados.",
-  "resourceManager.storage.confirmDescription.backups": "Essas cópias permitem a recuperação caso uma atualização ou migração dê errado; excluí-las é irreversível.",
+  "resourceManager.storage.categoryDescription.sessionStore":
+    "Índice de tarefas, snapshots de sessão e checkpoints; limpo ao excluir ou arquivar tarefas.",
+  "resourceManager.storage.categoryDescription.subagentTranscripts":
+    "Registros completos de conversa das execuções de subagentes (transcript.jsonl), com até dezenas de MB cada; sessões ativas nas últimas 24 horas são mantidas.",
+  "resourceManager.storage.categoryDescription.toolOutputs":
+    "Resultados de ferramentas arquivados, saídas completas de comandos, caches de imagens e arquivos temporários; ainda não podem ser limpos.",
+  "resourceManager.storage.categoryDescription.modelTrajectory":
+    "Registros completos de requisições/respostas do modelo usados pelo visualizador de trajetórias.",
+  "resourceManager.storage.categoryDescription.devTraces":
+    "Capturas do protocolo de desenvolvimento e diretórios de diagnóstico desativados.",
+  "resourceManager.storage.categoryDescription.logs":
+    "Logs do aplicativo e do agente, além de relatórios de falhas; os arquivos de hoje são mantidos.",
+  "resourceManager.storage.categoryDescription.backups":
+    "Cópias do banco de dados e das configurações feitas antes de atualizações ou migrações.",
+  "resourceManager.storage.categoryDescription.exports":
+    "Pacotes de logs exportados e anexos de feedback.",
+  "resourceManager.storage.categoryDescription.runtimes":
+    "Runtimes de agente incluídos, componentes de Computer Use e plugins.",
+  "resourceManager.storage.categoryDescription.config":
+    "Configurações, credenciais, memórias e arquivos padrão do workspace.",
+  "resourceManager.storage.categoryDescription.other":
+    "Arquivos não classificados e cópias obsoletas deixadas após a mudança do diretório de dados.",
+  "resourceManager.storage.confirmDescription.backups":
+    "Essas cópias permitem a recuperação caso uma atualização ou migração dê errado; excluí-las é irreversível.",
   "settings.browser.title": "Browser Use",
   "settings.browser.control.title": "Ativar controle do navegador integrado",
-  "settings.browser.control.description": "Ative o plugin oficial Browser Use para que novas sessões possam acessar e controlar páginas web no navegador integrado.",
+  "settings.browser.control.description":
+    "Ative o plugin oficial Browser Use para que novas sessões possam acessar e controlar páginas web no navegador integrado.",
   "settings.browser.control.enabledToast": "Controle do navegador integrado ativado",
   "settings.browser.control.disabledToast": "Controle do navegador integrado desativado",
   "settings.browser.security.section": "Segurança",
   "settings.embeddedBrowserAllowInsecureCertificates": "Ignorar erros de certificado",
-  "settings.embeddedBrowserAllowInsecureCertificatesDescription": "Quando ativado, o navegador integrado deixa de verificar certificados HTTPS. Afeta apenas o navegador integrado. Reinicie para aplicar.",
-  "settings.embeddedBrowserAllowInsecureCertificatesSavedHint": "Configuração de certificado salva. Reinicie o aplicativo para que tenha efeito.",
+  "settings.embeddedBrowserAllowInsecureCertificatesDescription":
+    "Quando ativado, o navegador integrado deixa de verificar certificados HTTPS. Afeta apenas o navegador integrado. Reinicie para aplicar.",
+  "settings.embeddedBrowserAllowInsecureCertificatesSavedHint":
+    "Configuração de certificado salva. Reinicie o aplicativo para que tenha efeito.",
   "settings.browser.data.section": "Dados do navegador",
-  "settings.browser.desktopOnly": "Os dados do navegador só podem ser gerenciados no aplicativo desktop do ZCode.",
+  "settings.browser.desktopOnly":
+    "Os dados do navegador só podem ser gerenciados no aplicativo desktop do ZCode.",
   "settings.browser.import.title": "Importar estado de login do Chrome",
-  "settings.browser.import.description": "Traga o estado de login do Chrome para o navegador integrado uma única vez, para que a IA possa abrir sites em que você já está conectado e trabalhar com mais fluidez.",
+  "settings.browser.import.description":
+    "Traga o estado de login do Chrome para o navegador integrado uma única vez, para que a IA possa abrir sites em que você já está conectado e trabalhar com mais fluidez.",
   "settings.browser.import.action": "Importar dados do navegador",
-  "settings.browser.import.notFound": "Nenhum perfil do Chrome importável foi encontrado. Abra o Chrome e verifique se o perfil contém dados de navegação.",
-  "settings.browser.import.ambiguous": "Vários perfis do Chrome foram encontrados, mas não foi possível determinar o mais usado recentemente. Abra o perfil que deseja importar e tente novamente.",
-  "settings.browser.import.executableNotFound": "O Chrome não foi encontrado. Instale o Chrome e tente novamente.",
-  "settings.browser.import.accessDenied": "Importação cancelada: o acesso ao Chrome Safe Storage no Keychain do macOS não foi permitido. Nenhum dado do Chrome foi importado.",
-  "settings.browser.import.elevationRequired": "Confirme o acesso de administrador antes de importar cookies do Chrome protegidos por criptografia App-Bound.",
-  "settings.browser.import.elevationCancelled": "O acesso de administrador do Windows foi cancelado. Nenhum cookie foi importado.",
-  "settings.browser.import.helperVerificationFailed": "O ZCode não conseguiu verificar seu componente de importação seguro do Windows. Reinstale ou atualize o ZCode antes de importar cookies.",
-  "settings.browser.import.appBoundFailed": "O Windows não conseguiu desbloquear os cookies App-Bound do Chrome. Nenhum cookie foi importado.",
-  "settings.browser.import.adminConfirmTitle": "Permitir acesso de administrador para importar cookies do Chrome?",
-  "settings.browser.import.adminConfirmDescription": "O Chrome protege cookies com criptografia App-Bound no Windows. Somente para esta importação, o ZCode solicitará acesso de administrador, iniciará um serviço temporário do sistema e o excluirá logo em seguida. As senhas do Chrome nunca são lidas ou importadas.",
-  "settings.browser.import.adminConsent": "Confirmo o acesso de administrador apenas para esta importação de cookies",
+  "settings.browser.import.notFound":
+    "Nenhum perfil do Chrome importável foi encontrado. Abra o Chrome e verifique se o perfil contém dados de navegação.",
+  "settings.browser.import.ambiguous":
+    "Vários perfis do Chrome foram encontrados, mas não foi possível determinar o mais usado recentemente. Abra o perfil que deseja importar e tente novamente.",
+  "settings.browser.import.executableNotFound":
+    "O Chrome não foi encontrado. Instale o Chrome e tente novamente.",
+  "settings.browser.import.accessDenied":
+    "Importação cancelada: o acesso ao Chrome Safe Storage no Keychain do macOS não foi permitido. Nenhum dado do Chrome foi importado.",
+  "settings.browser.import.elevationRequired":
+    "Confirme o acesso de administrador antes de importar cookies do Chrome protegidos por criptografia App-Bound.",
+  "settings.browser.import.elevationCancelled":
+    "O acesso de administrador do Windows foi cancelado. Nenhum cookie foi importado.",
+  "settings.browser.import.helperVerificationFailed":
+    "O ZCode não conseguiu verificar seu componente de importação seguro do Windows. Reinstale ou atualize o ZCode antes de importar cookies.",
+  "settings.browser.import.appBoundFailed":
+    "O Windows não conseguiu desbloquear os cookies App-Bound do Chrome. Nenhum cookie foi importado.",
+  "settings.browser.import.adminConfirmTitle":
+    "Permitir acesso de administrador para importar cookies do Chrome?",
+  "settings.browser.import.adminConfirmDescription":
+    "O Chrome protege cookies com criptografia App-Bound no Windows. Somente para esta importação, o ZCode solicitará acesso de administrador, iniciará um serviço temporário do sistema e o excluirá logo em seguida. As senhas do Chrome nunca são lidas ou importadas.",
+  "settings.browser.import.adminConsent":
+    "Confirmo o acesso de administrador apenas para esta importação de cookies",
   "settings.browser.import.adminConfirmAction": "Continuar e solicitar acesso",
-  "settings.browser.import.cookieProtected": "Os cookies do Chrome são protegidos por criptografia application-bound e não podem ser importados com segurança. Não havia dados de LocalStorage disponíveis para importação.",
-  "settings.browser.import.profileLocked": "O perfil do Chrome está em uso e não foi possível criar um snapshot consistente. Feche o Chrome e tente novamente.",
-  "settings.browser.import.localStorageFailed": "Não foi possível ler o snapshot do LocalStorage do Chrome. Feche o Chrome e tente novamente.",
+  "settings.browser.import.cookieProtected":
+    "Os cookies do Chrome são protegidos por criptografia application-bound e não podem ser importados com segurança. Não havia dados de LocalStorage disponíveis para importação.",
+  "settings.browser.import.profileLocked":
+    "O perfil do Chrome está em uso e não foi possível criar um snapshot consistente. Feche o Chrome e tente novamente.",
+  "settings.browser.import.localStorageFailed":
+    "Não foi possível ler o snapshot do LocalStorage do Chrome. Feche o Chrome e tente novamente.",
   "settings.browser.import.failed": "Falha na importação dos dados do navegador Chrome.",
-  "settings.browser.import.success": "Foram importados {cookies} cookies e {entries} entradas de LocalStorage de {origins} sites.",
-  "settings.browser.import.successWithSkipped": "Foram importados {cookies} cookies e {entries} entradas de LocalStorage de {origins} sites; {skipped} cookies não foram importados.",
-  "settings.browser.import.partialCookieProtected": "Foram importados {cookies} cookies e {entries} entradas de LocalStorage de {origins} sites; {skipped} cookies estavam protegidos pelo Chrome e não foram importados.",
-  "settings.browser.import.partialAppBound": "Foram importadas {entries} entradas de LocalStorage de {origins} sites, mas os cookies App-Bound do Windows não foram importados.",
-  "settings.browser.import.partialLocalStorage": "Foram importados {cookies} cookies, mas alguns dados de LocalStorage não foram importados. Fechar o Chrome antes de tentar novamente pode melhorar o resultado.",
+  "settings.browser.import.success":
+    "Foram importados {cookies} cookies e {entries} entradas de LocalStorage de {origins} sites.",
+  "settings.browser.import.successWithSkipped":
+    "Foram importados {cookies} cookies e {entries} entradas de LocalStorage de {origins} sites; {skipped} cookies não foram importados.",
+  "settings.browser.import.partialCookieProtected":
+    "Foram importados {cookies} cookies e {entries} entradas de LocalStorage de {origins} sites; {skipped} cookies estavam protegidos pelo Chrome e não foram importados.",
+  "settings.browser.import.partialAppBound":
+    "Foram importadas {entries} entradas de LocalStorage de {origins} sites, mas os cookies App-Bound do Windows não foram importados.",
+  "settings.browser.import.partialLocalStorage":
+    "Foram importados {cookies} cookies, mas alguns dados de LocalStorage não foram importados. Fechar o Chrome antes de tentar novamente pode melhorar o resultado.",
   "settings.browser.clearCache.title": "Limpar cache do navegador integrado",
-  "settings.browser.clearCache.description": "Limpa o cache HTTP, o Cache Storage e os service workers, mantendo os cookies e os dados locais dos sites.",
+  "settings.browser.clearCache.description":
+    "Limpa o cache HTTP, o Cache Storage e os service workers, mantendo os cookies e os dados locais dos sites.",
   "settings.browser.clearCache.action": "Limpar cache",
   "settings.browser.clearCache.success": "Cache do navegador integrado limpo",
   "settings.browser.clearAll.title": "Limpar todos os dados do navegador",
-  "settings.browser.clearAll.description": "Exclui cookies, dados de sites e cache do navegador integrado. Isso não pode ser desfeito.",
+  "settings.browser.clearAll.description":
+    "Exclui cookies, dados de sites e cache do navegador integrado. Isso não pode ser desfeito.",
   "settings.browser.clearAll.action": "Limpar tudo",
   "settings.browser.clearAll.success": "Todos os dados do navegador integrado foram limpos",
   "settings.browser.clear.failed": "Falha ao limpar os dados do navegador integrado.",
   "settings.browser.clearAll.confirmTitle": "Limpar todos os dados do navegador integrado?",
-  "settings.browser.clearAll.confirmDescription": "Isso desconecta você dos sites no navegador integrado e exclui cookies, dados de sites e cache. Não é possível desfazer.",
+  "settings.browser.clearAll.confirmDescription":
+    "Isso desconecta você dos sites no navegador integrado e exclui cookies, dados de sites e cache. Não é possível desfazer.",
   "settings.browser.clearAll.confirmAction": "Limpar dados",
   "settings.lightTheme": "Tema de código claro",
-  "settings.lightThemeDescription": "Tema de realce usado para o conteúdo de código na interface clara.",
+  "settings.lightThemeDescription":
+    "Tema de realce usado para o conteúdo de código na interface clara.",
   "settings.darkTheme": "Tema de código escuro",
-  "settings.darkThemeDescription": "Tema de realce usado para o conteúdo de código na interface escura.",
+  "settings.darkThemeDescription":
+    "Tema de realce usado para o conteúdo de código na interface escura.",
   "settings.showLineNumbers": "Mostrar números de linha",
-  "settings.showLineNumbersDescription": "Exibe números de linha nas visualizações de código e diff.",
+  "settings.showLineNumbersDescription":
+    "Exibe números de linha nas visualizações de código e diff.",
   "settings.wrapLongLines": "Quebrar linhas longas",
   "settings.wrapLongLinesDescription": "Quebra linhas de código longas automaticamente.",
   "settings.fontSize": "Tamanho da fonte do código",
-  "settings.fontSizeDescription": "Ajusta o tamanho de fonte padrão para blocos de código, pré-visualizações de arquivos e visualizações de diff.",
+  "settings.fontSizeDescription":
+    "Ajusta o tamanho de fonte padrão para blocos de código, pré-visualizações de arquivos e visualizações de diff.",
   "settings.previewSectionTitle": "Pré-visualização de código",
   "settings.previewLight": "Pré-visualização clara",
   "settings.previewDark": "Pré-visualização escura",
-  "settings.previewDescription": "Pré-visualize os temas de código claro e escuro juntos. O tema usado pela interface atual está marcado como ativo.",
+  "settings.previewDescription":
+    "Pré-visualize os temas de código claro e escuro juntos. O tema usado pela interface atual está marcado como ativo.",
   "settings.previewBadge.active": "Ativo",
   "settings.previewBadge.light": "Claro",
   "settings.previewBadge.dark": "Escuro",
   "settings.modelProviderTitle": "Configurações de modelo",
   "settings.mcpTitle": "Servidores MCP",
-  "settings.mcp.description": "Gerencie as configurações de servidores MCP usadas pelo ZCode Agent.",
+  "settings.mcp.description":
+    "Gerencie as configurações de servidores MCP usadas pelo ZCode Agent.",
   "settings.mcp.create.open": "Adicionar servidor MCP",
   "settings.mcp.import.open": "Importar servidores MCP de agentes externos",
   "settings.mcp.import.action": "Importar",
   "settings.mcp.emptyTitle": "Nenhum servidor MCP ainda",
-  "settings.mcp.emptyDescription": "Adicione um servidor MCP para dar capacidades extras ao agente.",
+  "settings.mcp.emptyDescription":
+    "Adicione um servidor MCP para dar capacidades extras ao agente.",
   "settings.mcp.searchPlaceholder": "Pesquisar servidores MCP…",
   "settings.mcp.group.local": "Servidores MCP configurados",
   "settings.mcp.group.plugin": "Servidores MCP de plugins",
   "settings.remoteSync.open": "Sincronizar",
   "settings.remoteSync.preflighting": "Verificando o acesso de gravação remoto...",
-  "settings.remoteSync.preflightTimeout": "A verificação de gravação remota expirou após {seconds}s. Verifique a conexão remota e tente novamente.",
+  "settings.remoteSync.preflightTimeout":
+    "A verificação de gravação remota expirou após {seconds}s. Verifique a conexão remota e tente novamente.",
   "settings.remoteSync.preflightFailed": "O destino remoto não permite gravação: {path}. {error}",
   "settings.mcp.remoteSync.open": "Sincronizar MCP",
   "settings.mcp.remoteSync.title": "Sincronizar servidores MCP para o destino remoto",
   "settings.mcp.remoteSync.warningTitle": "Disponibilidade de dados e ambiente MCP",
-  "settings.mcp.remoteSync.warningDescription": "A sincronização copia a configuração local de servidores MCP do usuário para o host remoto. URLs MCP HTTP são copiadas e caminhos MCP de sistema de arquivos são reescritos para o workspace remoto selecionado, mas nem todos os dados dependentes e as capacidades do ambiente do sistema podem ser garantidos. Se um servidor MCP estiver indisponível devido ao ambiente remoto, permissões ou dependências ausentes, instale-o ou adicione as dependências no servidor remoto.",
+  "settings.mcp.remoteSync.warningDescription":
+    "A sincronização copia a configuração local de servidores MCP do usuário para o host remoto. URLs MCP HTTP são copiadas e caminhos MCP de sistema de arquivos são reescritos para o workspace remoto selecionado, mas nem todos os dados dependentes e as capacidades do ambiente do sistema podem ser garantidos. Se um servidor MCP estiver indisponível devido ao ambiente remoto, permissões ou dependências ausentes, instale-o ou adicione as dependências no servidor remoto.",
   "settings.mcp.remoteSync.target": "Destino: {target}",
   "settings.mcp.remoteSync.loading": "Carregando servidores MCP locais...",
   "settings.mcp.remoteSync.empty": "Nenhum servidor MCP local do usuário encontrado.",
-  "settings.mcp.remoteSync.filteredEmpty": "Todos os servidores MCP locais do usuário já existem no host remoto.",
+  "settings.mcp.remoteSync.filteredEmpty":
+    "Todos os servidores MCP locais do usuário já existem no host remoto.",
   "settings.mcp.remoteSync.showExisting": "Mostrar servidores MCP remotos existentes",
   "settings.mcp.remoteSync.selectAll": "Selecionar tudo",
   "settings.mcp.remoteSync.start": "Sincronizar selecionados",
@@ -1887,7 +2241,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.remoteSync.open": "Sincronizar plugin",
   "settings.plugins.remoteSync.title": "Sincronizar plugins para o destino remoto",
   "settings.plugins.remoteSync.warningTitle": "Lembrete de execução remota",
-  "settings.plugins.remoteSync.warningDescription": "Plugins sincronizados podem carregar ou executar Skills, Commands, Hooks e servidores MCP no ambiente remoto. Plugins de marketplace são reinstalados no destino remoto e exigem acesso remoto à sua fonte de marketplace.",
+  "settings.plugins.remoteSync.warningDescription":
+    "Plugins sincronizados podem carregar ou executar Skills, Commands, Hooks e servidores MCP no ambiente remoto. Plugins de marketplace são reinstalados no destino remoto e exigem acesso remoto à sua fonte de marketplace.",
   "settings.plugins.remoteSync.target": "Destino: {target}",
   "settings.plugins.remoteSync.loading": "Carregando plugins locais...",
   "settings.plugins.remoteSync.empty": "Nenhum plugin local disponível para sincronização remota.",
@@ -1904,29 +2259,40 @@ const ptBR: Record<string, string> = {
   "settings.plugins.remoteSync.stopped": "Interrompido",
   "settings.plugins.remoteSync.stop": "Parar sincronização",
   "settings.plugins.remoteSync.logTooltip": "Log de sincronização",
-  "settings.plugins.remoteSync.optionsSummary": "Opções: {syncable} serão tentadas; {manual} exigem configuração manual no remoto",
-  "settings.plugins.remoteSync.resultEmpty": "Nenhum resultado de sincronização de plugins foi retornado.",
+  "settings.plugins.remoteSync.optionsSummary":
+    "Opções: {syncable} serão tentadas; {manual} exigem configuração manual no remoto",
+  "settings.plugins.remoteSync.resultEmpty":
+    "Nenhum resultado de sincronização de plugins foi retornado.",
   "settings.plugins.remoteSync.selectionCount": "{selected}/{total} selecionados",
   "settings.plugins.remoteSync.noSelection": "Selecione pelo menos um plugin ausente.",
   "settings.mcp.remoteContext": "Workspace remoto atual: {target}",
   "settings.mcp.plugin.active": "Integrado",
-  "settings.mcp.plugin.activeDescription": "Este servidor MCP é fornecido por um plugin ativado e é gerenciado por esse plugin.",
+  "settings.mcp.plugin.activeDescription":
+    "Este servidor MCP é fornecido por um plugin ativado e é gerenciado por esse plugin.",
   "settings.mcp.plugin.connecting": "Conectando",
-  "settings.mcp.plugin.connectingDescription": "Este servidor MCP do plugin está se conectando ao seu runtime.",
+  "settings.mcp.plugin.connectingDescription":
+    "Este servidor MCP do plugin está se conectando ao seu runtime.",
   "settings.mcp.plugin.connected": "Conectado",
-  "settings.mcp.plugin.connectedDescription": "Este servidor MCP do plugin está conectado e disponível.",
+  "settings.mcp.plugin.connectedDescription":
+    "Este servidor MCP do plugin está conectado e disponível.",
   "settings.mcp.plugin.disconnected": "Desconectado",
-  "settings.mcp.plugin.disconnectedDescription": "Este servidor MCP do plugin está carregado, mas não está conectado no momento.",
+  "settings.mcp.plugin.disconnectedDescription":
+    "Este servidor MCP do plugin está carregado, mas não está conectado no momento.",
   "settings.mcp.host.active": "Integrado ao host",
-  "settings.mcp.host.activeDescription": "O ZCode fornece este servidor MCP para o plugin {pluginName}. Sua identidade de runtime é gerenciada pelo host.",
+  "settings.mcp.host.activeDescription":
+    "O ZCode fornece este servidor MCP para o plugin {pluginName}. Sua identidade de runtime é gerenciada pelo host.",
   "settings.mcp.plugin.disabled": "Plugin desativado",
-  "settings.mcp.plugin.disabledDescription": "Este servidor MCP é integrado a um plugin. Ative o plugin para carregá-lo.",
+  "settings.mcp.plugin.disabledDescription":
+    "Este servidor MCP é integrado a um plugin. Ative o plugin para carregá-lo.",
   "settings.mcp.plugin.unavailable": "Não carregado",
-  "settings.mcp.plugin.unavailableDescription": "Este plugin declara o servidor MCP, mas ele não está carregado no momento. Verifique os diagnósticos do plugin.",
+  "settings.mcp.plugin.unavailableDescription":
+    "Este plugin declara o servidor MCP, mas ele não está carregado no momento. Verifique os diagnósticos do plugin.",
   "settings.mcp.plugin.authorizationRequired": "Autorização necessária",
-  "settings.mcp.plugin.authorizationRequiredDescription": "Abra a autorização para concluir a conexão deste servidor MCP do plugin.",
+  "settings.mcp.plugin.authorizationRequiredDescription":
+    "Abra a autorização para concluir a conexão deste servidor MCP do plugin.",
   "settings.mcp.oauth.openAuthorization": "Abrir autorização",
-  "settings.mcp.statusOnlyUnsupported": "Este ZCode Agent não pode atualizar o status do OAuth. Atualize ou reinicie o ZCode e reabra as configurações do MCP para executar uma atualização completa.",
+  "settings.mcp.statusOnlyUnsupported":
+    "Este ZCode Agent não pode atualizar o status do OAuth. Atualize ou reinicie o ZCode e reabra as configurações do MCP para executar uma atualização completa.",
   "settings.mcp.refreshFailed": "Falha ao atualizar o status do MCP: {error}",
   "settings.mcp.status.toolCount": "{count} ferramentas",
   "settings.mcp.status.connectedReason": "Conectado e disponível.",
@@ -1934,34 +2300,53 @@ const ptBR: Record<string, string> = {
   "settings.mcp.status.errorReason": "O servidor MCP não conseguiu se conectar.",
   "settings.mcp.status.disconnectedReason": "O servidor MCP não está conectado.",
   "settings.mcp.status.unknownReason": "O status do servidor MCP está indisponível.",
-  "settings.mcp.failure.config_invalid": "A configuração do MCP é inválida. Verifique as configurações do servidor.",
-  "settings.mcp.failure.runtime_unavailable": "O runtime do MCP está indisponível. Verifique o plugin e as dependências locais.",
+  "settings.mcp.failure.config_invalid":
+    "A configuração do MCP é inválida. Verifique as configurações do servidor.",
+  "settings.mcp.failure.runtime_unavailable":
+    "O runtime do MCP está indisponível. Verifique o plugin e as dependências locais.",
   "settings.mcp.failure.process_start_failed": "O processo MCP não pôde ser iniciado.",
-  "settings.mcp.failure.network_unreachable": "Não foi possível conectar ao servidor MCP. Verifique a rede, o proxy e a URL do servidor.",
-  "settings.mcp.failure.connection_timeout": "A conexão com o servidor MCP expirou. Tente novamente mais tarde.",
-  "settings.mcp.failure.protocol_negotiation_failed": "A negociação do protocolo MCP falhou. A versão do servidor pode ser incompatível. Tente editar este servidor e alterar a Versão do protocolo para Compatibilidade legada.",
-  "settings.mcp.failure.tool_list_failed": "Conectado ao servidor MCP, mas não foi possível recuperar a lista de ferramentas.",
+  "settings.mcp.failure.network_unreachable":
+    "Não foi possível conectar ao servidor MCP. Verifique a rede, o proxy e a URL do servidor.",
+  "settings.mcp.failure.connection_timeout":
+    "A conexão com o servidor MCP expirou. Tente novamente mais tarde.",
+  "settings.mcp.failure.protocol_negotiation_failed":
+    "A negociação do protocolo MCP falhou. A versão do servidor pode ser incompatível. Tente editar este servidor e alterar a Versão do protocolo para Compatibilidade legada.",
+  "settings.mcp.failure.tool_list_failed":
+    "Conectado ao servidor MCP, mas não foi possível recuperar a lista de ferramentas.",
   "settings.mcp.failure.unexpected_disconnect": "A conexão MCP foi fechada inesperadamente.",
-  "settings.mcp.failure.oauth_authorization_failed": "A autorização MCP não foi concluída ou expirou. Autorize novamente.",
-  "settings.mcp.failure.official_origin_untrusted": "A URL do servidor MCP não passou na verificação de segurança. A conexão foi bloqueada.",
-  "settings.mcp.failure.not_authenticated": "Você não está conectado. Entre no ZCode para usar este servidor MCP.",
-  "settings.mcp.failure.coding_plan_required": "Esta conta não tem um Coding Plan. Compre ou configure um Coding Plan para usar este servidor MCP.",
-  "settings.mcp.failure.server_not_found": "O servidor MCP não foi encontrado. Verifique a configuração do plugin ou do servidor.",
-  "settings.mcp.failure.server_unavailable": "O serviço MCP está temporariamente indisponível. Tente novamente mais tarde.",
+  "settings.mcp.failure.oauth_authorization_failed":
+    "A autorização MCP não foi concluída ou expirou. Autorize novamente.",
+  "settings.mcp.failure.official_origin_untrusted":
+    "A URL do servidor MCP não passou na verificação de segurança. A conexão foi bloqueada.",
+  "settings.mcp.failure.not_authenticated":
+    "Você não está conectado. Entre no ZCode para usar este servidor MCP.",
+  "settings.mcp.failure.coding_plan_required":
+    "Esta conta não tem um Coding Plan. Compre ou configure um Coding Plan para usar este servidor MCP.",
+  "settings.mcp.failure.server_not_found":
+    "O servidor MCP não foi encontrado. Verifique a configuração do plugin ou do servidor.",
+  "settings.mcp.failure.server_unavailable":
+    "O serviço MCP está temporariamente indisponível. Tente novamente mais tarde.",
   "settings.mcp.failure.rate_limited": "Muitas solicitações MCP. Tente novamente mais tarde.",
-  "settings.mcp.failure.server_internal_error": "O serviço MCP encontrou um erro interno. Tente novamente mais tarde.",
-  "settings.mcp.failure.protocol_error": "A solicitação do protocolo MCP falhou. O cliente e o servidor podem ser incompatíveis.",
-  "settings.mcp.failure.status_unavailable": "Não foi possível recuperar o status do MCP. Atualize ou reinicie o Agent.",
-  "settings.mcp.failure.connection_failed": "Falha ao conectar ao servidor MCP. Tente novamente mais tarde.",
+  "settings.mcp.failure.server_internal_error":
+    "O serviço MCP encontrou um erro interno. Tente novamente mais tarde.",
+  "settings.mcp.failure.protocol_error":
+    "A solicitação do protocolo MCP falhou. O cliente e o servidor podem ser incompatíveis.",
+  "settings.mcp.failure.status_unavailable":
+    "Não foi possível recuperar o status do MCP. Atualize ou reinicie o Agent.",
+  "settings.mcp.failure.connection_failed":
+    "Falha ao conectar ao servidor MCP. Tente novamente mais tarde.",
   "settings.mcp.failure.technicalDetails": "Detalhes",
-  "settings.mcp.deleteConfirmTitle": "Excluir o servidor MCP \"{name}\"?",
-  "settings.mcp.deleteConfirmDescription": "Esta ação não pode ser desfeita. A configuração do servidor será removida do arquivo.",
+  "settings.mcp.deleteConfirmTitle": 'Excluir o servidor MCP "{name}"?',
+  "settings.mcp.deleteConfirmDescription":
+    "Esta ação não pode ser desfeita. A configuração do servidor será removida do arquivo.",
   "settings.mcp.deleteConfirmAction": "Excluir servidor",
   "settings.mcp.form.backToList": "Voltar",
   "settings.mcp.form.createTitle": "Novo servidor MCP",
   "settings.mcp.form.editTitle": "Editar servidor MCP",
-  "settings.mcp.form.createDescription": "Preencha a nova configuração MCP e salve para voltar à lista.",
-  "settings.mcp.form.editDescription": "Modifique a configuração MCP atual e salve para voltar à lista.",
+  "settings.mcp.form.createDescription":
+    "Preencha a nova configuração MCP e salve para voltar à lista.",
+  "settings.mcp.form.editDescription":
+    "Modifique a configuração MCP atual e salve para voltar à lista.",
   "settings.mcp.form.jsonParseError": "Falha ao analisar o JSON",
   "settings.mcp.form.envOptional": "Variáveis de ambiente (opcional)",
   "settings.mcp.form.headersOptional": "Cabeçalhos (opcional)",
@@ -1985,7 +2370,8 @@ const ptBR: Record<string, string> = {
   "settings.mcpServers.import.open": "Importar servidores MCP de agentes externos",
   "settings.mcpServers.import.title": "Importar servidores MCP de agentes externos",
   "settings.mcpServers.import.scanning": "Procurando servidores MCP importáveis...",
-  "settings.mcpServers.import.empty": "Nenhum servidor MCP importável encontrado. Verifique os arquivos de configuração MCP dos agentes externos e faça a verificação novamente.",
+  "settings.mcpServers.import.empty":
+    "Nenhum servidor MCP importável encontrado. Verifique os arquivos de configuração MCP dos agentes externos e faça a verificação novamente.",
   "settings.mcpServers.import.summary": "Encontrados {count} servidores MCP importáveis",
   "settings.mcpServers.import.scopeLabel": "Escopo",
   "settings.mcpServers.import.scope.global": "Global",
@@ -2020,19 +2406,24 @@ const ptBR: Record<string, string> = {
   "settings.plugins.scope.workspaceOverride": "Substituição do workspace",
   "settings.plugins.scope.restoreUserDefault": "Restaurar padrão do Usuário",
   "settings.plugins.scope.restored": "{plugin} restaurado para o padrão do Usuário",
-  "settings.plugins.scope.workspaceHint": "As alterações aqui afetam apenas este workspace e substituem o padrão do Usuário.",
+  "settings.plugins.scope.workspaceHint":
+    "As alterações aqui afetam apenas este workspace e substituem o padrão do Usuário.",
   "settings.plugins.toggle.enable": "Ativar {plugin}",
   "settings.plugins.toggle.disable": "Desativar {plugin}",
   "settings.plugins.toggle.pending": "Atualizando {plugin}...",
   "settings.plugins.toggle.enabled": "{plugin} ativado",
   "settings.plugins.toggle.disabled": "{plugin} desativado",
-  "settings.plugins.toggle.workspaceEnabled": "{plugin} ativado neste workspace (substituindo o padrão do Usuário)",
-  "settings.plugins.toggle.workspaceDisabled": "{plugin} desativado neste workspace (substituindo o padrão do Usuário)",
+  "settings.plugins.toggle.workspaceEnabled":
+    "{plugin} ativado neste workspace (substituindo o padrão do Usuário)",
+  "settings.plugins.toggle.workspaceDisabled":
+    "{plugin} desativado neste workspace (substituindo o padrão do Usuário)",
   "settings.plugins.toggle.failed": "Não foi possível atualizar {plugin}. Tente novamente.",
-  "settings.modelProviderDescription": "Gerencie provedores de modelos personalizados. Depois de configurados, eles podem ser selecionados durante o chat.",
+  "settings.modelProviderDescription":
+    "Gerencie provedores de modelos personalizados. Depois de configurados, eles podem ser selecionados durante o chat.",
   "settings.modelProvider.add": "Adicionar provedor",
   "settings.modelProvider.createCustomProvider": "Criar provedor personalizado",
-  "settings.modelProvider.templateCreateFailed": "Falha ao criar provedor: configuração de provedor pessoal inválida",
+  "settings.modelProvider.templateCreateFailed":
+    "Falha ao criar provedor: configuração de provedor pessoal inválida",
   "settings.modelProvider.templateCreateRetry": "Tentar novamente",
   "settings.modelProvider.edit": "Editar",
   "settings.modelProvider.editModel": "Editar configurações do modelo",
@@ -2052,7 +2443,8 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.name": "Nome",
   "settings.modelProvider.namePlaceholder": "ex.: DeepSeek",
   "settings.modelProvider.addProviderTitle": "Adicionar provedor de modelo",
-  "settings.modelProvider.addProviderDescription": "Configure um endpoint de API personalizado e um modelo inicial.",
+  "settings.modelProvider.addProviderDescription":
+    "Configure um endpoint de API personalizado e um modelo inicial.",
   "settings.modelProvider.addFromCatalog": "Catálogo de provedores",
   "settings.modelProvider.addPureCustom": "Endpoint personalizado",
   "settings.modelProvider.catalogProviderSelect": "Selecionar provedor",
@@ -2063,7 +2455,8 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.templateGroup.zhipu": "Zhipu",
   "settings.modelProvider.templateGroup.other": "Outros",
   "settings.modelProvider.templatePickerBack": "Voltar aos detalhes do provedor",
-  "settings.modelProvider.addProviderModelReminder": "Adicione pelo menos um modelo antes de adicionar o provedor.",
+  "settings.modelProvider.addProviderModelReminder":
+    "Adicione pelo menos um modelo antes de adicionar o provedor.",
   "settings.modelProvider.baseUrl": "URL base",
   "settings.modelProvider.baseUrlPlaceholder": "https://api.example.com/v1",
   "settings.modelProvider.readOnlyField": "{field} (somente leitura)",
@@ -2071,7 +2464,8 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.apiFormat": "Formato da API",
   "settings.modelProvider.apiFormat.chatCompletions": "Chat completions (/v1/chat/completions)",
   "settings.modelProvider.apiFormat.responses": "Responses (/responses)",
-  "settings.modelProvider.apiFormat.anthropicMessages": "Mensagens Anthropic (/anthropic/v1/messages)",
+  "settings.modelProvider.apiFormat.anthropicMessages":
+    "Mensagens Anthropic (/anthropic/v1/messages)",
   "settings.modelProvider.apiFormat.short.chatCompletions": "Chat",
   "settings.modelProvider.apiFormat.short.responses": "Responses",
   "settings.modelProvider.apiFormat.short.anthropicMessages": "Anthropic",
@@ -2097,9 +2491,11 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.connectionMode.codingPlanBadge": "Individual",
   "settings.modelProvider.connectionMode.startPlanBadge": "Grátis",
   "settings.modelProvider.connectionMode.teamPlanBadge": "Equipe",
-  "settings.modelProvider.connectionMode.loadFailed": "Falha ao carregar as configurações de conexão",
+  "settings.modelProvider.connectionMode.loadFailed":
+    "Falha ao carregar as configurações de conexão",
   "settings.modelProvider.connectionMode.noAvailablePlan": "Nenhum plano disponível",
-  "settings.modelProvider.accountProviderConfigMissing": "A configuração do provedor da conta está indisponível. Atualize e tente novamente.",
+  "settings.modelProvider.accountProviderConfigMissing":
+    "A configuração do provedor da conta está indisponível. Atualize e tente novamente.",
   "settings.modelProvider.startPlan.login": "Entrar",
   "settings.modelProvider.startPlan.status.loginRequired": "Entre para ver e usar seu Start Plan",
   "settings.modelProvider.startPlan.status.expired": "Start Plan expirado",
@@ -2121,38 +2517,55 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.startPlan.balance.used": "{value} usados",
   "settings.modelProvider.startPlan.highlight.trial.label": "Período de avaliação",
   "settings.modelProvider.startPlan.highlight.trial.value": "5 dias corridos",
-  "settings.modelProvider.startPlan.highlight.trial.description": "A contagem começa após entrar no ZCode 3.x.",
+  "settings.modelProvider.startPlan.highlight.trial.description":
+    "A contagem começa após entrar no ZCode 3.x.",
   "settings.modelProvider.startPlan.highlight.quota.label": "Cota diária",
   "settings.modelProvider.startPlan.highlight.quota.value": "3M tokens por dia",
-  "settings.modelProvider.startPlan.highlight.quota.description": "Os modelos flagship GLM da plataforma compartilham uma cota diária de avaliação de 3M tokens.",
+  "settings.modelProvider.startPlan.highlight.quota.description":
+    "Os modelos flagship GLM da plataforma compartilham uma cota diária de avaliação de 3M tokens.",
   "settings.modelProvider.startPlan.highlight.metering.label": "Medição",
-  "settings.modelProvider.startPlan.highlight.metering.value": "Após o uso de modelos da plataforma",
-  "settings.modelProvider.startPlan.highlight.metering.description": "Medido apenas após o uso dos modelos flagship GLM da plataforma.",
-  "settings.modelProvider.startPlan.compatibility": "Compatível com BYOK e BYOA. A URL base, o formato da API e a chave de API são mantidos automaticamente pelo ZCode.",
+  "settings.modelProvider.startPlan.highlight.metering.value":
+    "Após o uso de modelos da plataforma",
+  "settings.modelProvider.startPlan.highlight.metering.description":
+    "Medido apenas após o uso dos modelos flagship GLM da plataforma.",
+  "settings.modelProvider.startPlan.compatibility":
+    "Compatível com BYOK e BYOA. A URL base, o formato da API e a chave de API são mantidos automaticamente pelo ZCode.",
   "settings.modelProvider.codingPlan.title": "{provider} - Coding Plan",
   "settings.modelProvider.codingPlan.webview.title": "Fazer upgrade do plano",
-  "settings.modelProvider.codingPlan.webview.authInjectFailed": "Não foi possível conectar você à página do plano. Tente novamente.",
+  "settings.modelProvider.codingPlan.webview.authInjectFailed":
+    "Não foi possível conectar você à página do plano. Tente novamente.",
   "settings.modelProvider.codingPlan.webview.retry": "Tentar novamente",
   "settings.modelProvider.codingPlan.webview.loadFailed": "Falha ao carregar a página do plano.",
   "settings.modelProvider.codingPlan.webview.openWebsite": "Comprar no site oficial",
   "settings.modelProvider.codingPlan.status.loginRequired": "Não autenticado",
   "settings.modelProvider.codingPlan.status.disconnected": "Não conectado",
   "settings.modelProvider.codingPlan.status.checking": "Verificando",
-  "settings.modelProvider.codingPlan.status.notPurchased": "Não assinado, ativado após a assinatura",
+  "settings.modelProvider.codingPlan.status.notPurchased":
+    "Não assinado, ativado após a assinatura",
   "settings.modelProvider.codingPlan.status.purchased": "Assinado",
   "settings.modelProvider.codingPlan.status.unavailable": "Falha ao buscar",
-  "settings.modelProvider.codingPlan.status.teamExpired": "Plano de equipe expirado. Contate o administrador da sua equipe.",
-  "settings.modelProvider.codingPlan.status.teamUnavailable": "Plano de equipe não atribuído. Contate o administrador da sua equipe.",
+  "settings.modelProvider.codingPlan.status.teamExpired":
+    "Plano de equipe expirado. Contate o administrador da sua equipe.",
+  "settings.modelProvider.codingPlan.status.teamUnavailable":
+    "Plano de equipe não atribuído. Contate o administrador da sua equipe.",
   "settings.modelProvider.codingPlan.status.unsupported": "Ainda não suportado",
-  "settings.modelProvider.codingPlan.bigmodel.unregisteredHint": "Esta conta BigModel ainda não está registrada. Registre-se primeiro.",
+  "settings.modelProvider.codingPlan.bigmodel.unregisteredHint":
+    "Esta conta BigModel ainda não está registrada. Registre-se primeiro.",
   "settings.modelProvider.codingPlan.bigmodel.registerAction": "Registrar",
-  "settings.modelProvider.codingPlan.description.disconnected": "Conecte-se para ver os benefícios do Coding Plan.",
-  "settings.modelProvider.codingPlan.description.checking": "Verificando os benefícios do Coding Plan com a chave de API do provedor atual.",
-  "settings.modelProvider.codingPlan.description.notPurchased": "Nenhum Coding Plan ativo foi encontrado para a chave de API ou conta atual.",
-  "settings.modelProvider.codingPlan.description.purchased": "O Coding Plan está ativo e pode ser usado por este provedor.",
-  "settings.modelProvider.codingPlan.description.credentialFailed": "Falha ao recuperar seu plano. Entre novamente e tente de novo.",
-  "settings.modelProvider.codingPlan.description.unavailable": "Não foi possível verificar os benefícios do Coding Plan. Conecte-se novamente e tente de novo.",
-  "settings.modelProvider.codingPlan.description.unsupported": "Este provedor ainda não suporta a verificação de status do Coding Plan.",
+  "settings.modelProvider.codingPlan.description.disconnected":
+    "Conecte-se para ver os benefícios do Coding Plan.",
+  "settings.modelProvider.codingPlan.description.checking":
+    "Verificando os benefícios do Coding Plan com a chave de API do provedor atual.",
+  "settings.modelProvider.codingPlan.description.notPurchased":
+    "Nenhum Coding Plan ativo foi encontrado para a chave de API ou conta atual.",
+  "settings.modelProvider.codingPlan.description.purchased":
+    "O Coding Plan está ativo e pode ser usado por este provedor.",
+  "settings.modelProvider.codingPlan.description.credentialFailed":
+    "Falha ao recuperar seu plano. Entre novamente e tente de novo.",
+  "settings.modelProvider.codingPlan.description.unavailable":
+    "Não foi possível verificar os benefícios do Coding Plan. Conecte-se novamente e tente de novo.",
+  "settings.modelProvider.codingPlan.description.unsupported":
+    "Este provedor ainda não suporta a verificação de status do Coding Plan.",
   "settings.modelProvider.codingPlan.login": "Entrar em {provider}",
   "settings.modelProvider.codingPlan.connect": "Conectar a {provider}",
   "settings.modelProvider.codingPlan.purchaseLoginRequiredShort": "Entre para comprar",
@@ -2168,7 +2581,8 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.cancelUpgrade": "Voltar",
   "settings.modelProvider.codingPlan.purchase.title": "Fazer upgrade do Coding Plan",
   "settings.modelProvider.codingPlan.purchase.pricingTitle": "Preços",
-  "settings.modelProvider.codingPlan.purchase.pricingDescription": "Encontre o plano perfeito para você e comece sua jornada de programação com IA.",
+  "settings.modelProvider.codingPlan.purchase.pricingDescription":
+    "Encontre o plano perfeito para você e comece sua jornada de programação com IA.",
   "settings.modelProvider.codingPlan.purchase.moreInfo": "Mais informações",
   "settings.modelProvider.codingPlan.purchase.billingCycleTitle": "Escolher ciclo de cobrança",
   "settings.modelProvider.codingPlan.purchase.paymentConfirmTitle": "Confirmar pagamento",
@@ -2178,30 +2592,42 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.purchase.individualsSectionTitle": "Para uso individual",
   "settings.modelProvider.codingPlan.purchase.teamsSectionTitle": "Para equipes",
   "settings.modelProvider.codingPlan.purchaseBanner.startPlanTitle": "Start Plan",
-  "settings.modelProvider.codingPlan.purchaseBanner.startPlanDescription": "Experimente gratuitamente a cota dos modelos flagship GLM da plataforma.",
+  "settings.modelProvider.codingPlan.purchaseBanner.startPlanDescription":
+    "Experimente gratuitamente a cota dos modelos flagship GLM da plataforma.",
   "settings.modelProvider.codingPlan.purchaseBanner.personalTitle": "Para uso individual",
-  "settings.modelProvider.codingPlan.purchaseBanner.personalDescription": "Para desenvolvedores individuais com cota dedicada de Coding Plan.",
+  "settings.modelProvider.codingPlan.purchaseBanner.personalDescription":
+    "Para desenvolvedores individuais com cota dedicada de Coding Plan.",
   "settings.modelProvider.codingPlan.purchaseBanner.temporarilySoldOut": "Temporariamente esgotado",
   "settings.modelProvider.codingPlan.purchaseBanner.teamTitle": "Para equipes",
-  "settings.modelProvider.codingPlan.purchaseBanner.teamDescription": "Para colaboração em equipe com assentos e cobrança centralizada.",
-  "settings.modelProvider.codingPlan.purchaseBanner.teamStandardDescription": "Para equipes pequenas que precisam de cota compartilhada e gerenciamento de assentos.",
-  "settings.modelProvider.codingPlan.purchaseBanner.teamAdvancedDescription": "Para equipes de engenharia de alto throughput que precisam de mais cota e assentos flexíveis.",
+  "settings.modelProvider.codingPlan.purchaseBanner.teamDescription":
+    "Para colaboração em equipe com assentos e cobrança centralizada.",
+  "settings.modelProvider.codingPlan.purchaseBanner.teamStandardDescription":
+    "Para equipes pequenas que precisam de cota compartilhada e gerenciamento de assentos.",
+  "settings.modelProvider.codingPlan.purchaseBanner.teamAdvancedDescription":
+    "Para equipes de engenharia de alto throughput que precisam de mais cota e assentos flexíveis.",
   "settings.modelProvider.codingPlan.purchase.choosePlan": "Escolha um plano",
-  "settings.modelProvider.codingPlan.purchase.choosePlanDescription": "Compare primeiro a capacidade dos planos. O ciclo de cobrança e o pagamento final são confirmados a seguir.",
+  "settings.modelProvider.codingPlan.purchase.choosePlanDescription":
+    "Compare primeiro a capacidade dos planos. O ciclo de cobrança e o pagamento final são confirmados a seguir.",
   "settings.modelProvider.codingPlan.purchase.selectPlan": "Selecionar",
   "settings.modelProvider.codingPlan.purchase.select": "Selecionar",
   "settings.modelProvider.codingPlan.purchase.selected": "Selecionado",
   "settings.modelProvider.codingPlan.purchase.fromPrice": "{price}+",
   "settings.modelProvider.codingPlan.purchase.fromPriceSuffix": "",
   "settings.modelProvider.codingPlan.purchase.previewLoading": "Calculando o valor do pagamento",
-  "settings.modelProvider.codingPlan.purchase.previewLoadingDescription": "Aguarde. A confirmação e o pagamento usam os mesmos detalhes de pagamento.",
-  "settings.modelProvider.codingPlan.purchase.previewUnavailableDescription": "O valor do pagamento está indisponível. Volte e escolha o ciclo de cobrança novamente.",
+  "settings.modelProvider.codingPlan.purchase.previewLoadingDescription":
+    "Aguarde. A confirmação e o pagamento usam os mesmos detalhes de pagamento.",
+  "settings.modelProvider.codingPlan.purchase.previewUnavailableDescription":
+    "O valor do pagamento está indisponível. Volte e escolha o ciclo de cobrança novamente.",
   "settings.modelProvider.codingPlan.purchase.teamTitle": "Planos de equipe",
-  "settings.modelProvider.codingPlan.purchase.teamDescription": "Assentos, cota compartilhada e cobrança centralizada chegarão mais tarde.",
-  "settings.modelProvider.codingPlan.purchase.teamCardDescription": "Cota compartilhada, gerenciamento de assentos e cobrança centralizada.",
+  "settings.modelProvider.codingPlan.purchase.teamDescription":
+    "Assentos, cota compartilhada e cobrança centralizada chegarão mais tarde.",
+  "settings.modelProvider.codingPlan.purchase.teamCardDescription":
+    "Cota compartilhada, gerenciamento de assentos e cobrança centralizada.",
   "settings.modelProvider.codingPlan.purchase.comingSoon": "Em breve",
-  "settings.modelProvider.codingPlan.purchase.chooseBillingCycle": "Escolha o ciclo de cobrança para {plan}",
-  "settings.modelProvider.codingPlan.purchase.billingCycleDescription": "Preços e descontos são atualizados antes do pagamento. O valor final é confirmado na etapa de pagamento.",
+  "settings.modelProvider.codingPlan.purchase.chooseBillingCycle":
+    "Escolha o ciclo de cobrança para {plan}",
+  "settings.modelProvider.codingPlan.purchase.billingCycleDescription":
+    "Preços e descontos são atualizados antes do pagamento. O valor final é confirmado na etapa de pagamento.",
   "settings.modelProvider.codingPlan.purchase.continueToPayment": "Continuar para o pagamento",
   "settings.modelProvider.codingPlan.purchase.summaryPlan": "Plano",
   "settings.modelProvider.codingPlan.purchase.summaryBillingCycle": "Ciclo de cobrança",
@@ -2209,27 +2635,40 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.purchase.summaryStatus": "Status",
   "settings.modelProvider.codingPlan.purchase.servicePeriod": "Período do serviço",
   "settings.modelProvider.codingPlan.purchase.durationValue": "{duration} {unit}",
-  "settings.modelProvider.codingPlan.purchase.autoRenewPeriod": "Renova automaticamente a cada {period}",
+  "settings.modelProvider.codingPlan.purchase.autoRenewPeriod":
+    "Renova automaticamente a cada {period}",
   "settings.modelProvider.codingPlan.purchase.renewalPolicyTitle": "Política de renovação",
-  "settings.modelProvider.codingPlan.purchase.renewalPolicyCharge": "Sua assinatura renova automaticamente por {price}{unit}, a menos que seja cancelada.",
-  "settings.modelProvider.codingPlan.purchase.renewalPolicyPreview": "Descontos finais, créditos e o valor do pagamento são confirmados na próxima prévia do pagamento.",
-  "settings.modelProvider.codingPlan.purchase.renewalPolicyCancel": "Você pode desativar a renovação automática no gerenciamento de planos antes da próxima renovação.",
-  "settings.modelProvider.codingPlan.purchase.termsAccepted": "Entendo e concordo com a política de renovação e os termos de assinatura.",
+  "settings.modelProvider.codingPlan.purchase.renewalPolicyCharge":
+    "Sua assinatura renova automaticamente por {price}{unit}, a menos que seja cancelada.",
+  "settings.modelProvider.codingPlan.purchase.renewalPolicyPreview":
+    "Descontos finais, créditos e o valor do pagamento são confirmados na próxima prévia do pagamento.",
+  "settings.modelProvider.codingPlan.purchase.renewalPolicyCancel":
+    "Você pode desativar a renovação automática no gerenciamento de planos antes da próxima renovação.",
+  "settings.modelProvider.codingPlan.purchase.termsAccepted":
+    "Entendo e concordo com a política de renovação e os termos de assinatura.",
   "settings.modelProvider.codingPlan.purchase.paymentPreparing": "Preparando o pagamento",
-  "settings.modelProvider.codingPlan.purchase.securityChecking": "Aguardando verificação de segurança",
-  "settings.modelProvider.codingPlan.purchase.paymentPolling": "Aguardando confirmação do pagamento",
-  "settings.modelProvider.codingPlan.purchase.paymentStarted": "Conclua o pagamento nesta página de pagamento",
-  "settings.modelProvider.codingPlan.purchase.paymentStartedDescription": "Mantenha este painel aberto enquanto o canal de pagamento conclui. Você pode voltar à página de confirmação do pagamento antes de o pagamento ser concluído.",
+  "settings.modelProvider.codingPlan.purchase.securityChecking":
+    "Aguardando verificação de segurança",
+  "settings.modelProvider.codingPlan.purchase.paymentPolling":
+    "Aguardando confirmação do pagamento",
+  "settings.modelProvider.codingPlan.purchase.paymentStarted":
+    "Conclua o pagamento nesta página de pagamento",
+  "settings.modelProvider.codingPlan.purchase.paymentStartedDescription":
+    "Mantenha este painel aberto enquanto o canal de pagamento conclui. Você pode voltar à página de confirmação do pagamento antes de o pagamento ser concluído.",
   "settings.modelProvider.codingPlan.purchase.paymentInProgress": "Pagamento em andamento",
   "settings.modelProvider.codingPlan.purchase.successTitle": "Pagamento concluído",
-  "settings.modelProvider.codingPlan.purchase.successDescription": "Seu pagamento do Coding Plan foi concluído com sucesso. O status do provedor será atualizado após você fechar este painel.",
-  "settings.modelProvider.codingPlan.purchase.successRefreshingDescription": "Seu pagamento foi concluído com sucesso. Estamos atualizando o status do plano; você pode fechar este painel e a página do provedor continuará sendo atualizada.",
+  "settings.modelProvider.codingPlan.purchase.successDescription":
+    "Seu pagamento do Coding Plan foi concluído com sucesso. O status do provedor será atualizado após você fechar este painel.",
+  "settings.modelProvider.codingPlan.purchase.successRefreshingDescription":
+    "Seu pagamento foi concluído com sucesso. Estamos atualizando o status do plano; você pode fechar este painel e a página do provedor continuará sendo atualizada.",
   "settings.modelProvider.codingPlan.purchase.statusSyncing": "Sincronizando",
   "settings.modelProvider.codingPlan.purchase.statusActive": "Ativo",
   "settings.modelProvider.codingPlan.purchase.refreshNow": "Atualizar agora",
   "settings.modelProvider.codingPlan.purchase.done": "Concluído",
-  "settings.modelProvider.codingPlan.purchase.teamMemberNoticeTitle": "Atribua membros ao seu plano de equipe",
-  "settings.modelProvider.codingPlan.purchase.teamMemberNoticeDescription": "Adicione você ou outros membros na página de gerenciamento do plano de equipe do BigModel. Depois da atribuição, a cota da equipe ficará disponível no ZCode.",
+  "settings.modelProvider.codingPlan.purchase.teamMemberNoticeTitle":
+    "Atribua membros ao seu plano de equipe",
+  "settings.modelProvider.codingPlan.purchase.teamMemberNoticeDescription":
+    "Adicione você ou outros membros na página de gerenciamento do plano de equipe do BigModel. Depois da atribuição, a cota da equipe ficará disponível no ZCode.",
   "settings.modelProvider.codingPlan.purchase.manageTeamPlan": "Gerenciar plano de equipe",
   "settings.modelProvider.codingPlan.manage": "Gerenciar",
   "settings.modelProvider.planCard.codingPlan": "Coding Plan",
@@ -2262,77 +2701,111 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.unit.cny.year": "/ano",
   "settings.modelProvider.codingPlan.monthlyEquivalent": "Equivalente a {price}/mês",
   "settings.modelProvider.codingPlan.monthlyFlexibleBilling": "Cobrança mensal flexível",
-  "settings.modelProvider.codingPlan.providerFormDescription": "Estas configurações são mantidas pelo Coding Plan. Use a opção de Chave de API para chaves manuais.",
+  "settings.modelProvider.codingPlan.providerFormDescription":
+    "Estas configurações são mantidas pelo Coding Plan. Use a opção de Chave de API para chaves manuais.",
   "settings.modelProvider.codingPlan.retry": "Tentar novamente",
   "settings.modelProvider.codingPlan.viewPrices": "Ver preços",
   "settings.modelProvider.codingPlan.productsLoading": "Carregando Coding Plan",
-  "settings.modelProvider.codingPlan.productsLoadingDescription": "Buscando os planos e preços mais recentes de {provider}.",
-  "settings.modelProvider.codingPlan.purchase.authStateError": "Não foi possível ler seu status de login. Tente novamente.",
-  "settings.modelProvider.codingPlan.purchase.authStateRetry": "Verificar novamente o status de login",
+  "settings.modelProvider.codingPlan.productsLoadingDescription":
+    "Buscando os planos e preços mais recentes de {provider}.",
+  "settings.modelProvider.codingPlan.purchase.authStateError":
+    "Não foi possível ler seu status de login. Tente novamente.",
+  "settings.modelProvider.codingPlan.purchase.authStateRetry":
+    "Verificar novamente o status de login",
   "settings.modelProvider.codingPlan.productsError": "Não foi possível carregar os planos",
   "settings.modelProvider.codingPlan.productsReconnectTitle": "Conecte-se para ver os planos",
   "settings.modelProvider.codingPlan.reconnectToViewPlans": "Reconectar",
-  "settings.modelProvider.codingPlan.productsLoginRequired": "Reconecte sua conta {provider} para atualizar preços e os produtos de Coding Plan disponíveis.",
-  "settings.modelProvider.codingPlan.purchaseLoginRequired": "Reconecte sua conta e tente novamente.",
+  "settings.modelProvider.codingPlan.productsLoginRequired":
+    "Reconecte sua conta {provider} para atualizar preços e os produtos de Coding Plan disponíveis.",
+  "settings.modelProvider.codingPlan.purchaseLoginRequired":
+    "Reconecte sua conta e tente novamente.",
   "settings.modelProvider.codingPlan.productsEmpty": "Nenhum plano disponível",
-  "settings.modelProvider.codingPlan.productsEmptyDescription": "{provider} não retornou produtos de Coding Plan compráveis para esta conta.",
+  "settings.modelProvider.codingPlan.productsEmptyDescription":
+    "{provider} não retornou produtos de Coding Plan compráveis para esta conta.",
   "settings.modelProvider.codingPlan.dynamicUnsupportedTitle": "Planos dinâmicos indisponíveis",
-  "settings.modelProvider.codingPlan.dynamicUnsupportedDescription": "No momento, a assinatura dentro do aplicativo está conectada apenas ao Coding Plan da Z.ai / BigModel.",
+  "settings.modelProvider.codingPlan.dynamicUnsupportedDescription":
+    "No momento, a assinatura dentro do aplicativo está conectada apenas ao Coding Plan da Z.ai / BigModel.",
   "settings.modelProvider.codingPlan.priceUnavailable": "Preço indisponível",
-  "settings.modelProvider.codingPlan.systemBusy": "O sistema está ocupado. Tente novamente mais tarde.",
+  "settings.modelProvider.codingPlan.systemBusy":
+    "O sistema está ocupado. Tente novamente mais tarde.",
   "settings.modelProvider.codingPlan.subscriptionBusy": "Serviço de assinaturas ocupado",
   "settings.modelProvider.codingPlan.subscriptionBusyButton": "Sistema ocupado",
-  "settings.modelProvider.codingPlan.pendingOrder": "Há um pedido não concluído. Conclua-o ou cancele-o antes de iniciar outra compra.",
-  "settings.modelProvider.codingPlan.paymentTimeout": "O pagamento ainda está pendente. Verifique novamente o status do seu Coding Plan após concluir a página de pagamento.",
-  "settings.modelProvider.codingPlan.zaiOverseasPaymentRequired": "Os planos internacionais da Z.ai devem ser pagos pelo PayPal ou pela página oficial de pagamentos da Z.ai, e não pelo fluxo de assinatura do Alipay.",
-  "settings.modelProvider.codingPlan.paypalSetupRequired": "Autorize o PayPal antes de continuar o pagamento.",
-  "settings.modelProvider.codingPlan.paypalApproveUrlMissing": "O PayPal não retornou um link de aprovação. Tente novamente mais tarde.",
-  "settings.modelProvider.codingPlan.paypalUnsupported": "O PayPal não é compatível com esta conta ou região.",
-  "settings.modelProvider.codingPlan.paypalCancelled": "A autorização do PayPal foi cancelada. Escolha PayPal novamente para tentar de novo.",
-  "settings.modelProvider.codingPlan.paypalSubscribeFailed": "Não foi possível criar a assinatura do PayPal. Confirme que a autorização do PayPal foi concluída e tente novamente ou pague com cartão.",
-  "settings.modelProvider.codingPlan.securityVerificationRequired": "Conclua a verificação de segurança antes de continuar a compra.",
-  "settings.modelProvider.codingPlan.securityVerificationCancelled": "A verificação de segurança foi cancelada.",
-  "settings.modelProvider.codingPlan.securityVerificationFailed": "Falha na verificação de segurança. Tente novamente em instantes.",
+  "settings.modelProvider.codingPlan.pendingOrder":
+    "Há um pedido não concluído. Conclua-o ou cancele-o antes de iniciar outra compra.",
+  "settings.modelProvider.codingPlan.paymentTimeout":
+    "O pagamento ainda está pendente. Verifique novamente o status do seu Coding Plan após concluir a página de pagamento.",
+  "settings.modelProvider.codingPlan.zaiOverseasPaymentRequired":
+    "Os planos internacionais da Z.ai devem ser pagos pelo PayPal ou pela página oficial de pagamentos da Z.ai, e não pelo fluxo de assinatura do Alipay.",
+  "settings.modelProvider.codingPlan.paypalSetupRequired":
+    "Autorize o PayPal antes de continuar o pagamento.",
+  "settings.modelProvider.codingPlan.paypalApproveUrlMissing":
+    "O PayPal não retornou um link de aprovação. Tente novamente mais tarde.",
+  "settings.modelProvider.codingPlan.paypalUnsupported":
+    "O PayPal não é compatível com esta conta ou região.",
+  "settings.modelProvider.codingPlan.paypalCancelled":
+    "A autorização do PayPal foi cancelada. Escolha PayPal novamente para tentar de novo.",
+  "settings.modelProvider.codingPlan.paypalSubscribeFailed":
+    "Não foi possível criar a assinatura do PayPal. Confirme que a autorização do PayPal foi concluída e tente novamente ou pague com cartão.",
+  "settings.modelProvider.codingPlan.securityVerificationRequired":
+    "Conclua a verificação de segurança antes de continuar a compra.",
+  "settings.modelProvider.codingPlan.securityVerificationCancelled":
+    "A verificação de segurança foi cancelada.",
+  "settings.modelProvider.codingPlan.securityVerificationFailed":
+    "Falha na verificação de segurança. Tente novamente em instantes.",
   "settings.modelProvider.codingPlan.start.loginEnable": "Conecte-se para ativar",
   "settings.modelProvider.codingPlan.start.loginTrial": "Conectar Z.ai",
   "settings.modelProvider.codingPlan.start.enabled": "Ativado",
   "settings.modelProvider.codingPlan.start.freeBadge": "Grátis",
   "settings.modelProvider.codingPlan.start.freeEquityTitle": "Começar com o plano gratuito",
-  "settings.modelProvider.codingPlan.start.freeEquityDetails": "Capacidade básica de programação disponível após o login.",
-  "settings.modelProvider.codingPlan.paymentDialog.title": "Plano de renovação automática do {product}",
+  "settings.modelProvider.codingPlan.start.freeEquityDetails":
+    "Capacidade básica de programação disponível após o login.",
+  "settings.modelProvider.codingPlan.paymentDialog.title":
+    "Plano de renovação automática do {product}",
   "settings.modelProvider.codingPlan.paymentDialog.close": "Fechar diálogo de pagamento",
   "settings.modelProvider.codingPlan.paymentDialog.originalAmount": "Preço do plano",
   "settings.modelProvider.codingPlan.paymentDialog.discountActivity": "Desconto",
-  "settings.modelProvider.codingPlan.paymentDialog.currentPlanCredit": "Valor restante do plano atual",
+  "settings.modelProvider.codingPlan.paymentDialog.currentPlanCredit":
+    "Valor restante do plano atual",
   "settings.modelProvider.codingPlan.paymentDialog.payAmount": "Valor a pagar",
   "settings.modelProvider.codingPlan.paymentDialog.deductions": "Deduções",
   "settings.modelProvider.codingPlan.paymentDialog.alipayScan": "Escaneie com o Alipay para pagar",
   "settings.modelProvider.codingPlan.paymentDialog.polling": "Aguardando confirmação do pagamento",
   "settings.modelProvider.codingPlan.paymentDialog.qrAlt": "Código QR de pagamento",
   "settings.modelProvider.codingPlan.paymentDialog.qrLoading": "Gerando código QR",
-  "settings.modelProvider.codingPlan.paymentDialog.qrError": "Não foi possível gerar o código QR. Tente novamente.",
+  "settings.modelProvider.codingPlan.paymentDialog.qrError":
+    "Não foi possível gerar o código QR. Tente novamente.",
   "settings.modelProvider.codingPlan.paymentDialog.qrExpired": "Código QR expirado",
   "settings.modelProvider.codingPlan.paymentDialog.refreshQr": "Atualizar código QR",
-  "settings.modelProvider.codingPlan.paymentDialog.tipAutoRenew": "A assinatura será renovada automaticamente por {price}/mês.",
-  "settings.modelProvider.codingPlan.paymentDialog.tipDeduction": "Prioridade de dedução: primeiro créditos, depois saldo e por último Alipay.",
-  "settings.modelProvider.codingPlan.paymentDialog.tipPeriodic": "O plano é renovado mensalmente até que você o cancele conforme os termos de serviço.",
-  "settings.modelProvider.codingPlan.paymentDialog.tipCancel": "Você pode desativar a renovação automática pelo menos 3 dias antes da data de renovação na visão geral do seu plano.",
-  "settings.modelProvider.codingPlan.paymentDialog.tipCancelPrefix": "Você pode desativar a renovação automática pelo menos 3 dias antes da data de renovação na sua ",
+  "settings.modelProvider.codingPlan.paymentDialog.tipAutoRenew":
+    "A assinatura será renovada automaticamente por {price}/mês.",
+  "settings.modelProvider.codingPlan.paymentDialog.tipDeduction":
+    "Prioridade de dedução: primeiro créditos, depois saldo e por último Alipay.",
+  "settings.modelProvider.codingPlan.paymentDialog.tipPeriodic":
+    "O plano é renovado mensalmente até que você o cancele conforme os termos de serviço.",
+  "settings.modelProvider.codingPlan.paymentDialog.tipCancel":
+    "Você pode desativar a renovação automática pelo menos 3 dias antes da data de renovação na visão geral do seu plano.",
+  "settings.modelProvider.codingPlan.paymentDialog.tipCancelPrefix":
+    "Você pode desativar a renovação automática pelo menos 3 dias antes da data de renovação na sua ",
   "settings.modelProvider.codingPlan.paymentDialog.planOverviewLink": "visão geral do plano",
   "settings.modelProvider.codingPlan.paymentDialog.tipCancelSuffix": ".",
   "settings.modelProvider.codingPlan.paymentDialog.ruleTitle": "Política de uso da conta",
-  "settings.modelProvider.codingPlan.paymentDialog.ruleDescription": "Use a conta assinada apenas nos escopos de produtos oficialmente permitidos. Não empreste, transfira ou forneça a conta a terceiros, e não a utilize para comportamentos impróprios ou que violem as regras. Se violações forem identificadas, a plataforma poderá restringir ou banir a conta sem reembolso.",
-  "settings.modelProvider.codingPlan.paymentDialog.agreement": "Ao pagar, você concorda com os termos de serviço e de renovação automática da assinatura. Produtos virtuais não são reembolsáveis após o pagamento.",
+  "settings.modelProvider.codingPlan.paymentDialog.ruleDescription":
+    "Use a conta assinada apenas nos escopos de produtos oficialmente permitidos. Não empreste, transfira ou forneça a conta a terceiros, e não a utilize para comportamentos impróprios ou que violem as regras. Se violações forem identificadas, a plataforma poderá restringir ou banir a conta sem reembolso.",
+  "settings.modelProvider.codingPlan.paymentDialog.agreement":
+    "Ao pagar, você concorda com os termos de serviço e de renovação automática da assinatura. Produtos virtuais não são reembolsáveis após o pagamento.",
   "settings.modelProvider.codingPlan.enterprise.purchaseMethod": "Forma de contratação",
-  "settings.modelProvider.codingPlan.enterprise.purchaseMethodTooltipTitle": "Detalhes da forma de contratação",
-  "settings.modelProvider.codingPlan.enterprise.purchaseMethodTooltipDescription": "1. A compra única mensal suporta apenas 1, 3, 6 ou 12 meses. 12 meses têm 10% de desconto.\n2. Assinatura contínua: a renovação automática cobra nesta ordem: saldo de brinde > saldo > Alipay.",
+  "settings.modelProvider.codingPlan.enterprise.purchaseMethodTooltipTitle":
+    "Detalhes da forma de contratação",
+  "settings.modelProvider.codingPlan.enterprise.purchaseMethodTooltipDescription":
+    "1. A compra única mensal suporta apenas 1, 3, 6 ou 12 meses. 12 meses têm 10% de desconto.\n2. Assinatura contínua: a renovação automática cobra nesta ordem: saldo de brinde > saldo > Alipay.",
   "settings.modelProvider.codingPlan.enterprise.tier.lite": "Lite",
   "settings.modelProvider.codingPlan.enterprise.tier.pro": "Pro",
   "settings.modelProvider.codingPlan.enterprise.tier.max": "Max",
   "settings.modelProvider.codingPlan.enterprise.configTitle": "Configuração do plano de equipe",
   "settings.modelProvider.codingPlan.enterprise.packageType": "Tipo de plano",
   "settings.modelProvider.codingPlan.enterprise.packageSeats": "Assentos do plano",
-  "settings.modelProvider.codingPlan.enterprise.autoRenewAuthorization": "Você nos autoriza a ativar a renovação automática para você",
+  "settings.modelProvider.codingPlan.enterprise.autoRenewAuthorization":
+    "Você nos autoriza a ativar a renovação automática para você",
   "settings.modelProvider.codingPlan.enterprise.seatMonthlyPrice": "{price} / assento / mês",
   "settings.modelProvider.codingPlan.enterprise.refresh": "Atualizar",
   "settings.modelProvider.codingPlan.enterprise.singleSeatPrice": "preço de assento único",
@@ -2349,60 +2822,83 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.enterprise.durationInputUnit.year": "anos",
   "settings.modelProvider.codingPlan.enterprise.durationDiscountOption": "10% de desconto",
   "settings.modelProvider.codingPlan.enterprise.calculating": "Calculando",
-  "settings.modelProvider.codingPlan.enterprise.productsLoadingDescription": "Carregando os preços do plano de equipe do BigModel.",
-  "settings.modelProvider.codingPlan.enterprise.productsEmptyDescription": "Nenhum produto de plano de equipe disponível no momento.",
-  "settings.modelProvider.codingPlan.enterprise.productsError": "Não foi possível carregar os planos de equipe",
+  "settings.modelProvider.codingPlan.enterprise.productsLoadingDescription":
+    "Carregando os preços do plano de equipe do BigModel.",
+  "settings.modelProvider.codingPlan.enterprise.productsEmptyDescription":
+    "Nenhum produto de plano de equipe disponível no momento.",
+  "settings.modelProvider.codingPlan.enterprise.productsError":
+    "Não foi possível carregar os planos de equipe",
   "settings.modelProvider.codingPlan.enterprise.choosePurchaseMethod": "Forma de contratação",
-  "settings.modelProvider.codingPlan.enterprise.purchaseMethodDescription": "Você nos autoriza a ativar a renovação automática para você. Selecione a forma de contratação, os assentos e a duração da compra única antes de confirmar o pagamento.",
-  "settings.modelProvider.codingPlan.enterprise.continuousDescription": "Renova automaticamente pelo período de cobrança selecionado.",
-  "settings.modelProvider.codingPlan.enterprise.oneTimeDescription": "Compra única pela duração selecionada.",
+  "settings.modelProvider.codingPlan.enterprise.purchaseMethodDescription":
+    "Você nos autoriza a ativar a renovação automática para você. Selecione a forma de contratação, os assentos e a duração da compra única antes de confirmar o pagamento.",
+  "settings.modelProvider.codingPlan.enterprise.continuousDescription":
+    "Renova automaticamente pelo período de cobrança selecionado.",
+  "settings.modelProvider.codingPlan.enterprise.oneTimeDescription":
+    "Compra única pela duração selecionada.",
   "settings.modelProvider.codingPlan.enterprise.unit.monthly": "/ assento / mês",
   "settings.modelProvider.codingPlan.enterprise.unit.quarterly": "/ assento / trimestre",
   "settings.modelProvider.codingPlan.enterprise.unit.yearly": "/ assento / ano",
   "settings.modelProvider.codingPlan.enterprise.benefitSeats": "Acesso da equipe por assentos",
-  "settings.modelProvider.codingPlan.enterprise.benefitBilling": "Cobrança e pagamento centralizados",
+  "settings.modelProvider.codingPlan.enterprise.benefitBilling":
+    "Cobrança e pagamento centralizados",
   "settings.modelProvider.codingPlan.enterprise.benefitQuota": "Cota de programação da equipe",
   "settings.modelProvider.codingPlan.enterprise.balanceTitle": "Dedução de saldo",
   "settings.modelProvider.codingPlan.enterprise.useGiftBalance": "Usar saldo de brinde",
   "settings.modelProvider.codingPlan.enterprise.useCashBalance": "Usar saldo",
-  "settings.modelProvider.codingPlan.enterprise.currentGiftBalance": "Saldo de brinde atual {amount}",
-  "settings.modelProvider.codingPlan.enterprise.currentCashBalance": "Saldo da conta atual {amount}",
+  "settings.modelProvider.codingPlan.enterprise.currentGiftBalance":
+    "Saldo de brinde atual {amount}",
+  "settings.modelProvider.codingPlan.enterprise.currentCashBalance":
+    "Saldo da conta atual {amount}",
   "settings.modelProvider.codingPlan.enterprise.recharge": "Recarregar",
   "settings.modelProvider.codingPlan.enterprise.giftBalance": "Saldo de brinde",
   "settings.modelProvider.codingPlan.enterprise.cashBalance": "Saldo em conta",
   "settings.modelProvider.codingPlan.enterprise.balanceAvailable": "Disponível {amount}",
   "settings.modelProvider.codingPlan.enterprise.giftBalanceDeduction": "Dedução do saldo de brinde",
   "settings.modelProvider.codingPlan.enterprise.cashBalanceDeduction": "Dedução do saldo em conta",
-  "settings.modelProvider.codingPlan.enterprise.calculateDescription": "O valor do pagamento será atualizado quando a estimativa do pedido estiver pronta.",
+  "settings.modelProvider.codingPlan.enterprise.calculateDescription":
+    "O valor do pagamento será atualizado quando a estimativa do pedido estiver pronta.",
   "settings.modelProvider.codingPlan.enterprise.paymentNotesTitle": "Observações de pagamento",
-  "settings.modelProvider.codingPlan.enterprise.paymentNotesDescription": "As deduções de saldo e de brinde são estimadas pelo BigModel. Assinaturas contínuas devem manter pelo menos o valor exigido de pagamento por terceiros.",
+  "settings.modelProvider.codingPlan.enterprise.paymentNotesDescription":
+    "As deduções de saldo e de brinde são estimadas pelo BigModel. Assinaturas contínuas devem manter pelo menos o valor exigido de pagamento por terceiros.",
   "settings.modelProvider.codingPlan.enterprise.amountDetails": "Detalhes do valor",
   "settings.modelProvider.codingPlan.enterprise.seatQuantity": "Assentos",
   "settings.modelProvider.codingPlan.enterprise.seatCountValue": "{count} assentos",
   "settings.modelProvider.codingPlan.enterprise.orderOriginalAmount": "Valor original do pedido",
   "settings.modelProvider.codingPlan.enterprise.orderDiscount": "{discount} de desconto",
   "settings.modelProvider.codingPlan.enterprise.teamAgreementPrefix": "Concordo com o ",
-  "settings.modelProvider.codingPlan.enterprise.teamAgreementLink": "Termo de compra do plano de equipe",
+  "settings.modelProvider.codingPlan.enterprise.teamAgreementLink":
+    "Termo de compra do plano de equipe",
   "settings.modelProvider.codingPlan.enterprise.cancel": "Cancelar",
   "settings.modelProvider.codingPlan.enterprise.confirmPay": "Confirmar e pagar",
-  "settings.modelProvider.codingPlan.enterprise.confirmTitle": "Comprar plano empresarial do {product}",
-  "settings.modelProvider.codingPlan.enterprise.paymentDialog.title": "Pagamento do plano empresarial do {product}",
-  "settings.modelProvider.codingPlan.enterprise.paymentDialog.tipTotal": "O valor do QR code é o total calculado para os assentos e a duração da compra.",
-  "settings.modelProvider.codingPlan.enterprise.paymentDialog.tipDeduction": "As deduções de saldo e de brinde seguem a estimativa confirmada na página de confirmação do pagamento.",
-  "settings.modelProvider.codingPlan.enterprise.paymentDialog.tipComplete": "Após o pagamento ser concluído, os preços empresariais e os benefícios do Coding Plan serão atualizados automaticamente.",
+  "settings.modelProvider.codingPlan.enterprise.confirmTitle":
+    "Comprar plano empresarial do {product}",
+  "settings.modelProvider.codingPlan.enterprise.paymentDialog.title":
+    "Pagamento do plano empresarial do {product}",
+  "settings.modelProvider.codingPlan.enterprise.paymentDialog.tipTotal":
+    "O valor do QR code é o total calculado para os assentos e a duração da compra.",
+  "settings.modelProvider.codingPlan.enterprise.paymentDialog.tipDeduction":
+    "As deduções de saldo e de brinde seguem a estimativa confirmada na página de confirmação do pagamento.",
+  "settings.modelProvider.codingPlan.enterprise.paymentDialog.tipComplete":
+    "Após o pagamento ser concluído, os preços empresariais e os benefícios do Coding Plan serão atualizados automaticamente.",
   "settings.modelProvider.codingPlan.enterprise.pendingOrderTitle": "Você tem um pedido não pago",
-  "settings.modelProvider.codingPlan.enterprise.pendingOrderDescription": "Deseja continuar com ele? Você pode cancelar este pedido e escolher um novo plano, ou continuar o pagamento do pedido original.",
+  "settings.modelProvider.codingPlan.enterprise.pendingOrderDescription":
+    "Deseja continuar com ele? Você pode cancelar este pedido e escolher um novo plano, ou continuar o pagamento do pedido original.",
   "settings.modelProvider.codingPlan.enterprise.pendingOrderCancel": "Cancelar pedido",
   "settings.modelProvider.codingPlan.enterprise.pendingOrderContinue": "Continuar pagamento",
-  "settings.modelProvider.codingPlan.enterprise.pendingOrderProductMissing": "O plano deste pedido não pago não foi encontrado. Atualize os planos e tente novamente.",
+  "settings.modelProvider.codingPlan.enterprise.pendingOrderProductMissing":
+    "O plano deste pedido não pago não foi encontrado. Atualize os planos e tente novamente.",
   "settings.modelProvider.codingPlan.overseasPayment.title": "Pagamento internacional do {product}",
-  "settings.modelProvider.codingPlan.overseasPayment.description": "Valor a pagar: {price}. Escolha PayPal ou continue na página oficial de pagamentos da Z.ai.",
+  "settings.modelProvider.codingPlan.overseasPayment.description":
+    "Valor a pagar: {price}. Escolha PayPal ou continue na página oficial de pagamentos da Z.ai.",
   "settings.modelProvider.codingPlan.overseasPayment.paypal": "PayPal",
-  "settings.modelProvider.codingPlan.overseasPayment.paypalDescription": "Abra a autorização do PayPal e retorne aqui para continuar.",
+  "settings.modelProvider.codingPlan.overseasPayment.paypalDescription":
+    "Abra a autorização do PayPal e retorne aqui para continuar.",
   "settings.modelProvider.codingPlan.overseasPayment.paypalAuthorize": "Continuar para o PayPal",
-  "settings.modelProvider.codingPlan.overseasPayment.paypalContinue": "Autorizei o PayPal, continuar pagamento",
+  "settings.modelProvider.codingPlan.overseasPayment.paypalContinue":
+    "Autorizei o PayPal, continuar pagamento",
   "settings.modelProvider.codingPlan.overseasPayment.selectPaymentMethod": "Forma de pagamento",
-  "settings.modelProvider.codingPlan.overseasPayment.cardPayment": "Cartão de crédito / cartão de débito",
+  "settings.modelProvider.codingPlan.overseasPayment.cardPayment":
+    "Cartão de crédito / cartão de débito",
   "settings.modelProvider.codingPlan.overseasPayment.savedCards": "Cartões salvos",
   "settings.modelProvider.codingPlan.overseasPayment.refreshCards": "Atualizar cartões",
   "settings.modelProvider.codingPlan.overseasPayment.deleteCard": "Excluir cartão",
@@ -2415,7 +2911,8 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.overseasPayment.nameOnCard": "Nome no cartão",
   "settings.modelProvider.codingPlan.overseasPayment.billingAddress": "Endereço de cobrança",
   "settings.modelProvider.codingPlan.overseasPayment.country": "País",
-  "settings.modelProvider.codingPlan.overseasPayment.countryRequired": "Selecione um país ou região de cobrança.",
+  "settings.modelProvider.codingPlan.overseasPayment.countryRequired":
+    "Selecione um país ou região de cobrança.",
   "settings.modelProvider.codingPlan.overseasPayment.addressLine1": "Endereço, linha 1",
   "settings.modelProvider.codingPlan.overseasPayment.city": "Cidade",
   "settings.modelProvider.codingPlan.overseasPayment.postalCode": "CEP",
@@ -2424,58 +2921,82 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.overseasPayment.confirm": "Confirmar",
   "settings.modelProvider.codingPlan.overseasPayment.amount.originalAmount": "Preço original",
   "settings.modelProvider.codingPlan.overseasPayment.amount.discountActivity": "Desconto",
-  "settings.modelProvider.codingPlan.overseasPayment.amount.currentPlanCredit": "Crédito do plano atual",
+  "settings.modelProvider.codingPlan.overseasPayment.amount.currentPlanCredit":
+    "Crédito do plano atual",
   "settings.modelProvider.codingPlan.overseasPayment.amount.payAmount": "Valor a pagar",
   "settings.modelProvider.codingPlan.overseasPayment.amount.deductions": "Deduções",
-  "settings.modelProvider.codingPlan.overseasPayment.addCardBeforeConfirm": "Adicione um cartão antes de confirmar.",
-  "settings.modelProvider.codingPlan.overseasPayment.stripeNotReady": "O Stripe ainda está carregando. Tente novamente em instantes.",
-  "settings.modelProvider.codingPlan.overseasPayment.cardElementMissing": "O campo do cartão não está pronto. Atualize e tente novamente.",
-  "settings.modelProvider.codingPlan.overseasPayment.stripe3dsFailed": "Falha na verificação 3DS do Stripe.",
-  "settings.modelProvider.codingPlan.overseasPayment.stripePaymentMethodFailed": "Falha no método de pagamento do Stripe.",
-  "settings.modelProvider.codingPlan.overseasPayment.stripePublishableKeyMissing": "A entrada de cartão do Stripe não está configurada nesta versão.",
+  "settings.modelProvider.codingPlan.overseasPayment.addCardBeforeConfirm":
+    "Adicione um cartão antes de confirmar.",
+  "settings.modelProvider.codingPlan.overseasPayment.stripeNotReady":
+    "O Stripe ainda está carregando. Tente novamente em instantes.",
+  "settings.modelProvider.codingPlan.overseasPayment.cardElementMissing":
+    "O campo do cartão não está pronto. Atualize e tente novamente.",
+  "settings.modelProvider.codingPlan.overseasPayment.stripe3dsFailed":
+    "Falha na verificação 3DS do Stripe.",
+  "settings.modelProvider.codingPlan.overseasPayment.stripePaymentMethodFailed":
+    "Falha no método de pagamento do Stripe.",
+  "settings.modelProvider.codingPlan.overseasPayment.stripePublishableKeyMissing":
+    "A entrada de cartão do Stripe não está configurada nesta versão.",
   "settings.modelProvider.codingPlan.overseasPayment.close": "Talvez mais tarde",
   "settings.modelProvider.codingPlan.overseasPayment.renewalPolicyTitle": "Política de renovação",
-  "settings.modelProvider.codingPlan.overseasPayment.accountPolicyTitle": "Política de uso da conta",
+  "settings.modelProvider.codingPlan.overseasPayment.accountPolicyTitle":
+    "Política de uso da conta",
   "settings.modelProvider.codingPlan.overseasPayment.period.month": "mês",
   "settings.modelProvider.codingPlan.overseasPayment.period.quarter": "trimestre",
   "settings.modelProvider.codingPlan.overseasPayment.period.year": "ano",
   "settings.modelProvider.codingPlan.overseasPayment.recurringPeriod.month": "Mensal",
   "settings.modelProvider.codingPlan.overseasPayment.recurringPeriod.quarter": "Trimestral",
   "settings.modelProvider.codingPlan.overseasPayment.recurringPeriod.year": "Anual",
-  "settings.modelProvider.codingPlan.overseasPayment.renewalCharge": "{price} será cobrado automaticamente a cada {period}.",
-  "settings.modelProvider.codingPlan.overseasPayment.renewalChargeFallback": "As renovações futuras seguirão o ciclo de assinatura selecionado. O valor real da renovação está sujeito à sua fatura de renovação.",
-  "settings.modelProvider.codingPlan.overseasPayment.renewalDeduction": "Os pagamentos serão deduzidos primeiro dos créditos bônus, depois do saldo da sua conta e, por fim, via cartão de crédito.",
-  "settings.modelProvider.codingPlan.overseasPayment.renewalMinimum": "Observe que um valor mínimo se aplica ao cobrar do seu cartão de crédito. Se o valor restante for menor, arredondaremos a dedução para cima para atingir esse mínimo.",
-  "settings.modelProvider.codingPlan.overseasPayment.renewalRecurring": "A cobrança {period} continuará de forma recorrente até que você cancele de acordo com nossos Termos de Serviço.",
-  "settings.modelProvider.codingPlan.overseasPayment.renewalCancelPrefix": "Você pode desativar a renovação automática pelo menos 1 dia antes da data de renovação nas suas ",
-  "settings.modelProvider.codingPlan.overseasPayment.subscriptionSettingLink": "configurações de assinatura",
+  "settings.modelProvider.codingPlan.overseasPayment.renewalCharge":
+    "{price} será cobrado automaticamente a cada {period}.",
+  "settings.modelProvider.codingPlan.overseasPayment.renewalChargeFallback":
+    "As renovações futuras seguirão o ciclo de assinatura selecionado. O valor real da renovação está sujeito à sua fatura de renovação.",
+  "settings.modelProvider.codingPlan.overseasPayment.renewalDeduction":
+    "Os pagamentos serão deduzidos primeiro dos créditos bônus, depois do saldo da sua conta e, por fim, via cartão de crédito.",
+  "settings.modelProvider.codingPlan.overseasPayment.renewalMinimum":
+    "Observe que um valor mínimo se aplica ao cobrar do seu cartão de crédito. Se o valor restante for menor, arredondaremos a dedução para cima para atingir esse mínimo.",
+  "settings.modelProvider.codingPlan.overseasPayment.renewalRecurring":
+    "A cobrança {period} continuará de forma recorrente até que você cancele de acordo com nossos Termos de Serviço.",
+  "settings.modelProvider.codingPlan.overseasPayment.renewalCancelPrefix":
+    "Você pode desativar a renovação automática pelo menos 1 dia antes da data de renovação nas suas ",
+  "settings.modelProvider.codingPlan.overseasPayment.subscriptionSettingLink":
+    "configurações de assinatura",
   "settings.modelProvider.codingPlan.overseasPayment.renewalCancelSuffix": ".",
-  "settings.modelProvider.codingPlan.overseasPayment.accountPolicyPrefix": "O GLM Coding Plan é estritamente limitado ao uso pelo assinante dentro de ",
-  "settings.modelProvider.codingPlan.overseasPayment.supportedProductsLink": "produtos oficialmente suportados",
-  "settings.modelProvider.codingPlan.overseasPayment.accountPolicyAfterSupportedProducts": ". Compartilhar, revender, transferir ou permitir acesso de terceiros é estritamente proibido. Qualquer uso impróprio, não autorizado ou em violação às políticas pode resultar em restrição ou suspensão imediata da conta, sem reembolso. Siga nossos ",
+  "settings.modelProvider.codingPlan.overseasPayment.accountPolicyPrefix":
+    "O GLM Coding Plan é estritamente limitado ao uso pelo assinante dentro de ",
+  "settings.modelProvider.codingPlan.overseasPayment.supportedProductsLink":
+    "produtos oficialmente suportados",
+  "settings.modelProvider.codingPlan.overseasPayment.accountPolicyAfterSupportedProducts":
+    ". Compartilhar, revender, transferir ou permitir acesso de terceiros é estritamente proibido. Qualquer uso impróprio, não autorizado ou em violação às políticas pode resultar em restrição ou suspensão imediata da conta, sem reembolso. Siga nossos ",
   "settings.modelProvider.codingPlan.overseasPayment.termsLink": "Termos",
   "settings.modelProvider.codingPlan.overseasPayment.accountPolicyBetween": " e ",
   "settings.modelProvider.codingPlan.overseasPayment.policyLink": "Política",
   "settings.modelProvider.codingPlan.overseasPayment.accountPolicySuffix": ".",
-  "settings.modelProvider.codingPlan.overseasPayment.authorizationPrefix": "Você concorda que a Z.ai cobrará do seu cartão o valor acima agora e de forma recorrente, de acordo com o seu plano de assinatura, até que você cancele conforme nossos ",
+  "settings.modelProvider.codingPlan.overseasPayment.authorizationPrefix":
+    "Você concorda que a Z.ai cobrará do seu cartão o valor acima agora e de forma recorrente, de acordo com o seu plano de assinatura, até que você cancele conforme nossos ",
   "settings.modelProvider.codingPlan.overseasPayment.authorizationTermsLink": "termos",
   "settings.modelProvider.codingPlan.overseasPayment.authorizationSuffix": ".",
-  "settings.modelProvider.codingPlan.paymentDialog.agreementPrefix": "Ao pagar, você concorda com o ",
+  "settings.modelProvider.codingPlan.paymentDialog.agreementPrefix":
+    "Ao pagar, você concorda com o ",
   "settings.modelProvider.codingPlan.paymentDialog.serviceAgreementLink": "Contrato de serviço",
   "settings.modelProvider.codingPlan.paymentDialog.agreementBetween": " e com o ",
-  "settings.modelProvider.codingPlan.paymentDialog.subscriptionAgreementLink": "Contrato de assinatura e renovação automática",
-  "settings.modelProvider.codingPlan.paymentDialog.agreementSuffix": ". Produtos virtuais não são reembolsáveis após o pagamento.",
+  "settings.modelProvider.codingPlan.paymentDialog.subscriptionAgreementLink":
+    "Contrato de assinatura e renovação automática",
+  "settings.modelProvider.codingPlan.paymentDialog.agreementSuffix":
+    ". Produtos virtuais não são reembolsáveis após o pagamento.",
   "settings.modelProvider.codingPlan.product.soldOut": "Esgotado",
   "settings.modelProvider.codingPlan.product.forbidden": "Indisponível para esta conta",
   "settings.modelProvider.codingPlan.product.unavailable": "Indisponível",
   "settings.modelProvider.codingPlan.product.subscribeNow": "Assinar agora",
-  "settings.modelProvider.codingPlan.product.unavailableTooltipPrefix": "Este plano não está disponível para compra. ",
+  "settings.modelProvider.codingPlan.product.unavailableTooltipPrefix":
+    "Este plano não está disponível para compra. ",
   "settings.modelProvider.codingPlan.product.unavailableTooltipLink": "ver detalhes",
   "settings.modelProvider.codingPlan.product.included": "Incluído",
   "settings.modelProvider.codingPlan.product.firstPromo": "Desconto na primeira assinatura",
   "settings.modelProvider.codingPlan.product.delay": "Válido a partir de {time}",
   "settings.modelProvider.codingPlan.zai.plan.lite.name": "Lite",
-  "settings.modelProvider.codingPlan.zai.plan.lite.summary": "Limites de uso 3x maiores que os do Claude Pro",
+  "settings.modelProvider.codingPlan.zai.plan.lite.summary":
+    "Limites de uso 3x maiores que os do Claude Pro",
   "settings.modelProvider.codingPlan.zai.plan.pro.name": "Pro",
   "settings.modelProvider.codingPlan.zai.plan.pro.summary": "Tudo do Lite, mais 5x o uso do Lite",
   "settings.modelProvider.codingPlan.zai.plan.max.name": "Max",
@@ -2483,33 +3004,53 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.codingPlan.bigmodel.plan.lite.name": "Lite",
   "settings.modelProvider.codingPlan.bigmodel.plan.lite.summary": "3x a cota de uso do Claude Pro",
   "settings.modelProvider.codingPlan.bigmodel.plan.pro.name": "Pro",
-  "settings.modelProvider.codingPlan.bigmodel.plan.pro.summary": "5x a cota de uso do Lite + todos os benefícios do Lite",
+  "settings.modelProvider.codingPlan.bigmodel.plan.pro.summary":
+    "5x a cota de uso do Lite + todos os benefícios do Lite",
   "settings.modelProvider.codingPlan.bigmodel.plan.max.name": "Max",
-  "settings.modelProvider.codingPlan.bigmodel.plan.max.summary": "20x a cota de uso do Lite + todos os benefícios do Pro",
+  "settings.modelProvider.codingPlan.bigmodel.plan.max.summary":
+    "20x a cota de uso do Lite + todos os benefícios do Pro",
   "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail0": "Cota de uso básica",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail1": "Iterações leves em repositórios pequenos",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail2": "Modelos mais recentes liberados ao longo do tempo",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail3": "20+ ferramentas de programação",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail0": "5x a cota de uso do Lite",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail1": "Desenvolvimento diário em repositórios de médio porte",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail2": "Acesso prioritário aos modelos mais recentes",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail3": "Ferramentas MCP selecionadas",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail0": "20x a cota de uso do Lite",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail1": "Trabalho pesado em repositórios de médio a grande porte",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail2": "Primeiro acesso aos modelos mais recentes",
-  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail3": "Prioridade de recursos em horários de pico",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail1":
+    "Iterações leves em repositórios pequenos",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail2":
+    "Modelos mais recentes liberados ao longo do tempo",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.lite.detail3":
+    "20+ ferramentas de programação",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail0":
+    "5x a cota de uso do Lite",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail1":
+    "Desenvolvimento diário em repositórios de médio porte",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail2":
+    "Acesso prioritário aos modelos mais recentes",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.pro.detail3":
+    "Ferramentas MCP selecionadas",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail0":
+    "20x a cota de uso do Lite",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail1":
+    "Trabalho pesado em repositórios de médio a grande porte",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail2":
+    "Primeiro acesso aos modelos mais recentes",
+  "settings.modelProvider.codingPlan.bigmodel.purchase.plan.max.detail3":
+    "Prioridade de recursos em horários de pico",
   "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail0": "Cota de uso básica incluída",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail1": "Iterações em repositórios pequenos",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail2": "Modelos mais recentes ao longo do tempo",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail3": "20+ ferramentas de programação",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail1":
+    "Iterações em repositórios pequenos",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail2":
+    "Modelos mais recentes ao longo do tempo",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.lite.detail3":
+    "20+ ferramentas de programação",
   "settings.modelProvider.codingPlan.zai.purchase.plan.pro.detail0": "5x o uso do Lite",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.pro.detail1": "Desenvolvimento em repositórios de médio porte",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.pro.detail2": "Acesso prioritário aos modelos",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.pro.detail1":
+    "Desenvolvimento em repositórios de médio porte",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.pro.detail2":
+    "Acesso prioritário aos modelos",
   "settings.modelProvider.codingPlan.zai.purchase.plan.pro.detail3": "Ferramentas MCP selecionadas",
   "settings.modelProvider.codingPlan.zai.purchase.plan.max.detail0": "20x o uso do Lite",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.max.detail1": "Trabalho em repositórios de médio a grande porte",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.max.detail1":
+    "Trabalho em repositórios de médio a grande porte",
   "settings.modelProvider.codingPlan.zai.purchase.plan.max.detail2": "Primeiro acesso aos modelos",
-  "settings.modelProvider.codingPlan.zai.purchase.plan.max.detail3": "Prioridade em horários de pico",
+  "settings.modelProvider.codingPlan.zai.purchase.plan.max.detail3":
+    "Prioridade em horários de pico",
   "settings.modelProvider.enabledStatus": "Ativado",
   "settings.modelProvider.enableModel": "Ativar",
   "settings.modelProvider.disabledStatus": "Desativado",
@@ -2526,19 +3067,29 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.restoreConfig": "Restaurar",
   "settings.modelProvider.resetForm": "Redefinir formulário",
   "settings.modelProvider.fieldHelp": "Sobre {field}",
-  "settings.modelProvider.help.contextWindow": "A capacidade de contexto que o modelo consegue processar de uma vez, em tokens. O ZCode usa isso para gerenciar o contexto.\nNão exceda o limite real do modelo.",
-  "settings.modelProvider.help.maxOutputTokens": "O número máximo de tokens que uma única requisição ao modelo pode gerar.\nNão exceda o limite real do modelo.",
-  "settings.modelProvider.help.inputModalities": "Defina os tipos de conteúdo que o modelo pode receber:\n\n- **Texto**: Recebe conteúdo de texto. Obrigatório.\n- **Imagens**: Recebe conteúdo de imagem.\n- **Vídeo**: Recebe conteúdo de vídeo.\n- **PDF**: Recebe documentos PDF diretamente.",
-  "settings.modelProvider.help.outputModalities": "O tipo de conteúdo das respostas do modelo. Atualmente, apenas texto é suportado.",
-  "settings.modelProvider.help.capabilities": "- **Saída estruturada**: Suporta restrições de JSON Schema nos campos, tipos e estrutura da saída.\n- **Busca na web nativa**: Suporta o recurso de busca na web integrado à API do modelo.\n- **Mensagens de sistema no meio da conversa**: Suporta inserir instruções de sistema durante uma conversa.\n\nNão ative recursos que o modelo não suporta.",
-  "settings.modelProvider.help.reasoningLevelsOrdered": "Defina os níveis de raciocínio disponíveis no chat. **Eles devem estar ordenados do menor para o maior esforço de raciocínio**.\nNão configure níveis de raciocínio que o modelo não suporta.",
-  "settings.modelProvider.help.reasoningLevelMapping": "Use uma expressão CEL para mapear o nível de raciocínio atual, `reasoningLevel`, para os campos da requisição da API do modelo. O objeto JSON retornado pela expressão é mesclado ao corpo da requisição enviada.",
-  "settings.modelProvider.help.advanced": "**Schema de ferramenta MFJS**: Ativa a compatibilidade com Moonshot Flavored JSON Schema, comumente usado pela API do modelo Kimi da Moonshot. Ative apenas quando a API do modelo exigir este formato.",
-  "settings.modelProvider.help.followRecommendedConfig": "Corresponde à configuração recomendada usando o ID do modelo, a URL Base e o formato da API. O ZCode atualiza as recomendações continuamente e as sincroniza automaticamente para você.\nQuando você altera uma configuração manualmente, ela passa a ser gerenciada manualmente e deixa de seguir as atualizações de recomendação; as demais configurações continuam gerenciadas pela configuração inteligente.",
+  "settings.modelProvider.help.contextWindow":
+    "A capacidade de contexto que o modelo consegue processar de uma vez, em tokens. O ZCode usa isso para gerenciar o contexto.\nNão exceda o limite real do modelo.",
+  "settings.modelProvider.help.maxOutputTokens":
+    "O número máximo de tokens que uma única requisição ao modelo pode gerar.\nNão exceda o limite real do modelo.",
+  "settings.modelProvider.help.inputModalities":
+    "Defina os tipos de conteúdo que o modelo pode receber:\n\n- **Texto**: Recebe conteúdo de texto. Obrigatório.\n- **Imagens**: Recebe conteúdo de imagem.\n- **Vídeo**: Recebe conteúdo de vídeo.\n- **PDF**: Recebe documentos PDF diretamente.",
+  "settings.modelProvider.help.outputModalities":
+    "O tipo de conteúdo das respostas do modelo. Atualmente, apenas texto é suportado.",
+  "settings.modelProvider.help.capabilities":
+    "- **Saída estruturada**: Suporta restrições de JSON Schema nos campos, tipos e estrutura da saída.\n- **Busca na web nativa**: Suporta o recurso de busca na web integrado à API do modelo.\n- **Mensagens de sistema no meio da conversa**: Suporta inserir instruções de sistema durante uma conversa.\n\nNão ative recursos que o modelo não suporta.",
+  "settings.modelProvider.help.reasoningLevelsOrdered":
+    "Defina os níveis de raciocínio disponíveis no chat. **Eles devem estar ordenados do menor para o maior esforço de raciocínio**.\nNão configure níveis de raciocínio que o modelo não suporta.",
+  "settings.modelProvider.help.reasoningLevelMapping":
+    "Use uma expressão CEL para mapear o nível de raciocínio atual, `reasoningLevel`, para os campos da requisição da API do modelo. O objeto JSON retornado pela expressão é mesclado ao corpo da requisição enviada.",
+  "settings.modelProvider.help.advanced":
+    "**Schema de ferramenta MFJS**: Ativa a compatibilidade com Moonshot Flavored JSON Schema, comumente usado pela API do modelo Kimi da Moonshot. Ative apenas quando a API do modelo exigir este formato.",
+  "settings.modelProvider.help.followRecommendedConfig":
+    "Corresponde à configuração recomendada usando o ID do modelo, a URL Base e o formato da API. O ZCode atualiza as recomendações continuamente e as sincroniza automaticamente para você.\nQuando você altera uma configuração manualmente, ela passa a ser gerenciada manualmente e deixa de seguir as atualizações de recomendação; as demais configurações continuam gerenciadas pela configuração inteligente.",
   "settings.modelProvider.modelDefaultsLoaded": "Configuração inteligente aplicada a este modelo",
   "settings.modelProvider.modelConfigIncomplete": "A configuração do modelo está incompleta",
   "settings.modelProvider.models": "Lista de modelos",
-  "settings.modelProvider.modelsEmpty": "Nenhum modelo configurado. Adicione um modelo para usá-lo no chat.",
+  "settings.modelProvider.modelsEmpty":
+    "Nenhum modelo configurado. Adicione um modelo para usá-lo no chat.",
   "settings.modelProvider.addModel": "Adicionar modelo",
   "settings.modelProvider.modelId": "ID do modelo",
   "settings.modelProvider.modelDisplayName": "Nome de exibição",
@@ -2550,16 +3101,20 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.supportsToolCall": "Chamadas de ferramentas",
   "settings.modelProvider.supportsJsonSchemaOutput": "Saída estruturada",
   "settings.modelProvider.supportsNativeWebSearch": "Busca na web nativa",
-  "settings.modelProvider.supportsMidConversationSystem": "Mensagens de sistema no meio da conversa",
+  "settings.modelProvider.supportsMidConversationSystem":
+    "Mensagens de sistema no meio da conversa",
   "settings.modelProvider.requiresMfjsToolSchema": "Schema de ferramenta MFJS",
   "settings.modelProvider.otherSettings": "Outras configurações",
-  "settings.modelProvider.reasoningLevelOptionSpecJson": "JSON de especificação das opções de nível de raciocínio",
+  "settings.modelProvider.reasoningLevelOptionSpecJson":
+    "JSON de especificação das opções de nível de raciocínio",
   "settings.modelProvider.reasoningLevelsOrdered": "Níveis de raciocínio (do menor para o maior)",
   "settings.modelProvider.reasoningLevelAdd": "Adicionar nível de raciocínio",
   "settings.modelProvider.reasoningLevelMapping": "Mapeamento de parâmetros de raciocínio",
   "settings.modelProvider.reasoningLevelDelete": "Excluir nível de raciocínio",
-  "settings.modelProvider.modelMetadata.invalid.reasoningLevelValues": "Os níveis de raciocínio não podem estar vazios nem duplicados",
-  "settings.modelProvider.modelMetadata.invalid.reasoningLevelMap": "O mapeamento de parâmetros de raciocínio é inválido",
+  "settings.modelProvider.modelMetadata.invalid.reasoningLevelValues":
+    "Os níveis de raciocínio não podem estar vazios nem duplicados",
+  "settings.modelProvider.modelMetadata.invalid.reasoningLevelMap":
+    "O mapeamento de parâmetros de raciocínio é inválido",
   "settings.modelProvider.contextWindowBadgeLabel": "Janela de contexto: {value}",
   "model.capability.vision": "Visão",
   "settings.modelProvider.advanced": "Configurações avançadas",
@@ -2576,37 +3131,49 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.modality.pdf": "PDF",
   "settings.modelProvider.modelMetadata.invalid.id": "O ID do modelo é obrigatório",
   "settings.modelProvider.modelMetadata.invalid.kinds": "Selecione pelo menos um formato de API",
-  "settings.modelProvider.modelMetadata.invalid.contextWindow": "A janela de contexto deve ser um número inteiro positivo",
-  "settings.modelProvider.modelMetadata.invalid.maxOutputTokens": "O máximo de tokens de saída deve ser um número inteiro positivo",
-  "settings.modelProvider.modelMetadata.invalid.inputModalities": "O tipo de entrada de texto é obrigatório",
+  "settings.modelProvider.modelMetadata.invalid.contextWindow":
+    "A janela de contexto deve ser um número inteiro positivo",
+  "settings.modelProvider.modelMetadata.invalid.maxOutputTokens":
+    "O máximo de tokens de saída deve ser um número inteiro positivo",
+  "settings.modelProvider.modelMetadata.invalid.inputModalities":
+    "O tipo de entrada de texto é obrigatório",
   "settings.modelProvider.newProviderName": "Novo provedor",
   "settings.modelProvider.modelsPlaceholder": "Um nome de modelo por linha",
   "settings.modelProvider.modelsCount": "{count} modelos",
   "settings.modelProvider.presetTitle": "Provedores",
   "settings.usage.sectionTitle": "Estatísticas de uso",
-  "settings.usage.sectionDescription": "Gerado a partir do histórico local de sessões do aplicativo.",
+  "settings.usage.sectionDescription":
+    "Gerado a partir do histórico local de sessões do aplicativo.",
   "settings.usage.tab.appUsage": "Uso do aplicativo",
   "settings.usage.tab.codingPlan": "Plano individual",
-  "settings.usage.sectionDescriptionRemote": "Sincronizado com a API de monitoramento do provedor selecionado para o uso real de tokens e ferramentas.",
+  "settings.usage.sectionDescriptionRemote":
+    "Sincronizado com a API de monitoramento do provedor selecionado para o uso real de tokens e ferramentas.",
   "settings.usage.remoteTokenHint": "Da API de uso de modelos do provedor selecionado",
   "settings.usage.calls": "Chamadas",
   "settings.usage.toolCallsTotal": "Chamadas de ferramentas",
   "settings.usage.toolCallsEmpty": "Nenhuma chamada de ferramenta neste período",
   "settings.usage.toolCallsUnit": "chamadas",
   "settings.usage.toolChartTitle": "Detalhamento do uso de ferramentas",
-  "settings.usage.toolChartDescription": "Da API de uso de ferramentas do provedor selecionado: contagem de chamadas de Network Search / Web Reader / Zread.",
+  "settings.usage.toolChartDescription":
+    "Da API de uso de ferramentas do provedor selecionado: contagem de chamadas de Network Search / Web Reader / Zread.",
   "settings.usage.sourceProvider": "Fonte: {provider}",
   "settings.usage.billingBanner.title": "Coding Plan do {provider}",
-  "settings.usage.billingBanner.description": "Conecte sua conta {provider} para consultar os benefícios do Coding Plan e continue programando no ZCode após a compra ou configuração.",
-  "settings.usage.billingBanner.compactDescription": "Conecte sua conta {provider} para sincronizar o uso.",
+  "settings.usage.billingBanner.description":
+    "Conecte sua conta {provider} para consultar os benefícios do Coding Plan e continue programando no ZCode após a compra ou configuração.",
+  "settings.usage.billingBanner.compactDescription":
+    "Conecte sua conta {provider} para sincronizar o uso.",
   "settings.usage.billingBanner.buy": "Comprar Coding Plan",
   "settings.usage.billingBanner.apiKeys": "Chaves de API",
   "settings.usage.billingBanner.usageDetails": "Detalhes de uso",
   "settings.usage.entitlementTitle": "Benefícios do Coding Plan",
-  "settings.usage.entitlementDescription": "Sincronize o nível exato do plano, o pool de prompts de 5 horas, a cota semanal e a cota mensal de ferramentas da conta do Coding Plan conectada.",
-  "settings.usage.entitlementError": "Não foi possível carregar os benefícios do Coding Plan. Tente novamente mais tarde ou verifique a configuração do provedor.",
-  "usage.error.entitlement.credential": "Nenhum benefício de Coding Plan foi encontrado. Reconecte a conta do Coding Plan ou confirme que a conta tem um plano ativo.",
-  "usage.error.entitlement.generic": "Não foi possível carregar os benefícios do Coding Plan. Tente novamente mais tarde ou verifique a configuração do provedor.",
+  "settings.usage.entitlementDescription":
+    "Sincronize o nível exato do plano, o pool de prompts de 5 horas, a cota semanal e a cota mensal de ferramentas da conta do Coding Plan conectada.",
+  "settings.usage.entitlementError":
+    "Não foi possível carregar os benefícios do Coding Plan. Tente novamente mais tarde ou verifique a configuração do provedor.",
+  "usage.error.entitlement.credential":
+    "Nenhum benefício de Coding Plan foi encontrado. Reconecte a conta do Coding Plan ou confirme que a conta tem um plano ativo.",
+  "usage.error.entitlement.generic":
+    "Não foi possível carregar os benefícios do Coding Plan. Tente novamente mais tarde ou verifique a configuração do provedor.",
   "settings.usage.entitlementRemaining": "Uso de ferramentas",
   "settings.usage.entitlementRealtime": "Sincronizado com a API de cota do provedor",
   "settings.usage.entitlementHidden": "O provedor marcou este saldo como oculto",
@@ -2660,9 +3227,11 @@ const ptBR: Record<string, string> = {
   "settings.usage.entitlementToolCapValue": "{value}/mês",
   "settings.usage.entitlementConcurrency": "Prioridade de concorrência",
   "settings.usage.entitlementConcurrencyValue": "{value}",
-  "settings.usage.entitlementPolicyHint": "Os valores de cota seguem o guia de uso atual e podem mudar conforme a política da plataforma.",
+  "settings.usage.entitlementPolicyHint":
+    "Os valores de cota seguem o guia de uso atual e podem mudar conforme a política da plataforma.",
   "settings.usage.entitlementLoginRequired": "Login necessário",
-  "settings.usage.entitlementNotConfigured": "Nenhuma conta Z.ai ou BigModel Coding Plan conectada está disponível para consultar a cota. Conecte primeiro uma conta Coding Plan.",
+  "settings.usage.entitlementNotConfigured":
+    "Nenhuma conta Z.ai ou BigModel Coding Plan conectada está disponível para consultar a cota. Conecte primeiro uma conta Coding Plan.",
   "settings.usage.entitlementStatusActive": "Ativo",
   "settings.usage.entitlementStatusError": "Erro",
   "settings.usage.entitlementStatusLoading": "Carregando",
@@ -2709,12 +3278,14 @@ const ptBR: Record<string, string> = {
   "sidebar.usage.plan.toolCalls": "Chamadas de ferramentas",
   "sidebar.usage.plan.mcp": "MCP do ZCode",
   "sidebar.usage.plan.zcodeMcp": "MCP do ZCode",
-  "sidebar.usage.plan.zcodeMcpDescription": "Cota agregada diária para os MCPs dos plugins integrados do ZCode",
+  "sidebar.usage.plan.zcodeMcpDescription":
+    "Cota agregada diária para os MCPs dos plugins integrados do ZCode",
   "chat.planUsage.title": "Uso do plano",
   "chat.planUsage.titleWithPlan": "Uso do plano {plan}",
   "chat.planUsage.providerFallback": "Provedor atual",
   "chat.planUsage.open": "Detalhes",
-  "chat.planUsage.noPlan": "Nenhum Coding Plan ativo foi encontrado para esta conta. Confirme que a conta conectada está assinada.",
+  "chat.planUsage.noPlan":
+    "Nenhum Coding Plan ativo foi encontrado para esta conta. Confirme que a conta conectada está assinada.",
   "chat.planUsage.contextWindow": "Janela de contexto atual",
   "chat.planUsage.contextDetail": "{used} / {total}",
   "chat.planUsage.promptPool": "Pool de prompts de 5 horas",
@@ -2724,9 +3295,12 @@ const ptBR: Record<string, string> = {
   "chat.planUsage.toolQuota": "Uso mensal de MCP / ferramentas",
   "chat.planUsage.toolRemaining": "{remaining} / {total} restantes · renova em {time}",
   "chat.planUsage.toolUsed": "{used} / {total} usados · renova em {time}",
-  "chat.planUsage.noQuotaLimits": "Nenhuma cota de Coding Plan foi encontrada. Confirme que a conta conectada tem um Coding Plan ativo.",
-  "usage.error.chatPlan.credential": "Não foi possível ler a cota do plano. Reconecte a conta do Coding Plan ou confirme que a conta tem um plano ativo.",
-  "usage.error.chatPlan.generic": "Não foi possível ler a cota do plano. Tente novamente mais tarde ou verifique a configuração do provedor.",
+  "chat.planUsage.noQuotaLimits":
+    "Nenhuma cota de Coding Plan foi encontrada. Confirme que a conta conectada tem um Coding Plan ativo.",
+  "usage.error.chatPlan.credential":
+    "Não foi possível ler a cota do plano. Reconecte a conta do Coding Plan ou confirme que a conta tem um plano ativo.",
+  "usage.error.chatPlan.generic":
+    "Não foi possível ler a cota do plano. Tente novamente mais tarde ou verifique a configuração do provedor.",
   "settings.usage.range.all": "Todo o período",
   "settings.usage.range.7d": "Últimos 7 dias",
   "settings.usage.range.30d": "Últimos 30 dias",
@@ -2746,13 +3320,18 @@ const ptBR: Record<string, string> = {
   "settings.usage.healthLiteDecode": "Velocidade média de decodificação em pico do Lite",
   "settings.usage.refresh": "Atualizar",
   "settings.usage.loadingTitle": "Calculando o uso",
-  "settings.usage.appUsageLoadingDescription": "Lendo o histórico local de sessões do aplicativo, por isso pode levar um momento.",
-  "settings.usage.codingPlanLoadingDescription": "Lendo a API de monitoramento do provedor selecionado, por isso pode levar um momento.",
+  "settings.usage.appUsageLoadingDescription":
+    "Lendo o histórico local de sessões do aplicativo, por isso pode levar um momento.",
+  "settings.usage.codingPlanLoadingDescription":
+    "Lendo a API de monitoramento do provedor selecionado, por isso pode levar um momento.",
   "settings.usage.lastRefreshTime": "Última atualização: {time}",
-  "settings.usage.error": "Não foi possível carregar as estatísticas de uso. Tente novamente mais tarde ou verifique a rede e a configuração do provedor.",
+  "settings.usage.error":
+    "Não foi possível carregar as estatísticas de uso. Tente novamente mais tarde ou verifique a rede e a configuração do provedor.",
   "settings.usage.checkApiKey": "Verificar conta",
-  "usage.error.stats.credential": "Não foi possível carregar as estatísticas de uso. Reconecte a conta do Coding Plan ou confirme que a conta tem um plano ativo.",
-  "usage.error.stats.generic": "Não foi possível carregar as estatísticas de uso. Tente novamente mais tarde ou verifique a rede e a configuração do provedor.",
+  "usage.error.stats.credential":
+    "Não foi possível carregar as estatísticas de uso. Reconecte a conta do Coding Plan ou confirme que a conta tem um plano ativo.",
+  "usage.error.stats.generic":
+    "Não foi possível carregar as estatísticas de uso. Tente novamente mais tarde ou verifique a rede e a configuração do provedor.",
   "settings.usage.emptyTitle": "Ainda não há dados de uso",
   "settings.usage.emptyDescription": "O período selecionado ainda não tem dados de uso.",
   "settings.usage.estimationHint": "Estimado a partir do histórico local de sessões",
@@ -2782,9 +3361,12 @@ const ptBR: Record<string, string> = {
   "settings.usage.heatmapToolCell": "{date}\n{tokens} tokens · {tools} ferramentas",
   "settings.usage.heatmapWeeklyCell": "Semana de {date}\n{tokens} tokens · {turns} mensagens",
   "settings.usage.heatmapWeeklyToolCell": "Semana de {date}\n{tokens} tokens · {tools} ferramentas",
-  "settings.usage.heatmapCumulativeCell": "Acumulado até a semana de {date}\n{tokens} tokens · {turns} mensagens",
-  "settings.usage.heatmapCumulativeToolCell": "Acumulado até a semana de {date}\n{tokens} tokens · {tools} ferramentas",
-  "settings.usage.heatmapDescription": "O dia mais movimentado foi {day}, com cerca de {tokens} tokens.",
+  "settings.usage.heatmapCumulativeCell":
+    "Acumulado até a semana de {date}\n{tokens} tokens · {turns} mensagens",
+  "settings.usage.heatmapCumulativeToolCell":
+    "Acumulado até a semana de {date}\n{tokens} tokens · {tools} ferramentas",
+  "settings.usage.heatmapDescription":
+    "O dia mais movimentado foi {day}, com cerca de {tokens} tokens.",
   "settings.usage.heatmap.intensity": "Intensidade de pico",
   "settings.usage.heatmap.less": "Menos",
   "settings.usage.heatmap.more": "Mais",
@@ -2792,7 +3374,8 @@ const ptBR: Record<string, string> = {
   "settings.usage.heatmap.range.weekly": "Semanal",
   "settings.usage.heatmap.range.cumulative": "Acumulado",
   "settings.usage.dailyChartTitle": "Gráfico de tendência diária de tokens",
-  "settings.usage.dailyChartDescription": "Tendência de uso de tokens por dia ao longo de {days} dias.",
+  "settings.usage.dailyChartDescription":
+    "Tendência de uso de tokens por dia ao longo de {days} dias.",
   "settings.usage.dailyChart.peak": "Dia de pico",
   "settings.usage.dailyChart.max": "Máximo",
   "settings.usage.modelChartTitle": "Uso de modelos",
@@ -2801,10 +3384,14 @@ const ptBR: Record<string, string> = {
   "settings.usage.tokenTotal": "Uso total de tokens",
   "settings.usage.timesUnit": " vezes",
   "settings.usage.codingPlanNotConfiguredTitle": "O Coding Plan não está conectado",
-  "settings.usage.codingPlanNotConfiguredDescription": "Conecte um provedor Z.ai ou BigModel Coding Plan nas Configurações de Modelo para ver a cota do plano, o uso de modelos e o uso de ferramentas.",
-  "settings.usage.codingPlanCurrentConnectionTitle": "A conexão atual não está usando o Coding Plan",
-  "settings.usage.codingPlanCurrentConnectionDescription": "Mude a conexão de modelo do workspace para um Individual Plan ou Team Plan para ver a cota e o uso aqui.",
-  "settings.usage.modelChartDescription": "{model} tem atualmente a maior participação, com cerca de {share}.",
+  "settings.usage.codingPlanNotConfiguredDescription":
+    "Conecte um provedor Z.ai ou BigModel Coding Plan nas Configurações de Modelo para ver a cota do plano, o uso de modelos e o uso de ferramentas.",
+  "settings.usage.codingPlanCurrentConnectionTitle":
+    "A conexão atual não está usando o Coding Plan",
+  "settings.usage.codingPlanCurrentConnectionDescription":
+    "Mude a conexão de modelo do workspace para um Individual Plan ou Team Plan para ver a cota e o uso aqui.",
+  "settings.usage.modelChartDescription":
+    "{model} tem atualmente a maior participação, com cerca de {share}.",
   "settings.usage.modelChart.other": "Outros modelos",
   "settings.usage.modelChart.input": "Entrada",
   "settings.usage.modelChart.cachedInput": "Em cache",
@@ -2818,26 +3405,32 @@ const ptBR: Record<string, string> = {
   "settings.usage.dayLabel.mon": "Seg",
   "settings.usage.dayLabel.wed": "Qua",
   "settings.usage.dayLabel.fri": "Sex",
-  "settings.modelProvider.presetDescription": "Provedores Z.ai e BigModel integrados com configuração assistida por OAuth.",
+  "settings.modelProvider.presetDescription":
+    "Provedores Z.ai e BigModel integrados com configuração assistida por OAuth.",
   "settings.modelProvider.presetEmpty": "Ainda não sincronizado. Conclua o login OAuth primeiro.",
   "settings.modelProvider.customTitle": "Provedores personalizados",
   "settings.modelProvider.refresh": "Atualizar",
   "settings.modelProvider.reorderProvider": "Arraste para reordenar o provedor",
   "settings.modelProvider.reorderModel": "Arraste para reordenar o modelo",
   "settings.modelProvider.empty": "Ainda não há provedores de modelo personalizados",
-  "settings.modelProvider.deleteConfirm": "Excluir \"{name}\"?",
-  "settings.modelProvider.deleteConfirmTitle": "Excluir o provedor \"{name}\"?",
-  "settings.modelProvider.deleteConfirmDescription": "Isso remove a configuração do provedor personalizado. As edições relacionadas na página de configurações atual não serão restauradas automaticamente.",
+  "settings.modelProvider.deleteConfirm": 'Excluir "{name}"?',
+  "settings.modelProvider.deleteConfirmTitle": 'Excluir o provedor "{name}"?',
+  "settings.modelProvider.deleteConfirmDescription":
+    "Isso remove a configuração do provedor personalizado. As edições relacionadas na página de configurações atual não serão restauradas automaticamente.",
   "settings.modelProvider.deleteConfirmAction": "Excluir provedor",
   "settings.modelProvider.testModel": "Testar modelo",
   "settings.modelProvider.testModel.enableProviderFirst": "Ative o provedor primeiro",
-  "settings.modelProvider.testModel.providerUnavailable": "Este provedor está indisponível no momento para teste de conectividade.",
-  "settings.modelProvider.testModel.modelUnavailable": "Este modelo está indisponível no momento para teste de conectividade.",
+  "settings.modelProvider.testModel.providerUnavailable":
+    "Este provedor está indisponível no momento para teste de conectividade.",
+  "settings.modelProvider.testModel.modelUnavailable":
+    "Este modelo está indisponível no momento para teste de conectividade.",
   "settings.modelProvider.testModel.connectingWithIdentity": "Testando {provider} / {model}",
   "settings.modelProvider.testModel.successWithIdentity": "{provider} / {model} conectado",
   "settings.modelProvider.testModel.failed": "Falha na conexão",
-  "settings.modelProvider.testModel.failedWithIdentity": "Falha ao conectar {provider} / {model}: {reason}",
-  "settings.modelProvider.testModel.localWorkspaceUnavailable": "Não há um workspace local disponível para teste de conectividade.",
+  "settings.modelProvider.testModel.failedWithIdentity":
+    "Falha ao conectar {provider} / {model}: {reason}",
+  "settings.modelProvider.testModel.localWorkspaceUnavailable":
+    "Não há um workspace local disponível para teste de conectividade.",
   "settings.modelProvider.testModel.error.auth": "Falha na autenticação",
   "settings.modelProvider.testModel.error.model_not_found": "Modelo não encontrado",
   "settings.modelProvider.testModel.error.rate_limit": "Limite de requisições atingido",
@@ -2846,7 +3439,8 @@ const ptBR: Record<string, string> = {
   "settings.modelProvider.testModel.error.unknown": "Falha no teste",
   "settings.modelProvider.testModel.error.noEndpoint": "Nenhum endpoint configurado",
   "settings.skills.title": "Skills",
-  "settings.skills.description": "Gerencie skills do workspace e do usuário. Skills habilitadas podem ser referenciadas no chat com $skill-name.",
+  "settings.skills.description":
+    "Gerencie skills do workspace e do usuário. Skills habilitadas podem ser referenciadas no chat com $skill-name.",
   "settings.skills.searchPlaceholder": "Pesquisar skills...",
   "settings.skills.refresh": "Atualizar",
   "settings.skills.refreshing": "Atualizando...",
@@ -2870,15 +3464,19 @@ const ptBR: Record<string, string> = {
   "settings.skills.copyFailed": "Falha ao copiar a skill.",
   "settings.skills.removeFailed": "Falha ao remover a skill.",
   "settings.skills.delete.title": "Excluir skill",
-  "settings.skills.delete.description": "Excluir \"{name}\"? Isso remove a pasta da skill do disco e não pode ser desfeito.",
+  "settings.skills.delete.description":
+    'Excluir "{name}"? Isso remove a pasta da skill do disco e não pode ser desfeito.',
   "settings.skills.create.open": "Nova skill",
-  "settings.skills.create.taskCreateFailed": "Não foi possível criar uma nova tarefa para o agente selecionado. Verifique a disponibilidade e tente novamente.",
+  "settings.skills.create.taskCreateFailed":
+    "Não foi possível criar uma nova tarefa para o agente selecionado. Verifique a disponibilidade e tente novamente.",
   "settings.skills.import.open": "Importar skills de agentes externos",
   "settings.skills.import.action": "Importar",
   "settings.skills.import.title": "Importar skills de agentes externos",
-  "settings.skills.import.description": "Procure skills reutilizáveis de Claude Code, Codex CLI e OpenCode. Apenas skills ausentes são importadas.",
+  "settings.skills.import.description":
+    "Procure skills reutilizáveis de Claude Code, Codex CLI e OpenCode. Apenas skills ausentes são importadas.",
   "settings.skills.import.scanning": "Procurando skills importáveis...",
-  "settings.skills.import.empty": "Nenhuma skill importável encontrada. Verifique os diretórios de skills dos agentes externos e procure novamente.",
+  "settings.skills.import.empty":
+    "Nenhuma skill importável encontrada. Verifique os diretórios de skills dos agentes externos e procure novamente.",
   "settings.skills.import.summary": "Encontradas {count} skills importáveis",
   "settings.skills.import.scopeLabel": "Escopo",
   "settings.skills.import.scope.global": "Global",
@@ -2892,7 +3490,8 @@ const ptBR: Record<string, string> = {
   "settings.skills.import.selectSource": "Selecionar todas as skills desta origem",
   "settings.skills.import.deselectSource": "Desmarcar todas as skills desta origem",
   "settings.skills.import.skillCount": "{count} skills",
-  "settings.skills.import.skillDetailsEmpty": "Nenhum detalhe de skill disponível. Procure novamente após a atualização dos serviços do app.",
+  "settings.skills.import.skillDetailsEmpty":
+    "Nenhum detalhe de skill disponível. Procure novamente após a atualização dos serviços do app.",
   "settings.skills.import.itemCount": "{count} skills",
   "settings.skills.import.importable": "Importável",
   "settings.skills.import.skipReason.targetExists": "Diretório já existe",
@@ -2905,24 +3504,29 @@ const ptBR: Record<string, string> = {
   "settings.skills.import.modeHelp": "Ajuda do modo de importação",
   "settings.skills.import.mode.copy": "Copiar",
   "settings.skills.import.mode.symlink": "Symlink",
-  "settings.skills.import.mode.copy.description": "Copia o diretório completo da skill para o ZCode. Alterações posteriores no diretório do agente externo não serão sincronizadas automaticamente.",
-  "settings.skills.import.mode.symlink.description": "Cria um link de diretório para a skill do agente externo. O ZCode acompanha alterações posteriores na origem, mas a skill depende de o caminho de origem continuar disponível.",
+  "settings.skills.import.mode.copy.description":
+    "Copia o diretório completo da skill para o ZCode. Alterações posteriores no diretório do agente externo não serão sincronizadas automaticamente.",
+  "settings.skills.import.mode.symlink.description":
+    "Cria um link de diretório para a skill do agente externo. O ZCode acompanha alterações posteriores na origem, mas a skill depende de o caminho de origem continuar disponível.",
   "settings.skills.import.importing": "Importando skills para o ZCode",
   "settings.skills.import.imported": "Importada",
   "settings.skills.import.skipped": "Ignorada",
   "settings.skills.import.failed": "Falhou",
   "settings.skills.import.resultList": "Resultados das skills",
   "settings.skills.import.resultEmpty": "Nenhum resultado de skill foi retornado.",
-  "settings.skills.import.completeDescription": "A lista de skills foi atualizada. Skills existentes com o mesmo nome foram mantidas.",
+  "settings.skills.import.completeDescription":
+    "A lista de skills foi atualizada. Skills existentes com o mesmo nome foram mantidas.",
   "settings.skills.import.finish": "Concluir",
   "settings.skills.remoteSync.open": "Sincronizar Skill",
   "settings.skills.remoteSync.title": "Sincronizar Skills para o destino remoto",
   "settings.skills.remoteSync.warningTitle": "Dados da skill e disponibilidade do ambiente",
-  "settings.skills.remoteSync.warningDescription": "A sincronização migra Skills locais de nível de usuário para o host remoto, mas nem todos os dados dependentes e as capacidades do ambiente do sistema podem ser garantidos. Se uma Skill ficar indisponível por causa do ambiente remoto, permissões ou dependências ausentes, instale-a ou adicione as dependências no servidor remoto.",
+  "settings.skills.remoteSync.warningDescription":
+    "A sincronização migra Skills locais de nível de usuário para o host remoto, mas nem todos os dados dependentes e as capacidades do ambiente do sistema podem ser garantidos. Se uma Skill ficar indisponível por causa do ambiente remoto, permissões ou dependências ausentes, instale-a ou adicione as dependências no servidor remoto.",
   "settings.skills.remoteSync.target": "Destino: {target}",
   "settings.skills.remoteSync.loading": "Carregando Skills locais...",
   "settings.skills.remoteSync.empty": "Nenhuma skill de usuário local encontrada.",
-  "settings.skills.remoteSync.filteredEmpty": "Apenas Skills que já existem no remoto estão disponíveis. Habilite \"Mostrar skills remotas existentes\" para vê-las.",
+  "settings.skills.remoteSync.filteredEmpty":
+    'Apenas Skills que já existem no remoto estão disponíveis. Habilite "Mostrar skills remotas existentes" para vê-las.',
   "settings.skills.remoteSync.showExisting": "Mostrar skills remotas existentes",
   "settings.skills.remoteSync.selectAll": "Selecionar tudo",
   "settings.skills.remoteSync.clearAll": "Desmarcar tudo",
@@ -2937,10 +3541,14 @@ const ptBR: Record<string, string> = {
   "settings.skills.remoteSync.complete": "Sincronização de skills concluída.",
   "settings.skills.remoteSync.selectionCount": "{selected}/{total} selecionadas",
   "settings.skills.remoteSync.noSelection": "Selecione pelo menos uma skill ausente.",
-  "settings.skills.remoteSync.sizeLimit.selectedContent": "Falha na sincronização: as Skills selecionadas contêm cerca de {actualSize} de conteúdo, excedendo o limite de {maxSize} por sincronização. Desmarque algumas Skills e tente novamente. Nada foi gravado no host remoto.",
-  "settings.skills.remoteSync.sizeLimit.archive": "Falha na sincronização: o arquivo de sincronização gerado tem cerca de {actualSize}, excedendo o limite de {maxSize} por sincronização. Desmarque algumas Skills e tente novamente. Nada foi gravado no host remoto.",
-  "settings.skills.remoteSync.sizeLimit.extractedContent": "Falha na sincronização: o conteúdo extraído da Skill tem cerca de {actualSize}, excedendo o limite remoto de {maxSize}. Desmarque algumas Skills e tente novamente.",
-  "settings.skills.userScopeDesktopOnly": "Skills de nível de usuário estão disponíveis apenas no desktop nesta fase.",
+  "settings.skills.remoteSync.sizeLimit.selectedContent":
+    "Falha na sincronização: as Skills selecionadas contêm cerca de {actualSize} de conteúdo, excedendo o limite de {maxSize} por sincronização. Desmarque algumas Skills e tente novamente. Nada foi gravado no host remoto.",
+  "settings.skills.remoteSync.sizeLimit.archive":
+    "Falha na sincronização: o arquivo de sincronização gerado tem cerca de {actualSize}, excedendo o limite de {maxSize} por sincronização. Desmarque algumas Skills e tente novamente. Nada foi gravado no host remoto.",
+  "settings.skills.remoteSync.sizeLimit.extractedContent":
+    "Falha na sincronização: o conteúdo extraído da Skill tem cerca de {actualSize}, excedendo o limite remoto de {maxSize}. Desmarque algumas Skills e tente novamente.",
+  "settings.skills.userScopeDesktopOnly":
+    "Skills de nível de usuário estão disponíveis apenas no desktop nesta fase.",
   "settings.skills.detail.description": "Descrição",
   "settings.skills.detail.path": "Caminho do arquivo",
   "settings.skills.detail.openPath": "Abrir",
@@ -2955,7 +3563,8 @@ const ptBR: Record<string, string> = {
   "settings.skills.scope.personal": "Pessoal",
   "settings.skills.scope.plugin": "Plugin",
   "settings.skills.scope.workspaceFallback": "Projeto",
-  "settings.skills.diagnostics.summary": "Diagnóstico de skills: {errorCount} erro(s), {warningCount} aviso(s)",
+  "settings.skills.diagnostics.summary":
+    "Diagnóstico de skills: {errorCount} erro(s), {warningCount} aviso(s)",
   "settings.skills.diagnostics.expand": "Expandir diagnóstico",
   "settings.skills.diagnostics.collapse": "Recolher diagnóstico",
   "settings.skills.diagnostics.code.skill_root_not_found": "Diretório raiz da skill não encontrado",
@@ -2964,31 +3573,42 @@ const ptBR: Record<string, string> = {
   "settings.skills.diagnostics.code.skill_missing_frontmatter": "Frontmatter YAML ausente",
   "settings.skills.diagnostics.code.skill_invalid_frontmatter": "Formato de frontmatter inválido",
   "settings.skills.diagnostics.code.skill_missing_name": "Frontmatter sem o campo `name`",
-  "settings.skills.diagnostics.code.skill_invalid_name": "`name` deve conter apenas letras minúsculas / dígitos / hífens",
-  "settings.skills.diagnostics.code.skill_missing_description": "Frontmatter sem o campo `description`",
-  "settings.skills.diagnostics.code.skill_description_too_long": "`description` excede 1024 caracteres",
-  "settings.skills.diagnostics.code.skill_unknown_frontmatter": "Chave de frontmatter não reconhecida",
+  "settings.skills.diagnostics.code.skill_invalid_name":
+    "`name` deve conter apenas letras minúsculas / dígitos / hífens",
+  "settings.skills.diagnostics.code.skill_missing_description":
+    "Frontmatter sem o campo `description`",
+  "settings.skills.diagnostics.code.skill_description_too_long":
+    "`description` excede 1024 caracteres",
+  "settings.skills.diagnostics.code.skill_unknown_frontmatter":
+    "Chave de frontmatter não reconhecida",
   "settings.skills.diagnostics.code.skill_duplicate_name": "Nome de skill duplicado ignorado",
   "settings.skills.diagnostics.code.skill_too_large": "SKILL.md muito grande; conteúdo truncado",
   "settings.skills.diagnostics.code.skill_not_found": "Skill não encontrada",
   "settings.subagents.title": "Subagentes",
-  "settings.subagents.description": "Gerencie arquivos Markdown de subagentes de nível de usuário consumidos pelo ZCode Agent.",
-  "settings.subagents.workspaceScopeUnsupported": "Não há suporte à criação ou edição no nível de workspace",
+  "settings.subagents.description":
+    "Gerencie arquivos Markdown de subagentes de nível de usuário consumidos pelo ZCode Agent.",
+  "settings.subagents.workspaceScopeUnsupported":
+    "Não há suporte à criação ou edição no nível de workspace",
   "settings.subagents.searchPlaceholder": "Pesquisar subagentes...",
   "settings.subagents.empty": "Nenhum subagente encontrado",
   "settings.subagents.addNew": "Novo subagente",
-  "settings.subagents.addDescription": "Preencha o nome, as ferramentas e o prompt do sistema do subagente e salve para voltar à lista.",
+  "settings.subagents.addDescription":
+    "Preencha o nome, as ferramentas e o prompt do sistema do subagente e salve para voltar à lista.",
   "settings.subagents.edit": "Editar subagente",
-  "settings.subagents.editDescription": "Modifique a configuração do subagente e salve para voltar à lista.",
+  "settings.subagents.editDescription":
+    "Modifique a configuração do subagente e salve para voltar à lista.",
   "settings.subagents.backToList": "Voltar",
   "settings.subagents.openUserAgentsFolder": "Abrir pasta de subagentes do usuário",
   "settings.subagents.noDescription": "Sem descrição",
-  "settings.subagents.userScopeDesktopOnly": "Subagentes de nível de usuário estão disponíveis atualmente apenas no desktop.",
+  "settings.subagents.userScopeDesktopOnly":
+    "Subagentes de nível de usuário estão disponíveis atualmente apenas no desktop.",
   "settings.subagents.group.user": "Instalados",
   "settings.subagents.group.plugin": "Subagentes de plugins",
-  "settings.subagents.group.plugin.hint": "Perfis de plugins são carregados dos plugins habilitados; apenas o modelo e o nível de raciocínio podem ser alterados aqui.",
+  "settings.subagents.group.plugin.hint":
+    "Perfis de plugins são carregados dos plugins habilitados; apenas o modelo e o nível de raciocínio podem ser alterados aqui.",
   "settings.subagents.group.builtIn": "Subagentes integrados",
-  "settings.subagents.group.builtIn.hint": "Perfis integrados são padrões do runtime e não podem ser editados aqui.",
+  "settings.subagents.group.builtIn.hint":
+    "Perfis integrados são padrões do runtime e não podem ser editados aqui.",
   "settings.subagents.scope.builtIn": "Integrado",
   "settings.subagents.scope.plugin": "Plugin",
   "settings.subagents.scope.workspace": "Workspace",
@@ -3007,8 +3627,10 @@ const ptBR: Record<string, string> = {
   "settings.subagents.tools.all": "Todas as ferramentas",
   "settings.subagents.toggleAria": "Alternar {name}",
   "settings.subagents.delete.title": "Excluir subagente",
-  "settings.subagents.delete.description": "Tem certeza de que deseja excluir o subagente \"{name}\"? Esta ação não pode ser desfeita.",
-  "settings.subagents.form.description": "Ao salvar, um perfil Markdown de nível de usuário é gravado na mesma raiz de armazenamento usada pelo runtime.",
+  "settings.subagents.delete.description":
+    'Tem certeza de que deseja excluir o subagente "{name}"? Esta ação não pode ser desfeita.',
+  "settings.subagents.form.description":
+    "Ao salvar, um perfil Markdown de nível de usuário é gravado na mesma raiz de armazenamento usada pelo runtime.",
   "settings.subagents.form.name.label": "Nome",
   "settings.subagents.form.name.placeholder": "code-reviewer",
   "settings.subagents.form.description.label": "Descrição",
@@ -3020,22 +3642,28 @@ const ptBR: Record<string, string> = {
   "settings.subagents.form.color.label": "Cor",
   "settings.subagents.form.tools.label": "Ferramentas permitidas",
   "settings.subagents.form.tools.inheritAll": "Herdar todas",
-  "settings.subagents.form.tools.card.title": "Controle quais ferramentas este subagente pode usar.",
+  "settings.subagents.form.tools.card.title":
+    "Controle quais ferramentas este subagente pode usar.",
   "settings.subagents.form.tools.mode.all": "Todas as permissões por padrão",
   "settings.subagents.form.tools.mode.custom": "Ferramentas permitidas personalizadas",
   "settings.subagents.form.disallowedTools.label": "Ferramentas não permitidas",
   "settings.subagents.form.skills.label": "Skills",
   "settings.subagents.form.background.label": "Executar em segundo plano",
-  "settings.subagents.form.background.description": "Permitir que o subagente seja executado como uma tarefa em segundo plano quando solicitado pelo modelo.",
+  "settings.subagents.form.background.description":
+    "Permitir que o subagente seja executado como uma tarefa em segundo plano quando solicitado pelo modelo.",
   "settings.subagents.form.injectAgentsMd.label": "Injetar AGENTS.md",
   "settings.subagents.form.systemPrompt.label": "Prompt do sistema",
-  "settings.subagents.form.systemPrompt.placeholder": "Descreva o papel e as regras deste subagente...",
+  "settings.subagents.form.systemPrompt.placeholder":
+    "Descreva o papel e as regras deste subagente...",
   "settings.subagents.form.validation.nameLength": "O tamanho deve estar entre {min} e {max}",
-  "settings.subagents.form.validation.nameCharacters": "Apenas letras, números e hífens são permitidos",
+  "settings.subagents.form.validation.nameCharacters":
+    "Apenas letras, números e hífens são permitidos",
   "settings.subagents.form.validation.descriptionRequired": "A descrição é obrigatória",
   "settings.subagents.form.validation.promptRequired": "O prompt do sistema é obrigatório",
-  "settings.subagents.form.validation.modelUnavailable": "Selecione um modelo disponível antes de salvar",
-  "settings.subagents.form.validation.thoughtLevelUnavailable": "Selecione um nível de raciocínio suportado por este modelo",
+  "settings.subagents.form.validation.modelUnavailable":
+    "Selecione um modelo disponível antes de salvar",
+  "settings.subagents.form.validation.thoughtLevelUnavailable":
+    "Selecione um nível de raciocínio suportado por este modelo",
   "settings.subagents.reasoningUnavailable": "Nível de raciocínio indisponível",
   "settings.subagents.model.inherit": "Herdar",
   "settings.subagents.model.defaultMain": "Herdar padrão",
@@ -3071,32 +3699,40 @@ const ptBR: Record<string, string> = {
   "settings.plugin.plugins.searchPlaceholder": "Pesquisar plugins…",
   "settings.plugin.plugins.empty": "Nenhum plugin está instalado neste escopo.",
   "settings.plugin.plugins.emptyInstalledTitle": "Nenhum plugin instalado",
-  "settings.plugin.plugins.emptyInstalledDescription": "Descubra e instale plugins para adicionar MCPs, skills e mais.",
+  "settings.plugin.plugins.emptyInstalledDescription":
+    "Descubra e instale plugins para adicionar MCPs, skills e mais.",
   "settings.plugin.plugins.browse": "Explorar plugins",
   "settings.plugin.mcp.emptyInstalledTitle": "Nenhum servidor MCP instalado",
-  "settings.plugin.mcp.emptyInstalledDescription": "Adicione um servidor manualmente ou importe uma configuração existente.",
+  "settings.plugin.mcp.emptyInstalledDescription":
+    "Adicione um servidor manualmente ou importe uma configuração existente.",
   "settings.plugin.mcp.newServer": "Novo servidor MCP",
   "settings.plugin.mcp.searchEmpty": "Nenhum servidor MCP corresponde à sua pesquisa",
   "settings.plugin.skills.emptyInstalledTitle": "Nenhuma skill instalada",
   "settings.plugin.skills.installed": "Instaladas",
-  "settings.plugin.skills.emptyInstalledDescription": "Crie uma skill ou importe uma de um agente externo.",
+  "settings.plugin.skills.emptyInstalledDescription":
+    "Crie uma skill ou importe uma de um agente externo.",
   "settings.plugin.skills.newSkill": "Nova skill",
   "settings.plugin.skills.searchEmpty": "Nenhuma skill corresponde à sua pesquisa",
   "settings.plugin.commands.installed": "Instalados",
   "settings.plugin.commands.emptyInstalledTitle": "Nenhum comando instalado",
-  "settings.plugin.commands.emptyInstalledDescription": "Crie um comando ou importe um de um agente externo.",
+  "settings.plugin.commands.emptyInstalledDescription":
+    "Crie um comando ou importe um de um agente externo.",
   "settings.plugin.commands.searchEmpty": "Nenhum comando corresponde à sua pesquisa",
   "settings.plugin.hooks.emptyInstalledTitle": "Nenhum hook instalado",
-  "settings.plugin.hooks.emptyInstalledDescription": "Crie um hook para executar comandos durante eventos do ciclo de vida da tarefa.",
+  "settings.plugin.hooks.emptyInstalledDescription":
+    "Crie um hook para executar comandos durante eventos do ciclo de vida da tarefa.",
   "settings.plugin.noWorkspace": "Abra um workspace para gerenciar as capacidades.",
-  "settings.plugin.scopeUnavailableFallback": "Esse workspace não está mais disponível. Exibindo as configurações de plugins do usuário.",
+  "settings.plugin.scopeUnavailableFallback":
+    "Esse workspace não está mais disponível. Exibindo as configurações de plugins do usuário.",
   "settings.plugin.edit": "Editar",
   "settings.plugin.done": "Concluir",
   "settings.plugin.add": "Adicionar",
   "settings.plugin.new": "Novo",
   "settings.plugin.source.plugin": "Plugin",
-  "settings.plugins.description": "Habilite ou desabilite plugins instalados. Plugins agrupam skills, comandos, hooks e servidores MCP.",
-  "settings.plugins.store.subtitle": "Estenda o ZCode com skills, comandos e servidores MCP de plugins",
+  "settings.plugins.description":
+    "Habilite ou desabilite plugins instalados. Plugins agrupam skills, comandos, hooks e servidores MCP.",
+  "settings.plugins.store.subtitle":
+    "Estenda o ZCode com skills, comandos e servidores MCP de plugins",
   "settings.plugins.store.searchPlaceholder": "Pesquisar plugins",
   "settings.plugins.store.searchResults": "Resultados da pesquisa ({count})",
   "settings.plugins.store.searchEmpty": "Nenhum plugin corresponde à sua pesquisa",
@@ -3119,7 +3755,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.store.paidPlanBadge": "Coding Plan",
   "settings.plugins.store.requiresPaidPlan": "Este plugin funciona melhor com um Coding Plan",
   "settings.plugins.store.tryNow": "Experimentar agora",
-  "settings.plugins.store.sourceMissing": "A origem do marketplace está ausente. Este plugin continua utilizável, mas as atualizações estão indisponíveis.",
+  "settings.plugins.store.sourceMissing":
+    "A origem do marketplace está ausente. Este plugin continua utilizável, mas as atualizações estão indisponíveis.",
   "settings.plugins.store.menu.label": "Mais ações",
   "settings.plugins.store.menu.enable": "Habilitar",
   "settings.plugins.store.menu.disable": "Desabilitar",
@@ -3145,7 +3782,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.store.info.website": "Site",
   "settings.plugins.store.info.privacyPolicy": "Política de privacidade",
   "settings.plugins.store.info.termsOfService": "Termos de serviço",
-  "settings.plugins.store.personalEmpty": "Ainda não há plugins de origens pessoais. Use Criar para adicionar uma origem de marketplace.",
+  "settings.plugins.store.personalEmpty":
+    "Ainda não há plugins de origens pessoais. Use Criar para adicionar uma origem de marketplace.",
   "settings.plugins.filter.label": "Filtro de status",
   "settings.plugins.footerSummary": "{total} plugins · {enabled} habilitados",
   "settings.plugins.searchPlaceholder": "Pesquisar plugins...",
@@ -3155,7 +3793,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.noWorkspace": "Abra um workspace para gerenciar plugins.",
   "settings.plugins.source.builtin": "Integrado",
   "settings.plugins.source.fromMarketplace": "De {marketplace}",
-  "settings.plugins.capability": "{skills} skills · {commands} comandos · {hooks} hooks · {mcp} MCP",
+  "settings.plugins.capability":
+    "{skills} skills · {commands} comandos · {hooks} hooks · {mcp} MCP",
   "settings.plugins.tab.installed": "Instalados",
   "settings.plugins.tab.marketplace": "Descobrir",
   "settings.plugins.installed.title": "Instalados",
@@ -3163,7 +3802,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.marketplaces.count": "{count} marketplaces",
   "settings.plugins.marketplaces.source": "Repositório do GitHub, URL do git, arquivo ou diretório",
   "settings.plugins.marketplaces.chooseDirectory": "Escolher diretório",
-  "settings.plugins.marketplaces.dropHint": "Arraste um arquivo ou pasta para cá, ou escolha um diretório.",
+  "settings.plugins.marketplaces.dropHint":
+    "Arraste um arquivo ou pasta para cá, ou escolha um diretório.",
   "settings.plugins.marketplaces.validate": "Validar marketplace",
   "settings.plugins.marketplaces.add": "Adicionar marketplace",
   "settings.plugins.marketplaces.update": "Atualizar marketplace",
@@ -3180,7 +3820,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.marketplace.catalogLoading": "Carregando plugins…",
   "settings.plugins.marketplace.sourceInfo.label": "Informações sobre a origem do Discover",
   "settings.plugins.marketplace.sourceInfo.title": "O Discover usa marketplaces do GitHub",
-  "settings.plugins.marketplace.sourceInfo.description": "Verifique se este workspace consegue acessar o GitHub. Catálogos, detalhes e instalações de plugins podem falhar quando o GitHub estiver indisponível.",
+  "settings.plugins.marketplace.sourceInfo.description":
+    "Verifique se este workspace consegue acessar o GitHub. Catálogos, detalhes e instalações de plugins podem falhar quando o GitHub estiver indisponível.",
   "settings.plugins.marketplace.searchResults": "{count} plugins correspondentes",
   "settings.plugins.marketplace.groupCount": "{count} plugins",
   "settings.plugins.marketplace.expandGroup": "Mostrar mais {count}",
@@ -3194,14 +3835,16 @@ const ptBR: Record<string, string> = {
   "settings.plugins.detail.versionChanged": "Uma versão diferente está disponível",
   "settings.plugins.detail.updateNewSessionsNote": "Tem efeito em novas sessões",
   "settings.plugins.checkForUpdates": "Verificar atualizações",
-  "settings.plugins.checkForUpdates.found": "Encontrada(s) {count} atualização(ões) de plugin disponível(is)",
+  "settings.plugins.checkForUpdates.found":
+    "Encontrada(s) {count} atualização(ões) de plugin disponível(is)",
   "settings.plugins.checkForUpdates.none": "Todos os plugins instalados estão atualizados",
   "settings.plugins.list.updateAvailable": "Atualizar",
   "settings.plugins.list.versionChanged": "Alterado",
   "settings.plugins.restore": "Restaurar",
   "settings.plugins.restorableBuiltins.title": "Restaurar plugins integrados",
   "settings.plugins.uninstall.confirmTitle": "Desinstalar {name}?",
-  "settings.plugins.uninstall.confirmDescription": "Isso remove os arquivos em cache do plugin, o diretório de dados dele e qualquer configuração salva. Não é possível desfazer.",
+  "settings.plugins.uninstall.confirmDescription":
+    "Isso remove os arquivos em cache do plugin, o diretório de dados dele e qualquer configuração salva. Não é possível desfazer.",
   "settings.plugins.uninstall.confirm": "Desinstalar",
   "settings.plugins.detail.empty": "Selecione um plugin para ver os detalhes.",
   "settings.plugins.detail.enabled": "Habilitado",
@@ -3218,7 +3861,8 @@ const ptBR: Record<string, string> = {
   "settings.plugins.detail.status": "Status",
   "settings.plugins.detail.moreDetails": "Detalhes avançados",
   "settings.plugins.detail.componentsEmpty": "Nenhum componente",
-  "settings.plugins.detail.componentsWhenEnabled": "Habilite o plugin para ver os componentes dele.",
+  "settings.plugins.detail.componentsWhenEnabled":
+    "Habilite o plugin para ver os componentes dele.",
   "settings.plugins.detail.component.agent": "Agentes",
   "settings.plugins.detail.component.command": "Comandos",
   "settings.plugins.detail.component.skill": "Skills",
@@ -3243,17 +3887,21 @@ const ptBR: Record<string, string> = {
   "settings.plugins.detail.installPath": "Caminho de instalação",
   "settings.plugins.detail.installedAt": "Instalado em",
   "settings.plugins.detail.none": "Nenhum",
-  "settings.plugins.detail.hooksUnavailable": "Os detalhes de hooks não são expostos pelo protocolo de plugins atual.",
-  "settings.plugins.detail.installForFullDetails": "Instale o plugin para ver a lista completa de componentes quando o runtime a expuser.",
+  "settings.plugins.detail.hooksUnavailable":
+    "Os detalhes de hooks não são expostos pelo protocolo de plugins atual.",
+  "settings.plugins.detail.installForFullDetails":
+    "Instale o plugin para ver a lista completa de componentes quando o runtime a expuser.",
   "settings.plugins.marketplace.allMarketplaces": "Todos os marketplaces",
   "settings.plugins.marketplace.sectionTitle": "Explorar plugins",
   "settings.plugins.marketplace.back": "Voltar",
   "settings.plugins.marketplace.get": "Obter",
   "settings.plugins.marketplace.installing": "Instalando…",
   "settings.plugins.marketplace.componentsLoading": "Carregando componentes…",
-  "settings.plugins.marketplace.componentsError": "Não foi possível carregar a lista de componentes. Exibindo apenas as informações disponíveis.",
+  "settings.plugins.marketplace.componentsError":
+    "Não foi possível carregar a lista de componentes. Exibindo apenas as informações disponíveis.",
   "settings.plugins.marketplace.componentsRetry": "Tentar novamente",
-  "settings.plugins.marketplace.componentsEmpty": "Este plugin não declara componentes ou eles não puderam ser lidos.",
+  "settings.plugins.marketplace.componentsEmpty":
+    "Este plugin não declara componentes ou eles não puderam ser lidos.",
   "settings.plugins.config.title": "Configuração",
   "settings.plugins.config.required": "Obrigatório",
   "settings.plugins.config.save": "Salvar configuração",
@@ -3263,11 +3911,13 @@ const ptBR: Record<string, string> = {
   "settings.plugins.config.undoClearSecret": "Manter segredo salvo",
   "settings.plugins.config.restoreOption": "Restaurar valor herdado",
   "settings.plugins.config.undoRestoreOption": "Manter substituição do workspace",
-  "settings.plugins.config.sensitiveUnavailable": "É necessário armazenamento seguro antes que este valor possa ser configurado.",
+  "settings.plugins.config.sensitiveUnavailable":
+    "É necessário armazenamento seguro antes que este valor possa ser configurado.",
   "settings.plugins.import.open": "Importar plugins de agentes externos",
   "settings.plugins.import.title": "Importar plugins de agentes externos",
   "settings.plugins.import.scanning": "Procurando plugins importáveis...",
-  "settings.plugins.import.empty": "Nenhum plugin importável encontrado. Verifique os diretórios de plugins dos agentes externos e procure novamente.",
+  "settings.plugins.import.empty":
+    "Nenhum plugin importável encontrado. Verifique os diretórios de plugins dos agentes externos e procure novamente.",
   "settings.plugins.import.summary": "Encontrados {count} plugins importáveis",
   "settings.plugins.import.scopeLabel": "Escopo",
   "settings.plugins.import.scope.global": "Global",
@@ -3291,8 +3941,10 @@ const ptBR: Record<string, string> = {
   "settings.plugins.import.modeHelp": "Ajuda do modo de importação",
   "settings.plugins.import.mode.copy": "Copiar",
   "settings.plugins.import.mode.symlink": "Symlink",
-  "settings.plugins.import.mode.copy.description": "Copia o diretório completo do plugin para o ZCode e o registra em plugins.dirs. Alterações posteriores no diretório do agente externo não serão sincronizadas automaticamente.",
-  "settings.plugins.import.mode.symlink.description": "Cria um link de diretório para o plugin do agente externo e o registra em plugins.dirs. O ZCode acompanha alterações posteriores na origem, mas o plugin depende de o caminho de origem continuar disponível.",
+  "settings.plugins.import.mode.copy.description":
+    "Copia o diretório completo do plugin para o ZCode e o registra em plugins.dirs. Alterações posteriores no diretório do agente externo não serão sincronizadas automaticamente.",
+  "settings.plugins.import.mode.symlink.description":
+    "Cria um link de diretório para o plugin do agente externo e o registra em plugins.dirs. O ZCode acompanha alterações posteriores na origem, mas o plugin depende de o caminho de origem continuar disponível.",
   "settings.plugins.import.importing": "Importando plugins para o ZCode",
   "settings.plugins.import.imported": "Importado",
   "settings.plugins.import.skipped": "Ignorado",
@@ -3301,17 +3953,20 @@ const ptBR: Record<string, string> = {
   "settings.plugins.import.resultEmpty": "Nenhum resultado de plugin foi retornado.",
   "settings.plugins.import.finish": "Concluir",
   "settings.commands.title": "Comandos",
-  "settings.commands.description": "Gerencie arquivos .md de comandos do ZCode Agent. Os comandos podem ser invocados com /command-name no chat.",
+  "settings.commands.description":
+    "Gerencie arquivos .md de comandos do ZCode Agent. Os comandos podem ser invocados com /command-name no chat.",
   "settings.commands.sourceFilterLabel": "Filtro de origem",
   "settings.commands.source.zcodeAgent": "ZCode Agent",
   "settings.commands.add": "Novo",
   "settings.commands.addNew": "Novo comando",
-  "settings.commands.addDescription": "Preencha o nome e o prompt do comando e salve para voltar à lista.",
+  "settings.commands.addDescription":
+    "Preencha o nome e o prompt do comando e salve para voltar à lista.",
   "settings.commands.edit": "Editar comando",
   "settings.commands.editDescription": "Modifique o comando e salve para voltar à lista.",
   "settings.commands.backToList": "Voltar",
   "settings.commands.delete.title": "Excluir comando",
-  "settings.commands.delete.description": "Tem certeza de que deseja excluir o comando \"{name}\"? Esta ação não pode ser desfeita.",
+  "settings.commands.delete.description":
+    'Tem certeza de que deseja excluir o comando "{name}"? Esta ação não pode ser desfeita.',
   "settings.commands.empty": "Nenhum comando de usuário",
   "settings.commands.searchPlaceholder": "Pesquisar comandos...",
   "settings.commands.group.local": "Comandos do usuário",
@@ -3321,19 +3976,23 @@ const ptBR: Record<string, string> = {
   "settings.commands.form.name.label": "Nome",
   "settings.commands.form.name.placeholder": "my-command",
   "settings.commands.form.description.label": "Descrição (opcional)",
-  "settings.commands.form.description.placeholder": "Descrição curta exibida no seletor de comandos",
+  "settings.commands.form.description.placeholder":
+    "Descrição curta exibida no seletor de comandos",
   "settings.commands.form.argumentHint.label": "Dica de argumento (opcional)",
   "settings.commands.form.argumentHint.placeholder": "ex.: <file-path>",
   "settings.commands.form.prompt.label": "Prompt",
-  "settings.commands.form.prompt.placeholder": "Escreva o prompt que será enviado quando este comando for invocado...",
+  "settings.commands.form.prompt.placeholder":
+    "Escreva o prompt que será enviado quando este comando for invocado...",
   "settings.commands.form.validation.nameLength": "O tamanho deve estar entre {min} e {max}",
-  "settings.commands.form.validation.nameCharacters": "Apenas letras, números, hífens e sublinhados são permitidos",
+  "settings.commands.form.validation.nameCharacters":
+    "Apenas letras, números, hífens e sublinhados são permitidos",
   "settings.commands.form.validation.promptRequired": "O prompt é obrigatório",
   "settings.commands.import.open": "Importar comandos de agentes externos",
   "settings.commands.import.action": "Importar",
   "settings.commands.import.title": "Importar comandos de agentes externos",
   "settings.commands.import.scanning": "Procurando comandos importáveis...",
-  "settings.commands.import.empty": "Nenhum comando importável encontrado. Verifique os diretórios de comandos dos agentes externos e procure novamente.",
+  "settings.commands.import.empty":
+    "Nenhum comando importável encontrado. Verifique os diretórios de comandos dos agentes externos e procure novamente.",
   "settings.commands.import.summary": "Encontrados {count} comandos importáveis",
   "settings.commands.import.scopeLabel": "Escopo",
   "settings.commands.import.scope.global": "Global",
@@ -3357,8 +4016,10 @@ const ptBR: Record<string, string> = {
   "settings.commands.import.modeHelp": "Ajuda do modo de importação",
   "settings.commands.import.mode.copy": "Copiar",
   "settings.commands.import.mode.symlink": "Symlink",
-  "settings.commands.import.mode.copy.description": "Copia o arquivo de comando para o ZCode. Alterações posteriores no arquivo do agente externo não serão sincronizadas automaticamente.",
-  "settings.commands.import.mode.symlink.description": "Cria um link de arquivo para o comando do agente externo. O ZCode acompanha alterações posteriores na origem, mas o comando depende de o caminho de origem continuar disponível.",
+  "settings.commands.import.mode.copy.description":
+    "Copia o arquivo de comando para o ZCode. Alterações posteriores no arquivo do agente externo não serão sincronizadas automaticamente.",
+  "settings.commands.import.mode.symlink.description":
+    "Cria um link de arquivo para o comando do agente externo. O ZCode acompanha alterações posteriores na origem, mas o comando depende de o caminho de origem continuar disponível.",
   "settings.commands.import.importing": "Importando comandos para o ZCode",
   "settings.commands.import.imported": "Importado",
   "settings.commands.import.skipped": "Ignorado",
@@ -3367,37 +4028,51 @@ const ptBR: Record<string, string> = {
   "settings.commands.import.resultEmpty": "Nenhum resultado de comando foi retornado.",
   "settings.commands.import.finish": "Concluído",
   "settings.hooks.review.trust": "Confiar",
-  "settings.hooks.review.notice": "Hooks podem ser executados fora da sandbox, por isso pedimos que você revise qualquer hook instalado ou modificado recentemente",
+  "settings.hooks.review.notice":
+    "Hooks podem ser executados fora da sandbox, por isso pedimos que você revise qualquer hook instalado ou modificado recentemente",
   "settings.hooks.review.unavailable": "Esta conexão não pode confiar neste Hook.",
   "settings.hooks.review.reason.review_superseded": "A revisão foi atualizada — confirme novamente",
-  "settings.hooks.review.reason.snapshot_mismatch": "A configuração de hooks mudou — revisão necessária",
-  "settings.hooks.review.reason.bundle_changed": "A configuração de hooks mudou — revisão necessária",
+  "settings.hooks.review.reason.snapshot_mismatch":
+    "A configuração de hooks mudou — revisão necessária",
+  "settings.hooks.review.reason.bundle_changed":
+    "A configuração de hooks mudou — revisão necessária",
   "settings.hooks.review.reason.config_unreadable": "Não foi possível ler a configuração de hooks",
   "settings.hooks.review.reason.config_write_failed": "Falha ao gravar a configuração de hooks",
-  "settings.hooks.review.reason.config_rebuild_failed": "Falha ao reconstruir a configuração de hooks",
-  "settings.hooks.review.reason.trust_store_corrupt": "O repositório de confiança está corrompido — revisão necessária",
+  "settings.hooks.review.reason.config_rebuild_failed":
+    "Falha ao reconstruir a configuração de hooks",
+  "settings.hooks.review.reason.trust_store_corrupt":
+    "O repositório de confiança está corrompido — revisão necessária",
   "settings.hooks.review.reason.blocked_by_policy": "Bloqueado por política",
-  "settings.hooks.review.reason.policy_requires_pretrust": "A política exige confiança pré-estabelecida",
+  "settings.hooks.review.reason.policy_requires_pretrust":
+    "A política exige confiança pré-estabelecida",
   "settings.hooks.review.reason.interaction_timeout": "Tempo limite da revisão esgotado",
   "settings.hooks.review.reason.host_unavailable": "Esta conexão não pode revisar este Hook",
   "settings.hooks.review.reason.rejected": "Solicitação rejeitada",
   "settings.hooks.title": "Hooks",
   "settings.workspaceFileSearch.title": "Escopo de pesquisa do workspace",
-  "settings.workspaceFileSearch.description": "Edite as regras do .zcodeignore (sintaxe gitignore) que delimitam a pesquisa de arquivos do workspace. Entra em vigor na próxima pesquisa após salvar.",
-  "settings.workspaceFileSearch.templateHint": "O .zcodeignore ainda não existe: o conteúdo abaixo é a pré-visualização inicial (cópia do .gitignore + exclusões padrão); ele é gravado no workspace somente após salvar.",
-  "settings.workspaceFileSearch.editorLabel": "Editor de regras de ignorar da pesquisa do workspace",
+  "settings.workspaceFileSearch.description":
+    "Edite as regras do .zcodeignore (sintaxe gitignore) que delimitam a pesquisa de arquivos do workspace. Entra em vigor na próxima pesquisa após salvar.",
+  "settings.workspaceFileSearch.templateHint":
+    "O .zcodeignore ainda não existe: o conteúdo abaixo é a pré-visualização inicial (cópia do .gitignore + exclusões padrão); ele é gravado no workspace somente após salvar.",
+  "settings.workspaceFileSearch.editorLabel":
+    "Editor de regras de ignorar da pesquisa do workspace",
   "settings.workspaceFileSearch.save": "Salvar",
   "settings.workspaceFileSearch.saved": "Salvo; entra em vigor na próxima pesquisa",
   "settings.workspaceFileSearch.saveFailed": "Falha ao salvar; verifique os logs",
-  "settings.workspaceFileSearch.loadFailed": "Falha ao carregar as regras de ignorar; verifique os logs",
+  "settings.workspaceFileSearch.loadFailed":
+    "Falha ao carregar as regras de ignorar; verifique os logs",
   "settings.workspaceFileSearch.resync": "Sincronizar do .gitignore",
   "settings.workspaceFileSearch.restoreDefaults": "Restaurar regras padrão",
-  "settings.workspaceFileSearch.transformFailed": "Falha ao aplicar a operação de seção; verifique os logs",
+  "settings.workspaceFileSearch.transformFailed":
+    "Falha ao aplicar a operação de seção; verifique os logs",
   "settings.workspaceFileSearch.reveal": "Revelar local do arquivo",
-  "settings.workspaceFileSearch.revealHint": "Salve primeiro; o .zcodeignore fica na raiz do workspace",
+  "settings.workspaceFileSearch.revealHint":
+    "Salve primeiro; o .zcodeignore fica na raiz do workspace",
   "settings.workspaceFileSearch.unsaved": "Alterações não salvas",
-  "settings.workspaceFileSearch.noWorkspace": "Nenhum workspace aberto, portanto não é possível configurar as regras de ignorar da pesquisa.",
-  "settings.hooks.description": "Gerencie hooks do ciclo de vida de tarefas para executar comandos automaticamente em eventos específicos.",
+  "settings.workspaceFileSearch.noWorkspace":
+    "Nenhum workspace aberto, portanto não é possível configurar as regras de ignorar da pesquisa.",
+  "settings.hooks.description":
+    "Gerencie hooks do ciclo de vida de tarefas para executar comandos automaticamente em eventos específicos.",
   "settings.hooks.enabled": "Ativado",
   "settings.hooks.disabled": "Desativado",
   "settings.hooks.scopeUnknown": "Escopo desconhecido",
@@ -3441,7 +4116,8 @@ const ptBR: Record<string, string> = {
   "settings.hooks.customJsonObjectError": "Os campos personalizados devem ser um objeto JSON.",
   "settings.hooks.customJsonParseError": "Falha ao analisar o JSON de campos personalizados.",
   "settingsSync.dialog.title": "Importar configurações",
-  "settingsSync.dialog.description": "Somente os itens ausentes serão importados. As configurações existentes serão ignoradas automaticamente.",
+  "settingsSync.dialog.description":
+    "Somente os itens ausentes serão importados. As configurações existentes serão ignoradas automaticamente.",
   "settingsSync.action.skip": "Agora não",
   "settingsSync.action.rescan": "Verificar novamente",
   "settingsSync.action.rescanning": "Verificando...",
@@ -3469,7 +4145,8 @@ const ptBR: Record<string, string> = {
   "settingsSync.category.providers": "Provedores",
   "settingsSync.category.providers.description": "Modelos e credenciais",
   "settingsSync.category.skills": "Skills",
-  "settingsSync.category.skills.description": "Copie fluxos de trabalho locais de SKILL.md de agentes externos",
+  "settingsSync.category.skills.description":
+    "Copie fluxos de trabalho locais de SKILL.md de agentes externos",
   "settingsSync.category.default.description": "Configurações importáveis.",
   "settingsSync.unit.categoryCount": "{count} categorias",
   "settingsSync.unit.itemCount": "{count} itens",
@@ -3490,11 +4167,14 @@ const ptBR: Record<string, string> = {
   "settingsSync.importing.summary.skipped": "Ignorados {count}",
   "settingsSync.importing.summary.failed": "Falhas {count}",
   "settingsSync.complete.title": "Importação de configurações concluída",
-  "settingsSync.complete.summary": "{successCount} itens importados, {skippedCount} ignorados, {failedCount} com falha.",
+  "settingsSync.complete.summary":
+    "{successCount} itens importados, {skippedCount} ignorados, {failedCount} com falha.",
   "settingsSync.complete.finished": "O fluxo de importação foi concluído.",
   "settingsSync.discovery.title": "Configurações importáveis encontradas",
-  "settingsSync.discovery.description": "As configurações importáveis de agentes não são mais verificadas automaticamente.",
-  "settingsSync.discovery.helper": "Somente os itens ausentes serão importados e suas configurações atuais do ZCode não serão sobrescritas.",
+  "settingsSync.discovery.description":
+    "As configurações importáveis de agentes não são mais verificadas automaticamente.",
+  "settingsSync.discovery.helper":
+    "Somente os itens ausentes serão importados e suas configurações atuais do ZCode não serão sobrescritas.",
   "settingsSync.discovery.agentCount": "Agentes encontrados: {count}",
   "settingsSync.discovery.categoryCount": "Categorias encontradas: {count}",
   "settingsSync.discovery.error": "Falha na verificação: {error}",
@@ -3506,7 +4186,8 @@ const ptBR: Record<string, string> = {
   "onboarding.welcome.title": "Bem-vindo ao ZCode",
   "onboarding.welcome.start": "Iniciar o ZCode",
   "onboarding.welcome.migrate": "Guia de migração",
-  "onboarding.welcome.helper": "Importe as configurações de ferramentas existentes agora, ou pule e continue depois pelas Configurações.",
+  "onboarding.welcome.helper":
+    "Importe as configurações de ferramentas existentes agora, ou pule e continue depois pelas Configurações.",
   "onboarding.step.session": "Sessões",
   "onboarding.step.skillsImport": "Skills",
   "onboarding.step.mcpImport": "Servidores MCP",
@@ -3514,38 +4195,52 @@ const ptBR: Record<string, string> = {
   "onboarding.step.commandsImport": "Comandos",
   "onboarding.step.agentsFile": "AGENTS.md",
   "onboarding.step.migration": "Migração",
-  "onboarding.stepDescription.session": "Revise o que encontramos e escolha as sessões e os workspaces a migrar.",
-  "onboarding.stepDescription.skillsImport": "Importe as skills selecionadas de agentes externos antes da migração final.",
-  "onboarding.stepDescription.mcpImport": "Importe as definições de servidores MCP selecionadas das configurações de agentes externos.",
-  "onboarding.stepDescription.pluginsImport": "Importe os plugins selecionados de agentes externos antes da migração final.",
-  "onboarding.stepDescription.commandsImport": "Importe os comandos selecionados de agentes externos antes da migração final.",
-  "onboarding.stepDescription.migration": "Inicie a migração e aguarde enquanto o ZCode importa suas seleções.",
-  "onboarding.sessions.empty": "Ainda não há workspaces. Verifique o histórico local e escolha os workspaces a migrar.",
+  "onboarding.stepDescription.session":
+    "Revise o que encontramos e escolha as sessões e os workspaces a migrar.",
+  "onboarding.stepDescription.skillsImport":
+    "Importe as skills selecionadas de agentes externos antes da migração final.",
+  "onboarding.stepDescription.mcpImport":
+    "Importe as definições de servidores MCP selecionadas das configurações de agentes externos.",
+  "onboarding.stepDescription.pluginsImport":
+    "Importe os plugins selecionados de agentes externos antes da migração final.",
+  "onboarding.stepDescription.commandsImport":
+    "Importe os comandos selecionados de agentes externos antes da migração final.",
+  "onboarding.stepDescription.migration":
+    "Inicie a migração e aguarde enquanto o ZCode importa suas seleções.",
+  "onboarding.sessions.empty":
+    "Ainda não há workspaces. Verifique o histórico local e escolha os workspaces a migrar.",
   "onboarding.sessions.count": "{count} sessões",
   "onboarding.sessions.unlimited": "Ilimitado",
   "onboarding.sessions.chooseWorkspace": "Escolher workspace",
-  "onboarding.agentSettings.empty": "Nada para importar no momento. Verifique novamente ou continue sem migração.",
-  "onboarding.agentSettings.categoryToggleAllAria": "Selecionar ou limpar {category} para todos os agentes",
+  "onboarding.agentSettings.empty":
+    "Nada para importar no momento. Verifique novamente ou continue sem migração.",
+  "onboarding.agentSettings.categoryToggleAllAria":
+    "Selecionar ou limpar {category} para todos os agentes",
   "onboarding.agentsFile.copyTitle": "Copiar CLAUDE.md para AGENTS.md",
   "onboarding.agentsFile.sourceLabel": "Origem",
   "onboarding.agentsFile.targetLabel": "Destino",
   "onboarding.agentsFile.loading": "Verificando...",
-  "onboarding.agentsFile.missingSource": "Não foi possível encontrar ~/.claude/CLAUDE.md, portanto a memória de usuário do Claude não pode ser migrada.",
-  "onboarding.agentsFile.error": "Não foi possível verificar o status de migração do AGENTS.md: {error}",
+  "onboarding.agentsFile.missingSource":
+    "Não foi possível encontrar ~/.claude/CLAUDE.md, portanto a memória de usuário do Claude não pode ser migrada.",
+  "onboarding.agentsFile.error":
+    "Não foi possível verificar o status de migração do AGENTS.md: {error}",
   "onboarding.agentsFile.confirmTitle": "Sobrescrever o AGENTS.md padrão?",
-  "onboarding.agentsFile.confirmDescription": "O ZCode copiará {source} para {target}.\nSe o arquivo de destino já existir, a configuração AGENTS padrão do ZCode será sobrescrita.",
+  "onboarding.agentsFile.confirmDescription":
+    "O ZCode copiará {source} para {target}.\nSe o arquivo de destino já existir, a configuração AGENTS padrão do ZCode será sobrescrita.",
   "onboarding.agentsFile.confirmAction": "Sobrescrever e migrar",
   "onboarding.finish.summary.label.imported": "Importados",
   "onboarding.finish.summary.label.skipped": "Ignorados",
   "onboarding.finish.summary.label.failed": "Falhas",
-  "onboarding.footer.helper": "Pule a qualquer momento e retome a migração depois pelas Configurações.",
+  "onboarding.footer.helper":
+    "Pule a qualquer momento e retome a migração depois pelas Configurações.",
   "onboarding.footer.workspaceSelection": "{count} workspaces selecionados",
   "onboarding.action.continue": "Continuar",
   "onboarding.action.beginMigration": "Iniciar migração",
   "onboarding.migration.progress": "Migrando... {progress}%",
   "onboarding.migration.ready": "Preparando plano de migração...",
   "onboarding.migration.confirmCloseTitle": "A migração ainda está em andamento",
-  "onboarding.migration.confirmCloseDescription": "A migração do histórico ainda está em andamento. Fechar agora interromperá o fluxo de importação atual. Fechar mesmo assim?",
+  "onboarding.migration.confirmCloseDescription":
+    "A migração do histórico ainda está em andamento. Fechar agora interromperá o fluxo de importação atual. Fechar mesmo assim?",
   "onboarding.migration.confirmCloseConfirm": "Fechar mesmo assim",
   "onboarding.finish.done": "Migração concluída",
   "onboarding.finish.ready": "Revise o que foi importado antes de continuar.",
@@ -3553,10 +4248,12 @@ const ptBR: Record<string, string> = {
   "onboarding.finish.currentAgentsFile": "Migrando AGENTS.md",
   "onboarding.finish.currentSettings": "Importando configurações de agentes",
   "onboarding.finish.summary.sessions": "Migração de sessões",
-  "onboarding.finish.summary.sessions.detail": "Importadas {imported}, ignoradas {skipped}, com falha {failed}.",
+  "onboarding.finish.summary.sessions.detail":
+    "Importadas {imported}, ignoradas {skipped}, com falha {failed}.",
   "onboarding.finish.summary.settings": "Importação de configurações",
   "onboarding.finish.summary.agentsFile": "AGENTS.md",
-  "onboarding.finish.summary.settings.detail": "Importadas {imported}, ignoradas {skipped}, com falha {failed}.",
+  "onboarding.finish.summary.settings.detail":
+    "Importadas {imported}, ignoradas {skipped}, com falha {failed}.",
   "chat.empty.title": "Inicie uma conversa",
   "chat.empty.description": "Inicie uma nova tarefa em {workspace}",
   "chat.empty.description.beforeWorkspace": "Inicie uma nova tarefa em",
@@ -3568,12 +4265,15 @@ const ptBR: Record<string, string> = {
   "chat.empty.greeting.evening": "Boa noite, bom trabalho hoje",
   "chat.empty.greeting.lateNight": "Já é tarde — lembre-se de se cuidar.",
   "chat.draft.suggestedPrompt.recentCommits": "Revisar commits dos últimos 7 dias",
-  "chat.draft.suggestedPrompt.recentCommits.prompt": "Revise os commits do Git dos últimos 7 dias neste workspace, resuma as principais alterações e identifique riscos em potencial.",
+  "chat.draft.suggestedPrompt.recentCommits.prompt":
+    "Revise os commits do Git dos últimos 7 dias neste workspace, resuma as principais alterações e identifique riscos em potencial.",
   "chat.draft.suggestedPrompt.createPdf": "Criar um PDF",
-  "chat.draft.suggestedPrompt.createPdf.prompt": "Crie um documento PDF com base no conteúdo do workspace atual.",
-  "chat.draft.suggestedPrompt.plugin.documentSkills": "Document Skills",
+  "chat.draft.suggestedPrompt.createPdf.prompt":
+    "Crie um documento PDF com base no conteúdo do workspace atual.",
+  "chat.draft.suggestedPrompt.plugin.documentSkills": "Skills de documentos",
   "chat.draft.suggestedPrompt.plugin.github": "Github",
-  "chat.draft.suggestedPrompt.pluginUnavailable": "O plugin {pluginLabel} não está ativado ou instalado",
+  "chat.draft.suggestedPrompt.pluginUnavailable":
+    "O plugin {pluginLabel} não está ativado ou instalado",
   "chat.draft.suggestedPrompt.pluginFlow.installing": "Instalando o plugin…",
   "chat.draft.suggestedPrompt.pluginFlow.enabling": "Ativando o plugin…",
   "chat.draft.suggestedPrompt.pluginFlow.checking": "Verificando o status do plugin…",
@@ -3582,9 +4282,11 @@ const ptBR: Record<string, string> = {
   "chat.draft.suggestedPrompt.pluginFlow.confirm": "Confirmar",
   "chat.draft.suggestedPrompt.pluginFlow.installSucceeded": "Instalação bem-sucedida",
   "chat.draft.suggestedPrompt.pluginFlow.installFailed": "Falha na instalação do plugin",
-  "chat.draft.suggestedPrompt.pluginFlow.installFailureToast": "Não foi possível instalar o {pluginLabel}: {error}",
+  "chat.draft.suggestedPrompt.pluginFlow.installFailureToast":
+    "Não foi possível instalar o {pluginLabel}: {error}",
   "chat.draft.suggestedPrompt.pluginFlow.installTimedOut": "Tempo limite da instalação esgotado",
-  "chat.draft.suggestedPrompt.pluginFlow.installReturnedEmpty": "Nenhum plugin instalado foi retornado",
+  "chat.draft.suggestedPrompt.pluginFlow.installReturnedEmpty":
+    "Nenhum plugin instalado foi retornado",
   "chat.draft.suggestedPrompt.pluginFlow.enableSucceeded": "Plugin ativado com sucesso",
   "chat.draft.suggestedPrompt.pluginFlow.enableFailed": "Falha ao ativar o plugin",
   "chat.empty.workspaceMenu": "Escolher workspace",
@@ -3602,11 +4304,14 @@ const ptBR: Record<string, string> = {
   "chat.empty.createWorkspace.error.separator": "O nome do workspace não pode conter / ou \\.",
   "chat.empty.createWorkspace.error.createFailed": "Não foi possível criar o workspace.",
   "chat.emptyResult.title": "Nenhuma saída visível",
-  "chat.emptyResult.description": "Esta tarefa terminou sem nenhum conteúdo de conversa. Ela pode ter sido interrompida antes que o modelo produzisse uma resposta.",
-  "chat.placeholder.newTask": "Pergunte qualquer coisa ao ZCode, @ para adicionar contexto, / para comandos ou recursos",
+  "chat.emptyResult.description":
+    "Esta tarefa terminou sem nenhum conteúdo de conversa. Ela pode ter sido interrompida antes que o modelo produzisse uma resposta.",
+  "chat.placeholder.newTask":
+    "Pergunte qualquer coisa ao ZCode, @ para adicionar contexto, / para comandos ou recursos",
   "chat.placeholder.newTaskMobile": "Pergunte qualquer coisa ao ZCode…",
   "chat.placeholder.followUpAsk": "Peça alterações de acompanhamento",
-  "chat.placeholder.followUpQueue": "Continue digitando para enfileirar alterações de acompanhamento",
+  "chat.placeholder.followUpQueue":
+    "Continue digitando para enfileirar alterações de acompanhamento",
   "chat.placeholder.loading": "Inicializando tarefa...",
   "chat.attachments.dragHint": "Solte para adicionar anexos",
   "chat.composer.workspaceFileDragHint": "Solte para mencionar este arquivo ou pasta",
@@ -3627,7 +4332,8 @@ const ptBR: Record<string, string> = {
   "chat.message.fork.unsupported": "O agente atual ainda não suporta fork",
   "chat.message.fork.failed": "Não foi possível criar o fork da sessão: {error}",
   "chat.message.fork.derivedFrom": "Fork da conversa",
-  "chat.message.fork.derivedFromMissing": "Fork de uma conversa mais antiga (informações de rastreamento perdidas)",
+  "chat.message.fork.derivedFromMissing":
+    "Fork de uma conversa mais antiga (informações de rastreamento perdidas)",
   "chat.message.fork.parentMissing": "A conversa de origem não existe mais",
   "chat.message.fork.noCheckpoint": "Checkpoint do fork não encontrado",
   "chat.message.fork.targetMessageMissing": "A mensagem de origem não existe mais na conversa",
@@ -3645,7 +4351,8 @@ const ptBR: Record<string, string> = {
   "chat.message.expand": "Expandir",
   "chat.message.collapse": "Recolher",
   "chat.userInput.epilogue.label": "Instruções do mecanismo de workflow",
-  "chat.message.bodyPreview.notice": "Esta resposta é grande. Exibindo apenas uma pré-visualização ({previewBytes} / {fullBytes}).",
+  "chat.message.bodyPreview.notice":
+    "Esta resposta é grande. Exibindo apenas uma pré-visualização ({previewBytes} / {fullBytes}).",
   "chat.message.bodyPreview.loadFull": "Ver mensagem completa",
   "chat.message.bodyPreview.loading": "Carregando...",
   "chat.message.bodyPreview.retry": "Falha ao carregar, tentar novamente",
@@ -3653,7 +4360,8 @@ const ptBR: Record<string, string> = {
   "chat.message.toolSlice.loadMore": "Carregar mais chamadas de ferramenta",
   "chat.message.toolSlice.loading": "Carregando...",
   "chat.message.toolSlice.retry": "Falha ao carregar, tentar novamente",
-  "chat.message.toolSnapshot.notice": "{toolCount} chamadas de ferramenta ({fullBytes}) no total, pré-visualizando {previewBytes}.",
+  "chat.message.toolSnapshot.notice":
+    "{toolCount} chamadas de ferramenta ({fullBytes}) no total, pré-visualizando {previewBytes}.",
   "chat.message.toolSnapshot.loadAll": "Carregar todos os dados de ferramentas",
   "chat.message.toolSnapshot.loading": "Carregando...",
   "chat.message.toolSnapshot.retry": "Falha ao carregar, tentar novamente",
@@ -3670,12 +4378,15 @@ const ptBR: Record<string, string> = {
   "chat.stop": "Parar",
   "chat.stop.short": "Parar",
   "chat.promptEnhance.title": "Aprimorar prompt",
-  "chat.promptEnhance.description": "Refine o rascunho atual com a configuração de modelo selecionada.",
+  "chat.promptEnhance.description":
+    "Refine o rascunho atual com a configuração de modelo selecionada.",
   "chat.promptEnhance.cancel": "Cancelar aprimoramento",
-  "chat.promptEnhance.cancelDescription": "Clique novamente para cancelar o aprimoramento de prompt atual.",
+  "chat.promptEnhance.cancelDescription":
+    "Clique novamente para cancelar o aprimoramento de prompt atual.",
   "chat.promptEnhance.cancelled": "Aprimoramento de prompt cancelado",
   "chat.promptEnhance.empty": "Digite um prompt antes de aprimorá-lo",
-  "chat.promptEnhance.unsupported": "O modelo selecionado atualmente não expõe uma configuração de aprimoramento direta.",
+  "chat.promptEnhance.unsupported":
+    "O modelo selecionado atualmente não expõe uma configuração de aprimoramento direta.",
   "chat.promptEnhance.error": "Falha no aprimoramento do prompt. Tente novamente.",
   "chat.promptEnhance.errorWithDetail": "Falha no aprimoramento do prompt: {error}",
   "chat.queue.enqueue": "Enfileirar mensagem",
@@ -3684,8 +4395,10 @@ const ptBR: Record<string, string> = {
   "chat.queue.sendNow": "Redirecionar",
   "chat.queue.runNow": "Executar agora",
   "chat.queue.edit": "Editar",
-  "chat.queue.editDraftConflict": "Envie ou limpe o rascunho atual antes de editar uma mensagem na fila.",
-  "chat.queue.editRestoreFailed": "Não foi possível devolver a mensagem da fila ao campo de composição. Tente novamente.",
+  "chat.queue.editDraftConflict":
+    "Envie ou limpe o rascunho atual antes de editar uma mensagem na fila.",
+  "chat.queue.editRestoreFailed":
+    "Não foi possível devolver a mensagem da fila ao campo de composição. Tente novamente.",
   "chat.queue.remove": "Remover mensagem da fila",
   "chat.queue.turnSteer.steering": "Redirecionando a conversa",
   "chat.queue.paused.stopped": "A fila foi pausada porque você parou a resposta atual",
@@ -3694,7 +4407,8 @@ const ptBR: Record<string, string> = {
   "chat.queue.resume": "Continuar",
   "chat.queue.resume.description": "Continuar enviando os itens da fila em ordem",
   "chat.queue.sendConfirm.title": "Enviar mensagem?",
-  "chat.queue.sendConfirm.description": "Você está prestes a enviar uma mensagem. Limpar as {count} mensagens enfileiradas anteriormente?",
+  "chat.queue.sendConfirm.description":
+    "Você está prestes a enviar uma mensagem. Limpar as {count} mensagens enfileiradas anteriormente?",
   "chat.queue.sendConfirm.clear": "Limpar fila",
   "chat.queue.sendConfirm.keep": "Enviar mensagem",
   "chat.message.turnSteer.guided": "Conversa redirecionada",
@@ -3711,7 +4425,8 @@ const ptBR: Record<string, string> = {
   "chat.reasoning.durationSeconds": "{seconds} segundos",
   "chat.contextUsage": "Uso de contexto: {used} de {total}",
   "chat.contextUsage.title": "Janelas de contexto",
-  "chat.contextUsageDescription": "Texto do prompt, chamadas de ferramenta e respostas compartilham esta janela de contexto.",
+  "chat.contextUsageDescription":
+    "Texto do prompt, chamadas de ferramenta e respostas compartilham esta janela de contexto.",
   "chat.contextUsage.cacheHitRate": "Taxa média de acertos do cache",
   "chat.contextUsage.breakdown": "Fontes de contexto",
   "chat.contextUsage.breakdown.messages": "Mensagens",
@@ -3725,8 +4440,10 @@ const ptBR: Record<string, string> = {
   "chat.contextUsage.compressDescription": "Envie {command} para comprimir o contexto atual",
   "tokenDebug.open": "Abrir depuração de tokens",
   "tokenDebug.column.tps": "TPS (tokens/s)",
-  "tokenDebug.tpsDescription": "Tokens de saída ÷ segundos do primeiro token de saída até a conclusão da solicitação",
-  "developerTools.loadError": "Não foi possível ler os dados de depuração. Tentando novamente; os registros anteriores podem estar desatualizados.",
+  "tokenDebug.tpsDescription":
+    "Tokens de saída ÷ segundos do primeiro token de saída até a conclusão da solicitação",
+  "developerTools.loadError":
+    "Não foi possível ler os dados de depuração. Tentando novamente; os registros anteriores podem estar desatualizados.",
   "tokenDebug.title": "Depuração de tokens",
   "tokenDebug.summary.requests": "Solicitações principais",
   "tokenDebug.summary.average": "Média de acertos",
@@ -3760,7 +4477,8 @@ const ptBR: Record<string, string> = {
   "developerTools.network.status.retry": "Nova tentativa agendada",
   "developerTools.network.status.stalled": "Fluxo interrompido",
   "chat.contextCompaction.started": "Comprimindo contexto",
-  "chat.contextCompaction.retrying": "Tentando novamente a compressão de contexto ({attempt}/{maxAttempts})",
+  "chat.contextCompaction.retrying":
+    "Tentando novamente a compressão de contexto ({attempt}/{maxAttempts})",
   "chat.contextCompaction.skipped": "O contexto está atualizado; não é necessária compressão",
   "chat.contextCompaction.completed": "Contexto comprimido",
   "chat.modelChange.switched": "Modelo alterado: {from} → {to}",
@@ -3804,7 +4522,8 @@ const ptBR: Record<string, string> = {
   "chat.composer.backgroundWorks.tooltipWorkflow": "Abrir workflows em execução",
   "chat.composer.backgroundWorks.tooltipWorkflowDetails": "Abrir detalhes do workflow",
   "chat.composer.backgroundWorks.tooltipMixed": "Abrir terminais e agentes em execução",
-  "chat.composer.backgroundWorks.ariaLabel": "Abrir tarefas em segundo plano em execução: {bashCount} Bash, {workflowCount} workflow, {subagentCount} subagente, {count} no total",
+  "chat.composer.backgroundWorks.ariaLabel":
+    "Abrir tarefas em segundo plano em execução: {bashCount} Bash, {workflowCount} workflow, {subagentCount} subagente, {count} no total",
   "chat.summaryPanel.goalIterationValue": "Iteração {count}",
   "chat.summaryPanel.todoGoalIterationGroup": "Iteração {count}",
   "chat.summaryPanel.todoSessionGroup": "Sessão",
@@ -3834,42 +4553,58 @@ const ptBR: Record<string, string> = {
   "chat.statusPanel.runningStop": "Parar",
   "chat.toolbar.model.label": "Escolher modelo",
   "chat.toolbar.draftConfigWriteFailed": "Falha ao atualizar a configuração. Tente novamente.",
-  "chat.toolbar.model.description": "Escolha o modelo usado por esta tarefa. O atalho abre o menu de modelos.",
+  "chat.toolbar.model.description":
+    "Escolha o modelo usado por esta tarefa. O atalho abre o menu de modelos.",
   "chat.toolbar.model.manageModels": "Gerenciar modelos",
   "chat.toolbar.model.searchPlaceholder": "Pesquisar modelos...",
   "chat.toolbar.model.empty": "Nenhum modelo encontrado",
   "chat.toolbar.modelSwitch.stage.settingModel": "Trocando modelo...",
-  "chat.toolbar.modelSwitch.stage.fallbackConfigOption": "Recorrendo à API de opções de configuração...",
-  "chat.toolbar.modelSwitch.stage.applyingCustomProvider": "Aplicando provedor de modelo personalizado...",
+  "chat.toolbar.modelSwitch.stage.fallbackConfigOption":
+    "Recorrendo à API de opções de configuração...",
+  "chat.toolbar.modelSwitch.stage.applyingCustomProvider":
+    "Aplicando provedor de modelo personalizado...",
   "chat.toolbar.modelSwitch.stage.restartingRuntime": "Reiniciando o runtime do modelo...",
   "chat.toolbar.modelSwitch.stage.syncingSession": "Sincronizando o modelo da sessão...",
   "chat.toolbar.modelSwitch.stage.persistingWorkspace": "Salvando o modelo padrão do workspace...",
-  "chat.toolbar.modelSwitch.lockedByRunningTask": "Há uma tarefa em execução. Conclua-a antes de trocar de provedor de modelo.",
+  "chat.toolbar.modelSwitch.lockedByRunningTask":
+    "Há uma tarefa em execução. Conclua-a antes de trocar de provedor de modelo.",
   "chat.toolbar.modelSwitch.lockedByRunningTask.short": "ocupado",
   "chat.goal.runningBlocked": "Defina um objetivo depois que a tarefa atual terminar.",
-  "chat.goal.planModeBlocked": "O objetivo não está disponível no modo Plano. Troque de modo para continuar.",
-  "chat.plan.attachmentsBlocked": "O atalho /plan suporta apenas texto por enquanto. Remova anexos ou contexto e tente novamente.",
+  "chat.goal.planModeBlocked":
+    "O objetivo não está disponível no modo Plano. Troque de modo para continuar.",
+  "chat.plan.attachmentsBlocked":
+    "O atalho /plan suporta apenas texto por enquanto. Remova anexos ou contexto e tente novamente.",
   "chat.compact.runningBlocked": "Comprima o contexto depois que a tarefa atual terminar.",
   "chat.compact.queued": "Compressão enfileirada e será executada em ordem.",
   "chat.compact.duplicateBlocked": "Uma compressão já está em execução ou na fila.",
   "chat.modelSwitch.contextWindowGuard.title": "Comprimir o contexto antes de trocar de modelo",
-  "chat.modelSwitch.contextWindowGuard.description": "Esta conversa já usou {used} tokens, o que excede o contexto disponível de {target} tokens de {modelName} após reservar a saída máxima.\nComprima primeiro a conversa atual com o modelo atual. Se o contexto comprimido couber, o ZCode continuará a troca de modelos.",
+  "chat.modelSwitch.contextWindowGuard.description":
+    "Esta conversa já usou {used} tokens, o que excede o contexto disponível de {target} tokens de {modelName} após reservar a saída máxima.\nComprima primeiro a conversa atual com o modelo atual. Se o contexto comprimido couber, o ZCode continuará a troca de modelos.",
   "chat.modelSwitch.contextWindowGuard.compress": "Comprimir",
-  "chat.modelSwitch.contextWindowGuard.runningBlocked": "Esta conversa já usou mais contexto do que o contexto disponível do modelo de destino após reservar a saída máxima. É preciso comprimir a conversa antes de trocar de modelo, mas a tarefa atual ainda está em execução e a compressão de contexto não pode ser executada agora. Aguarde o término da tarefa e troque de modelo novamente.",
-  "chat.modelSwitch.contextWindowGuard.stillTooLarge": "Após a compressão, o contexto usado por esta conversa ainda é maior do que o contexto disponível do modelo de destino após reservar a saída máxima. A troca de modelo foi cancelada.",
+  "chat.modelSwitch.contextWindowGuard.runningBlocked":
+    "Esta conversa já usou mais contexto do que o contexto disponível do modelo de destino após reservar a saída máxima. É preciso comprimir a conversa antes de trocar de modelo, mas a tarefa atual ainda está em execução e a compressão de contexto não pode ser executada agora. Aguarde o término da tarefa e troque de modelo novamente.",
+  "chat.modelSwitch.contextWindowGuard.stillTooLarge":
+    "Após a compressão, o contexto usado por esta conversa ainda é maior do que o contexto disponível do modelo de destino após reservar a saída máxima. A troca de modelo foi cancelada.",
   "chat.toolbar.mode.label": "Trocar modo",
   "chat.toolbar.computerUse.label": "Computer Use",
-  "chat.toolbar.computerUse.tooltip.idle": "O Computer Use está ocioso — será iniciado automaticamente no primeiro uso",
+  "chat.toolbar.computerUse.tooltip.idle":
+    "O Computer Use está ocioso — será iniciado automaticamente no primeiro uso",
   "chat.toolbar.computerUse.tooltip.starting": "Ativando o plugin Computer Use…",
-  "chat.toolbar.computerUse.tooltip.ready": "Computer Use pronto — apenas descreva o que você quer que o ZCode faça",
-  "chat.toolbar.computerUse.tooltip.permissionRequired": "Permissões do macOS ausentes — clique para conceder",
-  "chat.toolbar.computerUse.tooltip.error": "Falha ao ativar o Computer Use. Reinicie o aplicativo ZCode e tente novamente, ou peça ao ZCode para investigar os logs",
-  "chat.toolbar.computerUse.tooltip.sessionBusy": "Há uma conversa em execução. Não é possível alternar o Computer Use agora — tente novamente depois que ela terminar.",
-  "chat.toolbar.mode.description": "Troque o modo de permissão e execução da tarefa, como padrão, plano ou aceitar edições.",
+  "chat.toolbar.computerUse.tooltip.ready":
+    "Computer Use pronto — apenas descreva o que você quer que o ZCode faça",
+  "chat.toolbar.computerUse.tooltip.permissionRequired":
+    "Permissões do macOS ausentes — clique para conceder",
+  "chat.toolbar.computerUse.tooltip.error":
+    "Falha ao ativar o Computer Use. Reinicie o aplicativo ZCode e tente novamente, ou peça ao ZCode para investigar os logs",
+  "chat.toolbar.computerUse.tooltip.sessionBusy":
+    "Há uma conversa em execução. Não é possível alternar o Computer Use agora — tente novamente depois que ela terminar.",
+  "chat.toolbar.mode.description":
+    "Troque o modo de permissão e execução da tarefa, como padrão, plano ou aceitar edições.",
   "chat.toolbar.thoughtLevel.label": "Esforço de raciocínio",
   "chat.toolbar.thoughtLevel.tooltip": "Nível de raciocínio",
   "chat.toolbar.thoughtLevel.placeholder": "Selecionar nível de raciocínio",
-  "chat.toolbar.thoughtLevel.description": "Ajuste o quanto o agente pensa antes de responder. Um esforço maior costuma ser mais estável, porém mais lento.",
+  "chat.toolbar.thoughtLevel.description":
+    "Ajuste o quanto o agente pensa antes de responder. Um esforço maior costuma ser mais estável, porém mais lento.",
   "chat.toolbar.thoughtLevel.value.off": "Desativado",
   "chat.toolbar.thoughtLevel.value.on": "Ativado",
   "chat.toolbar.thoughtLevel.value.minimal": "Mínimo",
@@ -3926,7 +4661,8 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.edit.editing": "Editando",
   "chat.toolCall.edit.edited": "Editado",
   "chat.toolCall.edit.multipleFiles": "{count} arquivos",
-  "chat.toolCall.snapshot.notice": "{fields} campo(s) da ferramenta foram truncados. Exibindo prévia {previewBytes} / {fullBytes}.",
+  "chat.toolCall.snapshot.notice":
+    "{fields} campo(s) da ferramenta foram truncados. Exibindo prévia {previewBytes} / {fullBytes}.",
   "chat.toolCall.snapshot.loadFull": "Carregar dados completos da ferramenta",
   "chat.toolCall.snapshot.loading": "Carregando...",
   "chat.toolCall.snapshot.retry": "Falha ao carregar, tentar novamente",
@@ -4032,8 +4768,10 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.ran": "Workflow",
   "chat.toolCall.workflow.fallbackName": "Script de workflow",
   "chat.toolCall.workflow.feedback": "Feedback do compilador",
-  "chat.toolCall.workflow.feedback.lede": "A verificação de tipos não passou, então nada foi executado. O feedback voltou para o modelo revisar e reenviar.",
-  "chat.toolCall.workflow.feedback.lede.saved": "O arquivo de workflow salvo não passou na verificação de tipos, então nada foi executado. O feedback voltou para o modelo corrigir o arquivo ou salvar uma versão corrigida.",
+  "chat.toolCall.workflow.feedback.lede":
+    "A verificação de tipos não passou, então nada foi executado. O feedback voltou para o modelo revisar e reenviar.",
+  "chat.toolCall.workflow.feedback.lede.saved":
+    "O arquivo de workflow salvo não passou na verificação de tipos, então nada foi executado. O feedback voltou para o modelo corrigir o arquivo ou salvar uma versão corrigida.",
   "chat.toolCall.workflow.feedback.count": "{count} observações",
   "chat.toolCall.workflow.feedback.countOne": "{count} observação",
   "chat.toolCall.workflow.feedback.rule": "regra {code}",
@@ -4042,7 +4780,8 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.notRun": "não executado",
   "chat.toolCall.workflow.truncated": "Alguns diagnósticos foram omitidos.",
   "chat.toolCall.workflow.noScript": "Nenhum script de workflow fornecido.",
-  "chat.toolCall.workflow.graph.truncated": "Grafo muito grande — alguns participantes foram omitidos.",
+  "chat.toolCall.workflow.graph.truncated":
+    "Grafo muito grande — alguns participantes foram omitidos.",
   "chat.toolCall.workflow.graph.lane.script": "Script",
   "chat.toolCall.workflow.graph.lane.unresolved": "Não resolvido",
   "chat.toolCall.workflow.graph.lane.anonymous": "Subagente anônimo",
@@ -4063,11 +4802,15 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.timeline.roster.failed": "{count} com falha",
   "chat.toolCall.workflow.timeline.roster.pending": "{count} pendentes",
   "chat.toolCall.workflow.timeline.roster.more": "{count} mais",
-  "chat.toolCall.workflow.timeline.roster.moreTitle": "{count} subagentes restantes · listar todos no painel de execução",
-  "chat.toolCall.workflow.timeline.roster.door.list": "{count} subagentes restantes · listá-los aqui",
+  "chat.toolCall.workflow.timeline.roster.moreTitle":
+    "{count} subagentes restantes · listar todos no painel de execução",
+  "chat.toolCall.workflow.timeline.roster.door.list":
+    "{count} subagentes restantes · listá-los aqui",
   "chat.toolCall.workflow.timeline.roster.door.fold": "{count} subagentes restantes · recolher",
-  "chat.toolCall.workflow.timeline.ledge.earlier": "{count} fase(s) anterior(es), rolada(s) para fora da visualização",
-  "chat.toolCall.workflow.timeline.ledge.later": "{count} fase(s) posterior(es), rolada(s) para fora da visualização",
+  "chat.toolCall.workflow.timeline.ledge.earlier":
+    "{count} fase(s) anterior(es), rolada(s) para fora da visualização",
+  "chat.toolCall.workflow.timeline.ledge.later":
+    "{count} fase(s) posterior(es), rolada(s) para fora da visualização",
   "chat.toolCall.workflow.timeline.scrollbar": "Posição de rolagem da linha do tempo",
   "chat.toolCall.workflow.card.started": "Workflow iniciado",
   "chat.toolCall.workflow.card.running": "Workflow em execução",
@@ -4115,8 +4858,10 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.save.scope.label": "Escopo",
   "chat.toolCall.workflow.save.scope.project": "Projeto",
   "chat.toolCall.workflow.save.scope.global": "Global · visível em todos os projetos",
-  "chat.toolCall.workflow.save.scope.hidesGlobal": "Um workflow global com este nome ficará oculto por este",
-  "chat.toolCall.workflow.save.scope.hiddenByProject": "Este projeto já tem um workflow com este nome, que ocultará este aqui",
+  "chat.toolCall.workflow.save.scope.hidesGlobal":
+    "Um workflow global com este nome ficará oculto por este",
+  "chat.toolCall.workflow.save.scope.hiddenByProject":
+    "Este projeto já tem um workflow com este nome, que ocultará este aqui",
   "chat.toolCall.workflow.scope.global": "Global",
   "chat.toolCall.workflow.list.listing": "Listando workflows salvos",
   "chat.toolCall.workflow.list.listed": "Workflows salvos",
@@ -4139,18 +4884,22 @@ const ptBR: Record<string, string> = {
   "automations.pageTab.ariaLabel": "Página de automações",
   "automations.pageTab.automation": "Automações",
   "automations.pageTab.workflow": "Workflows",
-  "workflows.hub.description": "Workflows salvos nos seus projetos abertos. Preencha os argumentos e execute-os novamente.",
+  "workflows.hub.description":
+    "Workflows salvos nos seus projetos abertos. Preencha os argumentos e execute-os novamente.",
   "workflows.hub.sectionTitle": "Workflows salvos",
   "workflows.hub.refresh": "Atualizar",
   "workflows.hub.createViaChat": "Criar no chat",
   "workflows.hub.group.current": "Atual",
   "workflows.hub.global.title": "Global",
   "workflows.hub.global.hint": "Visível em todos os projetos",
-  "workflows.hub.global.empty": "Ainda não há workflows globais. Ideais para fluxos que não dependem de um projeto específico, como pesquisa aprofundada.",
+  "workflows.hub.global.empty":
+    "Ainda não há workflows globais. Ideais para fluxos que não dependem de um projeto específico, como pesquisa aprofundada.",
   "workflows.hub.global.unsupported": "O agente atual não suporta workflows globais.",
-  "workflows.hub.global.noLocalRuntime": "Não foi possível conectar ao agente local; os workflows globais estão indisponíveis.",
+  "workflows.hub.global.noLocalRuntime":
+    "Não foi possível conectar ao agente local; os workflows globais estão indisponíveis.",
   "workflows.hub.empty.title": "Ainda não há workflows salvos nos seus projetos abertos",
-  "workflows.hub.empty.hint": "Desenhe um workflow com o ZCode no chat e peça para ele salvar o workflow em um projeto quando estiver funcionando. Projetos que não estão abertos não aparecem aqui.",
+  "workflows.hub.empty.hint":
+    "Desenhe um workflow com o ZCode no chat e peça para ele salvar o workflow em um projeto quando estiver funcionando. Projetos que não estão abertos não aparecem aqui.",
   "workflows.hub.noWorkspace": "Abra um workspace para ver os workflows dele.",
   "workflows.hub.loadError": "Não foi possível ler os workflows: {error}",
   "workflows.hub.invalid": "{count} arquivos não puderam ser lidos",
@@ -4170,10 +4919,11 @@ const ptBR: Record<string, string> = {
   "workflows.hub.lastRun.running": "Em execução",
   "workflows.hub.lastRun.stopped": "Interrompido",
   "workflows.hub.copied": "Caminho copiado",
-  "workflows.hub.delete.title": "Excluir o workflow \"{name}\"?",
-  "workflows.hub.delete.description": "Isso remove {path} do projeto. Os registros de execução existentes são mantidos.",
+  "workflows.hub.delete.title": 'Excluir o workflow "{name}"?',
+  "workflows.hub.delete.description":
+    "Isso remove {path} do projeto. Os registros de execução existentes são mantidos.",
   "workflows.hub.delete.confirm": "Excluir",
-  "workflows.hub.deleted": "Workflow \"{name}\" excluído",
+  "workflows.hub.deleted": 'Workflow "{name}" excluído',
   "workflows.hub.deleteFailed": "Falha ao excluir: {reason}",
   "workflows.hub.promote.failed": "Falha ao promover: {reason}",
   "workflows.hub.move.toast.project": "Movido para {project}",
@@ -4200,7 +4950,8 @@ const ptBR: Record<string, string> = {
   "workflows.hub.launch.error.compile_failed": "O script do workflow não compilou",
   "workflows.hub.launch.error.session_busy": "A sessão está ocupada; tente novamente",
   "workflows.hub.launch.error.start_failed": "Não foi possível iniciar o workflow",
-  "workflows.hub.launch.error.unsupported": "O agente atual não suporta executar workflows diretamente",
+  "workflows.hub.launch.error.unsupported":
+    "O agente atual não suporta executar workflows diretamente",
   "workflows.hub.launch.error.generic": "Não foi possível iniciar o workflow",
   "workflows.hub.detail.tab.definition": "Definição",
   "workflows.hub.detail.tab.history": "Histórico de execuções",
@@ -4210,7 +4961,8 @@ const ptBR: Record<string, string> = {
   "workflows.hub.detail.basics": "Informações básicas",
   "workflows.hub.detail.description": "Descrição",
   "workflows.hub.detail.whenToUse": "Quando usar",
-  "workflows.hub.detail.whenToUse.help": "Uma dica de roteamento para o ZCode: quando este workflow é a escolha certa.",
+  "workflows.hub.detail.whenToUse.help":
+    "Uma dica de roteamento para o ZCode: quando este workflow é a escolha certa.",
   "workflows.hub.detail.args": "Argumentos",
   "workflows.hub.detail.args.name": "Nome",
   "workflows.hub.detail.args.type": "Tipo",
@@ -4222,20 +4974,23 @@ const ptBR: Record<string, string> = {
   "workflows.hub.detail.args.error.empty_name": "O argumento precisa de um nome",
   "workflows.hub.detail.args.error.duplicate_name": "Nome de argumento duplicado",
   "workflows.hub.detail.args.error.invalid_default": "O padrão não corresponde ao tipo",
-  "workflows.hub.detail.meta.note": "Apenas os metadados no topo do arquivo são alterados; o corpo do script permanece como está.",
+  "workflows.hub.detail.meta.note":
+    "Apenas os metadados no topo do arquivo são alterados; o corpo do script permanece como está.",
   "workflows.hub.detail.meta.discard": "Descartar alterações",
   "workflows.hub.detail.meta.save": "Salvar metadados",
   "workflows.hub.detail.meta.saved": "Metadados salvos",
   "workflows.hub.detail.meta.saveFailed": "Falha ao salvar: {reason}",
   "workflows.hub.detail.meta.descriptionRequired": "A descrição é obrigatória",
   "workflows.hub.detail.script": "Script",
-  "workflows.hub.detail.script.note": "O script é somente leitura. Para alterá-lo, revise-o com o ZCode no chat e salve uma nova versão.",
+  "workflows.hub.detail.script.note":
+    "O script é somente leitura. Para alterá-lo, revise-o com o ZCode no chat e salve uma nova versão.",
   "workflows.hub.detail.script.copy": "Copiar script",
   "workflows.hub.detail.loadError": "Não foi possível ler este workflow: {reason}",
   "workflows.hub.detail.notFound": "Este workflow não está mais no projeto.",
   "workflows.hub.history.empty": "Nenhuma execução ainda.",
   "workflows.hub.history.open": "Abrir execução",
-  "workflows.hub.history.note": "Os registros de execução vêm do journal de workflows deste projeto e permanecem após reinícios. \"Abrir execução\" volta ao chat que a iniciou e abre os detalhes da execução.",
+  "workflows.hub.history.note":
+    'Os registros de execução vêm do journal de workflows deste projeto e permanecem após reinícios. "Abrir execução" volta ao chat que a iniciou e abre os detalhes da execução.',
   "workflows.hub.history.tokens": "{tokens} tokens",
   "workflows.hub.artifacts.latest": "Artefatos mais recentes",
   "workflows.hub.reason.invalid_name": "Nome inválido",
@@ -4247,16 +5002,19 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.getRun.fetching": "Verificando status do workflow",
   "chat.toolCall.workflow.getRun.runningNodes": "{count} nós em execução",
   "chat.toolCall.workflow.getRun.fetched": "Status do workflow",
-  "chat.toolCall.workflow.getRun.nodesLine": "{observed} nós · {done} concluídos · {running} em execução · {failed} com falha",
+  "chat.toolCall.workflow.getRun.nodesLine":
+    "{observed} nós · {done} concluídos · {running} em execução · {failed} com falha",
   "chat.toolCall.workflow.getRun.section.actors": "Subagentes",
   "chat.toolCall.workflow.getRun.section.logTail": "Logs",
   "chat.toolCall.workflow.getRun.section.result": "Resultado",
   "chat.toolCall.workflow.getRun.section.error": "Erro",
   "chat.toolCall.workflow.getRun.logEmpty": "Sem logs ainda",
-  "chat.toolCall.workflow.getRun.interruptedHint": "Esta sessão não consegue confirmar que esta execução ainda está ativa: ela pode ter sido interrompida.",
+  "chat.toolCall.workflow.getRun.interruptedHint":
+    "Esta sessão não consegue confirmar que esta execução ainda está ativa: ela pode ter sido interrompida.",
   "chat.toolCall.workflow.getRun.age": "{age} atrás",
   "chat.toolCall.workflow.getRun.truncated": "Algumas linhas foram omitidas deste cartão.",
-  "chat.toolCall.workflow.getRun.questionsUnknown": "Esta sessão não consegue ver as perguntas pendentes desta execução. Ao retomá-la, tudo o que um subagente ainda precisar é perguntado novamente.",
+  "chat.toolCall.workflow.getRun.questionsUnknown":
+    "Esta sessão não consegue ver as perguntas pendentes desta execução. Ao retomá-la, tudo o que um subagente ainda precisar é perguntado novamente.",
   "chat.toolCall.workflow.getRun.phase.state.done": "concluída",
   "chat.toolCall.workflow.getRun.phase.state.current": "atual",
   "chat.toolCall.workflow.getRun.phase.state.ahead": "à frente",
@@ -4300,12 +5058,15 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.getRun.health.failuresOne": "{count} falha consecutiva",
   "chat.toolCall.workflow.getRun.health.cachedSteps": "{count} etapas em cache",
   "chat.toolCall.workflow.getRun.health.cachedStepsOne": "{count} etapa em cache",
-  "chat.toolCall.workflow.getRun.health.leftover": "As {count} etapas abaixo marcadas como em execução são resquícios do processo encerrado, não trabalho ativo.",
-  "chat.toolCall.workflow.getRun.health.leftoverOne": "A etapa abaixo marcada como em execução é um resquício do processo encerrado, não trabalho ativo.",
+  "chat.toolCall.workflow.getRun.health.leftover":
+    "As {count} etapas abaixo marcadas como em execução são resquícios do processo encerrado, não trabalho ativo.",
+  "chat.toolCall.workflow.getRun.health.leftoverOne":
+    "A etapa abaixo marcada como em execução é um resquício do processo encerrado, não trabalho ativo.",
   "chat.toolCall.workflow.resumeRun.resuming": "Retomando execução do workflow",
   "chat.toolCall.workflow.resumeRun.label": "Execução do workflow retomada",
   "chat.toolCall.workflow.resumeRun.inBackground": "Executando em segundo plano",
-  "chat.toolCall.workflow.resumeRun.hint": "A execução continua sob o mesmo ID de execução: as etapas concluídas são reproduzidas do journal e as não concluídas são despachadas novamente. Uma notificação de conclusão com o resultado final chegará.",
+  "chat.toolCall.workflow.resumeRun.hint":
+    "A execução continua sob o mesmo ID de execução: as etapas concluídas são reproduzidas do journal e as não concluídas são despachadas novamente. Uma notificação de conclusão com o resultado final chegará.",
   "chat.toolCall.workflow.listRuns.listing": "Listando execuções de workflow",
   "chat.toolCall.workflow.listRuns.listed": "Execuções de workflow",
   "chat.toolCall.workflow.listRuns.count": "{count} execuções",
@@ -4325,7 +5086,8 @@ const ptBR: Record<string, string> = {
   "chat.backgroundResult.workflow.errored": "Workflow com erro",
   "chat.backgroundResult.workflow.stopped": "Workflow interrompido",
   "chat.backgroundResult.workflow.stall": "Workflow aguardando o modelo",
-  "chat.backgroundResult.workflow.stall.body": "Nenhuma requisição ao modelo desta execução é bem-sucedida há {minutes} min. Ela continua em execução, tentando novamente com backoff; interrompa-a no cartão de execução se não precisar mais dela.",
+  "chat.backgroundResult.workflow.stall.body":
+    "Nenhuma requisição ao modelo desta execução é bem-sucedida há {minutes} min. Ela continua em execução, tentando novamente com backoff; interrompa-a no cartão de execução se não precisar mais dela.",
   "chat.backgroundResult.workflow.stall.reason": "Motivo da nova tentativa",
   "chat.backgroundResult.workflow.stall.cap": "Fan-out atual",
   "chat.backgroundResult.workflow.waiting": "Subagente aguardando uma resposta",
@@ -4366,59 +5128,92 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.run.usage.value": "{tokens} tokens · {steps} etapas",
   "chat.toolCall.workflow.run.cancel": "Interromper execução",
   "chat.toolCall.workflow.run.cancelling": "Interrompendo…",
-  "chat.toolCall.workflow.run.cancelDisabled": "Apenas um workflow em execução pode ser interrompido.",
-  "chat.toolCall.workflow.run.stopHint": "Você pode retomar depois; as etapas concluídas são mantidas.",
-  "chat.toolCall.workflow.run.rejection.cancel.not_found": "Esta execução não está em execução neste agente, então nada foi interrompido.",
-  "chat.toolCall.workflow.run.rejection.cancel.not_running": "Esta execução já terminou, então nada foi interrompido.",
-  "chat.toolCall.workflow.run.rejection.cancel.cancel_not_supported": "Esta execução não pode ser interrompida daqui.",
-  "chat.toolCall.workflow.run.rejection.cancel.unsupported": "Este agente não pode interromper execuções de workflow.",
-  "chat.toolCall.workflow.run.rejection.cancel.generic": "Não foi possível interromper a execução ({code}).",
-  "chat.toolCall.workflow.run.rejection.resume.compile_failed": "O script armazenado não compila mais com esta versão do facade de workflow. Peça ao agente para corrigir o workflow em vez de retomá-lo.",
-  "chat.toolCall.workflow.run.rejection.resume.not_found": "Esta execução não está no journal desta sessão.",
-  "chat.toolCall.workflow.run.rejection.resume.not_resumable": "Apenas uma execução interrompida pode ser retomada.",
-  "chat.toolCall.workflow.run.rejection.resume.superseded": "Uma execução corrigida substituiu esta; abra a sucessora.",
-  "chat.toolCall.workflow.run.rejection.resume.already_running": "Esta execução já está em andamento.",
-  "chat.toolCall.workflow.run.rejection.resume.script_missing": "Esta execução não tem script armazenado para executar novamente.",
-  "chat.toolCall.workflow.run.rejection.resume.script_mismatch": "O script armazenado não corresponde mais ao hash registrado.",
-  "chat.toolCall.workflow.run.rejection.resume.unsupported": "Este agente não pode retomar execuções de workflow.",
-  "chat.toolCall.workflow.run.rejection.resume.generic": "Não foi possível retomar a execução ({code}).",
+  "chat.toolCall.workflow.run.cancelDisabled":
+    "Apenas um workflow em execução pode ser interrompido.",
+  "chat.toolCall.workflow.run.stopHint":
+    "Você pode retomar depois; as etapas concluídas são mantidas.",
+  "chat.toolCall.workflow.run.rejection.cancel.not_found":
+    "Esta execução não está em execução neste agente, então nada foi interrompido.",
+  "chat.toolCall.workflow.run.rejection.cancel.not_running":
+    "Esta execução já terminou, então nada foi interrompido.",
+  "chat.toolCall.workflow.run.rejection.cancel.cancel_not_supported":
+    "Esta execução não pode ser interrompida daqui.",
+  "chat.toolCall.workflow.run.rejection.cancel.unsupported":
+    "Este agente não pode interromper execuções de workflow.",
+  "chat.toolCall.workflow.run.rejection.cancel.generic":
+    "Não foi possível interromper a execução ({code}).",
+  "chat.toolCall.workflow.run.rejection.resume.compile_failed":
+    "O script armazenado não compila mais com esta versão do facade de workflow. Peça ao agente para corrigir o workflow em vez de retomá-lo.",
+  "chat.toolCall.workflow.run.rejection.resume.not_found":
+    "Esta execução não está no journal desta sessão.",
+  "chat.toolCall.workflow.run.rejection.resume.not_resumable":
+    "Apenas uma execução interrompida pode ser retomada.",
+  "chat.toolCall.workflow.run.rejection.resume.superseded":
+    "Uma execução corrigida substituiu esta; abra a sucessora.",
+  "chat.toolCall.workflow.run.rejection.resume.already_running":
+    "Esta execução já está em andamento.",
+  "chat.toolCall.workflow.run.rejection.resume.script_missing":
+    "Esta execução não tem script armazenado para executar novamente.",
+  "chat.toolCall.workflow.run.rejection.resume.script_mismatch":
+    "O script armazenado não corresponde mais ao hash registrado.",
+  "chat.toolCall.workflow.run.rejection.resume.unsupported":
+    "Este agente não pode retomar execuções de workflow.",
+  "chat.toolCall.workflow.run.rejection.resume.generic":
+    "Não foi possível retomar a execução ({code}).",
   "chat.toolCall.workflow.run.resume": "Retomar execução",
-  "chat.toolCall.workflow.run.resumeHint": "Continue de onde parou: as etapas concluídas são reutilizadas e as interrompidas são executadas novamente.",
+  "chat.toolCall.workflow.run.resumeHint":
+    "Continue de onde parou: as etapas concluídas são reutilizadas e as interrompidas são executadas novamente.",
   "chat.toolCall.workflow.run.configure": "Configurar",
   "chat.toolCall.workflow.run.settings.title": "Configurar workflow",
   "chat.toolCall.workflow.run.settings.model": "Modelo dos subagentes",
   "chat.toolCall.workflow.run.settings.model.session": "modelo da sessão",
   "chat.toolCall.workflow.run.settings.model.sessionFallback": "Modelo da sessão",
   "chat.toolCall.workflow.run.settings.model.unavailable": "indisponível",
-  "chat.toolCall.workflow.run.settings.model.noCatalog": "Este agente não tem catálogo de modelos; os subagentes permanecem no modelo da sessão.",
+  "chat.toolCall.workflow.run.settings.model.noCatalog":
+    "Este agente não tem catálogo de modelos; os subagentes permanecem no modelo da sessão.",
   "chat.toolCall.workflow.run.settings.limit": "Subagentes por vez, no máximo",
   "chat.toolCall.workflow.run.settings.limit.ceiling": "esta máquina permite até {n}",
   "chat.toolCall.workflow.run.settings.limit.atCeiling": "= limite desta máquina",
   "chat.toolCall.workflow.run.settings.limit.decrease": "Menos por vez",
   "chat.toolCall.workflow.run.settings.limit.increase": "Mais por vez",
-  "chat.toolCall.workflow.run.settings.consequence.running": "Interrompe esta execução e inicia uma nova com estas configurações; as etapas concluídas são mantidas.",
-  "chat.toolCall.workflow.run.settings.consequence.pending": "Inicia uma nova execução com estas configurações; esta ainda não começou nenhuma etapa.",
-  "chat.toolCall.workflow.run.settings.consequence.stopped": "Continua como uma nova execução com estas configurações; as etapas concluídas são mantidas.",
-  "chat.toolCall.workflow.run.settings.consequence.errored": "Tenta novamente como uma nova execução com estas configurações; as etapas concluídas são mantidas.",
+  "chat.toolCall.workflow.run.settings.consequence.running":
+    "Interrompe esta execução e inicia uma nova com estas configurações; as etapas concluídas são mantidas.",
+  "chat.toolCall.workflow.run.settings.consequence.pending":
+    "Inicia uma nova execução com estas configurações; esta ainda não começou nenhuma etapa.",
+  "chat.toolCall.workflow.run.settings.consequence.stopped":
+    "Continua como uma nova execução com estas configurações; as etapas concluídas são mantidas.",
+  "chat.toolCall.workflow.run.settings.consequence.errored":
+    "Tenta novamente como uma nova execução com estas configurações; as etapas concluídas são mantidas.",
   "chat.toolCall.workflow.run.settings.apply": "Aplicar",
   "chat.toolCall.workflow.run.settings.applying": "Aplicando…",
-  "chat.toolCall.workflow.run.settings.rejection.not_found": "Esta execução não está nos registros desta conversa.",
-  "chat.toolCall.workflow.run.settings.rejection.not_configurable": "Esta execução não pode mais ser configurada.",
-  "chat.toolCall.workflow.run.settings.rejection.unchanged": "Essas já são as configurações atuais da execução.",
-  "chat.toolCall.workflow.run.settings.rejection.script_missing": "Esta execução não tem script armazenado, então suas configurações não podem ser alteradas aqui.",
-  "chat.toolCall.workflow.run.settings.rejection.model_unavailable": "Esse modelo não está disponível neste agente agora.",
-  "chat.toolCall.workflow.run.settings.rejection.compile_failed": "O script armazenado não compila mais com esta versão do facade de workflow. Peça ao agente para corrigir o workflow.",
-  "chat.toolCall.workflow.run.settings.rejection.missing_boundaries": "Os registros desta execução são antigos demais para transportar o trabalho concluído.",
-  "chat.toolCall.workflow.run.settings.rejection.start_failed": "Não foi possível iniciar a nova execução ({message}).",
-  "chat.toolCall.workflow.run.settings.rejection.unsupported": "Este agente não pode alterar as configurações do workflow daqui.",
-  "chat.toolCall.workflow.run.settings.rejection.generic": "Não foi possível alterar as configurações ({code}).",
+  "chat.toolCall.workflow.run.settings.rejection.not_found":
+    "Esta execução não está nos registros desta conversa.",
+  "chat.toolCall.workflow.run.settings.rejection.not_configurable":
+    "Esta execução não pode mais ser configurada.",
+  "chat.toolCall.workflow.run.settings.rejection.unchanged":
+    "Essas já são as configurações atuais da execução.",
+  "chat.toolCall.workflow.run.settings.rejection.script_missing":
+    "Esta execução não tem script armazenado, então suas configurações não podem ser alteradas aqui.",
+  "chat.toolCall.workflow.run.settings.rejection.model_unavailable":
+    "Esse modelo não está disponível neste agente agora.",
+  "chat.toolCall.workflow.run.settings.rejection.compile_failed":
+    "O script armazenado não compila mais com esta versão do facade de workflow. Peça ao agente para corrigir o workflow.",
+  "chat.toolCall.workflow.run.settings.rejection.missing_boundaries":
+    "Os registros desta execução são antigos demais para transportar o trabalho concluído.",
+  "chat.toolCall.workflow.run.settings.rejection.start_failed":
+    "Não foi possível iniciar a nova execução ({message}).",
+  "chat.toolCall.workflow.run.settings.rejection.unsupported":
+    "Este agente não pode alterar as configurações do workflow daqui.",
+  "chat.toolCall.workflow.run.settings.rejection.generic":
+    "Não foi possível alterar as configurações ({code}).",
   "chat.toolCall.workflow.settingsChange.kind": "Configurações alteradas",
   "chat.toolCall.workflow.settingsChange.model": "subagentes em {model}",
   "chat.toolCall.workflow.settingsChange.modelSession": "subagentes de volta ao modelo da sessão",
   "chat.toolCall.workflow.settingsChange.limit": "no máximo {n} por vez",
   "chat.toolCall.workflow.settingsChange.limitCeiling": "limite de volta ao padrão desta máquina",
   "chat.toolCall.workflow.run.result.title": "Resultado",
-  "chat.toolCall.workflow.run.result.completedHint": "Esta execução terminou. O resultado foi entregue à conversa como uma mensagem de resultado em segundo plano.",
+  "chat.toolCall.workflow.run.result.completedHint":
+    "Esta execução terminou. O resultado foi entregue à conversa como uma mensagem de resultado em segundo plano.",
   "chat.toolCall.workflow.run.result.erroredTitle": "Execução com erro",
   "chat.toolCall.workflow.run.result.stoppedTitle": "Execução interrompida",
   "chat.toolCall.workflow.run.result.noError": "Nenhum detalhe do erro foi registrado.",
@@ -4441,24 +5236,32 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.run.artifacts.copy": "Copiar",
   "chat.toolCall.workflow.run.artifacts.copied": "Copiado",
   "chat.toolCall.workflow.run.artifacts.openInBrowser": "Abrir no navegador",
-  "chat.toolCall.workflow.run.artifacts.openInBrowserNote": "Abre a cópia no seu workspace, não os bytes fixados nesta versão.",
-  "chat.toolCall.workflow.run.artifacts.localOnly": "A prévia está disponível apenas em um workspace local.",
+  "chat.toolCall.workflow.run.artifacts.openInBrowserNote":
+    "Abre a cópia no seu workspace, não os bytes fixados nesta versão.",
+  "chat.toolCall.workflow.run.artifacts.localOnly":
+    "A prévia está disponível apenas em um workspace local.",
   "chat.toolCall.workflow.run.artifacts.loading": "Carregando artefato…",
   "chat.toolCall.workflow.run.artifacts.missing": "Este artefato não está mais disponível.",
   "chat.toolCall.workflow.run.artifacts.loadError": "Falha ao carregar este artefato.",
-  "chat.toolCall.workflow.run.artifacts.unsupported": "Sem prévia para este tipo de arquivo. Ele permanece disponível no workspace.",
-  "chat.toolCall.workflow.run.artifacts.presetInvalid": "Esta definição de painel não pode ser renderizada.",
-  "chat.toolCall.workflow.run.artifacts.unavailable": "Os detalhes do artefato não estão disponíveis para esta conversa.",
+  "chat.toolCall.workflow.run.artifacts.unsupported":
+    "Sem prévia para este tipo de arquivo. Ele permanece disponível no workspace.",
+  "chat.toolCall.workflow.run.artifacts.presetInvalid":
+    "Esta definição de painel não pode ser renderizada.",
+  "chat.toolCall.workflow.run.artifacts.unavailable":
+    "Os detalhes do artefato não estão disponíveis para esta conversa.",
   "chat.toolCall.workflow.run.artifacts.preset.otherColumn": "Outros",
   "chat.toolCall.workflow.run.artifacts.preset.empty": "Sem dados ainda",
   "chat.toolCall.workflow.run.artifacts.preset.items": "{count} itens",
   "chat.toolCall.workflow.run.questions.title": "Aguardando uma resposta",
-  "chat.toolCall.workflow.run.graph.unavailable": "O grafo do workflow não está no histórico visível desta conversa.",
+  "chat.toolCall.workflow.run.graph.unavailable":
+    "O grafo do workflow não está no histórico visível desta conversa.",
   "chat.toolCall.workflow.run.untracked.title": "Não é mais acompanhada em tempo real",
-  "chat.toolCall.workflow.run.untracked.body": "Esta execução está fora das execuções mais recentes mantidas para status em tempo real. O registro dela ainda está completo.",
+  "chat.toolCall.workflow.run.untracked.body":
+    "Esta execução está fora das execuções mais recentes mantidas para status em tempo real. O registro dela ainda está completo.",
   "chat.toolCall.workflow.script.title": "Script",
   "chat.toolCall.workflow.script.notStarted.title": "O script ainda não executou nada",
-  "chat.toolCall.workflow.script.notStarted.body": "Leituras, buscas e comandos aparecem aqui no momento em que o script tocar no projeto.",
+  "chat.toolCall.workflow.script.notStarted.body":
+    "Leituras, buscas e comandos aparecem aqui no momento em que o script tocar no projeto.",
   "chat.toolCall.workflow.script.summary.phases": "{count} fases",
   "chat.toolCall.workflow.script.summary.phases.one": "1 fase",
   "chat.toolCall.workflow.script.summary.steps": "{count} etapas",
@@ -4469,25 +5272,32 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.script.startedAgo": "iniciado há {ago}",
   "chat.toolCall.workflow.script.now": "agora",
   "chat.toolCall.workflow.script.result.more": "… {count} mais",
-  "chat.toolCall.workflow.script.unavailable": "Esta sessão não consegue exibir as etapas do script. Atualize a CLI para lê-las.",
-  "chat.toolCall.workflow.script.loadFailed": "Não foi possível carregar as etapas do script: {error}",
+  "chat.toolCall.workflow.script.unavailable":
+    "Esta sessão não consegue exibir as etapas do script. Atualize a CLI para lê-las.",
+  "chat.toolCall.workflow.script.loadFailed":
+    "Não foi possível carregar as etapas do script: {error}",
   "chat.toolCall.workflow.script.listTruncated": "Apenas as primeiras {count} etapas são exibidas.",
   "chat.toolCall.workflow.script.kind.step": "Etapa",
   "chat.toolCall.workflow.script.status.exit": "exit {code}",
   "chat.toolCall.workflow.script.status.timedOut": "tempo esgotado",
   "chat.toolCall.workflow.script.status.replayed": "reproduzido",
-  "chat.toolCall.workflow.script.status.replayedHint": "Reproduzido do journal de uma execução anterior; o comando não foi executado novamente.",
+  "chat.toolCall.workflow.script.status.replayedHint":
+    "Reproduzido do journal de uma execução anterior; o comando não foi executado novamente.",
   "chat.toolCall.workflow.script.result.files": "{count} arquivos",
   "chat.toolCall.workflow.script.result.matches": "{count} correspondências",
   "chat.toolCall.workflow.script.result.lines": "{count} linhas",
   "chat.toolCall.workflow.script.result.empty": "Nada encontrado.",
   "chat.toolCall.workflow.script.result.loading": "Carregando…",
-  "chat.toolCall.workflow.script.result.loadFailed": "Não foi possível carregar o resultado: {error}",
-  "chat.toolCall.workflow.script.result.truncated": "Exibindo os primeiros {shown} de {total}; o resultado completo permanece no journal.",
+  "chat.toolCall.workflow.script.result.loadFailed":
+    "Não foi possível carregar o resultado: {error}",
+  "chat.toolCall.workflow.script.result.truncated":
+    "Exibindo os primeiros {shown} de {total}; o resultado completo permanece no journal.",
   "chat.toolCall.workflow.script.result.stderr": "stderr",
-  "chat.toolCall.workflow.script.args.truncated": "Os argumentos foram encurtados antes de serem registrados no journal.",
+  "chat.toolCall.workflow.script.args.truncated":
+    "Os argumentos foram encurtados antes de serem registrados no journal.",
   "chat.toolCall.workflow.run.actor.notStarted.title": "Ainda não iniciado",
-  "chat.toolCall.workflow.run.actor.notStarted.body": "Este subagente ainda não recebeu nenhuma tarefa. A transcrição aparecerá aqui assim que a primeira etapa for despachada.",
+  "chat.toolCall.workflow.run.actor.notStarted.body":
+    "Este subagente ainda não recebeu nenhuma tarefa. A transcrição aparecerá aqui assim que a primeira etapa for despachada.",
   "chat.toolCall.workflow.run.event.runStarted": "Execução iniciada",
   "chat.toolCall.workflow.run.event.actorCreated": "Subagente criado",
   "chat.toolCall.workflow.run.event.nodeQueued": "Na fila",
@@ -4498,7 +5308,8 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.run.event.nodeSettledCached": "Finalizado · {outcome} (em cache)",
   "chat.toolCall.workflow.run.event.usageUpdated": "Uso atualizado",
   "chat.toolCall.workflow.run.event.log": "Log",
-  "chat.toolCall.workflow.run.event.importCacheClosed": "Cache fechado por uma gravação no workspace",
+  "chat.toolCall.workflow.run.event.importCacheClosed":
+    "Cache fechado por uma gravação no workspace",
   "chat.toolCall.workflow.run.event.report": "Reportado",
   "chat.toolCall.workflow.run.event.phaseEntered": "Entrou na fase",
   "chat.toolCall.workflow.run.event.escalationRaised": "Perguntou ao agente principal",
@@ -4506,7 +5317,8 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.run.event.runSettled": "Execução finalizada · {status}",
   "chat.toolCall.workflow.run.event.unknown": "{type}",
   "chat.toolCall.workflow.run.event.nodeWaitingSlot": "Aguardando um slot",
-  "chat.toolCall.workflow.run.event.nodeWaitingBackoff": "Aguardando o provedor ({reason}) · nova tentativa em {seconds}s",
+  "chat.toolCall.workflow.run.event.nodeWaitingBackoff":
+    "Aguardando o provedor ({reason}) · nova tentativa em {seconds}s",
   "chat.toolCall.workflow.run.event.nodeExecuting": "Requisição enviada",
   "chat.toolCall.workflow.run.event.concurrencyChanged": "Concorrência {previous} → {next}",
   "chat.toolCall.workflow.run.throttle.reason.rateLimited": "limite de taxa atingido",
@@ -4517,7 +5329,8 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.workflow.run.concurrency.cooldown": "em resfriamento até {time}",
   "chat.toolCall.workflow.run.subagentModel.label": "Subagentes {model}",
   "chat.toolCall.workflow.subagentModel.withLevel": "{model} · raciocínio {level}",
-  "chat.toolCall.workflow.subagentModel.tooltip": "Os subagentes rodam em {model}. O agente principal permanece no modelo da sessão.",
+  "chat.toolCall.workflow.subagentModel.tooltip":
+    "Os subagentes rodam em {model}. O agente principal permanece no modelo da sessão.",
   "chat.toolCall.todo.updating": "Atualizando tarefas",
   "chat.toolCall.todo.updated": "Tarefa atualizada",
   "chat.toolCall.search.find": "Localizar",
@@ -4553,8 +5366,10 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.agent.backgroundLaunching": "Iniciando",
   "chat.toolCall.agent.backgroundLaunched": "Iniciado",
   "chat.toolCall.agent.backgroundActivity": "Atividade",
-  "chat.toolCall.agent.backgroundActivityStreaming": "Executando em segundo plano, sincronizando a saída",
-  "chat.toolCall.agent.backgroundActivityRunningWaiting": "Executando em segundo plano, aguardando saída",
+  "chat.toolCall.agent.backgroundActivityStreaming":
+    "Executando em segundo plano, sincronizando a saída",
+  "chat.toolCall.agent.backgroundActivityRunningWaiting":
+    "Executando em segundo plano, aguardando saída",
   "chat.toolCall.agent.backgroundActivityReceived": "Saída do subagente recebida",
   "chat.toolCall.agent.backgroundActivityWaiting": "Aguardando a saída do subagente",
   "chat.toolCall.agent.outputFile": "Arquivo de saída",
@@ -4563,22 +5378,30 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.agent.output.syncing": "Sincronizando",
   "chat.toolCall.agent.output.error": "Falha na sincronização: {error}",
   "chat.toolCall.agent.output.recentRows": "Últimas {visible} linhas / {total} no total",
-  "chat.toolCall.agent.output.hiddenRows": "{count} linhas anteriores omitidas; abra a visualização dividida para ver a saída completa",
+  "chat.toolCall.agent.output.hiddenRows":
+    "{count} linhas anteriores omitidas; abra a visualização dividida para ver a saída completa",
   "chat.toolCall.agent.output.empty": "Sem saída ainda",
   "chat.toolCall.copyError": "Copiar",
   "chat.toolCall.copyError.copied": "Copiado",
   "chat.attachments.add": "Adicionar anexo",
-  "chat.attachments.add.description": "Adicione anexos de arquivo à mensagem atual. Você também pode colar imagens diretamente.",
+  "chat.attachments.add.description":
+    "Adicione anexos de arquivo à mensagem atual. Você também pode colar imagens diretamente.",
   "chat.attachments.remove": "Remover anexo",
   "chat.attachments.maxFiles": "Você pode anexar até {count} anexos",
   "chat.attachments.maxFileSize": "Os anexos devem ter {sizeMb} MB ou menos",
   "chat.attachments.readFailed": "Falha ao ler o anexo: {message}",
-  "chat.attachments.missingInlineImageContent": "O anexo de imagem {filename} está sem o conteúdo do arquivo. Adicione-o novamente.",
-  "chat.attachments.missingInlinePdfContent": "O anexo de PDF {filename} está sem o conteúdo do arquivo. Adicione-o novamente.",
-  "chat.attachments.oversizedInlineImage": "O anexo de imagem {filename} é muito grande ({size}). Compacte-o para {maxSize} ou menos e tente novamente.",
-  "chat.attachments.oversizedInlineVideo": "O anexo de vídeo {filename} é muito grande ({size}). Compacte-o para {maxSize} ou menos e tente novamente.",
-  "chat.attachments.oversizedInlinePdf": "O anexo de PDF {filename} é muito grande ({size}). Compacte-o para {maxSize} ou menos e tente novamente.",
-  "chat.attachments.restoreDropped": "Alguns anexos do rascunho não puderam ser restaurados após a reinicialização. Adicione-os novamente: {filenames}",
+  "chat.attachments.missingInlineImageContent":
+    "O anexo de imagem {filename} está sem o conteúdo do arquivo. Adicione-o novamente.",
+  "chat.attachments.missingInlinePdfContent":
+    "O anexo de PDF {filename} está sem o conteúdo do arquivo. Adicione-o novamente.",
+  "chat.attachments.oversizedInlineImage":
+    "O anexo de imagem {filename} é muito grande ({size}). Compacte-o para {maxSize} ou menos e tente novamente.",
+  "chat.attachments.oversizedInlineVideo":
+    "O anexo de vídeo {filename} é muito grande ({size}). Compacte-o para {maxSize} ou menos e tente novamente.",
+  "chat.attachments.oversizedInlinePdf":
+    "O anexo de PDF {filename} é muito grande ({size}). Compacte-o para {maxSize} ou menos e tente novamente.",
+  "chat.attachments.restoreDropped":
+    "Alguns anexos do rascunho não puderam ser restaurados após a reinicialização. Adicione-os novamente: {filenames}",
   "chat.attachments.clipboardText": "Texto colado",
   "chat.attachments.clipboardText.description": "{lineCount} linhas",
   "chat.attachments.preview.open": "Abrir pré-visualização da imagem",
@@ -4586,7 +5409,8 @@ const ptBR: Record<string, string> = {
   "chat.attachments.preview.openPdf": "Abrir pré-visualização do PDF",
   "chat.attachments.preview.title": "Pré-visualização da imagem",
   "chat.attachments.preview.pdfLoading": "Carregando pré-visualização do PDF…",
-  "chat.attachments.preview.pdfUnavailable": "Este PDF não está mais disponível para pré-visualização.",
+  "chat.attachments.preview.pdfUnavailable":
+    "Este PDF não está mais disponível para pré-visualização.",
   "markdownImage.previous": "Imagem anterior",
   "markdownImage.next": "Próxima imagem",
   "markdownImage.zoomIn": "Ampliar",
@@ -4597,9 +5421,12 @@ const ptBR: Record<string, string> = {
   "markdownImage.downloadSucceeded": "Imagem salva em {path}",
   "chat.attachments.preview.loading": "Carregando pré-visualização da imagem…",
   "chat.attachments.preview.videoLoading": "Carregando pré-visualização do vídeo…",
-  "chat.attachments.preview.unavailable": "Esta imagem não está mais disponível para pré-visualização.",
-  "chat.attachments.preview.videoUnavailable": "Este vídeo não está mais disponível para pré-visualização.",
-  "chat.attachments.preview.videoUnsupported": "Este vídeo ainda pode ser enviado, mas este dispositivo não consegue pré-visualizar esse formato ou codec.",
+  "chat.attachments.preview.unavailable":
+    "Esta imagem não está mais disponível para pré-visualização.",
+  "chat.attachments.preview.videoUnavailable":
+    "Este vídeo não está mais disponível para pré-visualização.",
+  "chat.attachments.preview.videoUnsupported":
+    "Este vídeo ainda pode ser enviado, mas este dispositivo não consegue pré-visualizar esse formato ou codec.",
   "chat.attachments.upload.waitingSession": "Aguardando a sessão",
   "chat.attachments.upload.queued": "Aguardando para enviar",
   "chat.attachments.upload.uploading": "Enviando {progress}%",
@@ -4608,7 +5435,8 @@ const ptBR: Record<string, string> = {
   "chat.attachments.upload.failed": "Falha no envio: {message}",
   "chat.attachments.upload.runtimeRestarted": "O runtime foi reiniciado e invalidou este anexo",
   "chat.composer.draftRuntimeRebuilding": "Reconstruindo a sessão, aguarde",
-  "chat.attachments.upload.remoteMaterializationRequired": "Este anexo remoto não pôde ser preparado, então o caminho local dele não foi enviado.",
+  "chat.attachments.upload.remoteMaterializationRequired":
+    "Este anexo remoto não pôde ser preparado, então o caminho local dele não foi enviado.",
   "chat.attachments.upload.retry": "Tentar enviar novamente",
   "chat.composer.actionMenu": "Adicionar contexto",
   "chat.composer.insertMentionShortcut": "Use @ para adicionar contexto",
@@ -4616,8 +5444,10 @@ const ptBR: Record<string, string> = {
   "chat.composer.insertSlashShortcut": "Use / para recursos",
   "chat.composer.insertSkillShortcut": "Use $ para skills",
   "chat.send.description": "Envia o texto e os anexos atuais.",
-  "chat.queue.enqueue.description": "Coloca o rascunho atual na fila e o envia automaticamente quando a resposta atual terminar.",
-  "chat.stop.description": "Interrompe apenas a resposta atual. As mensagens na fila permanecem retidas até você retomá-las.",
+  "chat.queue.enqueue.description":
+    "Coloca o rascunho atual na fila e o envia automaticamente quando a resposta atual terminar.",
+  "chat.stop.description":
+    "Interrompe apenas a resposta atual. As mensagens na fila permanecem retidas até você retomá-las.",
   "chat.mention.title": "Menção",
   "chat.mention.back": "Voltar para categorias",
   "chat.mention.selectItem": "Escolha um item para inserir no editor",
@@ -4626,7 +5456,8 @@ const ptBR: Record<string, string> = {
   "chat.mention.emptyResults": "Nenhum resultado de menção correspondente",
   "chat.mention.category.empty": "Nenhuma categoria de menção disponível",
   "chat.mention.category.files": "Arquivos",
-  "chat.mention.category.files.description": "Pesquise arquivos do workspace e insira uma referência",
+  "chat.mention.category.files.description":
+    "Pesquise arquivos do workspace e insira uma referência",
   "chat.mention.category.files.searching": "Pesquisando arquivos do workspace por “{query}”",
   "chat.mention.category.loading": "Pesquisando...",
   "chat.mention.category.results": "{count} correspondências",
@@ -4654,7 +5485,8 @@ const ptBR: Record<string, string> = {
   "chat.slash.skills.empty": "Nenhuma skill correspondente",
   "chat.slash.subagents.title": "Agentes",
   "chat.slash.subagents.empty": "Nenhum agente correspondente",
-  "chat.slash.emptyUnavailable": "Nenhum slash command foi transmitido para a sessão atual do ZCode Agent",
+  "chat.slash.emptyUnavailable":
+    "Nenhum slash command foi transmitido para a sessão atual do ZCode Agent",
   "chat.slash.emptyResults": "Nenhum slash command correspondente",
   "chat.error.connectionLost": "Conexão com o agente perdida",
   "chat.error.processExited": "O processo do agente foi encerrado inesperadamente",
@@ -4673,21 +5505,33 @@ const ptBR: Record<string, string> = {
   "chat.error.collapseDetails": "Ocultar detalhes",
   "chat.error.feedback": "Relatar problema",
   "chat.error.feedbackOpened": "Feedback aberto com o contexto do erro anexado",
-  "chat.error.noAvailableModel": "Nenhum modelo disponível. Faça upgrade ou defina um modelo personalizado.",
+  "chat.error.noAvailableModel":
+    "Nenhum modelo disponível. Faça upgrade ou defina um modelo personalizado.",
   "chat.error.sendFailed": "Falha ao enviar. Tente novamente mais tarde.",
   "chat.error.modelSettings": "Configurações do modelo",
   "chat.error.setModels": "Definir",
-  "chat.quota.startPlan.bucketDailyLow": "{model} tem {percent} da cota diária restante ({remaining} tokens).",
-  "chat.quota.startPlan.bucketActivityLow": "{model} tem {percent} da cota promocional restante ({remaining} tokens).",
-  "chat.quota.startPlan.modelVeryLow": "{model} tem {percent} da cota do plano restante ({remaining} tokens).",
-  "chat.quota.startPlan.modelExhausted": "Toda a cota disponível de {model} foi esgotada. Troque de modelo ou faça upgrade do plano.",
-  "chat.quota.startPlan.dailyExhausted": "Sua cota do Start Plan foi esgotada. Faça upgrade do plano ou aguarde a cota ser redefinida.",
-  "chat.quota.startPlan.concurrentLimit": "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
-  "chat.quota.startPlan.concurrentLimit.retryExhausted": "O sistema está ocupado e as tentativas automáticas atingiram o limite máximo. Tente novamente mais tarde ou faça upgrade da conta.",
-  "chat.quota.startPlan.concurrentLimit.switchModel": "O limite de concorrência de requisições do modelo atual foi atingido. Troque de modelo para continuar a tarefa atual.",
-  "chat.quota.mcp.quotaExhausted": "O ZCode MCP \"{server}\" esgotou a cota de hoje. Ela é redefinida amanhã.",
-  "chat.quota.mcp.codingPlanRequired": "Sem cota no ZCode MCP \"{server}\". Faça login ou adquira um Coding Plan para usá-lo.",
-  "chat.quota.providerLimited": "A cota da conta atual ou o limite do plano foi atingido. Faça upgrade ou ajuste o plano para continuar.",
+  "chat.quota.startPlan.bucketDailyLow":
+    "{model} tem {percent} da cota diária restante ({remaining} tokens).",
+  "chat.quota.startPlan.bucketActivityLow":
+    "{model} tem {percent} da cota promocional restante ({remaining} tokens).",
+  "chat.quota.startPlan.modelVeryLow":
+    "{model} tem {percent} da cota do plano restante ({remaining} tokens).",
+  "chat.quota.startPlan.modelExhausted":
+    "Toda a cota disponível de {model} foi esgotada. Troque de modelo ou faça upgrade do plano.",
+  "chat.quota.startPlan.dailyExhausted":
+    "Sua cota do Start Plan foi esgotada. Faça upgrade do plano ou aguarde a cota ser redefinida.",
+  "chat.quota.startPlan.concurrentLimit":
+    "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
+  "chat.quota.startPlan.concurrentLimit.retryExhausted":
+    "O sistema está ocupado e as tentativas automáticas atingiram o limite máximo. Tente novamente mais tarde ou faça upgrade da conta.",
+  "chat.quota.startPlan.concurrentLimit.switchModel":
+    "O limite de concorrência de requisições do modelo atual foi atingido. Troque de modelo para continuar a tarefa atual.",
+  "chat.quota.mcp.quotaExhausted":
+    'O ZCode MCP "{server}" esgotou a cota de hoje. Ela é redefinida amanhã.',
+  "chat.quota.mcp.codingPlanRequired":
+    'Sem cota no ZCode MCP "{server}". Faça login ou adquira um Coding Plan para usá-lo.',
+  "chat.quota.providerLimited":
+    "A cota da conta atual ou o limite do plano foi atingido. Faça upgrade ou ajuste o plano para continuar.",
   "chat.quota.action.upgrade": "Fazer upgrade",
   "chat.quota.action.renew": "Renovar",
   "chat.quota.action.switchModel": "Trocar de modelo",
@@ -4700,12 +5544,15 @@ const ptBR: Record<string, string> = {
   "chat.permission.allowForSession": "Permitir para esta sessão",
   "chat.permission.responseFailed": "A aprovação não foi concluída. Tente novamente.",
   "chat.permission.fullAccess": "Acesso total",
-  "chat.permission.fullAccess.description": "Concede acesso total ao agente sem confirmações adicionais.",
-  "chat.permission.allowCommand.description": "Não perguntar novamente para comandos correspondentes neste projeto",
+  "chat.permission.fullAccess.description":
+    "Concede acesso total ao agente sem confirmações adicionais.",
+  "chat.permission.allowCommand.description":
+    "Não perguntar novamente para comandos correspondentes neste projeto",
   "chat.permission.allowCommand": "Sempre permitir este comando",
   "chat.permission.allowForProject": "Sempre permitir neste projeto",
   "chat.permission.cua.allowForProject": "Sempre permitir o Computer Use neste projeto",
-  "chat.permission.cua.allowForProject.description": "Não perguntar novamente para ações oficiais do Computer Use neste projeto",
+  "chat.permission.cua.allowForProject.description":
+    "Não perguntar novamente para ações oficiais do Computer Use neste projeto",
   "chat.permission.deny": "Negar",
   "chat.permission.denyAlways": "Sempre negar",
   "chat.permission.files": "Arquivos",
@@ -4718,7 +5565,8 @@ const ptBR: Record<string, string> = {
   "chat.permission.workflow.refine": "Refinar",
   "chat.permission.workflow.refine.placeholder": "Descreva como o workflow deve mudar…",
   "chat.permission.workflow.allowForSession": "Sempre permitir nesta sessão",
-  "chat.permission.workflow.allowForSession.description": "Não perguntar novamente para workflows nesta sessão",
+  "chat.permission.workflow.allowForSession.description":
+    "Não perguntar novamente para workflows nesta sessão",
   "chat.permission.workflow.amend.title": "Alterar este workflow?",
   "chat.permission.workflow.amends": "Alterações em execução",
   "chat.permission.workflow.amends.running": "ainda em execução, será interrompido",
@@ -4730,7 +5578,8 @@ const ptBR: Record<string, string> = {
   "chat.permission.workflow.saved.args": "Argumentos",
   "chat.permission.workflow.save.title": "Salvar este workflow no projeto?",
   "chat.permission.workflow.save.overwriteTitle": "Sobrescrever o workflow salvo existente?",
-  "chat.permission.workflow.save.overwriteHint": "Já existe um workflow com esse nome neste caminho. Salvar substitui o arquivo inteiro.",
+  "chat.permission.workflow.save.overwriteHint":
+    "Já existe um workflow com esse nome neste caminho. Salvar substitui o arquivo inteiro.",
   "chat.permission.workflow.save.path": "Caminho",
   "chat.permission.workflow.save.description": "Descrição",
   "chat.permission.workflow.save.whenToUse": "Quando usar",
@@ -4748,7 +5597,8 @@ const ptBR: Record<string, string> = {
   "chat.cuaPermission.opening": "Abrindo...",
   "chat.cuaPermission.openFailed": "Não foi possível abrir as permissões do CUA: {error}",
   "chat.elicitation.title": "Entrada necessária",
-  "chat.elicitation.keyboardHint": "Use Tab / setas para escolher e Enter ou Espaço para selecionar",
+  "chat.elicitation.keyboardHint":
+    "Use Tab / setas para escolher e Enter ou Espaço para selecionar",
   "chat.elicitation.customAnswer": "Resposta personalizada",
   "chat.elicitation.customAnswer.placeholder": "Digite sua resposta...",
   "chat.elicitation.noAnswerProvided": "Nenhuma resposta fornecida",
@@ -4765,7 +5615,8 @@ const ptBR: Record<string, string> = {
   "chat.elicitation.expandDialog": "Expandir diálogo da pergunta",
   "chat.elicitation.collapseDialog": "Recolher diálogo da pergunta",
   "chat.elicitation.planApproval.approve": "Aprovar",
-  "chat.elicitation.planApproval.approveDescription": "Sair do modo de planejamento e começar a implementação.",
+  "chat.elicitation.planApproval.approveDescription":
+    "Sair do modo de planejamento e começar a implementação.",
   "chat.askQuestion.asking": "Fazendo perguntas",
   "chat.askQuestion.asked": "Perguntado",
   "chat.askQuestion.questionsCount": "{count} perguntas",
@@ -4773,12 +5624,16 @@ const ptBR: Record<string, string> = {
   "chat.askQuestion.autoContinued": "Sem resposta; continuação automática",
   "chat.permission.allowOnce.description": "Permitir apenas desta vez",
   "chat.permission.allowAlways.description.command": "Não perguntar novamente para o mesmo comando",
-  "chat.permission.allowAlways.description.file": "Não perguntar novamente para a mesma operação de arquivo",
-  "chat.permission.allowAlways.description.generic": "Não perguntar novamente para a mesma solicitação de permissão",
+  "chat.permission.allowAlways.description.file":
+    "Não perguntar novamente para a mesma operação de arquivo",
+  "chat.permission.allowAlways.description.generic":
+    "Não perguntar novamente para a mesma solicitação de permissão",
   "chat.permission.denyOnce.description": "Rejeitar por enquanto",
   "chat.permission.denyAlways.description.command": "Sempre rejeitar o mesmo comando no futuro",
-  "chat.permission.denyAlways.description.file": "Sempre rejeitar a mesma operação de arquivo no futuro",
-  "chat.permission.denyAlways.description.generic": "Sempre rejeitar a mesma solicitação de permissão no futuro",
+  "chat.permission.denyAlways.description.file":
+    "Sempre rejeitar a mesma operação de arquivo no futuro",
+  "chat.permission.denyAlways.description.generic":
+    "Sempre rejeitar a mesma solicitação de permissão no futuro",
   "chat.permission.fileChange.add": "Criar",
   "chat.permission.fileChange.update": "Editar",
   "chat.permission.fileChange.addMany": "Cria {count} arquivos",
@@ -4815,28 +5670,48 @@ const ptBR: Record<string, string> = {
   "chat.permission.switchMode.placeholder": "Plano de implementação",
   "zcode.unavailable": "Agente de IA indisponível",
   "zcode.initFailed": "Falha ao iniciar o agente de IA",
-  "zcode.error.TASK_OWNED_BY_OTHER_HOST": "Esta tarefa já está em execução em outra visualização conectada.",
-  "zcode.error.STALE_TASK_OWNER_COMMAND": "Esta ação pertence a uma execução mais antiga e foi ignorada.",
-  "zcode.error.NO_ACTIVE_TASK_OWNER": "Nenhum proprietário de tarefa ativo está disponível para esta ação.",
+  "zcode.error.TASK_OWNED_BY_OTHER_HOST":
+    "Esta tarefa já está em execução em outra visualização conectada.",
+  "zcode.error.STALE_TASK_OWNER_COMMAND":
+    "Esta ação pertence a uma execução mais antiga e foi ignorada.",
+  "zcode.error.NO_ACTIVE_TASK_OWNER":
+    "Nenhum proprietário de tarefa ativo está disponível para esta ação.",
   "zcode.error.OWNER_COMMAND_FAILED": "O proprietário da tarefa não pôde concluir esta ação.",
-  "zcode.error.MEDIA_BUDGET_CURRENT_ATTACHMENT_TOO_LARGE": "Os anexos atuais são muito grandes para uma única requisição. Remova ou compacte os anexos e tente novamente.",
-  "zcode.error.MEDIA_BUDGET_CURRENT_IMAGE_TOO_LARGE": "Os anexos de imagem atuais são muito grandes. Remova ou compacte as imagens e tente novamente.",
-  "zcode.error.MEDIA_BUDGET_CURRENT_VIDEO_TOO_LARGE": "Os anexos de vídeo atuais são muito grandes. Remova ou compacte os vídeos e tente novamente.",
-  "zcode.error.ZCODE_RUNTIME_MODEL_UNAVAILABLE": "O modelo atual não está mais disponível. Selecione um modelo disponível na lista de modelos atual para continuar.",
-  "zcode.error.ZCODE_BIGMODEL_TEAM_PLAN_MEMBER_REQUIRED": "O modelo atual está indisponível. Verifique se a conta atual foi adicionada à lista de membros do projeto.",
+  "zcode.error.MEDIA_BUDGET_CURRENT_ATTACHMENT_TOO_LARGE":
+    "Os anexos atuais são muito grandes para uma única requisição. Remova ou compacte os anexos e tente novamente.",
+  "zcode.error.MEDIA_BUDGET_CURRENT_IMAGE_TOO_LARGE":
+    "Os anexos de imagem atuais são muito grandes. Remova ou compacte as imagens e tente novamente.",
+  "zcode.error.MEDIA_BUDGET_CURRENT_VIDEO_TOO_LARGE":
+    "Os anexos de vídeo atuais são muito grandes. Remova ou compacte os vídeos e tente novamente.",
+  "zcode.error.ZCODE_RUNTIME_MODEL_UNAVAILABLE":
+    "O modelo atual não está mais disponível. Selecione um modelo disponível na lista de modelos atual para continuar.",
+  "zcode.error.ZCODE_BIGMODEL_TEAM_PLAN_MEMBER_REQUIRED":
+    "O modelo atual está indisponível. Verifique se a conta atual foi adicionada à lista de membros do projeto.",
   "zcode.error.providerBusiness.1006": "Sua sessão de login expirou. Faça login novamente.",
-  "zcode.error.providerBusiness.1005": "A cota gratuita de hoje foi esgotada. Faça upgrade para continuar agora ou aguarde a redefinição da cota.",
-  "zcode.error.providerBusiness.3006": "O modelo atual não está incluído neste plano. Troque para um modelo permitido e tente novamente.",
-  "zcode.error.providerBusiness.3002": "Você está enviando requisições rápido demais. Tente novamente mais tarde.",
-  "zcode.error.providerBusiness.3001": "Os parâmetros da requisição são inválidos. Verifique a entrada e tente novamente.",
-  "zcode.error.providerBusiness.3007": "A requisição foi rejeitada pela verificação de segurança do gateway. Tente novamente mais tarde ou contate o suporte.",
-  "zcode.error.providerBusiness.3008": "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
-  "zcode.error.providerBusiness.3009": "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
-  "zcode.error.providerBusiness.3010": "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
-  "zcode.error.providerBusiness.3102": "Esta execução excedeu o tempo máximo de uma única execução. Crie uma nova tarefa fora de pico para continuar.",
-  "zcode.error.modelSuspiciousEmpty": "O modelo não retornou conteúdo (geralmente causado por token expirado ou problemas do plano). Envie novamente.",
-  "zcode.error.providerBusiness.2007": "O serviço upstream está temporariamente indisponível. Tente novamente mais tarde.",
-  "zcode.error.providerBusiness.429": "Você está enviando requisições rápido demais. Tente novamente mais tarde.",
+  "zcode.error.providerBusiness.1005":
+    "A cota gratuita de hoje foi esgotada. Faça upgrade para continuar agora ou aguarde a redefinição da cota.",
+  "zcode.error.providerBusiness.3006":
+    "O modelo atual não está incluído neste plano. Troque para um modelo permitido e tente novamente.",
+  "zcode.error.providerBusiness.3002":
+    "Você está enviando requisições rápido demais. Tente novamente mais tarde.",
+  "zcode.error.providerBusiness.3001":
+    "Os parâmetros da requisição são inválidos. Verifique a entrada e tente novamente.",
+  "zcode.error.providerBusiness.3007":
+    "A requisição foi rejeitada pela verificação de segurança do gateway. Tente novamente mais tarde ou contate o suporte.",
+  "zcode.error.providerBusiness.3008":
+    "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
+  "zcode.error.providerBusiness.3009":
+    "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
+  "zcode.error.providerBusiness.3010":
+    "O sistema está ocupado. Troque de modelo, faça upgrade da conta ou tente novamente mais tarde.",
+  "zcode.error.providerBusiness.3102":
+    "Esta execução excedeu o tempo máximo de uma única execução. Crie uma nova tarefa fora de pico para continuar.",
+  "zcode.error.modelSuspiciousEmpty":
+    "O modelo não retornou conteúdo (geralmente causado por token expirado ou problemas do plano). Envie novamente.",
+  "zcode.error.providerBusiness.2007":
+    "O serviço upstream está temporariamente indisponível. Tente novamente mais tarde.",
+  "zcode.error.providerBusiness.429":
+    "Você está enviando requisições rápido demais. Tente novamente mais tarde.",
   "debugInfo.taskId": "ID da tarefa",
   "debugInfo.traceId": "ID de rastreamento",
   "debugInfo.sessionId": "ID da sessão",
@@ -4868,7 +5743,8 @@ const ptBR: Record<string, string> = {
   "feedback.background.title": "Enviando feedback",
   "feedback.background.open": "Abrir detalhes do envio de feedback",
   "feedback.background.openDetail": "Abrir detalhes",
-  "feedback.background.defaultDetail": "O envio do feedback continua e é interrompido se você sair do aplicativo",
+  "feedback.background.defaultDetail":
+    "O envio do feedback continua e é interrompido se você sair do aplicativo",
   "feedback.background.expand": "Expandir status do envio de feedback",
   "feedback.background.collapse": "Recolher status do envio de feedback",
   "feedback.background.dismiss": "Ocultar status do envio de feedback",
@@ -4895,14 +5771,21 @@ const ptBR: Record<string, string> = {
   "feedback.status.resolved": "Resolvido",
   "feedback.status.released": "Liberado",
   "feedback.statusHint.pendingReview": "Recebemos e vamos tratar em breve.",
-  "feedback.statusHint.needInfo": "Precisamos de mais algumas informações. Confira a resposta da equipe abaixo.",
-  "feedback.statusHint.accepted": "Seu feedback foi aceito. Vamos agendar uma correção ou melhoria.",
-  "feedback.statusHint.closedByReply": "A equipe de produto respondeu e fechou este feedback. Envie um novo se o problema persistir.",
-  "feedback.statusHint.archived": "A equipe de produto respondeu e fechou este feedback. Envie um novo se o problema persistir.",
-  "feedback.statusHint.rejected": "Este feedback não está nos planos por enquanto. Você pode conferir a explicação abaixo.",
-  "feedback.statusHint.inDevelopment": "Estamos trabalhando nisso. As atualizações aparecerão abaixo.",
+  "feedback.statusHint.needInfo":
+    "Precisamos de mais algumas informações. Confira a resposta da equipe abaixo.",
+  "feedback.statusHint.accepted":
+    "Seu feedback foi aceito. Vamos agendar uma correção ou melhoria.",
+  "feedback.statusHint.closedByReply":
+    "A equipe de produto respondeu e fechou este feedback. Envie um novo se o problema persistir.",
+  "feedback.statusHint.archived":
+    "A equipe de produto respondeu e fechou este feedback. Envie um novo se o problema persistir.",
+  "feedback.statusHint.rejected":
+    "Este feedback não está nos planos por enquanto. Você pode conferir a explicação abaixo.",
+  "feedback.statusHint.inDevelopment":
+    "Estamos trabalhando nisso. As atualizações aparecerão abaixo.",
   "feedback.statusHint.resolved": "O problema foi corrigido e aguarda liberação.",
-  "feedback.statusHint.released": "A correção ou melhoria relacionada já está disponível. Obrigado pelo feedback.",
+  "feedback.statusHint.released":
+    "A correção ou melhoria relacionada já está disponível. Obrigado pelo feedback.",
   "feedback.time.justNow": "agora mesmo",
   "feedback.time.minutesAgo": "{count} min atrás",
   "feedback.time.hoursAgo": "{count} h atrás",
@@ -4913,10 +5796,12 @@ const ptBR: Record<string, string> = {
   "feedback.tickets.newFeedback": "Novo feedback",
   "feedback.tickets.backToList": "Voltar para a lista",
   "feedback.tickets.empty.title": "Nenhum feedback ainda",
-  "feedback.tickets.empty.description": "Envie uma mensagem sempre que encontrar um problema. Vamos sincronizar o progresso aqui.",
+  "feedback.tickets.empty.description":
+    "Envie uma mensagem sempre que encontrar um problema. Vamos sincronizar o progresso aqui.",
   "feedback.tickets.empty.action": "Enviar feedback",
   "feedback.tickets.placeholder.title": "Selecione um feedback para ver os detalhes",
-  "feedback.tickets.placeholder.description": "As respostas da nossa equipe aparecerão aqui. Você também pode adicionar etapas de reprodução, capturas de tela ou logs nos detalhes.",
+  "feedback.tickets.placeholder.description":
+    "As respostas da nossa equipe aparecerão aqui. Você também pode adicionar etapas de reprodução, capturas de tela ou logs nos detalhes.",
   "feedback.tickets.group.last24h": "Últimas 24 horas",
   "feedback.tickets.group.last7d": "Últimos 7 dias",
   "feedback.tickets.group.earlier": "Anteriores",
@@ -4956,7 +5841,8 @@ const ptBR: Record<string, string> = {
   "feedback.timeline.event.fullLogUploaded": "Logs completos carregados; feedback enviado",
   "feedback.timeline.event.statusChanged": "Status alterado para {status}",
   "feedback.timeline.event.agentSubmitted": "{name} enviou feedback via Agent",
-  "feedback.timeline.event.progressUpdatedWithStatus": "Progresso atualizado (status para {status}): {message}",
+  "feedback.timeline.event.progressUpdatedWithStatus":
+    "Progresso atualizado (status para {status}): {message}",
   "feedback.timeline.event.progressUpdatedWithMessage": "Progresso atualizado: {message}",
   "feedback.timeline.event.markedStatus": "Marcado como {status}: {message}",
   "feedback.actor.user": "Usuário",
@@ -4968,17 +5854,22 @@ const ptBR: Record<string, string> = {
   "feedback.duration.hours": "{count} h",
   "feedback.duration.days": "{count} dia(s)",
   "feedback.supplement.title": "Informações adicionais",
-  "feedback.supplement.description": "Adicione aqui etapas de reprodução, observações de capturas de tela, trechos de logs ou mais pistas.",
+  "feedback.supplement.description":
+    "Adicione aqui etapas de reprodução, observações de capturas de tela, trechos de logs ou mais pistas.",
   "feedback.supplement.continueTitle": "Adicionar mais informações",
-  "feedback.supplement.continueDescription": "Você pode adicionar etapas de reprodução, observações de capturas de tela, trechos de logs ou novas pistas enquanto visualiza o processo.",
+  "feedback.supplement.continueDescription":
+    "Você pode adicionar etapas de reprodução, observações de capturas de tela, trechos de logs ou novas pistas enquanto visualiza o processo.",
   "feedback.supplement.attachmentLimit": "Você pode adicionar até {count} anexos",
-  "feedback.supplement.attachmentTooLarge": "{name} tem mais de 100 MB e ainda não pode ser enviado.",
+  "feedback.supplement.attachmentTooLarge":
+    "{name} tem mais de 100 MB e ainda não pode ser enviado.",
   "feedback.supplement.attachment": "Anexo",
   "feedback.supplement.uploadedAttachments": "Anexos: {names}",
   "feedback.supplement.addAttachment": "Adicionar anexo",
-  "feedback.supplement.placeholder": "Adicione mais detalhes, cole uma captura de tela ou adicione um arquivo local...",
+  "feedback.supplement.placeholder":
+    "Adicione mais detalhes, cole uma captura de tela ou adicione um arquivo local...",
   "feedback.supplement.removeAttachment": "Remover {name}",
-  "feedback.supplement.attachmentHint": "Suporta capturas de tela coladas ou arquivos locais. Cada anexo deve ter menos de 100 MB.",
+  "feedback.supplement.attachmentHint":
+    "Suporta capturas de tela coladas ou arquivos locais. Cada anexo deve ter menos de 100 MB.",
   "feedback.supplement.sending": "Enviando",
   "feedback.supplement.send": "Enviar atualização",
   "feedback.type.bug.label": "Bug",
@@ -4996,52 +5887,64 @@ const ptBR: Record<string, string> = {
   "feedback.submit.bug.titleLabel": "Título",
   "feedback.submit.bug.titlePlaceholder": "Exemplo: falha na conexão SSH",
   "feedback.submit.bug.descriptionLabel": "Detalhes",
-  "feedback.submit.bug.descriptionPlaceholder": "Descreva o que aconteceu: onde você clicou, o que ocorreu, o que esperava e se houve algum erro. Mantemos sua descrição original e a analisamos após o envio.",
+  "feedback.submit.bug.descriptionPlaceholder":
+    "Descreva o que aconteceu: onde você clicou, o que ocorreu, o que esperava e se houve algum erro. Mantemos sua descrição original e a analisamos após o envio.",
   "feedback.submit.bug.helper.1": "Local",
   "feedback.submit.bug.helper.2": "Etapas para reproduzir",
   "feedback.submit.bug.helper.3": "Resultado esperado",
   "feedback.submit.bug.helper.4": "Resultado obtido / erro",
   "feedback.submit.bug.supplementalDescription": "",
-  "feedback.submit.bug.screenshotHint": "Cole uma captura de tela ou adicione uma captura local como anexo.",
+  "feedback.submit.bug.screenshotHint":
+    "Cole uma captura de tela ou adicione uma captura local como anexo.",
   "feedback.submit.bug.missingTitle": "Insira um título",
   "feedback.submit.bug.missingDescription": "Descreva o problema",
   "feedback.submit.usage.sectionTitle": "Onde você travou?",
   "feedback.submit.usage.titleLabel": "Título da pergunta",
   "feedback.submit.usage.titlePlaceholder": "Exemplo: não sei como configurar uma conexão remota",
   "feedback.submit.usage.descriptionLabel": "Etapa bloqueada",
-  "feedback.submit.usage.descriptionPlaceholder": "Descreva o que você está tentando fazer, onde travou, qual prompt apareceu e como você gostaria que explicássemos ou orientássemos.",
+  "feedback.submit.usage.descriptionPlaceholder":
+    "Descreva o que você está tentando fazer, onde travou, qual prompt apareceu e como você gostaria que explicássemos ou orientássemos.",
   "feedback.submit.usage.helper.1": "Tarefa atual",
   "feedback.submit.usage.helper.2": "Etapa bloqueada",
   "feedback.submit.usage.helper.3": "O que você tentou",
   "feedback.submit.usage.helper.4": "Ajuda necessária",
-  "feedback.submit.usage.supplementalDescription": "O módulo e o modelo nos ajudam a localizar problemas de documentação, orientação ou configuração padrão.",
-  "feedback.submit.usage.screenshotHint": "Você pode colar uma captura de tela da tela em que travou.",
+  "feedback.submit.usage.supplementalDescription":
+    "O módulo e o modelo nos ajudam a localizar problemas de documentação, orientação ou configuração padrão.",
+  "feedback.submit.usage.screenshotHint":
+    "Você pode colar uma captura de tela da tela em que travou.",
   "feedback.submit.usage.missingTitle": "Insira um título para a pergunta",
   "feedback.submit.usage.missingDescription": "Descreva onde você travou",
   "feedback.submit.feature.sectionTitle": "O que você sugere?",
   "feedback.submit.feature.titleLabel": "Título da sugestão",
-  "feedback.submit.feature.titlePlaceholder": "Exemplo: suportar exportação de relatório de tarefas com um clique",
+  "feedback.submit.feature.titlePlaceholder":
+    "Exemplo: suportar exportação de relatório de tarefas com um clique",
   "feedback.submit.feature.descriptionLabel": "Sugestão",
-  "feedback.submit.feature.descriptionPlaceholder": "Descreva o que você quer ver adicionado ou melhorado: o cenário, o que é inconveniente hoje, o comportamento ideal e o que isso lhe pouparia.",
+  "feedback.submit.feature.descriptionPlaceholder":
+    "Descreva o que você quer ver adicionado ou melhorado: o cenário, o que é inconveniente hoje, o comportamento ideal e o que isso lhe pouparia.",
   "feedback.submit.feature.helper.1": "Cenário",
   "feedback.submit.feature.helper.2": "Dificuldade atual",
   "feedback.submit.feature.helper.3": "Recurso/interação esperados",
   "feedback.submit.feature.helper.4": "Valor",
-  "feedback.submit.feature.supplementalDescription": "Escolha um módulo para podermos avaliar prioridade e impacto.",
-  "feedback.submit.feature.screenshotHint": "Você pode anexar uma captura de referência, um esboço ou a tela atual problemática.",
+  "feedback.submit.feature.supplementalDescription":
+    "Escolha um módulo para podermos avaliar prioridade e impacto.",
+  "feedback.submit.feature.screenshotHint":
+    "Você pode anexar uma captura de referência, um esboço ou a tela atual problemática.",
   "feedback.submit.feature.missingTitle": "Insira um título para a sugestão",
   "feedback.submit.feature.missingDescription": "Descreva a sugestão",
   "feedback.submit.performance.sectionTitle": "O que está lento?",
   "feedback.submit.performance.titleLabel": "Título do problema de desempenho",
   "feedback.submit.performance.titlePlaceholder": "Exemplo: a lista de tarefas abre lentamente",
   "feedback.submit.performance.descriptionLabel": "Onde está lento",
-  "feedback.submit.performance.descriptionPlaceholder": "Descreva qual operação está lenta, quão lenta ela parece, se acontece sempre e o tamanho aproximado dos dados ou da tarefa.",
+  "feedback.submit.performance.descriptionPlaceholder":
+    "Descreva qual operação está lenta, quão lenta ela parece, se acontece sempre e o tamanho aproximado dos dados ou da tarefa.",
   "feedback.submit.performance.helper.1": "Operação",
   "feedback.submit.performance.helper.2": "Atraso percebido",
   "feedback.submit.performance.helper.3": "Reprodução consistente",
   "feedback.submit.performance.helper.4": "Escala da tarefa / tamanho dos dados",
-  "feedback.submit.performance.supplementalDescription": "Relatórios de desempenho anexam logs por padrão. O módulo e o modelo ajudam a localizar o caminho lento.",
-  "feedback.submit.performance.screenshotHint": "Você pode anexar capturas de tela de carregamento, travamento ou uso de recursos.",
+  "feedback.submit.performance.supplementalDescription":
+    "Relatórios de desempenho anexam logs por padrão. O módulo e o modelo ajudam a localizar o caminho lento.",
+  "feedback.submit.performance.screenshotHint":
+    "Você pode anexar capturas de tela de carregamento, travamento ou uso de recursos.",
   "feedback.submit.performance.missingTitle": "Informe um título para o problema de desempenho",
   "feedback.submit.performance.missingDescription": "Descreva o que está lento",
   "feedback.submit.template.bug.problem": "Problema:",
@@ -5062,7 +5965,8 @@ const ptBR: Record<string, string> = {
   "feedback.submit.template.occurredAtPrefix": "Horário:",
   "feedback.submit.template.proposedAt": "Proposto em: {timestamp}",
   "feedback.submit.template.proposedAtPrefix": "Proposto em:",
-  "feedback.submit.template.section.errorHeading": "Encontrei um erro durante o uso. Por favor, ajude a investigar.",
+  "feedback.submit.template.section.errorHeading":
+    "Encontrei um erro durante o uso. Por favor, ajude a investigar.",
   "feedback.submit.template.section.errorSummary": "Resumo do erro",
   "feedback.submit.template.section.errorSummaryLine": "Resumo do erro: {message}",
   "feedback.submit.template.section.errorDetail": "Detalhes do erro",
@@ -5072,7 +5976,8 @@ const ptBR: Record<string, string> = {
   "feedback.submit.template.section.remoteLogEmpty": "Nenhum log de conexão capturado",
   "feedback.submit.template.section.taskFeedbackTitle": "Feedback sobre a tarefa: {title}",
   "feedback.submit.template.section.remoteConnectFailed": "Falha na conexão remota",
-  "feedback.submit.template.section.taskHeading": "Encontrei um problema nesta tarefa. Por favor, ajude a investigar.",
+  "feedback.submit.template.section.taskHeading":
+    "Encontrei um problema nesta tarefa. Por favor, ajude a investigar.",
   "feedback.submit.template.section.taskInfo": "Informações da tarefa",
   "feedback.submit.template.section.taskTitle": "Título da tarefa: {title}",
   "feedback.submit.template.section.taskId": "ID da tarefa: {id}",
@@ -5083,7 +5988,8 @@ const ptBR: Record<string, string> = {
   "feedback.submit.template.section.whatDoing": "O que eu estava fazendo",
   "feedback.submit.template.section.expectedResult": "Resultado esperado",
   "feedback.submit.template.section.supplement": "Descreva, por favor:",
-  "feedback.submit.template.section.remoteHeading": "Ocorreu um erro durante a conexão remota. Por favor, ajude a investigar.",
+  "feedback.submit.template.section.remoteHeading":
+    "Ocorreu um erro durante a conexão remota. Por favor, ajude a investigar.",
   "feedback.submit.template.section.remoteLog": "Logs de conexão (últimos 30)",
   "feedback.submit.template.section.remoteEnvironment": "Ambiente ao qual eu estava me conectando",
   "feedback.submit.template.section.featureSource": "Origem",
@@ -5091,20 +5997,24 @@ const ptBR: Record<string, string> = {
   "feedback.submit.type.hint": "Ao alterá-lo, o guia de descrição abaixo é atualizado",
   "feedback.submit.simple.descriptionTitle": "Descrição do problema",
   "feedback.submit.simple.descriptionLabel": "Descrição",
-  "feedback.submit.simple.descriptionPlaceholder": "Descreva o problema, onde ele aconteceu, o que você esperava ou o que deseja que seja melhorado.",
+  "feedback.submit.simple.descriptionPlaceholder":
+    "Descreva o problema, onde ele aconteceu, o que você esperava ou o que deseja que seja melhorado.",
   "feedback.submit.simple.screenshotTitle": "Capturas de tela",
   "feedback.submit.simple.screenshotHint": "Cole, arraste imagens aqui ou escolha arquivos.",
-  "feedback.submit.simple.screenshotPrivacyHint": "Verifique se as imagens contêm informações privadas antes de enviá-las.",
+  "feedback.submit.simple.screenshotPrivacyHint":
+    "Verifique se as imagens contêm informações privadas antes de enviá-las.",
   "feedback.submit.simple.contactTitle": "Contato",
   "feedback.submit.simple.logsTitle": "Logs",
   "feedback.submit.simple.logsLabel": "Enviar logs de diagnóstico",
-  "feedback.submit.simple.logsHint": "Desativado por padrão. Envia os logs de diagnóstico de hoje, excluindo bancos de dados, arquivos de configuração e registros de conversas com o modelo. A redação automática pode não remover todas as informações comerciais. Escolha com cuidado.",
+  "feedback.submit.simple.logsHint":
+    "Desativado por padrão. Envia os logs de diagnóstico de hoje, excluindo bancos de dados, arquivos de configuração e registros de conversas com o modelo. A redação automática pode não remover todas as informações comerciais. Escolha com cuidado.",
   "feedback.submit.simple.footerHint": "Acompanhe o progresso depois em Meu feedback.",
   "feedback.submit.missingDescription": "Descreva o problema primeiro",
   "feedback.submit.addScreenshot": "Adicionar captura de tela",
   "feedback.submit.removeScreenshot": "Remover",
   "feedback.submit.contact.label": "Contato",
-  "feedback.submit.contact.hint": "Opcional, para follow-up. Você também pode inserir outra rede social.",
+  "feedback.submit.contact.hint":
+    "Opcional, para follow-up. Você também pode inserir outra rede social.",
   "feedback.submit.contact.placeholder": "exemplo@dominio.com / rede social",
   "feedback.submit.supplemental.title": "Informações adicionais",
   "feedback.submit.module.label": "Módulo",
@@ -5118,19 +6028,25 @@ const ptBR: Record<string, string> = {
   "feedback.submit.screenshotLimit": "Você pode adicionar até {count} capturas de tela",
   "feedback.featureRequest.title": "Solicitar um recurso",
   "feedback.featureRequest.descriptionLabel": "Descrição da solicitação",
-  "feedback.featureRequest.descriptionPlaceholder": "Exemplo: quero salvar prompts frequentes enquanto uma tarefa está em execução e, depois, inseri-los com um clique.",
+  "feedback.featureRequest.descriptionPlaceholder":
+    "Exemplo: quero salvar prompts frequentes enquanto uma tarefa está em execução e, depois, inseri-los com um clique.",
   "feedback.featureRequest.solutionLabel": "Solução esperada",
-  "feedback.featureRequest.solutionPlaceholder": "Exemplo: adicionar um menu rápido de prompts ao lado do composer, com ações de criar, editar e inserir.",
+  "feedback.featureRequest.solutionPlaceholder":
+    "Exemplo: adicionar um menu rápido de prompts ao lado do composer, com ações de criar, editar e inserir.",
   "feedback.featureRequest.contactLabel": "Contato",
   "feedback.featureRequest.reset": "Redefinir",
   "feedback.featureRequest.submit": "Enviar solicitação",
-  "feedback.featureRequest.missingRequired": "Preencha a descrição da solicitação e a solução esperada",
-  "feedback.featureRequest.source": "Menu de ajuda do cabeçalho do workspace / Solicitar um recurso",
+  "feedback.featureRequest.missingRequired":
+    "Preencha a descrição da solicitação e a solução esperada",
+  "feedback.featureRequest.source":
+    "Menu de ajuda do cabeçalho do workspace / Solicitar um recurso",
   "feedback.featureRequest.submittedToast": "Solicitação enviada. Vamos analisá-la com atenção.",
   "feedback.submission.connectingLabel": "Conectando ao serviço de feedback",
-  "feedback.submission.connectingDetail": "As capturas de tela e os logs continuarão sendo enviados após a criação do ticket",
+  "feedback.submission.connectingDetail":
+    "As capturas de tela e os logs continuarão sendo enviados após a criação do ticket",
   "feedback.submission.cancelingCreateLabel": "Cancelando o envio",
-  "feedback.submission.cancelingCreateDetail": "Solicitação de cancelamento recebida. Interrompendo a criação do ticket.",
+  "feedback.submission.cancelingCreateDetail":
+    "Solicitação de cancelamento recebida. Interrompendo a criação do ticket.",
   "feedback.submission.canceledLabel": "Envio de feedback cancelado",
   "feedback.submission.canceledDetail": "Envio de feedback cancelado",
   "feedback.submission.uploadingScreenshotLabel": "Enviando captura de tela",
@@ -5138,16 +6054,20 @@ const ptBR: Record<string, string> = {
   "feedback.submission.submittedDetail": "Analisaremos em breve.",
   "feedback.submission.submittedToast": "Feedback enviado. Analisaremos em breve.",
   "feedback.submission.failedLabel": "Falha no envio do feedback",
-  "feedback.submission.networkErrorDetail": "Não foi possível conectar ao serviço de feedback. Verifique sua rede, VPN ou configurações de proxy e tente novamente.",
-  "feedback.submission.postCreateNetworkErrorDetail": "O feedback foi criado, mas o envio dos materiais adicionais falhou. Abra o feedback existente para adicionar os arquivos que faltam; não o envie novamente.",
+  "feedback.submission.networkErrorDetail":
+    "Não foi possível conectar ao serviço de feedback. Verifique sua rede, VPN ou configurações de proxy e tente novamente.",
+  "feedback.submission.postCreateNetworkErrorDetail":
+    "O feedback foi criado, mas o envio dos materiais adicionais falhou. Abra o feedback existente para adicionar os arquivos que faltam; não o envie novamente.",
   "feedback.submission.pausingLogLabel": "Pausando o envio de logs",
   "feedback.submission.pausingLogDetail": "Solicitação de cancelamento recebida. Aguarde.",
   "feedback.submission.exportingLogLabel": "Exportando logs completos",
-  "feedback.submission.exportingLogDetail": "Isso pode levar alguns segundos, dependendo do tamanho dos logs locais",
+  "feedback.submission.exportingLogDetail":
+    "Isso pode levar alguns segundos, dependendo do tamanho dos logs locais",
   "feedback.submission.uploadingLogLabel": "Enviando logs completos",
   "feedback.submission.logUploadSuccessLabel": "Envio de logs concluído",
   "feedback.submission.logUploadPausedLabel": "Envio de logs pausado",
-  "feedback.submission.logUploadPausedDetail": "Os logs são necessários para a investigação. Continue o envio, por favor.",
+  "feedback.submission.logUploadPausedDetail":
+    "Os logs são necessários para a investigação. Continue o envio, por favor.",
   "feedback.submission.preparingUploadDetail": "Preparando o envio",
   "forms.labels.name": "Nome",
   "forms.labels.description": "Descrição",
@@ -5179,13 +6099,16 @@ const ptBR: Record<string, string> = {
   "settings.automations.betaBadge": "Beta",
   "automations.noWorkspace": "Abra um workspace para gerenciar as tarefas agendadas dele.",
   "automations.workspace.label": "Projeto",
-  "automations.description": "Agende tarefas recorrentes ou enfileire trabalhos em segundo plano para execução em horário ocioso.",
-  "automations.description.populated": "Execute tarefas em um agendamento ou sempre que precisar delas.",
+  "automations.description":
+    "Agende tarefas recorrentes ou enfileire trabalhos em segundo plano para execução em horário ocioso.",
+  "automations.description.populated":
+    "Execute tarefas em um agendamento ou sempre que precisar delas.",
   "automations.refresh": "Atualizar",
   "automations.refreshing": "Atualizando…",
   "automations.create": "Criar",
   "automations.createViaChat": "Criar no chat",
-  "automations.createViaChat.prompt": "Todos os dias úteis às 9h, resuma as alterações de código e os follow-ups deste projeto.",
+  "automations.createViaChat.prompt":
+    "Todos os dias úteis às 9h, resuma as alterações de código e os follow-ups deste projeto.",
   "automations.createManually": "Criar tarefa agendada",
   "automations.list.title": "Tarefas agendadas",
   "automations.createdLabel": "Tarefa criada",
@@ -5194,11 +6117,14 @@ const ptBR: Record<string, string> = {
   "offPeak.notify.failed.title": "Falha na tarefa em horário ocioso",
   "offPeak.notify.failed.body": "“{title}” foi interrompida com um erro.",
   "offPeak.sidebar.groupTitle": "Tarefas em horário ocioso",
-  "offPeak.newTask.bannerText": "Novo recurso para assinantes: crie uma “Tarefa em horário ocioso”. Concluiremos a tarefa atribuída gratuitamente durante períodos de capacidade de computação excedente.",
-  "offPeak.newTask.bannerTipText": "Este recurso não consome a cota do seu plano de assinatura e está disponível exclusivamente para assinantes.",
+  "offPeak.newTask.bannerText":
+    "Novo recurso para assinantes: crie uma “Tarefa em horário ocioso”. Concluiremos a tarefa atribuída gratuitamente durante períodos de capacidade de computação excedente.",
+  "offPeak.newTask.bannerTipText":
+    "Este recurso não consome a cota do seu plano de assinatura e está disponível exclusivamente para assinantes.",
   "offPeak.newTask.carousel.goToSlide": "Ir para o modelo de tarefa em horário ocioso {index}",
   "offPeak.newTask.template.customize.title": "Personalizar",
-  "offPeak.newTask.template.customize.description": "Pule o modelo e diga diretamente o que você quer fazer.",
+  "offPeak.newTask.template.customize.description":
+    "Pule o modelo e diga diretamente o que você quer fazer.",
   "offPeak.tabs.scheduled": "Tarefas agendadas",
   "offPeak.tabs.idle": "Tarefa em horário ocioso",
   "automations.statusFilter.all": "Todas",
@@ -5210,10 +6136,13 @@ const ptBR: Record<string, string> = {
   "offPeak.sectionTitle": "Tarefas em horário ocioso",
   "offPeak.createButton": "Criar tarefa em horário ocioso",
   "offPeak.templates.sectionTitle": "Modelo de tarefa em horário ocioso",
-  "offPeak.list.empty": "Ainda não há tarefas em horário ocioso. Crie uma para executá-la fora dos horários de pico, sem custo adicional.",
+  "offPeak.list.empty":
+    "Ainda não há tarefas em horário ocioso. Crie uma para executá-la fora dos horários de pico, sem custo adicional.",
   "offPeak.badge.pausedPosition": "#{position} pausada",
-  "offPeak.action.pauseHint": "Tarefas que ficarem pausadas além do tempo de espera da fila serão recolocadas na fila",
-  "offPeak.action.continueHint": "Se a senha da fila tiver expirado, Continuar recoloca a tarefa no final da fila.",
+  "offPeak.action.pauseHint":
+    "Tarefas que ficarem pausadas além do tempo de espera da fila serão recolocadas na fila",
+  "offPeak.action.continueHint":
+    "Se a senha da fila tiver expirado, Continuar recoloca a tarefa no final da fila.",
   "offPeak.badge.queuePosition": "#{position} na fila",
   "offPeak.status.queued": "Aguardando computação ociosa",
   "offPeak.status.paused": "Pausada",
@@ -5223,37 +6152,50 @@ const ptBR: Record<string, string> = {
   "offPeak.status.cancelled": "Cancelada",
   "offPeak.goToSession": "Ir para a sessão",
   "offPeak.boundSession.label": "Executa em: {title}",
-  "offPeak.nav.listUnavailable": "Falha ao carregar a lista de tarefas em horário ocioso. Atualize e tente novamente.",
-  "offPeak.boundSession.hint": "Executa nessa sessão; interromper a sessão enquanto a tarefa estiver em execução a cancela.",
+  "offPeak.nav.listUnavailable":
+    "Falha ao carregar a lista de tarefas em horário ocioso. Atualize e tente novamente.",
+  "offPeak.boundSession.hint":
+    "Executa nessa sessão; interromper a sessão enquanto a tarefa estiver em execução a cancela.",
   "offPeak.chatCreated.boundHint": "Executa nesta sessão",
   "offPeak.action.pause": "Pausar",
   "offPeak.action.continue": "Continuar",
   "offPeak.action.cancel": "Cancelar tarefa",
   "offPeak.cancel.title": "Cancelar tarefa em horário ocioso?",
-  "offPeak.cancel.description": "“{title}” vai parar de ser executada. Os arquivos que ela já alterou são mantidos.",
+  "offPeak.cancel.description":
+    "“{title}” vai parar de ser executada. Os arquivos que ela já alterou são mantidos.",
   "offPeak.delete.title": "Excluir esta tarefa em horário ocioso?",
-  "offPeak.delete.description": "Esta ação não pode ser desfeita. Se a tarefa estiver na fila ou em execução, ela será interrompida imediatamente.",
+  "offPeak.delete.description":
+    "Esta ação não pode ser desfeita. Se a tarefa estiver na fila ou em execução, ela será interrompida imediatamente.",
   "offPeak.delete.confirm": "Excluir tarefa em horário ocioso",
   "offPeak.error.quota": "Limite do plano gratuito atingido. Tente novamente mais tarde.",
-  "offPeak.error.unavailable": "O serviço de tarefas em horário ocioso está temporariamente indisponível. Tente novamente mais tarde.",
+  "offPeak.error.unavailable":
+    "O serviço de tarefas em horário ocioso está temporariamente indisponível. Tente novamente mais tarde.",
   "offPeak.error.generic": "Falha na operação da tarefa em horário ocioso.",
   "offPeak.create.title": "Nova tarefa em horário ocioso",
-  "offPeak.create.subtitle": "Configure as instruções e como esta tarefa é executada em horário ocioso.",
+  "offPeak.create.subtitle":
+    "Configure as instruções e como esta tarefa é executada em horário ocioso.",
   "offPeak.create.defaultTitle": "Sem título",
   "offPeak.edit.title": "Editar tarefa em horário ocioso",
-  "offPeak.edit.subtitle": "Atualize as instruções e como esta tarefa é executada em horário ocioso.",
-  "offPeak.modelSelection.repairRequired": "A configuração do modelo precisa ser atualizada. Escolha um modelo novamente e salve.",
-  "modelSelection.invalidated.fallback": "A seleção anterior de modelo não está mais disponível. Mudamos para o padrão atual; revise-o antes de continuar.",
-  "modelSelection.invalidated.reselect": "A seleção anterior de modelo não está mais disponível. Escolha um modelo novamente.",
+  "offPeak.edit.subtitle":
+    "Atualize as instruções e como esta tarefa é executada em horário ocioso.",
+  "offPeak.modelSelection.repairRequired":
+    "A configuração do modelo precisa ser atualizada. Escolha um modelo novamente e salve.",
+  "modelSelection.invalidated.fallback":
+    "A seleção anterior de modelo não está mais disponível. Mudamos para o padrão atual; revise-o antes de continuar.",
+  "modelSelection.invalidated.reselect":
+    "A seleção anterior de modelo não está mais disponível. Escolha um modelo novamente.",
   "offPeak.create.submit": "Criar tarefa em horário ocioso",
   "offPeak.edit.save": "Salvar",
-  "offPeak.edit.peakHoursWarning": "Esta tarefa é executada em horários de pico, o que pode causar erros.",
+  "offPeak.edit.peakHoursWarning":
+    "Esta tarefa é executada em horários de pico, o que pode causar erros.",
   "offPeak.form.soonestAvailable": "Primeiro horário disponível",
   "offPeak.form.titleLabel": "Título da tarefa",
   "offPeak.form.titlePlaceholder": "ex.: Refatoração noturna",
   "offPeak.form.instructionsLabel": "Instruções",
-  "offPeak.form.instructionsPlaceholder": "Descreva uma tarefa que o ZCode pode executar em segundo plano, incluindo o resultado esperado e eventuais restrições…",
-  "offPeak.form.permissionWarning": "As execuções em horário ocioso ocorrem sem supervisão. Ações que precisam de confirmação pausarão a tarefa até você responder.",
+  "offPeak.form.instructionsPlaceholder":
+    "Descreva uma tarefa que o ZCode pode executar em segundo plano, incluindo o resultado esperado e eventuais restrições…",
+  "offPeak.form.permissionWarning":
+    "As execuções em horário ocioso ocorrem sem supervisão. Ações que precisam de confirmação pausarão a tarefa até você responder.",
   "offPeak.form.modelLabel": "Modelo",
   "offPeak.thought.max": "Máximo",
   "offPeak.thought.high": "Alto",
@@ -5262,25 +6204,31 @@ const ptBR: Record<string, string> = {
   "offPeak.thought.off": "Desativado",
   "offPeak.thought.nothink": "Sem raciocínio",
   "offPeak.form.keepAwakeLabel": "Manter seu computador ligado",
-  "offPeak.form.keepAwakeHint": "Evita a suspensão por inatividade (interruptor global do desktop; também disponível em Configurações → Geral).",
+  "offPeak.form.keepAwakeHint":
+    "Evita a suspensão por inatividade (interruptor global do desktop; também disponível em Configurações → Geral).",
   "offPeak.tab.settings": "Configurações",
   "offPeak.tab.history": "Histórico",
   "offPeak.history.empty": "Ainda não há histórico.",
   "offPeak.history.col.instructions": "Instruções",
   "offPeak.history.delete": "Excluir histórico",
   "offPeak.history.durationMinutes": "{count} min",
-  "offPeak.form.fullAccessHint": "Altere as permissões para Acesso total para reduzir falhas da tarefa",
+  "offPeak.form.fullAccessHint":
+    "Altere as permissões para Acesso total para reduzir falhas da tarefa",
   "offPeak.discard.title": "Descartar o rascunho da tarefa em horário ocioso?",
-  "offPeak.discard.description": "Suas alterações na tarefa em horário ocioso atual serão perdidas.",
+  "offPeak.discard.description":
+    "Suas alterações na tarefa em horário ocioso atual serão perdidas.",
   "offPeak.discard.confirm": "Descartar",
   "offPeak.create.codingPlanOnly": "Apenas para usuários do Coding Plan",
-  "offPeak.create.availabilityUnavailable": "Não foi possível verificar a disponibilidade. Atualize e tente novamente.",
-  "offPeak.create.limitReachedAt": "Limite do plano gratuito atingido. Você poderá criar outra tarefa em {time}.",
+  "offPeak.create.availabilityUnavailable":
+    "Não foi possível verificar a disponibilidade. Atualize e tente novamente.",
+  "offPeak.create.limitReachedAt":
+    "Limite do plano gratuito atingido. Você poderá criar outra tarefa em {time}.",
   "offPeak.create.remaining.hoursMinutes": "{hours} h {minutes} min",
   "offPeak.create.remaining.hours": "{hours} h",
   "offPeak.create.remaining.minutes": "{minutes} min",
   "offPeak.create.remaining.lessThanMinute": "menos de 1 min",
-  "offPeak.create.codingPlanToast": "As tarefas em horário ocioso estão disponíveis apenas para assinantes do Coding Plan.",
+  "offPeak.create.codingPlanToast":
+    "As tarefas em horário ocioso estão disponíveis apenas para assinantes do Coding Plan.",
   "automations.moreIdeas": "Modelo de tarefa agendada",
   "automations.templates.unavailable": "Nenhum modelo disponível",
   "automations.runNow": "Executar agora",
@@ -5288,22 +6236,28 @@ const ptBR: Record<string, string> = {
   "automations.runNowAlreadyRunning": "Já há uma execução em andamento",
   "automations.runNowFailed": "Não foi possível acionar a execução",
   "automations.error.create": "Não foi possível criar a tarefa. Tente novamente.",
-  "automations.error.createLimit": "Você pode ter até {limit} tarefas agendadas, incluindo as pausadas, concluídas e com falha. Exclua uma antes de criar outra.",
+  "automations.error.createLimit":
+    "Você pode ter até {limit} tarefas agendadas, incluindo as pausadas, concluídas e com falha. Exclua uma antes de criar outra.",
   "automations.error.update": "Não foi possível salvar as alterações. Tente novamente.",
   "automations.error.toggle": "Não foi possível atualizar o status da tarefa. Tente novamente.",
   "automations.error.restart": "Não foi possível reiniciar a tarefa. Tente novamente.",
   "automations.error.delete": "Não foi possível excluir a tarefa. Tente novamente.",
-  "automations.error.targetNotFound": "Esta tarefa agendada não foi encontrada. Ela pode ter sido excluída.",
+  "automations.error.targetNotFound":
+    "Esta tarefa agendada não foi encontrada. Ela pode ter sido excluída.",
   "automations.edit.newTask": "Nova tarefa",
-  "automations.edit.createSubtitle": "Configure quando esta tarefa é executada, o que ela faz e como funciona.",
-  "automations.edit.editSubtitle": "Ajuste quando esta tarefa é executada, o que ela faz e como funciona.",
+  "automations.edit.createSubtitle":
+    "Configure quando esta tarefa é executada, o que ela faz e como funciona.",
+  "automations.edit.editSubtitle":
+    "Ajuste quando esta tarefa é executada, o que ela faz e como funciona.",
   "automations.edit.tab.settings": "Configurações",
   "automations.edit.tab.history": "Histórico",
   "automations.edit.createButton": "Criar tarefa agendada",
   "automations.edit.titlePlaceholder": "Automação sem título",
-  "automations.edit.promptPlaceholder": "ex.: Revisar os commits das últimas 24 horas e resumir possíveis bugs e correções",
+  "automations.edit.promptPlaceholder":
+    "ex.: Revisar os commits das últimas 24 horas e resumir possíveis bugs e correções",
   "automations.empty.title": "Ainda não há tarefas agendadas.",
-  "automations.empty.description": "Crie uma tarefa para executar um prompt em um agendamento recorrente.",
+  "automations.empty.description":
+    "Crie uma tarefa para executar um prompt em um agendamento recorrente.",
   "automations.empty.createManually": "Criar manualmente",
   "automations.lifecycle.active": "Ativa",
   "automations.lifecycle.paused": "Pausada",
@@ -5347,7 +6301,8 @@ const ptBR: Record<string, string> = {
   "automations.schedule.custom": "A cada {interval} {unit} às {time}",
   "automations.schedule.customWeekly": "A cada {interval} semanas, aos {days}, às {time}",
   "automations.schedule.customMonthlyDates": "A cada {interval} meses, no dia {days}, às {time}",
-  "automations.schedule.customMonthlyWeekday": "A cada {interval} meses, no primeiro {day}, às {time}",
+  "automations.schedule.customMonthlyWeekday":
+    "A cada {interval} meses, no primeiro {day}, às {time}",
   "automations.schedule.customYearly": "A cada {interval} ano(s), em {month}/{day}, às {time}",
   "automations.schedule.once": "Única vez",
   "automations.time.soon": "em breve",
@@ -5402,9 +6357,11 @@ const ptBR: Record<string, string> = {
   "automations.form.prompt.label": "Instruções",
   "automations.form.prompt.placeholder": "O que esta tarefa deve fazer a cada execução?",
   "automations.form.model.label": "Modelo",
-  "automations.form.model.previewRetry": "Falha ao carregar as informações do modelo. Tentar novamente",
+  "automations.form.model.previewRetry":
+    "Falha ao carregar as informações do modelo. Tentar novamente",
   "automations.form.workspaceUnavailableLabel": "Nenhum projeto disponível",
-  "automations.form.workspaceUnavailable": "Abra um projeto disponível antes de criar uma tarefa agendada.",
+  "automations.form.workspaceUnavailable":
+    "Abra um projeto disponível antes de criar uma tarefa agendada.",
   "automations.form.recurring.label": "Repetir indefinidamente",
   "automations.form.recurring.hint": "Desative para interromper após um número fixo de execuções.",
   "automations.form.maxRuns.label": "Máximo de execuções",
@@ -5417,7 +6374,8 @@ const ptBR: Record<string, string> = {
   "automations.unsaved.discard": "Descartar",
   "automations.unsaved.save": "Salvar",
   "automations.runs.title": "Histórico de execuções",
-  "automations.runs.awakeHint": "As tarefas agendadas só são executadas enquanto seu computador estiver ligado.",
+  "automations.runs.awakeHint":
+    "As tarefas agendadas só são executadas enquanto seu computador estiver ligado.",
   "automations.runs.empty": "Ainda não há execuções.",
   "automations.runs.col.triggered": "Acionada",
   "automations.runs.col.trigger": "Origem",
@@ -5430,12 +6388,15 @@ const ptBR: Record<string, string> = {
   "automations.runs.status.stopped": "Interrompida",
   "automations.runs.status.skipped": "Ignorada",
   "automations.runs.openSession": "Ir para a sessão",
-  "automations.runs.openSessionFailed": "O projeto de destino não está conectado, por isso esta sessão não pode ser aberta.",
+  "automations.runs.openSessionFailed":
+    "O projeto de destino não está conectado, por isso esta sessão não pode ser aberta.",
   "automations.runs.delete": "Excluir execução",
   "automations.runs.prevPage": "Anterior",
   "automations.runs.nextPage": "Próxima",
-  "chat.cuaReadiness.toolsNotLoaded": "O ZCode Computer Use ainda está sendo preparado — as ferramentas dele ainda não foram carregadas ({count} carregadas). Conceda as permissões abaixo; as ferramentas aparecerão quando o helper estiver pronto.",
-  "chat.cuaReadiness.toolsPreparing": "O ZCode Computer Use ainda está sendo preparado — as ferramentas dele ainda não foram carregadas. Conceda as permissões abaixo; as ferramentas aparecerão quando o helper estiver pronto.",
+  "chat.cuaReadiness.toolsNotLoaded":
+    "O ZCode Computer Use ainda está sendo preparado — as ferramentas dele ainda não foram carregadas ({count} carregadas). Conceda as permissões abaixo; as ferramentas aparecerão quando o helper estiver pronto.",
+  "chat.cuaReadiness.toolsPreparing":
+    "O ZCode Computer Use ainda está sendo preparado — as ferramentas dele ainda não foram carregadas. Conceda as permissões abaixo; as ferramentas aparecerão quando o helper estiver pronto.",
   "chat.toolCall.cua.requestAccess": "Verificar acesso do Computer Use",
   "chat.toolCall.cua.appName": "Computer Use",
   "chat.toolCall.cua.group.completedLabel": "Computer Use",
@@ -5518,9 +6479,11 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.cua.details.permissionOwner": "Proprietário da permissão",
   "chat.toolCall.cua.details.elementStale": "O elemento está desatualizado",
   "chat.toolCall.cua.details.failureReason": "Motivo da falha",
-  "chat.toolCall.cua.details.elementStaleReason": "A interface mudou e o elemento original não está mais disponível.",
+  "chat.toolCall.cua.details.elementStaleReason":
+    "A interface mudou e o elemento original não está mais disponível.",
   "chat.toolCall.cua.details.suggestedAction": "Ação sugerida",
-  "chat.toolCall.cua.details.elementStaleAction": "Leia a interface do app novamente e selecione o destino a partir do novo estado.",
+  "chat.toolCall.cua.details.elementStaleAction":
+    "Leia a interface do app novamente e selecione o destino a partir do novo estado.",
   "chat.toolCall.cua.details.duration": "Duração da espera",
   "chat.toolCall.cua.details.waited": "Esperou {duration} segundos",
   "chat.toolCall.cua.details.screenshotCaptured": "Tela capturada",
@@ -5551,45 +6514,61 @@ const ptBR: Record<string, string> = {
   "chat.toolCall.cua.writeClipboard": "Gravar na área de transferência",
   "chat.toolCall.cua.stop": "Parar o controle do computador",
   "chat.toolCall.cua.default": "Usar Computer Use",
-  "cuaPermission.modal.unavailable": "Ainda não foi possível verificar o status das permissões do Helper (talvez ele ainda esteja iniciando). Verifique novamente antes de abrir os Ajustes do Sistema.",
+  "cuaPermission.modal.unavailable":
+    "Ainda não foi possível verificar o status das permissões do Helper (talvez ele ainda esteja iniciando). Verifique novamente antes de abrir os Ajustes do Sistema.",
   "cuaPermission.live.title": "O Computer Use precisa de permissões do macOS",
-  "cuaPermission.live.description": "Uma tarefa do Computer Use em execução precisa de permissões do macOS. Abrir o guia de autorização?",
+  "cuaPermission.live.description":
+    "Uma tarefa do Computer Use em execução precisa de permissões do macOS. Abrir o guia de autorização?",
   "cuaPermission.live.confirm": "Autorizar",
   "cuaPermission.live.cancel": "Agora não",
   "cuaPermission.modal.restartButton": "Reiniciar Helper",
   "cuaPermission.modal.restarting": "Reiniciando o Helper…",
   "cuaPermission.modal.restartFailed": "Não foi possível reiniciar o Helper: {error}",
   "cuaPermission.modal.relaunchAppButton": "Reiniciar o ZCode",
-  "cuaPermission.modal.relaunchAppHint": "Ainda não funciona após reiniciar o Helper? Reinicie o ZCode para recarregar totalmente o processo do Helper.",
+  "cuaPermission.modal.relaunchAppHint":
+    "Ainda não funciona após reiniciar o Helper? Reinicie o ZCode para recarregar totalmente o processo do Helper.",
   "cuaPermission.status.granted": "Concedida",
   "cuaPermission.status.missing": "Ausente",
   "cuaPermission.status.unknown": "Desconhecida",
   "cuaPermission.status.stale": "A autorização precisa de verificação",
   "cuaPermission.status.verifying": "Concedida, verificando",
-  "cuaPermission.probeVerifyingHint": "A permissão do sistema está presente. Verificando agora o controle real e a captura de tela.",
-  "cuaPermission.tools.preparing": "As permissões do sistema e o controle local estão prontos. Aguardando esta sessão carregar as ferramentas do Computer Use.",
+  "cuaPermission.probeVerifyingHint":
+    "A permissão do sistema está presente. Verificando agora o controle real e a captura de tela.",
+  "cuaPermission.tools.preparing":
+    "As permissões do sistema e o controle local estão prontos. Aguardando esta sessão carregar as ferramentas do Computer Use.",
   "cuaPermission.grantAlreadySatisfied": "Esta permissão já foi concedida.",
-  "cuaPermission.tools.agentUpdateRequired": "O Agent conectado é antigo demais para uma verificação de prontidão segura. Atualize-o ou reinicie-o e verifique novamente.",
-  "cuaPermission.tools.untrustedRuntime": "As ferramentas do Computer Use foram encontradas, mas não vieram do plugin verificado do ZCode. Revise a instalação do plugin e verifique novamente.",
+  "cuaPermission.tools.agentUpdateRequired":
+    "O Agent conectado é antigo demais para uma verificação de prontidão segura. Atualize-o ou reinicie-o e verifique novamente.",
+  "cuaPermission.tools.untrustedRuntime":
+    "As ferramentas do Computer Use foram encontradas, mas não vieram do plugin verificado do ZCode. Revise a instalação do plugin e verifique novamente.",
   "cuaPermission.perm.accessibility": "Acessibilidade",
   "cuaPermission.perm.accessibility.purpose": "Ler/controlar elementos da UI + sintetizar entrada",
   "cuaPermission.perm.screenRecording": "Gravação de Tela",
   "cuaPermission.perm.screenRecording.purpose": "Capturar a tela",
-  "cuaPermission.osFloorTitle": "O Computer Use requer macOS {minimum} ou posterior (atualmente cerca de macOS {current})",
-  "cuaPermission.osFloorDescription": "Atualize o macOS antes de usá-lo. A configuração de permissões não pode ser concluída em versões mais antigas.",
+  "cuaPermission.osFloorTitle":
+    "O Computer Use requer macOS {minimum} ou posterior (atualmente cerca de macOS {current})",
+  "cuaPermission.osFloorDescription":
+    "Atualize o macOS antes de usá-lo. A configuração de permissões não pode ser concluída em versões mais antigas.",
   "cuaPermission.ready": "Permissões prontas",
-  "cuaPermission.ready.sessionValidationHint": "O ZCode verificará as ferramentas do Computer Use na sessão exata quando a sua primeira sessão for iniciada.",
+  "cuaPermission.ready.sessionValidationHint":
+    "O ZCode verificará as ferramentas do Computer Use na sessão exata quando a sua primeira sessão for iniciada.",
   "settings.computerUse.title": "Computer Use",
   "settings.computerUse.toggleLabel": "Ativar Computer Use",
-  "settings.computerUse.toggleDescription": "Ao ativar, você habilita o Computer Use — o servidor MCP e as skills dele.",
+  "settings.computerUse.toggleDescription":
+    "Ao ativar, você habilita o Computer Use — o servidor MCP e as skills dele.",
   "settings.computerUse.composerEntry.label": "Mostrar o botão do Computer Use no composer",
-  "settings.computerUse.composerEntry.description": "Quando desativado, o botão do composer fica oculto.",
-  "settings.computerUse.composerEntry.requiresEnabled": "Ative o Computer Use primeiro para mostrar este botão no composer.",
+  "settings.computerUse.composerEntry.description":
+    "Quando desativado, o botão do composer fica oculto.",
+  "settings.computerUse.composerEntry.requiresEnabled":
+    "Ative o Computer Use primeiro para mostrar este botão no composer.",
   "settings.computerUse.composerEntry.saveFailed": "Falha ao salvar: {error}",
-  "settings.computerUse.pluginDisabledHint": "O plugin Computer Use não está ativado. Ative-o em Plugins para usar o Computer Use.",
+  "settings.computerUse.pluginDisabledHint":
+    "O plugin Computer Use não está ativado. Ative-o em Plugins para usar o Computer Use.",
   "settings.computerUse.unsupported.title": "O Computer Use não está disponível aqui",
-  "settings.computerUse.unsupported.remoteDescription": "O Computer Use ainda não é compatível com SSH, WSL, Docker ou outros ambientes remotos. Use um workspace local no macOS ou Windows.",
-  "settings.computerUse.unsupported.linuxDescription": "O Computer Use ainda não é compatível com desktops Linux. Use um workspace local no macOS ou Windows.",
+  "settings.computerUse.unsupported.remoteDescription":
+    "O Computer Use ainda não é compatível com SSH, WSL, Docker ou outros ambientes remotos. Use um workspace local no macOS ou Windows.",
+  "settings.computerUse.unsupported.linuxDescription":
+    "O Computer Use ainda não é compatível com desktops Linux. Use um workspace local no macOS ou Windows.",
   "settings.computerUse.unsupported.badge": "Indisponível aqui",
   "settings.computerUse.unsupported.group": "Recursos internos indisponíveis",
   "scheduledPreview.keepAwakeEnabled": "Manter acordado ativado",

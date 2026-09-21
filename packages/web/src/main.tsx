@@ -241,7 +241,15 @@ function createWebPlatform(): IPlatformService {
       window.open(feedbackUrl, "_blank", "noopener,noreferrer");
     },
     openCommunity: async () => {
-      const locale = document.documentElement.lang === "en-US" ? "en-US" : "zh-CN";
+      // 社区渠道只有中英两份，且 document.documentElement.lang 仅在 /share 路由
+      // 会被改写（主应用保持 index.html 的 lang="en"），不能作为界面语言来源。
+      // 点击时读 IntlProvider 持久化的偏好（system 时退 navigator.language），
+      // 中文选中文站，其余界面语言（含 pt-BR）选英文站。
+      const storedPreference = localStorage.getItem("zcode-locale-preference");
+      const effectiveLanguage = (
+        storedPreference && storedPreference !== "system" ? storedPreference : navigator.language
+      ).toLowerCase();
+      const locale = effectiveLanguage.startsWith("zh") ? "zh-CN" : "en-US";
       const communityUrl = await resolveWebCommunityUrl(locale);
       if (!communityUrl) {
         return;

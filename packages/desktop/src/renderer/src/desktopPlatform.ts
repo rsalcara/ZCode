@@ -155,8 +155,7 @@ export function createDesktopPlatform(options: {
     executeDesktopCommand: (command) => window.zcode.executeDesktopCommand(command),
     setApplicationLocale: (locale) => window.zcode.setApplicationLocale(locale),
     getSystemLocale: () =>
-      window.zcode.getSystemLocale?.() ??
-      Promise.resolve(resolveNavigatorLocale()),
+      window.zcode.getSystemLocale?.() ?? Promise.resolve(resolveNavigatorLocale()),
     setTitleBarTheme: (theme) => window.zcode.setTitleBarTheme(theme),
     getDeviceId: () =>
       (window as Window & { __ZCODE_DEVICE_ID__?: string }).__ZCODE_DEVICE_ID__ ?? "",

@@ -68,7 +68,11 @@ function resolveBoundaryLocale(): Locale {
   if (typeof localStorage !== "undefined" && typeof localStorage.getItem === "function") {
     try {
       const storedPreference = localStorage.getItem(LOCALE_PREFERENCE_KEY);
-      if (storedPreference === "zh-CN" || storedPreference === "en-US" || storedPreference === "pt-BR") {
+      if (
+        storedPreference === "zh-CN" ||
+        storedPreference === "en-US" ||
+        storedPreference === "pt-BR"
+      ) {
         return storedPreference;
       }
     } catch {

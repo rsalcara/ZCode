@@ -142,8 +142,7 @@ const BUILTIN_SKILL_DESCRIPTIONS: Record<string, Record<Locale, string>> = {
   "plugin-creator": {
     "zh-CN": "创建、校验 ZCode 插件，并指导本地安装与更新。",
     "en-US": "Create and validate ZCode plugins, and guide local installation and updates.",
-    "pt-BR":
-      "Crie e valide plugins do ZCode, e oriente a instalação e a atualização locais.",
+    "pt-BR": "Crie e valide plugins do ZCode, e oriente a instalação e a atualização locais.",
   },
   "skill-creator": {
     "zh-CN":
@@ -157,8 +156,7 @@ const BUILTIN_SKILL_DESCRIPTIONS: Record<string, Record<Locale, string>> = {
     "zh-CN": "在当前会话中执行包含独立任务的实现计划时使用。",
     "en-US":
       "Use when executing implementation plans with independent tasks in the current session.",
-    "pt-BR":
-      "Use ao executar planos de implementação com tarefas independentes na sessão atual.",
+    "pt-BR": "Use ao executar planos de implementação com tarefas independentes na sessão atual.",
   },
   "systematic-debugging": {
     "zh-CN": "遇到任何 bug、测试失败或异常行为时，在提出修复前使用。",

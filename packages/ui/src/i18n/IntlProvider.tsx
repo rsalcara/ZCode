@@ -16,6 +16,7 @@ import {
   readSafeLocalStorage,
   writeSafeLocalStorage,
 } from "@/lib/browserEnvironment.js";
+import { resolveNavigatorLocaleTag } from "./systemLocale.js";
 import zhCN from "./locales/zh-CN.js";
 import enUS from "./locales/en-US.js";
 import ptBR from "./locales/pt-BR.js";
@@ -165,11 +166,7 @@ export function ZCodeIntlProvider({
     if (!language) {
       return DEFAULT_LOCALE;
     }
-
-    const lower = language.toLowerCase();
-    if (lower.startsWith("zh")) return "zh-CN";
-    if (lower.startsWith("pt")) return "pt-BR";
-    return "en-US";
+    return resolveNavigatorLocaleTag(language);
   }, []);
   const resolveSystemLocale = useCallback(async (): Promise<Locale> => {
     const resolvedLocale = await resolveHostSystemLocale?.();

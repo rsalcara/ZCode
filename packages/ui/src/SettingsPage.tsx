@@ -1275,8 +1275,8 @@ export function SettingsPage({
         });
         return;
       }
-      // Whitelist precisa cobrir todos os Locale suportados; idioma novo fora da
-      // lista era silenciosamente ignorado aqui (pt-BR não trocava ao clicar).
+      // 白名单必须覆盖全部受支持的 Locale；新增语言若遗漏在这里，
+      // 点击选项会被静默丢弃（pt-BR 曾因此无法切换）。
       if (value === "zh-CN" || value === "en-US" || value === "pt-BR") {
         runUserAction({
           input: { featureId: "settings.locale", action: "change_locale", trigger: "select" },

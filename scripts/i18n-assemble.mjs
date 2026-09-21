@@ -1,6 +1,7 @@
 // Assembles translated chunks into packages/ui/src/i18n/locales/pt-BR.ts and
 // validates key parity + placeholder parity against the en-US source.
-import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { readdir, readFile, writeFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,12 +12,10 @@ const targetPath = join(repoRoot, "packages/ui/src/i18n/locales/pt-BR.ts");
 
 const placeholderRe = /\{[A-Za-z0-9_.[\]-]+\}/g;
 
-const sourceFiles = readdirSync(srcDir)
-  .filter((f) => f.endsWith(".json"))
-  .sort();
+const sourceFiles = (await readdir(srcDir)).filter((f) => f.endsWith(".json")).sort();
 const sourceEntries = [];
 for (const f of sourceFiles) {
-  sourceEntries.push(...JSON.parse(readFileSync(join(srcDir, f), "utf8")));
+  sourceEntries.push(...JSON.parse(await readFile(join(srcDir, f), "utf8")));
 }
 
 const translated = new Map();
@@ -26,7 +25,7 @@ for (const f of sourceFiles) {
     console.error(`MISSING translated chunk: ${f}`);
     process.exit(1);
   }
-  for (const [k, v] of JSON.parse(readFileSync(p, "utf8"))) {
+  for (const [k, v] of JSON.parse(await readFile(p, "utf8"))) {
     if (typeof v !== "string") {
       console.error(`NON-STRING value for ${k} in ${f}`);
       process.exit(1);
@@ -72,7 +71,21 @@ ${lines.join("\n")}
 
 export default ptBR;
 `;
-writeFileSync(targetPath, content);
+await writeFile(targetPath, content);
+// Keep the generated catalog formatted so `pnpm fmt:check` stays green after a
+// regeneration; if oxfmt is unavailable the raw output is still valid TS.
+try {
+  const { execFile } = await import("node:child_process");
+  const command = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
+  await new Promise((resolve, reject) => {
+    // .cmd launchers on Windows only resolve through a shell.
+    execFile(command, ["exec", "oxfmt", targetPath], { cwd: repoRoot, shell: true }, (error) =>
+      error ? reject(error) : resolve(undefined),
+    );
+  });
+} catch {
+  console.warn("oxfmt unavailable — run `pnpm fmt` before committing the regenerated catalog.");
+}
 console.log(
   `OK: wrote ${targetPath} with ${translated.size} entries (${sourceEntries.length} source entries)`,
 );

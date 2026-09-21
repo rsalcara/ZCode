@@ -74,7 +74,10 @@ export function getCommunityUrlFromConfigs(
 
   // 社群渠道具有语言边界。只允许远端覆盖同语言的内置入口，
   // 对应语言缺失时保持隐藏，避免中文和英文用户被导向错误渠道。
-  return remoteUrls[locale] ?? localUrls[locale];
+  // 渠道只有中英两份；zh 以外的界面语言（如 pt-BR）统一归入英文渠道，
+  // 否则 pt-BR 用户的社区入口会因查不到对应 key 而整个消失。
+  const channelLocale = locale === "zh-CN" ? "zh-CN" : "en-US";
+  return remoteUrls[channelLocale] ?? localUrls[channelLocale];
 }
 
 export function getForceUpdateMinimalVersionFromConfig(config: unknown): string | undefined {

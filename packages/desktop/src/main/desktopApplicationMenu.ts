@@ -36,7 +36,7 @@ export function resolveSystemApplicationLocale(): Locale {
   const systemLocale = app.getPreferredSystemLanguages?.()[0] ?? app.getLocale();
   const lower = systemLocale.toLowerCase();
   if (lower.startsWith("zh")) return "zh-CN";
-  // Português (BR) é idioma suportado; sem este ramo o Windows em pt abriria em inglês.
+  // pt-BR 是受支持语言；缺这个分支时葡萄牙语系统会被误解析成英文。
   if (lower.startsWith("pt")) return "pt-BR";
   return "en-US";
 }

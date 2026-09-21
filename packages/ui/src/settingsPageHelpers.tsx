@@ -294,8 +294,8 @@ export function GeneralSectionContent({
               >
                 <SelectValue />
               </SelectTrigger>
-              {/* position="popper": no modo item-aligned o 4º item (pt-BR) fica
-                  na borda do popup e o clique nele não registra a seleção. */}
+              {/* position="popper"：语言选项增加到 4 项后，item-aligned 模式下
+                  弹层把最后一项贴边裁切，点击不生效；popper 模式完整展开。 */}
               <SelectContent position="popper">
                 <SelectItem
                   value="system"
