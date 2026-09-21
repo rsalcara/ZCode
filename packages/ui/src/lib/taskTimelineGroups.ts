@@ -36,7 +36,9 @@ function startOfMonth(timestamp: number): number {
 function startOfWeek(timestamp: number, locale: Locale): number {
   const date = new Date(startOfDay(timestamp));
   const day = date.getDay();
-  const weekStartsOn = locale === "en-US" ? 0 : 1;
+  // 周起始日按语言地区约定：zh 周一起始；en 与 pt-BR（巴西历法）周日起始。
+  // 不能按“非 en 即周一”判断，否则 pt-BR 的周分组会整体偏移一天。
+  const weekStartsOn = locale === "zh-CN" ? 1 : 0;
   const offset = (day - weekStartsOn + 7) % 7;
   date.setDate(date.getDate() - offset);
   return date.getTime();

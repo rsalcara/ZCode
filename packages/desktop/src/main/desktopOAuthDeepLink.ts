@@ -136,27 +136,34 @@ export function isNetworkWorkspacePath(path: string): boolean {
   return normalized.startsWith("\\\\") || /^\\\\\?\\UNC\\/iu.test(normalized);
 }
 
-export function resolveExternalWorkspaceOpenDialogCopy(
-  locale: Locale,
-): ExternalWorkspaceOpenDialogCopy {
-  // TODO(i18n): 新增 Locale 时把这里收敛成完整 Record<Locale, ...>，
-  // 避免未覆盖语言静默回退英文。
-  if (locale === "zh-CN") {
-    return {
-      buttons: ["打开文件夹", "取消"],
-      title: "打开外部 ZCode 链接？",
-      message: "是否在 ZCode 中打开此文件夹？",
-      detail: (path) => `${path}\n\n只打开你信任来源的文件夹。项目设置可能影响 agent runtime。`,
-    };
-  }
-
-  return {
+// 新增 Locale 时补齐对应条目即可；Record 保证编译期发现遗漏语言。
+const EXTERNAL_WORKSPACE_OPEN_DIALOG_COPY: Record<Locale, ExternalWorkspaceOpenDialogCopy> = {
+  "zh-CN": {
+    buttons: ["打开文件夹", "取消"],
+    title: "打开外部 ZCode 链接？",
+    message: "是否在 ZCode 中打开此文件夹？",
+    detail: (path) => `${path}\n\n只打开你信任来源的文件夹。项目设置可能影响 agent runtime。`,
+  },
+  "en-US": {
     buttons: ["Open folder", "Cancel"],
     title: "Open external ZCode link?",
     message: "Open this folder in ZCode?",
     detail: (path) =>
       `${path}\n\nOnly open folders from sources you trust. Project settings may affect the agent runtime.`,
-  };
+  },
+  "pt-BR": {
+    buttons: ["Abrir pasta", "Cancelar"],
+    title: "Abrir link externo do ZCode?",
+    message: "Abrir esta pasta no ZCode?",
+    detail: (path) =>
+      `${path}\n\nAbra apenas pastas de fontes confiáveis. As configurações do projeto podem afetar o runtime do agente.`,
+  },
+};
+
+export function resolveExternalWorkspaceOpenDialogCopy(
+  locale: Locale,
+): ExternalWorkspaceOpenDialogCopy {
+  return EXTERNAL_WORKSPACE_OPEN_DIALOG_COPY[locale];
 }
 
 export function confirmExternalWorkspaceOpen(

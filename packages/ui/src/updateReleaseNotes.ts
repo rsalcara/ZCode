@@ -18,12 +18,20 @@ export function getLocalizedUpdateReleaseNotes(
     markdown: payload.markdown,
   };
 
-  return (
-    payload.releaseNotesByLocale?.[locale] ??
-    (locale === "zh-CN"
-      ? defaultReleaseNotes
-      : (payload.releaseNotesByLocale?.["zh-CN"] ?? defaultReleaseNotes))
-  );
+  // 更新源目前只提供中英两份文案：zh 退顶层默认；en 维持“zh 条目 → 顶层默认”的
+  // 历史行为；其余界面语言（如 pt-BR）先退 en-US 条目，再按 en 的旧链条回退，
+  // 避免 pt-BR 用户在缺少 en 条目时直接看到中文更新日志。
+  const byLocale = payload.releaseNotesByLocale;
+  if (locale === "zh-CN") {
+    return byLocale?.["zh-CN"] ?? defaultReleaseNotes;
+  }
+  if (locale !== "en-US") {
+    const localized = byLocale?.[locale] ?? byLocale?.["en-US"];
+    if (localized) {
+      return localized;
+    }
+  }
+  return byLocale?.[locale] ?? byLocale?.["zh-CN"] ?? defaultReleaseNotes;
 }
 
 export function formatUpdateReleaseDate(

@@ -294,7 +294,9 @@ export function GeneralSectionContent({
               >
                 <SelectValue />
               </SelectTrigger>
-              <SelectContent>
+              {/* position="popper"：语言选项增加到 4 项后，item-aligned 模式下
+                  弹层把最后一项贴边裁切，点击不生效；popper 模式完整展开。 */}
+              <SelectContent position="popper">
                 <SelectItem
                   value="system"
                   data-testid={testId(TID_SETTINGS_LOCALE_SELECT_ITEM, "system")}
@@ -312,6 +314,12 @@ export function GeneralSectionContent({
                   data-testid={testId(TID_SETTINGS_LOCALE_SELECT_ITEM, "en-US")}
                 >
                   {intl.formatMessage({ id: "settings.locale.en-US" })}
+                </SelectItem>
+                <SelectItem
+                  value="pt-BR"
+                  data-testid={testId(TID_SETTINGS_LOCALE_SELECT_ITEM, "pt-BR")}
+                >
+                  {intl.formatMessage({ id: "settings.locale.pt-BR" })}
                 </SelectItem>
               </SelectContent>
             </Select>

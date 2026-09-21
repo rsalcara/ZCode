@@ -8,7 +8,6 @@ import {
   parseConversationSharePathname,
   type ConversationShareApiErrorCode,
   type ConversationSharePreview,
-  type Locale,
 } from "@zcode/shared";
 
 const SHARE_CODE_PATTERN = /^[A-Za-z0-9._~-]{1,512}$/u;
@@ -60,9 +59,10 @@ export function parseConversationShareRoute(pathname: string): string | null {
 }
 
 /** 页面语言由路径前缀决定：/cn/share 中文，裸 /share 英文；非分享路径回退到浏览器语言。 */
-export function resolveConversationShareRouteLocale(pathname: string): Locale {
+export function resolveConversationShareRouteLocale(pathname: string): "zh-CN" | "en-US" {
   const parsed = parseConversationSharePathname(pathname);
-  if (parsed) return parsed.locale;
+  // 分享路由只有中英两个站点；Locale 未来新增语言也不会出现在分享路径里。
+  if (parsed) return parsed.locale === "zh-CN" ? "zh-CN" : "en-US";
   return /^zh(?:-|$)/iu.test(navigator.language) ? "zh-CN" : "en-US";
 }
 

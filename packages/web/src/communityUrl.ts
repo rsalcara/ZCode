@@ -44,5 +44,8 @@ export async function resolveWebCommunityUrl(
   locale: Locale,
   options: ResolveWebCommunityUrlOptions = {},
 ): Promise<string | undefined> {
-  return (await resolveWebHelpConfig(options)).community_urls?.[locale];
+  // helpConfig 里的 community_urls 只有中英两个 key；zh 以外的界面语言
+  // （如 pt-BR）按英文渠道取值，避免社区入口消失。
+  const communityLocale = locale === "zh-CN" ? "zh-CN" : "en-US";
+  return (await resolveWebHelpConfig(options)).community_urls?.[communityLocale];
 }

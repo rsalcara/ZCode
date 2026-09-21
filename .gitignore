@@ -69,3 +69,7 @@ packages/desktop/.e2e-artifacts/
 packages/desktop/.e2e-cache/
 packages/desktop/.e2e-network-capture/
 .zcode-runtime/
+
+# 本地 i18n 翻译工作产物：en-US 拆分 chunk 与翻译截图，可由
+# scripts/i18n-split.mjs / scripts/i18n-assemble.mjs 再生。
+.i18n-chunks/

@@ -989,7 +989,11 @@ export function ModelProviderSection({
     async (input: { templateId?: string; providerName?: string }) => {
       setCreatingProvider(true);
       try {
-        const created = await createPersonalProvider({ ...input, locale });
+        // 模板名只有中英两份；zh 以外的界面语言交给服务层回退英文默认名。
+        const created = await createPersonalProvider({
+          ...input,
+          locale: locale === "zh-CN" ? "zh-CN" : "en-US",
+        });
         setPendingCreatedProviderId(created.providerId);
         setSelectedNodeKey(createCustomProviderNodeKey(created.providerId));
         setTemplatePickerOpen(false);

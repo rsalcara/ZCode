@@ -65,7 +65,14 @@ export {
   useGitActions,
 } from "./hooks/index.js";
 
-export { ZCodeIntlProvider, useZCodeIntl, LocaleSwitcher } from "./i18n/index.js";
+export {
+  ZCodeIntlProvider,
+  useZCodeIntl,
+  LocaleSwitcher,
+  resolveNavigatorLocale,
+  readStoredLocalePreference,
+  LOCALE_PREFERENCE_STORAGE_KEY,
+} from "./i18n/index.js";
 export { ResourceManagerApp } from "./resource-manager/ResourceManagerApp.js";
 export type {
   ResourceManagerAppProps,

@@ -31,6 +31,15 @@ const MESSAGES: Record<
     accessibility: "Accessibility",
     screen_recording: "Screen Recording",
   },
+  "pt-BR": {
+    documentTitle: "Permissões do Computer Use do ZCode",
+    dragTitle: "Arraste-me para a lista de permissões acima",
+    hintPrefix: "Arraste o ícone à esquerda para a ",
+    hintSuffix: " lista acima",
+    completion: "Solte para conceder o acesso — sem precisar alternar o botão",
+    accessibility: "Acessibilidade",
+    screen_recording: "Gravação de tela",
+  },
 };
 
 export function resolveCuaPermissionPanelMessages(

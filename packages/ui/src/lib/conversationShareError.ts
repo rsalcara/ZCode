@@ -292,9 +292,11 @@ const ARTIFACT_TYPE_LABELS: Readonly<Record<string, { zh: string; en: string }>>
   audio: { zh: "音频", en: "audio" },
 };
 
+// 标签映射只有中英两份文案；非中文界面语言（含 pt-BR）统一回退英文，
+// 不能按“非 en-US 即中文”判断，否则 pt-BR 用户会看到中文错误标签。
 function artifactLabel(value: string, locale: string): string {
   const key = value.replace(/^\./u, "").toLowerCase();
-  return ARTIFACT_TYPE_LABELS[key]?.[locale === "en-US" ? "en" : "zh"] ?? value.toUpperCase();
+  return ARTIFACT_TYPE_LABELS[key]?.[locale === "zh-CN" ? "zh" : "en"] ?? value.toUpperCase();
 }
 
 export function formatConversationShareArtifactType(
@@ -313,12 +315,12 @@ export function formatConversationShareAllowedArtifacts(
     const labels = issue.allowedArtifacts.map((artifact) =>
       artifactLabel(artifact.displayName || artifact.type, locale),
     );
-    return [...new Set(labels)].join(locale === "en-US" ? ", " : "、");
+    return [...new Set(labels)].join(locale === "zh-CN" ? "、" : ", ");
   }
   if (issue.allowedFormats && issue.allowedFormats.length > 0) {
-    return issue.allowedFormats.join(locale === "en-US" ? ", " : "、");
+    return issue.allowedFormats.join(locale === "zh-CN" ? "、" : ", ");
   }
-  return locale === "en-US" ? "temporarily unavailable" : "暂时无法获取";
+  return locale === "zh-CN" ? "暂时无法获取" : "temporarily unavailable";
 }
 
 export function resolveConversationShareWarningMessageId(

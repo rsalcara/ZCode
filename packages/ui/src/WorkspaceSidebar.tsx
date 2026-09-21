@@ -742,7 +742,9 @@ export const WorkspaceSidebar = memo(function WorkspaceSidebarComponent({
         setLocalePreference("system");
         return;
       }
-      if (value === "zh-CN" || value === "en-US") {
+      // 白名单必须覆盖全部受支持的 Locale；pt-BR 曾因遗漏在这里
+      // 被 sidebar 语言菜单静默丢弃。
+      if (value === "zh-CN" || value === "en-US" || value === "pt-BR") {
         setLocalePreference(value as Locale);
       }
     },
